@@ -113,3 +113,4 @@ html.reduce-motion .nl-icon, html.reduce-motion .nl-icon .ping { animation: none
 @keyframes nl-spin { to { --nl-angle: 360deg; } }
 @media (prefers-reduced-motion: reduce) { .newsletter-signup #sib-container::before { animation: none; } }
 html.reduce-motion .newsletter-signup #sib-container::before { animation: none; }
+.newsletter-signup { padding: 0; }
