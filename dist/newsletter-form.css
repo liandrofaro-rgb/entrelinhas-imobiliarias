@@ -1,27 +1,26 @@
 /* Formulário Brevo — CSS local necessário para CSP restritiva. */
 /* Integração Brevo: regras restritas à página de newsletter. */
-.newsletter-signup { padding: 52px 0 110px; }
-.newsletter-signup .sib-form { background: #eef4f8; padding: clamp(18px, 4vw, 40px); text-align: center; }
+.newsletter-signup .sib-form { background: transparent; padding: 0; }
 .newsletter-signup #sib-container {
-  max-width: 560px; box-sizing: border-box; margin: auto; padding: clamp(20px, 4vw, 36px);
-  background: #fff; border: 1px solid #c8d3de; border-radius: 4px;
+  max-width: 460px; box-sizing: border-box; margin: 0 0 0 auto; padding: clamp(24px, 3.5vw, 40px);
+  background: #fff; border: 1px solid #e4e8ec; border-radius: 14px; box-shadow: 0 24px 60px -30px rgba(7,23,47,.25);
   text-align: left; font-family: "DM Sans", Arial, sans-serif; color: #07172f;
 }
 .newsletter-signup #sib-container .sib-form-block { padding: 0; }
 .newsletter-signup .brevo-logo { display: block; width: 200px; max-width: 100%; height: auto; margin: 0 0 25px; }
 .newsletter-signup .brevo-overline { margin: 0 0 8px; color: #806324; font: 700 11px/1.5 "DM Sans", Arial, sans-serif; letter-spacing: .15em; text-transform: uppercase; }
-.newsletter-signup .brevo-title { margin: 0 0 18px; color: #07172f; font: 700 clamp(24px, 4vw, 30px)/1.22 "Manrope", Arial, sans-serif; letter-spacing: -.035em; }
+.newsletter-signup .brevo-title { margin: 0 0 24px; color: #07172f; font: 700 clamp(24px, 4vw, 30px)/1.22 "Manrope", Arial, sans-serif; letter-spacing: -.035em; }
 .newsletter-signup .brevo-description { margin: 0 0 24px; color: #5d6c7a; font: 400 15px/1.65 "DM Sans", Arial, sans-serif; }
 .newsletter-signup .brevo-field { margin: 0 0 18px; }
 .newsletter-signup #sib-container .entry__label { display: block; color: #07172f; font: 600 14px/1.5 "DM Sans", Arial, sans-serif; margin-bottom: 7px; }
-.newsletter-signup #sib-container .entry__field { border: 1px solid #c8d3de; border-radius: 4px; background: #fff; }
+.newsletter-signup #sib-container .entry__field { border: 1px solid #d9dfe5; border-radius: 10px; background: #fff; }
 .newsletter-signup #sib-container .entry__field .input { width: 100%; height: 52px; box-sizing: border-box; color: #07172f; font: 400 15px "DM Sans", Arial, sans-serif; background: #fff; border: 0; padding: 0 14px; }
 .newsletter-signup #sib-container .entry__field:focus-within { outline: 2px solid #1e5e91; outline-offset: 1px; }
 .newsletter-signup #sib-container .entry__field .input::placeholder { color: #8895a3; opacity: 1; }
 .newsletter-signup .entry__error, .newsletter-signup .entry__specification { font: 400 12px/1.6 "DM Sans", Arial, sans-serif; }
 .newsletter-signup #sib-container .sib-form-block__button {
   display: block; width: 100%; min-height: 54px; box-sizing: border-box;
-  border: 0; border-radius: 4px; background: #07172f; color: #fff;
+  border: 0; border-radius: 10px; background: #07172f; color: #fff;
   font: 700 14px/1.3 "Manrope", Arial, sans-serif; letter-spacing: .05em;
   text-align: center; cursor: pointer; transition: background .2s ease;
 }
@@ -29,7 +28,7 @@
 .newsletter-signup #sib-container .sib-form-block__button:focus-visible { outline: 3px solid #c8a154; outline-offset: 2px; }
 .newsletter-signup .brevo-privacy { color: #5d6c7a; font: 400 12px/1.6 "DM Sans", Arial, sans-serif; margin: 16px 0 0; }
 .newsletter-signup .brevo-privacy a { color: #07172f; text-decoration: underline; text-underline-offset: 2px; }
-.newsletter-signup #error-message, .newsletter-signup #success-message { margin: 0 auto 16px; max-width: 560px; font: 400 14px/1.5 "DM Sans", Arial, sans-serif; }
+.newsletter-signup #error-message, .newsletter-signup #success-message { margin: 0 0 16px auto; max-width: 460px; margin-left: auto; font: 400 14px/1.5 "DM Sans", Arial, sans-serif; }
 .newsletter-signup #error-message { color: #661d1d; background: #ffeded; border: 1px solid #ff4949; }
 .newsletter-signup #success-message { color: #085229; background: #e7faf0; border: 1px solid #13ce66; }
 .newsletter-signup .sib-form-message-panel { display: none; }
@@ -42,5 +41,75 @@
 .newsletter-signup #sib-container .entry__field .input { display: block; min-width: 0; }
 .newsletter-signup #sib-container a { text-decoration: underline; text-underline-offset: 3px; }
 
-@media (max-width: 620px) { .newsletter-signup { padding: 30px 0 75px; } .newsletter-signup .sib-form { padding: 12px; } }
 @media (prefers-reduced-motion: reduce) { .newsletter-signup #sib-container .sib-form-block__button { transition: none; } }
+
+/* Layout minimalista em duas colunas */
+.nl-hero { display: grid; grid-template-columns: 1.15fr 1fr; gap: clamp(32px, 6vw, 96px); align-items: center; min-height: calc(100vh - var(--header-h) - 40px); padding: 48px 0 72px; }
+.nl-eyebrow { margin: 0 0 18px; color: #806324; font: 700 11px/1.5 "DM Sans", Arial, sans-serif; letter-spacing: .18em; text-transform: uppercase; }
+.nl-visual h1 { margin: 0 0 16px; color: #07172f; font: 600 clamp(36px, 4.6vw, 68px)/1.04 "Manrope", Arial, sans-serif; letter-spacing: -.05em; }
+.nl-visual h1 em { font-style: normal; color: #1e5e91; }
+.nl-lead { max-width: 520px; margin: 0;  color: #5d6c7a; font: 400 17px/1.5 "DM Sans", Arial, sans-serif; }
+.nl-doc { position: relative; max-width: 520px; margin-top: 30px; padding: 26px 28px 30px; background: #fff; border: 1px solid #e4e8ec; border-radius: 14px; box-shadow: 0 24px 60px -34px rgba(7,23,47,.3); }
+.nl-tag { margin: 0 0 18px; color: #806324; font: 700 11px/1.4 "DM Sans", Arial, sans-serif; letter-spacing: .16em; text-transform: uppercase; }
+.nl-doc .ln { position: relative; display: block; height: 9px; margin: 0 0 11px; background: #e6ebf0; border-radius: 5px; }
+.nl-doc .w50 { width: 50%; } .nl-doc .w64 { width: 64%; } .nl-doc .w78 { width: 78%; } .nl-doc .w82 { width: 82%; } .nl-doc .w88 { width: 88%; } .nl-doc .w92 { width: 92%; } .nl-doc .w96 { width: 96%; }
+.nl-doc .hl::after { content: ""; position: absolute; inset: -2px -4px; background: rgba(200,161,84,.55); border-radius: 5px; transform: scaleX(0); transform-origin: left; animation: nl-mark 12s ease infinite; }
+.nl-doc .h2::after { animation-delay: 4s; } .nl-doc .h3::after { animation-delay: 8s; }
+.nl-note { height: 46px; margin: 4px 0 8px; padding-left: 14px; border-left: 2px solid #c8a154; color: #07172f; font: 600 18px/46px "Manrope", Arial, sans-serif; letter-spacing: -.02em; opacity: 0; animation: nl-text 12s ease infinite; }
+.nl-note.n2 { animation-delay: 4s; } .nl-note.n3 { animation-delay: 8s; }
+@keyframes nl-mark { 0%, 2% { transform: scaleX(0); } 9%, 30% { transform: scaleX(1); } 36%, 100% { transform: scaleX(0); } }
+@keyframes nl-text { 0%, 6% { opacity: 0; transform: translateY(6px); } 12%, 30% { opacity: 1; transform: none; } 36%, 100% { opacity: 0; transform: none; } }
+@media (max-width: 480px) { .nl-note { font-size: 16px; } .nl-doc { padding: 22px 20px 24px; } }
+@media (prefers-reduced-motion: reduce) { .nl-doc .hl::after, .nl-note { animation: none; } .nl-doc .h1::after { transform: scaleX(1); } .nl-note.n1 { opacity: 1; } }
+html.reduce-motion .nl-doc .h1::after { transform: scaleX(1); } html.reduce-motion .nl-note.n1 { opacity: 1; }
+
+/* Acabamento moderno */
+.nl-main { background: radial-gradient(55% 50% at 88% 18%, rgba(30,94,145,.12), transparent 70%), radial-gradient(45% 45% at 8% 95%, rgba(200,161,84,.16), transparent 70%), #fbfcfd; }
+.nl-eyebrow { display: inline-flex; align-items: center; gap: 10px; padding: 7px 14px; background: #fff; border: 1px solid #e4e8ec; border-radius: 999px; }
+.nl-eyebrow::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: #c8a154; animation: nl-dot 2.4s ease-in-out infinite; }
+@keyframes nl-dot { 0%, 100% { box-shadow: 0 0 0 0 rgba(200,161,84,.5); } 50% { box-shadow: 0 0 0 7px rgba(200,161,84,0); } }
+.nl-visual h1 { font-size: clamp(40px, 5.2vw, 76px); letter-spacing: -.055em; }
+.nl-visual h1 em { background: linear-gradient(90deg, #1e5e91, #07172f 90%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: #1e5e91; }
+.nl-doc { background: rgba(255,255,255,.9); animation: nl-drift 9s ease-in-out infinite; }
+.nl-doc::before { content: ""; position: absolute; inset: 10px -14px -14px 14px; z-index: -1; background: #fff; border: 1px solid #e4e8ec; border-radius: 14px; transform: rotate(1.6deg); }
+@keyframes nl-drift { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-6px); } }
+.newsletter-signup #sib-container { background: rgba(255,255,255,.88); border-color: #fff; border-radius: 20px; box-shadow: 0 40px 80px -40px rgba(7,23,47,.35), 0 0 0 1px #e4e8ec; }
+.newsletter-signup #sib-container .entry__field { background: #f6f8fa; border-radius: 12px; border-color: transparent; transition: border-color .2s ease, background .2s ease; }
+.newsletter-signup #sib-container .entry__field .input { background: transparent; height: 54px; }
+.newsletter-signup #sib-container .entry__field:focus-within { background: #fff; border-color: #1e5e91; outline: 0; box-shadow: 0 0 0 4px rgba(30,94,145,.12); }
+.newsletter-signup #sib-container .sib-form-block__button { position: relative; border-radius: 12px; background: linear-gradient(135deg, #12375b, #07172f); box-shadow: 0 14px 28px -14px rgba(7,23,47,.6); transition: transform .2s ease, box-shadow .2s ease; }
+.newsletter-signup #sib-container .sib-form-block__button::after { content: "\2192"; margin-left: 10px; display: inline-block; transition: transform .2s ease; }
+.newsletter-signup #sib-container .sib-form-block__button:hover { background: linear-gradient(135deg, #1e5e91, #07172f); transform: translateY(-2px); }
+.newsletter-signup #sib-container .sib-form-block__button:hover::after { transform: translateX(4px); }
+@media (prefers-reduced-motion: reduce) { .nl-doc, .nl-eyebrow::before { animation: none; } }
+html.reduce-motion .nl-doc, html.reduce-motion .nl-eyebrow::before { animation: none; }
+.nl-visual h1 { font-size: clamp(38px, 4.3vw, 62px); }
+.nl-doc { isolation: isolate; background: #fff; }
+.nl-doc::before { display: none; }
+.nl-doc { box-shadow: 10px 12px 0 -2px #f3f6f9, 10px 12px 0 -1px #e4e8ec, 0 30px 60px -34px rgba(7,23,47,.3); }
+
+/* Ícone animado e remoção do dourado no formulário */
+.nl-doc { box-shadow: none; animation: none; }
+.newsletter-signup .brevo-overline { color: #1e5e91; }
+.nl-icon { width: 92px; height: 75px; margin: 0 0 18px; animation: nl-bob 4s ease-in-out infinite; }
+.nl-icon svg { display: block; overflow: visible; }
+.nl-icon .env { fill: #eef4f8; stroke: #07172f; stroke-width: 2.4; stroke-linejoin: round; stroke-dasharray: 140; stroke-dashoffset: 140; animation: nl-draw 1.2s .2s ease forwards; }
+.nl-icon .flap { fill: none; stroke: #07172f; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 60; stroke-dashoffset: 60; animation: nl-draw 1s 1s ease forwards, nl-flap 4s 2.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center top; }
+.nl-icon .dot { fill: #1e5e91; transform-box: fill-box; transform-origin: center; transform: scale(0); animation: nl-pop .5s 1.8s cubic-bezier(.3,1.6,.5,1) forwards; }
+.nl-icon .ping { fill: none; stroke: #1e5e91; stroke-width: 1.5; opacity: 0; transform-box: fill-box; transform-origin: center; animation: nl-ping 2.4s 2.3s ease-out infinite; }
+@keyframes nl-draw { to { stroke-dashoffset: 0; } }
+@keyframes nl-pop { to { transform: scale(1); } }
+@keyframes nl-ping { 0% { opacity: .8; transform: scale(1); } 100% { opacity: 0; transform: scale(3); } }
+@keyframes nl-bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+@keyframes nl-flap { 0%, 70%, 100% { transform: scaleY(1); } 80% { transform: scaleY(.6); } }
+@media (prefers-reduced-motion: reduce) { .nl-icon, .nl-icon .env, .nl-icon .flap, .nl-icon .ping { animation: none; } .nl-icon .env, .nl-icon .flap { stroke-dashoffset: 0; } .nl-icon .dot { animation: none; transform: none; } }
+html.reduce-motion .nl-icon, html.reduce-motion .nl-icon .ping { animation: none; } html.reduce-motion .nl-icon .env, html.reduce-motion .nl-icon .flap { animation: none; stroke-dashoffset: 0; } html.reduce-motion .nl-icon .dot { animation: none; transform: none; }
+
+/* Nome em destaque e borda dourada animada */
+.newsletter-signup .brevo-overline { color: #96701c; font: 800 16px/1.3 "Manrope", Arial, sans-serif; letter-spacing: .14em; margin: 0 0 12px; }
+@property --nl-angle { syntax: "<angle>"; initial-value: 0deg; inherits: false; }
+.newsletter-signup #sib-container { position: relative; }
+.newsletter-signup #sib-container::before { content: ""; position: absolute; inset: -1px; padding: 2px; border-radius: inherit; pointer-events: none; background: conic-gradient(from var(--nl-angle), rgba(200,161,84,0) 0 62%, #c8a154 82%, #f0d9a0 90%, rgba(200,161,84,0) 100%); -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0); animation: nl-spin 5s linear infinite; }
+@keyframes nl-spin { to { --nl-angle: 360deg; } }
+@media (prefers-reduced-motion: reduce) { .newsletter-signup #sib-container::before { animation: none; } }
+html.reduce-motion .newsletter-signup #sib-container::before { animation: none; }

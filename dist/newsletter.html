@@ -41,14 +41,27 @@
 <div class="reading-progress" aria-hidden="true">
 </div>
 </header>
-<main id="conteudo" tabindex="-1">
-<div class="page-head wrap">
-<p class="eyebrow">CONTEÚDO JURÍDICO</p>
-<h1>Newsletter.</h1>
-<p>Inscreva-se para acompanhar análises sobre questões imobiliárias e patrimoniais.</p>
-</div>
-
-<section class="newsletter-signup wrap" aria-label="Inscrição na newsletter Entrelinhas Imobiliárias">
+<main id="conteudo" class="nl-main" tabindex="-1">
+<section class="nl-hero wrap" aria-label="Inscrição na newsletter Entrelinhas Imobiliárias" id="inscricao">
+  <div class="nl-visual">
+    <p class="nl-eyebrow">Newsletter · Entrelinhas Imobiliárias</p>
+    <h1>Quem lê as entrelinhas <em>decide melhor.</em></h1>
+    <p class="nl-lead">Receba em primeira mão decisões, análises e novidades do Direito Imobiliário, explicadas com contexto.</p>
+    <div class="nl-doc" role="img" aria-label="Trecho de decisão judicial com comentários entre as linhas: o que a decisão muda na prática, o que a convenção permite e o que isso significa para o seu imóvel">
+      <p class="nl-tag">STJ · Tema 1.443</p>
+      <i class="ln w92"></i>
+      <i class="ln w78 hl h1"></i>
+      <p class="nl-note n1">O que a decisão muda na prática.</p>
+      <i class="ln w96"></i>
+      <i class="ln w64 hl h2"></i>
+      <p class="nl-note n2">O que a convenção realmente permite.</p>
+      <i class="ln w88"></i>
+      <i class="ln w82 hl h3"></i>
+      <p class="nl-note n3">O que isso significa para o seu imóvel.</p>
+      <i class="ln w50"></i>
+    </div>
+  </div>
+  <div class="newsletter-signup">
   <div class="sib-form">
     <div id="sib-form-container" class="sib-form-container">
       <div id="error-message" class="sib-form-message-panel" role="alert">
@@ -63,14 +76,20 @@
       </div>
       <div id="sib-container" class="sib-container--large sib-container--vertical">
         <form id="sib-form" method="POST" action="https://dadd6d6f.sibforms.com/serve/MUIFAP9qYn7x9xYG4Kprca2uO7y-OwGEYlO0Ys8vAPIF5CAQUjIef3i82Xcb9YnXS-hdMZRby5IOMPhKAVf-ra2_JsjTmLVl5Ut-xGcY1jdYbtfPGpsLl3cNAFwDIw-HSKbt4TPI2Da5yNGfU3cjMWLeVSFFM_x6SkNIVKMqt9MwkSwJb5byy4DMAOGGSAoRBfhjCGunYh0EvyjJ-w==" data-type="subscription">
-          <img class="brevo-logo" src="liandro-faro.png" width="200" height="54" alt="Liandro Faro">
+          <div class="nl-icon" aria-hidden="true">
+            <svg viewBox="4 8 54 44" width="92" height="75">
+              <rect class="env" x="10" y="18" width="40" height="28" rx="4"/>
+              <path class="flap" d="M12 22 L30 35 L48 22"/>
+              <circle class="dot" cx="50" cy="17" r="6"/>
+              <circle class="ping" cx="50" cy="17" r="6"/>
+            </svg>
+          </div>
           <p class="brevo-overline">Entrelinhas Imobiliárias</p>
-          <h2 class="brevo-title">Receba notícias, análises e reflexões jurídicas.</h2>
-          <p class="brevo-description">Decisões judiciais, novidades legislativas e debates sobre questões imobiliárias e patrimoniais, com análises de suas repercussões práticas.</p>
+          <h2 class="brevo-title" id="nl-titulo">Fique por dentro do que muda.</h2>
           <div class="sib-input sib-form-block brevo-field">
             <div class="form__entry entry_block">
               <div class="form__label-row">
-                <label class="entry__label" for="NOME">Seu nome (opcional)</label>
+                <label class="entry__label" for="NOME">Nome (opcional)</label>
                 <div class="entry__field">
                   <input class="input" maxlength="200" type="text" id="NOME" name="NOME" autocomplete="given-name" placeholder="Digite seu nome">
                 </div>
@@ -81,7 +100,7 @@
           <div class="sib-input sib-form-block brevo-field">
             <div class="form__entry entry_block">
               <div class="form__label-row">
-                <label class="entry__label" for="EMAIL" data-required="*">Seu melhor e-mail</label>
+                <label class="entry__label" for="EMAIL" data-required="*">E-mail</label>
                 <div class="entry__field">
                   <input class="input" type="email" id="EMAIL" name="EMAIL" autocomplete="email" placeholder="seuemail@exemplo.com" data-required="true" required>
                 </div>
@@ -92,15 +111,17 @@
           <div class="sib-form-block">
             <button class="sib-form-block__button sib-form-block__button-with-loader" form="sib-form" type="submit">
               <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512" aria-hidden="true"><path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z"/></svg>
-              QUERO RECEBER
+              Quero acompanhar
             </button>
           </div>
-          <p class="brevo-privacy">Ao clicar em “Quero receber”, você solicita o envio da newsletter Entrelinhas Imobiliárias. Leia nossa <a href="privacidade.html">Política de Privacidade</a>. Você poderá cancelar a inscrição a qualquer momento pelos links nas mensagens.</p>
+          <p class="brevo-privacy">Você pode cancelar quando quiser. <a href="privacidade.html">Privacidade</a></p>
           <input type="text" name="email_address_check" value="" class="input--hidden" tabindex="-1" aria-hidden="true" autocomplete="off">
           <input type="hidden" name="locale" value="pt">
         </form>
       </div>
     </div>
+  </div>
+
   </div>
 </section>
 </main>
