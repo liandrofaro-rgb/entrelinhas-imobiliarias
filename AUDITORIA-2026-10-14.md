@@ -35,6 +35,14 @@ O painel Cloudflare já mostrava o Worker `entrelinhas-imobiliarias` conectado a
 
 Verificar após cada publicação: status do build, resposta HTTPS, cabeçalhos, página de privacidade, rotas `.html`, aliases e 404. Alterações no JSON-LD exigem atualizar seu hash no `_headers`; o teste automatizado detecta divergências.
 
+### Verificação da publicação desta revisão
+
+Código enviado à branch `main` no commit `9e937ee`; a publicação automática tornou a nova política acessível em `https://entrelinhas-imobiliarias.liandrofaro.workers.dev/privacidade.html`. O conteúdo baixado foi comparado byte a byte com o arquivo local e é idêntico.
+
+No endereço workers.dev: `/`, `/index.html`, `/atuacao.html`, `/privacidade.html`, `/sitemap.xml`, `/robots.txt` e a fonte Manrope retornaram 200; `/atuacao` retornou 301 para `/atuacao.html`; um endereço inexistente retornou 404 com a página personalizada. CSP e noindex do host provisório foram confirmados nas respostas. Política e menu foram abertos no Chrome com a CSP ativa, sem erros ou avisos de console capturados nesses testes.
+
+O checkout usado para enviar esta revisão fica em `/private/tmp/liandro-github-T4xnyP`. A pasta original de Downloads continua contendo os arquivos editados, mas não possui metadados Git. Antes do próximo trabalho, usar um clone permanente do repositório ou inicializar/vincular conscientemente a pasta original; não depender da sobrevivência de um diretório temporário.
+
 ## Pendências do responsável, por prioridade
 
 1. **Alta — DNS:** a consulta pública nesta revisão ainda retornou `a.auto.dns.br` e `b.auto.dns.br`, sem endereço A. Concluir a delegação/ativação para a Cloudflare e então validar HTTPS, redirecionamentos e indexação no domínio definitivo. Não alterar MX/TXT de e-mail sem inventário.
