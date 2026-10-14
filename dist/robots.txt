@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://entrelinhas-imobiliarias-faro.liandrofaro.chatgpt.site/sitemap.xml
+Sitemap: https://liandrofaro.adv.br/sitemap.xml

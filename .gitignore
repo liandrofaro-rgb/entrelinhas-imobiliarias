@@ -2,3 +2,10 @@
 *.log
 .sites-checkout/
 node_modules/
+.wrangler/
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+audit-artifacts/

@@ -72,11 +72,16 @@
   function setMenu(open) {
     if (!menu || !nav) return;
     const closedOnMobile = mobile.matches && !open;
+    if (!open && nav.contains(document.activeElement)) menu.focus();
     menu.setAttribute('aria-expanded', String(open));
+    menu.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
     nav.classList.toggle('open', open);
     document.body.classList.toggle('menu-open', open);
     nav.toggleAttribute('inert', closedOnMobile);
     nav.setAttribute('aria-hidden', String(closedOnMobile));
+    document.querySelectorAll('main, footer, .whatsapp-float, .skip').forEach(element => {
+      element.toggleAttribute('inert', mobile.matches && open);
+    });
     menu.querySelector('span').textContent = open ? '−' : '+';
   }
 
@@ -89,6 +94,21 @@
       if (mobile.matches && nav.classList.contains('open') && !event.target.closest('.site-header')) setMenu(false);
     });
     document.addEventListener('keydown', event => {
+      if (event.key === 'Tab' && mobile.matches && nav.classList.contains('open')) {
+        const links = [...nav.querySelectorAll('a[href]')];
+        const first = links[0];
+        const last = links[links.length - 1];
+        if (event.shiftKey && document.activeElement === menu) {
+          event.preventDefault();
+          last?.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          menu.focus();
+        } else if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          menu.focus();
+        }
+      }
       if (event.key === 'Escape' && menu.getAttribute('aria-expanded') === 'true') {
         setMenu(false);
         menu.focus();

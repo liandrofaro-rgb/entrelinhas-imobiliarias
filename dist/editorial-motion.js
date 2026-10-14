@@ -1,6 +1,7 @@
 (function () {
   const root = document.documentElement;
   const reducedMedia = matchMedia('(prefers-reduced-motion: reduce)');
+  const compactMedia = matchMedia('(max-width: 820px)');
   const toggle = document.querySelector('.motion-toggle');
   const reveals = [...document.querySelectorAll('[data-reveal], [data-inview]')];
   const parallaxItems = [...document.querySelectorAll('[data-parallax]')];
@@ -21,7 +22,7 @@
     root.style.setProperty('--reading-progress', value.toFixed(4));
 
     parallaxItems.forEach(element => {
-      if (prefersReduced()) {
+      if (prefersReduced() || compactMedia.matches) {
         element.style.setProperty('--parallax-y', '0px');
         return;
       }
@@ -48,6 +49,7 @@
     }
 
     if (reduced || !('IntersectionObserver' in window)) {
+      root.classList.remove('motion-ready');
       reveals.forEach(element => element.classList.add('is-visible'));
       return;
     }
@@ -61,6 +63,7 @@
     }, { threshold: .08, rootMargin: '0px 0px -8% 0px' });
 
     reveals.forEach(element => observer.observe(element));
+    root.classList.add('motion-ready');
   }
 
   systemItems.forEach(item => {
@@ -79,6 +82,7 @@
   }
 
   reducedMedia.addEventListener('change', syncReveal);
+  compactMedia.addEventListener('change', requestProgress);
   addEventListener('scroll', requestProgress, { passive: true });
   addEventListener('resize', requestProgress, { passive: true });
   addEventListener('pageshow', requestProgress);
