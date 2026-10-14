@@ -1,0 +1,4 @@
+.DS_Store
+*.log
+.sites-checkout/
+node_modules/
