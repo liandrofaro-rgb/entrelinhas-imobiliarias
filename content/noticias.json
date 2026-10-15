@@ -2163,5 +2163,133 @@
         "url": "https://conjur.com.br/2026-set-26/municipio-deve-concluir-projeto-de-regularizacao-fundiaria-no-maranhao/"
       }
     ]
+  },
+  {
+    "slug": "tjmg-procuracao-morte-outorgante-escritura-compra-venda-registro-recusado",
+    "titulo": "TJMG: escritura de compra e venda feita com procuração depois da morte do dono não pode ser registrada.",
+    "subtitulo": "A 5ª Câmara Cível entendeu que o mandato acaba com a morte de quem o deu, e que a quitação do preço não conserta uma escritura assinada sem poderes.",
+    "descricao": "O TJMG manteve a recusa do registro de uma escritura de compra e venda lavrada anos após a morte do proprietário, por procurador cujo mandato já havia se extinguido.",
+    "orgao": "TJMG",
+    "area": "Registro de imóveis",
+    "data_publicacao": "2026-10-13",
+    "data_julgamento": "2026-10-02",
+    "imagem": "ilustracao-cartorio.svg",
+    "imagem_alt": "Ilustração de um cartório com balcão e carimbo",
+    "resumo": [
+      "A ==5ª Câmara Cível do TJMG== manteve a ==recusa do registro== de uma escritura de compra e venda de imóvel.",
+      "A escritura foi lavrada ==vários anos depois da morte== do proprietário, por um procurador que agia com poderes dados em vida.",
+      "Pelo Código Civil, o ==mandato se extingue com a morte== de quem o outorgou (art. 682, II).",
+      "A declaração da viúva e a quitação do preço ==não validam== a escritura.",
+      "Relatora: desembargadora ==Áurea Brasil==; julgado em 02/10/2026."
+    ],
+    "aconteceu": [
+      "Um oficial de Registro de Imóveis de **Montes Claros (MG)** recusou o registro de uma escritura pública de compra e venda e levantou **dúvida registral**. A escritura havia sido lavrada por procurador do proprietário, mas **depois da morte** do outorgante.",
+      "A sentença deu razão ao oficial. A parte interessada recorreu ao tribunal, argumentando que o negócio havia sido de fato realizado, com **quitação do preço** e confirmação pela viúva."
+    ],
+    "decisao": [
+      "A **5ª Câmara Cível** negou o recurso e manteve a recusa. Segundo a ementa, o **mandato se extingue com a morte** do outorgante (art. 682, II, do Código Civil), e o procurador deixa de poder dispor do patrimônio dele.",
+      "O tribunal aplicou o **princípio da saisine**: com a morte, a herança passa imediatamente aos herdeiros, e o imóvel deixa de integrar o patrimônio do falecido. O art. 674 do Código Civil, que permite concluir negócio já iniciado quando há perigo na demora, **não se aplicou**, porque a escritura foi lavrada vários anos depois do falecimento.",
+      "Quanto à declaração da viúva e à quitação do preço, o tribunal entendeu que elas **não convalidam** a escritura feita por quem não tinha poderes, em razão da necessidade de resguardar direitos de possíveis herdeiros e de terceiros."
+    ],
+    "entrelinhas_titulo": "O que está por trás da decisão",
+    "entrelinhas": [
+      "**Procuração tem prazo de validade natural.** Ela vale enquanto quem a deu estiver vivo. Quem compra com base em procuração antiga precisa conferir se o outorgante ainda vive e se a procuração continua em vigor.",
+      "**Pagar o preço não resolve tudo.** A decisão separa dois planos: o negócio entre as partes e a transferência da propriedade. Mesmo com o preço pago, sem escritura válida o imóvel não pode ser registrado em nome do comprador.",
+      "**O caminho, em geral, passa pelo inventário.** Como o imóvel já pertence aos herdeiros, a regularização costuma exigir a participação deles. A notícia, porém, não detalha o que a parte fará a seguir.",
+      "**Limites do que se sabe.** O texto reproduz a ementa. Valores, datas do negócio e a situação atual dos herdeiros não constam. A decisão trata do caso julgado e não é orientação para situações concretas."
+    ],
+    "sintese": "Em uma frase: **o TJMG manteve a recusa de registro de uma escritura assinada por procurador depois da morte do dono, porque o mandato acabou com o falecimento e a quitação do preço não supre a falta de poderes.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Tribunal de Justiça de Minas Gerais · 5ª Câmara Cível"
+      ],
+      [
+        "Relatora",
+        "Desembargadora Áurea Brasil"
+      ],
+      [
+        "Processo",
+        "Apelação n. 1.0000.26.428702-0/001 (Montes Claros)"
+      ],
+      [
+        "Julgamento",
+        "2 de outubro de 2026"
+      ],
+      [
+        "Divulgação pela fonte",
+        "13 de outubro de 2026 (IRIB)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IRIB · Jurisprudência selecionada ↗",
+        "url": "https://www.irib.org.br/compra-e-venda-escritura-publica-procuracao-morte-do-outorgante-mandato-extincao-principio-da-saisine-registro-recusa/"
+      }
+    ]
+  },
+  {
+    "slug": "tjdft-penhora-direitos-aquisitivos-escritura-nao-registrada-averbacao",
+    "titulo": "TJDFT: penhora de direitos sobre imóvel comprado e não registrado não pode ser averbada na matrícula.",
+    "subtitulo": "A 7ª Turma Cível reconheceu que esses direitos podem ser penhorados, mas disse que o registro depende de o executado constar como dono na matrícula.",
+    "descricao": "O TJDFT manteve a recusa de averbar penhora de direitos aquisitivos quando a escritura de compra e venda não foi registrada e a matrícula ainda indica o vendedor como proprietário.",
+    "orgao": "TJDFT",
+    "area": "Registro de imóveis",
+    "data_publicacao": "2026-10-14",
+    "data_julgamento": "2026-09-23",
+    "imagem": "ilustracao-cadeado.svg",
+    "imagem_alt": "Ilustração de um cadeado fechado",
+    "resumo": [
+      "A ==7ª Turma Cível do TJDFT== manteve a recusa de ==averbar uma penhora== na matrícula de um imóvel.",
+      "O devedor tinha ==escritura pública de compra e venda==, mas ela ==não estava registrada==.",
+      "A penhora de ==direitos aquisitivos é admitida==, mas o registro exige o ==princípio da continuidade==.",
+      "Antes, é preciso ==regularizar o título== de quem comprou.",
+      "Relator: desembargador ==Robson Barbosa de Azevedo==; julgado em 23/09/2026."
+    ],
+    "aconteceu": [
+      "Em uma execução, o credor quis **averbar a penhora** sobre um imóvel que, na matrícula, não estava em nome do devedor. O devedor tinha **escritura pública de compra e venda**, mas ela nunca foi levada a registro.",
+      "O oficial de registro recusou e levantou **dúvida registral**. A sentença manteve a recusa, e o credor recorreu, afirmando que a penhora recairia sobre **direitos aquisitivos**, que podem ser penhorados."
+    ],
+    "decisao": [
+      "A **7ª Turma Cível** negou o recurso. Segundo a ementa, o ordenamento **admite a penhora de direitos aquisitivos**, que têm conteúdo patrimonial e autonomia jurídica.",
+      "Mas o registro de imóveis segue o **princípio da continuidade**: o titular da matrícula precisa corresponder à pessoa a quem o ato se refere. Sem o registro da escritura, o **vendedor segue como proprietário** para fins registrais, e averbar a penhora em nome de quem não consta na matrícula quebraria a cadeia de titularidade.",
+      "A tese fixada: a penhora de direitos aquisitivos é admissível, mas a averbação **depende da correspondência entre o titular e a matrícula**, e a falta de registro do título de aquisição inviabiliza a averbação direta em nome do adquirente."
+    ],
+    "entrelinhas_titulo": "O que está por trás da decisão",
+    "entrelinhas": [
+      "**Escritura sem registro não transfere a propriedade.** No Brasil, o comprador só vira dono no registro. Enquanto isso, a matrícula continua mostrando o vendedor, e é isso que o cartório enxerga.",
+      "**Duas coisas diferentes.** Poder penhorar, no processo, é uma coisa. Fazer a penhora valer perante terceiros, na matrícula, é outra. A decisão deixa claro que a primeira não leva automaticamente à segunda.",
+      "**Para quem compra.** Deixar a escritura sem registro mantém o imóvel em nome do vendedor, o que pode expor o comprador a dificuldades. A notícia não trata de riscos específicos além do caso julgado.",
+      "**Limites do que se sabe.** O texto reproduz a ementa. Não consta o valor da dívida nem a situação do imóvel. A decisão trata do caso julgado e não é orientação para situações concretas."
+    ],
+    "sintese": "Em uma frase: **o TJDFT admite penhorar direitos de quem comprou imóvel, mas só aceita averbar a penhora na matrícula se a escritura já estiver registrada em nome dele.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Tribunal de Justiça do Distrito Federal e dos Territórios · 7ª Turma Cível"
+      ],
+      [
+        "Relator",
+        "Desembargador Robson Barbosa de Azevedo"
+      ],
+      [
+        "Processo",
+        "Apelação n. 0712799-54.2026.8.07.0001"
+      ],
+      [
+        "Julgamento",
+        "23 de setembro de 2026 (publicado no PJe em 7 de outubro)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "14 de outubro de 2026 (IRIB)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IRIB · Jurisprudência selecionada ↗",
+        "url": "https://www.irib.org.br/penhora-direitos-aquisitivos-escritura-publica-nao-registrada-averbacao-impossibilidade-principio-da-continuidade-registral/"
+      }
+    ]
   }
 ]
