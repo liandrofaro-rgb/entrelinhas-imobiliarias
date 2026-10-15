@@ -21,7 +21,7 @@ Sem caixas e sem mini-seções. O artigo é um texto contínuo, com ideias encad
 3. **3 a 5 seções** com intertítulo, cada uma com **2 ou mais parágrafos** longos (80 a 130 palavras), sem listas
 4. Os termos técnicos são explicados **dentro do texto**, na primeira vez que aparecem
 5. O contra-argumento entra no desenvolvimento ("a objeção é previsível…") e não em um quadro à parte
-6. A última seção é **"Nas entrelinhas"**, em prosa: a leitura de fundo e os limites
+6. A última seção é **"Nas entrelinhas"** e deve ser uma **análise crítica**, em prosa: testa a tese contra os melhores argumentos de cada lado (a favor e contra), aponta a dúvida real que a decisão deixa, toma uma posição fundamentada e registra os limites da leitura
 7. **Citações literais em destaque** (2 a 4 por artigo): trechos dos votos ou da lei, entre aspas, com autor e processo, em bloco próprio logo depois do parágrafo que os introduz; mais uma frase de tese (a do autor) em destaque no meio do texto. Trechos curtos, copiados exatamente da fonte e conferidos; nunca inventados ou "melhorados".
 8. Rodapé discreto: decisões citadas, fontes, notícias relacionadas e base legal
 

@@ -160,5 +160,91 @@
    "**Código de Processo Civil**, art. 927, inciso III e arts. 1.036 e seguintes (recursos repetitivos)"
   ],
   "titulo_capa": "Airbnb em condomínio: destinação, não plataforma."
+ },
+ {
+  "slug": "distrato-regime-define-retencao",
+  "titulo": "Distrato imobiliário: o regime do empreendimento pode elevar a retenção de 25% para até 50%.",
+  "titulo_capa": "Distrato: o regime define a retenção.",
+  "subtitulo": "A Quarta Turma do STJ validou a retenção de até 50% em empreendimento com patrimônio de afetação. Estar na lei, porém, não responde se o percentual é proporcional.",
+  "descricao": "Análise crítica da retenção de até 50% no distrato de imóvel na planta: a decisão da Quarta Turma do STJ, o Tema 1.466 e a pergunta sobre abusividade.",
+  "area": "Imóvel na planta",
+  "formato": "analise",
+  "data_publicacao": "2026-10-15",
+  "relacionadas": [
+   "corretor-nao-responde-atraso-construtora",
+   "banco-atraso-obra-agente-financeiro"
+  ],
+  "abertura": [
+   "Quem compra um imóvel na planta e precisa desistir enfrenta uma pergunta prática antes de qualquer outra: quanto do que já foi pago volta? A resposta não depende só do que está escrito no contrato. Depende, cada vez mais, do regime jurídico em que o empreendimento foi montado.",
+   "Duas movimentações recentes do Superior Tribunal de Justiça (STJ) mostram isso. A Quarta Turma decidiu que, em empreendimentos sob patrimônio de afetação, é válida a cláusula que prevê a retenção de até 50% dos valores pagos. E a Segunda Seção levou o mesmo tema ao rito dos recursos repetitivos, o que significa que a palavra definitiva ainda está por vir."
+  ],
+  "secoes": [
+   {
+    "titulo": "Como funciona a retenção quando o comprador desiste",
+    "paragrafos": [
+     "O distrato é o desfazimento do contrato de compra e venda. Quando o comprador desiste ou deixa de pagar, a vendedora pode reter parte do que recebeu, como indenização pelos prejuízos e encargos ligados ao empreendimento. A dúvida sempre foi quanto. Antes da Lei 13.786/2018, a chamada Lei do Distrato, a jurisprudência do STJ trabalhava com o patamar de 25% nos contratos anteriores a ela, como na decisão da Quarta Turma divulgada no Informativo nº 730 (REsp 1.947.698/MS, rel. Min. Luis Felipe Salomão, julgado em 08.03.22).",
+     "Com a Lei do Distrato, o art. 67-A da Lei 4.591/1964 passou a fixar critérios objetivos. Segundo o STJ, ele estabelece limites máximos de 25% e de 50% para a retenção, e o limite maior se aplica às incorporações sob **patrimônio de afetação**, regime em que os bens e os recursos do empreendimento ficam separados do patrimônio geral da incorporadora, para proteger a conclusão da obra e os compradores.",
+     "Outro ponto mudou o jogo: pelo mesmo artigo, para exigir a pena convencional o incorporador não precisa alegar prejuízo. A retenção deixa de depender da prova de um dano concreto e passa a seguir a regra escrita."
+    ]
+   },
+   {
+    "titulo": "O que a Quarta Turma decidiu em junho",
+    "paragrafos": [
+     "O caso envolveu um contrato de promessa de compra e venda firmado na vigência da Lei do Distrato, em um empreendimento com patrimônio de afetação. O comprador deixou de pagar por dificuldades financeiras, e a vendedora aplicou a retenção de 50% dos valores pagos. O tribunal de origem considerou esse percentual abusivo.",
+     "Em 15.06.26, a Quarta Turma do STJ, por unanimidade, reformou esse entendimento (AgInt no REsp 2.159.971-SP, rel. Min. Antonio Carlos Ferreira), em decisão divulgada no Informativo de Jurisprudência, edição extraordinária nº 32, de 21.07.26. A tese: é válida, desde que expressamente pactuada, a cláusula que prevê a retenção de até 50% dos valores pagos nos contratos de promessa de compra e venda celebrados sob patrimônio de afetação e na vigência da Lei do Distrato.",
+     "> “…para exigir a pena convencional, não é necessário que o incorporador alegue prejuízo.” | Informativo de Jurisprudência, edição extraordinária nº 32 (AgInt no REsp 2.159.971-SP)",
+     "O fundamento central foi que o tribunal de origem deixou de considerar que o empreendimento abrange patrimônio de afetação, circunstância que, segundo a decisão, autoriza a retenção de até 50% da quantia paga. A turma afastou também a ideia de conflito com o Código de Defesa do Consumidor: o dispositivo foi introduzido quase três décadas depois do código, para refletir as particularidades da incorporação sob patrimônio de afetação.",
+     "> “…critérios objetivos para a retenção nos casos de resolução contratual por iniciativa ou inadimplemento do comprador.” | Informativo de Jurisprudência, edição extraordinária nº 32 (AgInt no REsp 2.159.971-SP)"
+    ]
+   },
+   {
+    "titulo": "O que o STJ ainda vai decidir: o Tema 1.466",
+    "paragrafos": [
+     "A decisão da Quarta Turma não encerra o assunto. Em 30.06.26, a Segunda Seção, que reúne as duas turmas de direito privado, aceitou afetar ao rito dos recursos repetitivos os REsp 2.258.565/SP, 2.259.135/SP e 2.258.822/SP, relatados pelo ministro Ricardo Villas Bôas Cueva (Tema 1.466). A afetação foi divulgada no Informativo de Jurisprudência nº 899, de 01.09.26.",
+     "A pergunta a ser respondida é se, nos contratos sob patrimônio de afetação firmados depois da Lei do Distrato, a rescisão por inadimplemento do comprador autoriza o vendedor a reter até 50% do que foi pago, nos termos do art. 67-A, § 5º, da Lei 4.591/1964.",
+     "> “…a rescisão por inadimplemento do comprador autoriza o vendedor a reter até 50% (cinquenta por cento) das quantias pagas…” | Informativo de Jurisprudência nº 899, sobre a controvérsia do Tema 1.466",
+     "É preciso distinguir os dois movimentos. A decisão da Quarta Turma resolve um caso e orienta os demais; a afetação de um tema repetitivo apenas anuncia que uma tese será construída, e **não é decisão sobre a validade da retenção**. Quando for fixada, a tese deverá ser seguida por juízes e tribunais de todo o país.",
+     "No mesmo julgamento, a Segunda Seção afetou outros dois temas sobre o assunto: o Tema 1.464, sobre o percentual e a base de cálculo da retenção em contratos de imóvel não edificado (lote ou terreno) firmados após a Lei do Distrato, e o Tema 1.465, sobre o mesmo ponto em contratos anteriores à lei."
+    ]
+   },
+   {
+    "titulo": "Nas entrelinhas: 50% está na lei, mas isso encerra a pergunta sobre abusividade?",
+    "paragrafos": [
+     "A decisão da Quarta Turma responde a uma pergunta de legalidade: o percentual de até 50% está previsto em lei e, por isso, a cláusula que o adota é válida quando expressa. A pergunta sobre abusividade é outra, e o debate ainda não lhe deu resposta definitiva: um percentual pode estar na lei e, mesmo assim, produzir um resultado desproporcional em um caso concreto?",
+     "Os argumentos a favor da validade são fortes. O legislador escolheu critérios objetivos, o que reduz a litigiosidade e dá previsibilidade a quem compra e a quem incorpora. O patrimônio de afetação existe para proteger a obra, e o custo dessa proteção recai sobre o empreendimento e sobre os compradores que permanecem; a retenção maior seria a contrapartida. E a própria Turma lembrou que o dispositivo veio depois do Código de Defesa do Consumidor justamente para tratar das particularidades dessa forma de incorporação, de modo que não haveria conflito entre as normas.",
+     "Os argumentos em sentido contrário também são sérios. O Código de Defesa do Consumidor considera abusivas as cláusulas que colocam o consumidor em desvantagem exagerada (art. 51, inciso IV), e o Código Civil permite ao juiz reduzir a pena convencional quando ela for manifestamente excessiva (art. 413). A lei fixa um teto, mas o percentual efetivo é escolhido no contrato, e nada garante que o patamar máximo guarde relação com o prejuízo real. O ponto mais sensível é que a retenção independe de prova de dano: se a unidade for revendida, a vendedora pode receber o preço do novo comprador sem ter perdido o valor retido do anterior, o que levanta a suspeita de ganho sem causa.",
+     "É aí que a decisão deixa uma dúvida real. Ao validar a cláusula “desde que expressamente pactuada” e invocar critérios objetivos, a Quarta Turma tratou o percentual como escolha do legislador, sem examinar se, naquele caso, 50% era proporcional. Resta saber se o controle de abusividade e de excesso continua disponível ao juiz diante de um percentual que cabe no teto legal, ou se o teto passa a funcionar como um salvo-conduto.",
+     "A leitura mais equilibrada talvez esteja no meio do caminho. Reconhecer que o percentual legal é válido em abstrato não impede que o juiz verifique, diante das circunstâncias, se a retenção guarda relação com os custos reais do empreendimento e com o que o comprador efetivamente pagou, sobretudo quando a unidade é revendida. Esse controle fortaleceria a lei, porque a ancoraria na lógica de indenizar prejuízos, e não de punir quem desiste. É o ponto que o Tema 1.466 tem a chance de esclarecer.",
+     "Convém lembrar os limites desta leitura: a decisão da Quarta Turma é de uma turma, sem efeito vinculante automático, e a tese do repetitivo ainda não foi fixada. Cada situação depende da data do contrato, do regime do empreendimento e do texto da cláusula."
+    ]
+   }
+  ],
+  "destaque": "Quanto custa desistir de um imóvel na planta depende menos da vontade das partes e mais do regime do empreendimento: 25% como limite geral e até 50% com patrimônio de afetação.",
+  "destaque_apos_secao": 1,
+  "decisoes": [
+   "Retenção de 50% em patrimônio de afetação: STJ, Quarta Turma, AgInt no REsp 2.159.971-SP, rel. Min. Antonio Carlos Ferreira, unânime, julgado em 15.06.26 (Informativo, edição extraordinária nº 32, de 21.07.26).",
+   "Tema 1.466 (afetação): STJ, Segunda Seção, REsp 2.258.565/SP, 2.259.135/SP e 2.258.822/SP, rel. Min. Ricardo Villas Bôas Cueva, julgado em 30.06.26 (Informativo nº 899, de 01.09.26).",
+   "Antes da Lei do Distrato (25%): STJ, Quarta Turma, REsp 1.947.698/MS, rel. Min. Luis Felipe Salomão, julgado em 08.03.22 (Informativo nº 730)."
+  ],
+  "fontes": [
+   {
+    "rotulo": "STJ · Informativo de Jurisprudência, edição extraordinária nº 32 (21/7/2026) ↗",
+    "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022453"
+   },
+   {
+    "rotulo": "STJ · Informativo de Jurisprudência nº 899 (1/9/2026), afetação do Tema 1.466 ↗",
+    "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022588"
+   },
+   {
+    "rotulo": "STJ · Informativo de Jurisprudência nº 730 (28/3/2022) ↗",
+    "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D018910"
+   }
+  ],
+  "base_legal": [
+   "**Lei 4.591/1964**, art. 67-A, caput, inciso II, e §§ 1º e 5º (retenção no distrato; patrimônio de afetação)",
+   "**Lei 13.786/2018** (Lei do Distrato)",
+   "**Código de Defesa do Consumidor**, art. 51, inciso IV (cláusulas abusivas)",
+   "**Código Civil**, art. 413 (redução da pena convencional manifestamente excessiva)"
+  ]
  }
 ]
