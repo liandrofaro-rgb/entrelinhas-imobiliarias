@@ -1,6 +1,7 @@
 # Preserve the existing .html URLs, including external links to clean paths.
 / /index.html 200
 /atuacao /atuacao.html 301
+/regularizacao-imovel /regularizacao-imovel.html 301
 /sobre /sobre.html 301
 /artigos /artigos.html 301
 /analise-condominio /artigo-airbnb-condominio-destinacao-nao-plataforma.html 301
