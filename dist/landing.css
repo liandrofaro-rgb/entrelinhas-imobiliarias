@@ -52,8 +52,10 @@
 .lp-closing h2 { max-width:640px; margin:16px 0; }
 .lp-closing p:not(.lp-section-code) { margin:0; max-width:630px; color:#c7d5e0; line-height:1.7; }
 .lp-closing .button { flex-shrink:0; }
-.lp-return { display:flex; justify-content:space-between; align-items:center; gap:30px; padding-bottom:95px; font-size:12px; color:#657583; }
+.lp-return { display:flex; justify-content:space-between; align-items:center; gap:30px; padding-bottom:26px; font-size:12px; color:#657583; }
 .lp-return a { font-weight:700; color:#07172f; }
+.lp-legals { display:flex; align-items:center; flex-wrap:wrap; gap:12px; padding-top:18px; padding-bottom:90px; border-top:1px solid rgba(7,23,47,.12); color:#657583; font-size:11px; line-height:1.65; }
+.lp-legals a { color:#12375b; text-decoration:underline; text-underline-offset:3px; }
 @media(max-width:1000px) {
  .lp-hero-inner { grid-template-columns:minmax(0,1fr) minmax(270px,.7fr); gap:35px; min-height:560px; }
  .lp-hero h1 { font-size:clamp(43px,5vw,65px); }
@@ -78,6 +80,7 @@
  .lp-faq { padding:75px 0; }
  .lp-closing { padding:37px 26px; margin-top:70px; margin-bottom:40px; }
  .lp-closing .button { flex-shrink:1; }
- .lp-return { flex-direction:column; align-items:flex-start; padding-bottom:70px; }
+ .lp-return { flex-direction:column; align-items:flex-start; padding-bottom:24px; }
+ .lp-legals { padding-bottom:65px; }
 }
 @media(prefers-reduced-motion:reduce) { .lp-faq details, .lp-hero-actions .button { transition:none; } }
