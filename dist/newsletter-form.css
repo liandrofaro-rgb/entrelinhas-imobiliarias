@@ -147,3 +147,9 @@ html.reduce-motion .nl-feed li { animation: none; opacity: 1; }
 .nl-doc--compact .nl-feed a::after { margin-top: 5px; }
 .nl-feed a[data-ler]::after { content: attr(data-ler) " →"; }
 @media (max-width: 640px) { .nl-docs { grid-template-columns: minmax(0, 1fr); gap: 16px; } .nl-doc--compact { padding: 18px 20px 20px; } }
+
+/* Respiro lateral: o conjunto fica centralizado, com notícias, artigos e inscrição próximos */
+.nl-hero { width: min(1200px, calc(100vw - clamp(32px, 9vw, 128px))); grid-template-columns: minmax(0, 1fr) minmax(0, 440px); gap: clamp(36px, 5vw, 64px); }
+.nl-hero .nl-docs { max-width: none; }
+.nl-hero #sib-container { margin: 0; max-width: none; }
+@media (max-width: 1080px) { .nl-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; gap: 42px; } .newsletter-signup #sib-container { max-width: 520px; } }
