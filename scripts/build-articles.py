@@ -308,7 +308,7 @@ def main():
     trocar(DIST / 'noticias.html', '<!-- CONVITE:START -->', '<!-- CONVITE:END -->', convite)
     ver = {'analise': 'Ler análise', 'explicativo': 'Ler explicação', 'debate': 'Ler debate', 'caso': 'Ler caso', 'roteiro': 'Ler roteiro'}
     feed = ''
-    for x in items[:3]:
+    for x in items[:2]:
         minutos = max(1, round(palavras(x) / 200))
         feed += (f'<li><a href="artigo-{x["slug"]}.html" data-ler="{ver[x["formato"]]}"><span class="nl-feed-meta">{html.escape(FORMATOS[x["formato"]])} · {html.escape(x["area"].upper())} · {minutos} MIN</span>'
                  f'<strong>{html.escape(x["titulo"])}</strong></a></li>\n')

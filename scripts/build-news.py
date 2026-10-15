@@ -164,7 +164,7 @@ def main():
     cards = ''.join(card(n, i == 0) for i, n in enumerate(items))
     trocar(DIST / 'noticias.html', '<!-- NEWS:START -->', '<!-- NEWS:END -->', cards)
     feed = ''
-    for n in items[:3]:
+    for n in items[:2]:
         externo = n.get('externo')
         href = n['fontes'][0]['url'] if externo else f'noticia-{n["slug"]}.html'
         alvo = ' target="_blank" rel="noopener"' if externo else ''
