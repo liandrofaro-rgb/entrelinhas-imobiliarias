@@ -153,3 +153,28 @@ html.reduce-motion .nl-feed li { animation: none; opacity: 1; }
 .nl-hero .nl-docs { max-width: none; }
 .nl-hero #sib-container { margin: 0; max-width: none; }
 @media (max-width: 1080px) { .nl-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; gap: 42px; } .newsletter-signup #sib-container { max-width: 520px; } }
+
+/* A inscrição é o destaque; notícias e artigos ficam como apoio, sem caixas */
+.nl-hero { grid-template-columns: minmax(0, 1fr) minmax(0, 500px); }
+.nl-hero .newsletter-signup #sib-container { box-shadow: 0 34px 80px -34px rgba(7,23,47,.38); }
+.nl-hero .nl-docs { gap: clamp(20px, 3vw, 36px); margin-top: 30px; }
+.nl-hero .nl-docs .nl-doc--compact { margin: 0; padding: 14px 0 0; background: none; border: 0; border-top: 1px solid #d9dfe5; border-radius: 0; box-shadow: none; animation: none; }
+.nl-hero .nl-doc--compact .nl-tag { margin-bottom: 0; }
+.nl-hero .nl-doc--compact .nl-feed a { padding: 11px 0 12px; }
+.nl-hero .nl-doc--compact .nl-feed li:first-child a { padding-top: 8px; }
+.nl-hero .nl-doc--compact .nl-feed strong { font-size: 14.5px; font-weight: 500; line-height: 1.4; color: #2b3b50; }
+.nl-hero .nl-doc--compact .nl-feed-meta { font-size: 10px; margin-bottom: 3px; }
+.nl-hero .nl-doc--compact .nl-feed a::after { display: none; }
+.nl-hero .nl-doc--compact .nl-feed li { border-top-color: #eef1f4; }
+.nl-hero .nl-doc--compact .nl-feed a:hover strong, .nl-hero .nl-doc--compact .nl-feed a:focus-visible strong { color: #1e5e91; }
+@media (max-width: 1080px) { .nl-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; gap: 42px; } .nl-hero .newsletter-signup #sib-container { max-width: 520px; } }
+@media (max-width: 640px) { .nl-docs { grid-template-columns: minmax(0, 1fr); } }
+/* Em telas estreitas a inscrição vem logo depois do título, antes das listas */
+@media (max-width: 1080px) {
+  .nl-hero { gap: 0; }
+  .nl-hero .nl-visual { display: contents; }
+  .nl-hero .nl-visual > * { order: 1; justify-self: start; }
+  .nl-hero .nl-visual > .nl-lead { margin-bottom: 0; }
+  .nl-hero .newsletter-signup { order: 2; width: 100%; margin: 34px 0 40px; }
+  .nl-hero .nl-visual > .nl-docs { order: 3; justify-self: stretch; margin-top: 0; }
+}
