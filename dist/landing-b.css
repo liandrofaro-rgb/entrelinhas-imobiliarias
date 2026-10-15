@@ -94,7 +94,7 @@
 .sb-close { color: var(--white); background: var(--navy); }
 .sb-close h2, .sb-close .sb-lead { color: var(--white); }
 .sb-close .sb-lead { opacity: .8; }
-.sb-close .sb-close .sb-close .sb-btn:hover { color: var(--navy); background: var(--white); border-color: var(--white); }
+.sb-close .sb-btn:hover { color: var(--navy); background: var(--white); border-color: var(--white); }
 
 @media (max-width: 860px) {
   .sb-split { grid-template-columns: minmax(0, 1fr); }
@@ -137,7 +137,7 @@
 html { scroll-behavior: smooth; }
 .sb-progress { position: fixed; top: 0; left: 0; right: 0; z-index: 120; height: 3px; background: var(--gold); transform: scaleX(0); transform-origin: left; pointer-events: none; }
 
-.sb-js [data-r] { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s cubic-bezier(.22,1,.36,1); transition-delay: var(--d, 0s); }
+.sb-js [data-r] { opacity: 0; transform: translateY(34px); transition: opacity .9s ease, transform .9s cubic-bezier(.22,1,.36,1); transition-delay: var(--d, 0s); }
 .sb-js [data-r].is-in { opacity: 1; transform: none; }
 
 @keyframes sb-rise { from { opacity: 0; transform: translateY(26px); } to { opacity: 1; transform: none; } }
@@ -169,6 +169,17 @@ html:not(.sb-js) .sb-steps li:not(:last-child)::after { transform: scaleY(1); }
   .sb-btn:hover { transform: none; }
   .sb-progress { display: none; }
 }
+
+/* Cadência entre as seções: filete dourado que se desenha a cada nova seção e sublinhado nos títulos */
+.sb-section, .sb-footer { position: relative; }
+.sb-section::before, .sb-footer::before { content: ""; position: absolute; top: 0; left: 0; right: 0; width: min(1080px, calc(100% - 48px)); height: 2px; margin-inline: auto; background: linear-gradient(90deg, var(--gold), rgba(200,161,84,0)); pointer-events: none; }
+.sb-js .sb-section::before, .sb-js .sb-footer::before { transform: scaleX(0); transform-origin: left; transition: transform 1.4s cubic-bezier(.22,1,.36,1); }
+.sb-js .sb-section.is-in::before, .sb-js .sb-footer.is-in::before { transform: scaleX(1); }
+.sb-split > h2::after { content: ""; display: block; width: 56px; height: 2px; margin-top: 20px; background: var(--gold); }
+.sb-js .sb-split > h2::after { transform: scaleX(0); transform-origin: left; transition: transform 1s cubic-bezier(.22,1,.36,1) .4s; }
+.sb-js .sb-split > h2.is-in::after { transform: scaleX(1); }
+.sb-js .sb-close .sb-btn { animation: sb-ring 3.2s ease-out 1.6s infinite; }
+@keyframes sb-ring { 0% { box-shadow: 0 0 0 0 rgba(200,161,84,.5); } 70%, 100% { box-shadow: 0 0 0 16px rgba(200,161,84,0); } }
 
 /* Fechamento e rodapé no padrão da página inicial */
 .sb-page .site-footer { border-top: 1px solid rgba(255,255,255,.08); }
