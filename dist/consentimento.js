@@ -1,0 +1,173 @@
+/*
+ * Aviso de cookies, Meta Pixel e Microsoft Clarity.
+ * Nada externo é carregado antes da escolha do visitante.
+ *
+ * IDs: troque somente aqui. Enquanto um ID estiver vazio, o serviço
+ * correspondente fica desligado e não aparece no aviso.
+ */
+(function () {
+  var CONFIG = {
+    metaPixelId: '',      // Meta > Gerenciador de Eventos > Fontes de dados (número de 15 ou 16 dígitos)
+    clarityProjectId: '' // Clarity > Settings > Overview > Project ID (código de 10 letras/números)
+  };
+
+  var STORAGE_KEY = 'lf-consentimento';
+  var VERSION = 1;
+  var hasPixel = /^\d{10,20}$/.test(CONFIG.metaPixelId);
+  var hasClarity = /^[a-z0-9]{6,20}$/i.test(CONFIG.clarityProjectId);
+  if (!hasPixel && !hasClarity) return;
+
+  function readChoice() {
+    try {
+      var saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+      if (saved && saved.v === VERSION) return saved;
+    } catch (e) {}
+    return null;
+  }
+
+  function saveChoice(choice) {
+    choice.v = VERSION;
+    choice.em = new Date().toISOString();
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(choice)); } catch (e) {}
+  }
+
+  function loadScript(src) {
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = src;
+    document.head.appendChild(s);
+  }
+
+  // Meta Pixel sem leitura automática de formulários/botões e sem dados pessoais.
+  function startPixel() {
+    if (!hasPixel || window.fbq) return;
+    var fbq = window.fbq = function () {
+      fbq.callMethod ? fbq.callMethod.apply(fbq, arguments) : fbq.queue.push(arguments);
+    };
+    if (!window._fbq) window._fbq = fbq;
+    fbq.push = fbq; fbq.loaded = true; fbq.version = '2.0'; fbq.queue = [];
+    loadScript('https://connect.facebook.net/en_US/fbevents.js');
+    fbq('set', 'autoConfig', false, CONFIG.metaPixelId);
+    fbq('init', CONFIG.metaPixelId);
+    fbq('track', 'PageView');
+  }
+
+  // Clarity com mascaramento de formulários e de textos marcados como sensíveis.
+  function startClarity() {
+    if (!hasClarity || window.clarity) return;
+    document.querySelectorAll('form, input, textarea, select, [data-sensivel]').forEach(function (el) {
+      el.setAttribute('data-clarity-mask', 'true');
+    });
+    window.clarity = function () { (window.clarity.q = window.clarity.q || []).push(arguments); };
+    loadScript('https://www.clarity.ms/tag/' + encodeURIComponent(CONFIG.clarityProjectId));
+    window.clarity('consent');
+  }
+
+  function apply(choice) {
+    if (choice.anuncios) startPixel();
+    if (choice.medicao) startClarity();
+  }
+
+  // Clique no WhatsApp vira evento "Contact" (sem número, nome ou mensagem).
+  document.addEventListener('click', function (event) {
+    var link = event.target.closest && event.target.closest('a[href*="wa.me/"], a[href*="api.whatsapp.com"]');
+    if (!link) return;
+    if (window.fbq) window.fbq('track', 'Contact', { content_name: 'WhatsApp' });
+    if (window.clarity) window.clarity('event', 'whatsapp_clique');
+  }, true);
+
+  function clearCookies() {
+    var host = location.hostname.split('.');
+    var domains = [''];
+    for (var i = 0; i < host.length - 1; i++) domains.push('; domain=.' + host.slice(i).join('.'));
+    document.cookie.split(';').forEach(function (c) {
+      var name = c.split('=')[0].trim();
+      if (/^(_fbp|_fbc|_clck|_clsk|CLID|MUID|ANONCHK|SM)$/.test(name)) {
+        domains.forEach(function (d) {
+          document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + d;
+        });
+      }
+    });
+  }
+
+  var banner;
+
+  function option(id, title, text, checked) {
+    return '<label class="lf-consent-option" for="' + id + '">' +
+      '<input type="checkbox" id="' + id + '"' + (checked ? ' checked' : '') + '>' +
+      '<span><strong>' + title + '</strong> ' + text + '</span></label>';
+  }
+
+  function close() {
+    if (banner) { banner.remove(); banner = null; }
+  }
+
+  function decide(choice) {
+    var before = readChoice();
+    saveChoice(choice);
+    close();
+    var revoked = before && ((before.anuncios && !choice.anuncios) || (before.medicao && !choice.medicao));
+    if (revoked) { clearCookies(); location.reload(); return; }
+    apply(choice);
+  }
+
+  function showBanner() {
+    if (banner) return;
+    var current = readChoice() || {};
+    var services = [];
+    if (hasClarity) services.push('medir o uso do site');
+    if (hasPixel) services.push('mostrar anúncios a quem já visitou');
+    banner = document.createElement('section');
+    banner.className = 'lf-consent';
+    banner.setAttribute('aria-label', 'Aviso de cookies');
+    banner.innerHTML =
+      '<p class="lf-consent-text">Com a sua permissão, uso cookies para ' + services.join(' e ') +
+      '. Nada disso é ativado se você recusar. <a href="/privacidade.html#cookies">Saiba mais</a>.</p>' +
+      '<div class="lf-consent-options" hidden>' +
+        (hasClarity ? option('lf-medicao', 'Medição (Microsoft Clarity):', 'como as páginas são usadas, com formulários mascarados.', current.medicao) : '') +
+        (hasPixel ? option('lf-anuncios', 'Anúncios (Meta Pixel):', 'páginas visitadas, para anúncios no Instagram e Facebook.', current.anuncios) : '') +
+      '</div>' +
+      '<div class="lf-consent-actions">' +
+        '<button type="button" class="lf-consent-btn" data-acao="recusar">Recusar</button>' +
+        '<button type="button" class="lf-consent-btn" data-acao="escolher" aria-expanded="false">Escolher</button>' +
+        '<button type="button" class="lf-consent-btn lf-consent-primary" data-acao="aceitar">Aceitar</button>' +
+      '</div>';
+    banner.addEventListener('click', function (event) {
+      var btn = event.target.closest('button[data-acao]');
+      if (!btn) return;
+      var acao = btn.getAttribute('data-acao');
+      if (acao === 'recusar') decide({ medicao: false, anuncios: false });
+      if (acao === 'aceitar') decide({ medicao: hasClarity, anuncios: hasPixel });
+      if (acao === 'escolher') {
+        banner.querySelector('.lf-consent-options').hidden = false;
+        btn.setAttribute('aria-expanded', 'true');
+        btn.setAttribute('data-acao', 'salvar');
+        btn.textContent = 'Salvar escolhas';
+        return;
+      }
+      if (acao === 'salvar') {
+        var m = banner.querySelector('#lf-medicao');
+        var a = banner.querySelector('#lf-anuncios');
+        decide({ medicao: !!(m && m.checked), anuncios: !!(a && a.checked) });
+      }
+    });
+    document.body.appendChild(banner);
+  }
+
+  function init() {
+    var css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = '/consentimento.css';
+    document.head.appendChild(css);
+
+    document.querySelectorAll('[data-consentimento-abrir]').forEach(function (el) {
+      el.hidden = false;
+      el.addEventListener('click', showBanner);
+    });
+
+    var choice = readChoice();
+    if (choice) apply(choice); else showBanner();
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
+})();
