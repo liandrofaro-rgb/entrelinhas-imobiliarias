@@ -8,7 +8,7 @@
 (function () {
   var CONFIG = {
     metaPixelId: '890575473339865',     // Meta > Gerenciador de Eventos > Fontes de dados (número de 15 ou 16 dígitos)
-    clarityProjectId: '' // Clarity > Settings > Overview > Project ID (código de 10 letras/números)
+    clarityProjectId: 'yy5ugafk3a' // Clarity > Settings > Overview > Project ID (código de 10 letras/números)
   };
 
   var STORAGE_KEY = 'lf-consentimento';
