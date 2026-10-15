@@ -178,3 +178,10 @@ html.reduce-motion .nl-feed li { animation: none; opacity: 1; }
   .nl-hero .newsletter-signup { order: 2; width: 100%; margin: 34px 0 40px; }
   .nl-hero .nl-visual > .nl-docs { order: 3; justify-self: stretch; margin-top: 0; }
 }
+
+/* Lados invertidos no computador: inscrição à esquerda, título e leituras à direita */
+@media (min-width: 1081px) {
+  .nl-hero { grid-template-columns: minmax(0, 500px) minmax(0, 1fr); }
+  .nl-hero .newsletter-signup { order: -1; }
+  .nl-hero .nl-visual { padding-left: clamp(0px, 1vw, 16px); }
+}
