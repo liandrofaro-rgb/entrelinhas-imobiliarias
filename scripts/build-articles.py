@@ -306,6 +306,13 @@ def main():
     convite = (f'<p class="eyebrow">LEITURA COM CONTEXTO</p>\n<h2>{html.escape(u["titulo"])}</h2>\n<p>{html.escape(u["subtitulo"])}</p>\n'
                f'<a class="inline-link" href="artigo-{u["slug"]}.html">Leia o artigo <span>↗</span>\n</a>\n')
     trocar(DIST / 'noticias.html', '<!-- CONVITE:START -->', '<!-- CONVITE:END -->', convite)
+    ver = {'analise': 'Ler análise', 'explicativo': 'Ler explicação', 'debate': 'Ler debate', 'caso': 'Ler caso', 'roteiro': 'Ler roteiro'}
+    feed = ''
+    for x in items[:2]:
+        minutos = max(1, round(palavras(x) / 200))
+        feed += (f'<li><a href="artigo-{x["slug"]}.html" data-ler="{ver[x["formato"]]}"><span class="nl-feed-meta">{html.escape(FORMATOS[x["formato"]])} · {html.escape(x["area"].upper())} · {minutos} MIN</span>'
+                 f'<strong>{html.escape(x["titulo"])}</strong></a></li>\n')
+    trocar(DIST / 'newsletter.html', '<!-- NLART:START -->', '<!-- NLART:END -->', f'<ul class="nl-feed">\n{feed}</ul>\n')
     mapa = DIST / 'sitemap.xml'
     t = re.sub(r'[ \t]*<url><loc>' + re.escape(ORIGIN) + r'/artigo-[^<]*</loc></url>\n', '', mapa.read_text(encoding='utf-8'))
     t = t.replace('</urlset>', ''.join(f'  <url><loc>{ORIGIN}/{x}</loc></url>\n' for x in sorted(gerados)) + '</urlset>')

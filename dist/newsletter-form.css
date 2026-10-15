@@ -135,3 +135,77 @@ html.reduce-motion .nl-feed li { animation: none; opacity: 1; }
   .newsletter-signup .sib-form-container, .newsletter-signup #sib-container { min-width: 0; width: 100%; }
   .newsletter-signup #sib-container { margin-inline: 0; }
 }
+
+/* Dois blocos menores: últimas notícias e artigos/análises, ambos visíveis */
+.nl-docs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; max-width: 700px; margin-top: 30px; }
+.nl-docs .nl-doc { max-width: none; margin-top: 0; }
+.nl-doc--compact { padding: 20px 24px 22px; }
+.nl-doc--compact .nl-tag { margin-bottom: 4px; }
+.nl-doc--compact .nl-feed a { padding: 12px 0; }
+.nl-doc--compact .nl-feed-meta { margin-bottom: 4px; }
+.nl-doc--compact .nl-feed strong { font-size: 15.5px; line-height: 1.35; }
+.nl-doc--compact .nl-feed a::after { margin-top: 5px; }
+.nl-feed a[data-ler]::after { content: attr(data-ler) " →"; }
+@media (max-width: 640px) { .nl-docs { grid-template-columns: minmax(0, 1fr); gap: 16px; } .nl-doc--compact { padding: 18px 20px 20px; } }
+
+/* Respiro lateral: o conjunto fica centralizado, com notícias, artigos e inscrição próximos */
+.nl-hero { width: min(1200px, calc(100vw - clamp(32px, 9vw, 128px))); grid-template-columns: minmax(0, 1fr) minmax(0, 440px); gap: clamp(36px, 5vw, 64px); }
+.nl-hero .nl-docs { max-width: none; }
+.nl-hero #sib-container { margin: 0; max-width: none; }
+@media (max-width: 1080px) { .nl-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; gap: 42px; } .newsletter-signup #sib-container { max-width: 520px; } }
+
+/* A inscrição é o destaque; notícias e artigos ficam como apoio, sem caixas */
+.nl-hero { grid-template-columns: minmax(0, 1fr) minmax(0, 500px); }
+.nl-hero .newsletter-signup #sib-container { box-shadow: 0 34px 80px -34px rgba(7,23,47,.38); }
+.nl-hero .nl-docs { gap: clamp(20px, 3vw, 36px); margin-top: 30px; }
+.nl-hero .nl-docs .nl-doc--compact { margin: 0; padding: 14px 0 0; background: none; border: 0; border-top: 1px solid #d9dfe5; border-radius: 0; box-shadow: none; animation: none; }
+.nl-hero .nl-doc--compact .nl-tag { margin-bottom: 0; }
+.nl-hero .nl-doc--compact .nl-feed a { padding: 11px 0 12px; }
+.nl-hero .nl-doc--compact .nl-feed li:first-child a { padding-top: 8px; }
+.nl-hero .nl-doc--compact .nl-feed strong { font-size: 14.5px; font-weight: 500; line-height: 1.4; color: #2b3b50; }
+.nl-hero .nl-doc--compact .nl-feed-meta { font-size: 10px; margin-bottom: 3px; }
+.nl-hero .nl-doc--compact .nl-feed a::after { display: none; }
+.nl-hero .nl-doc--compact .nl-feed li { border-top-color: #eef1f4; }
+.nl-hero .nl-doc--compact .nl-feed a:hover strong, .nl-hero .nl-doc--compact .nl-feed a:focus-visible strong { color: #1e5e91; }
+@media (max-width: 1080px) { .nl-hero { grid-template-columns: minmax(0, 1fr); min-height: 0; gap: 42px; } .nl-hero .newsletter-signup #sib-container { max-width: 520px; } }
+@media (max-width: 640px) { .nl-docs { grid-template-columns: minmax(0, 1fr); } }
+/* Em telas estreitas a inscrição vem logo depois do título, antes das listas */
+@media (max-width: 1080px) {
+  .nl-hero { gap: 0; }
+  .nl-hero .nl-visual { display: contents; }
+  .nl-hero .nl-visual > * { order: 1; justify-self: start; }
+  .nl-hero .nl-visual > .nl-lead { margin-bottom: 0; }
+  .nl-hero .newsletter-signup { order: 2; width: 100%; margin: 34px 0 40px; }
+  .nl-hero .nl-visual > .nl-docs { order: 3; justify-self: stretch; margin-top: 0; }
+}
+
+/* Lados invertidos no computador: inscrição à esquerda, título e leituras à direita */
+@media (min-width: 1081px) {
+  .nl-hero { grid-template-columns: minmax(0, 500px) minmax(0, 1fr); }
+  .nl-hero .newsletter-signup { order: -1; }
+  .nl-hero .nl-visual { padding-left: clamp(0px, 1vw, 16px); }
+}
+
+/* Proporção: chamada da newsletter maior, caixa de inscrição mais compacta */
+.nl-hero .nl-eyebrow { gap: 12px; padding: 11px 22px; font-size: 14px; letter-spacing: .15em; margin-bottom: 24px; }
+.nl-hero .nl-eyebrow::before { width: 9px; height: 9px; }
+.nl-hero #sib-container { padding: clamp(22px, 2.4vw, 30px); }
+.nl-hero .nl-icon { margin-bottom: 10px; }
+.nl-hero .nl-icon svg { width: 66px; height: auto; }
+.nl-hero .newsletter-signup .brevo-overline { font-size: 13px; margin-bottom: 8px; }
+.nl-hero .newsletter-signup .brevo-title { font-size: clamp(22px, 2.1vw, 26px); margin-bottom: 18px; }
+.nl-hero .newsletter-signup .brevo-field { margin-bottom: 14px; }
+.nl-hero #sib-container .entry__label { font-size: 13px; margin-bottom: 5px; }
+.nl-hero #sib-container .entry__field .input { height: 46px; font-size: 14px; }
+.nl-hero #sib-container .sib-form-block__button { min-height: 48px; font-size: 13px; }
+.nl-hero .brevo-privacy { margin-top: 12px; font-size: 11.5px; }
+@media (min-width: 1081px) { .nl-hero { grid-template-columns: minmax(0, 420px) minmax(0, 1fr); gap: clamp(48px, 6vw, 88px); } }
+.nl-hero .nl-eyebrow::before { flex: none; }
+@media (max-width: 560px) { .nl-hero .nl-eyebrow { padding: 9px 16px; font-size: 11.5px; letter-spacing: .1em; gap: 10px; } }
+
+/* Lados de novo como no original: título e leituras à esquerda, inscrição à direita */
+@media (min-width: 1081px) {
+  .nl-hero { grid-template-columns: minmax(0, 1fr) minmax(0, 420px); }
+  .nl-hero .newsletter-signup { order: 0; }
+  .nl-hero .nl-visual { padding-left: 0; }
+}
