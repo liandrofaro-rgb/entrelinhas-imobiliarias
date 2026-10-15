@@ -130,3 +130,7 @@
 .sb-strip strong { color: var(--navy); }
 .sb-strip li:first-child::before { content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 10px; border-radius: 50%; background: var(--gold); }
 .sb-strip ul { padding-inline: 0; }
+
+.sb-fact { margin: 14px 0 22px; color: var(--navy); font-size: 19px; line-height: 1.6; }
+.sb-inline-wa { color: var(--navy); border-bottom: 2px solid var(--gold); }
+.sb-inline-wa:hover { color: var(--blue-bright); }
