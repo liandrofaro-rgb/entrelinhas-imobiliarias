@@ -2,7 +2,7 @@
 .sb-page { background: var(--white); color: var(--ink); font-size: 18px; line-height: 1.65; }
 .sb-wrap { width: min(1080px, calc(100vw - 48px)); margin-inline: auto; }
 .sb-narrow { max-width: 720px; margin-left: max(24px, calc((100vw - 1080px) / 2)); margin-right: auto; }
-.sb-page h1, .sb-page h2, .sb-page h3 { margin: 0; color: var(--navy); font-family: "Manrope", Arial, sans-serif; font-weight: 600; letter-spacing: -.02em; text-transform: none; text-shadow: none; opacity: 1; }
+.sb-page :where(main) h1, .sb-page :where(main) h2, .sb-page :where(main) h3 { margin: 0; color: var(--navy); font-family: "Manrope", Arial, sans-serif; font-weight: 600; letter-spacing: -.02em; text-transform: none; text-shadow: none; opacity: 1; }
 
 .sb-header { border-bottom: 1px solid var(--line); background: var(--white); }
 .sb-header-inner { min-height: 76px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
@@ -178,3 +178,12 @@ html:not(.sb-js) .sb-steps li:not(:last-child)::after { transform: scaleY(1); }
   .sb-btn:hover { transform: none; }
   .sb-progress { display: none; }
 }
+
+/* Fechamento e rodapé no padrão da página inicial */
+.sb-close .sb-contact-list { margin-top: 30px; gap: 14px; font-size: 16px; color: var(--steel); }
+.sb-close .sb-contact-list .contact-icon { background: rgba(255,255,255,.1); color: var(--gold); width: 34px; height: 34px; }
+.sb-close .sb-contact-list .contact-icon svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.sb-close .sb-contact-list a { color: var(--white); text-decoration-color: var(--gold); }
+.sb-close .sb-contact-list li:last-child { color: var(--steel); }
+.sb-page .site-footer { border-top: 1px solid rgba(255,255,255,.08); }
+@media (max-width: 760px) { .sb-page .site-footer { padding-bottom: 84px; } }
