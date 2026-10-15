@@ -294,16 +294,15 @@ def main():
     u = items[0]
 
     def lane(n_itens):
-        h = '<div class="pub-cards">\n'
+        h = '<div class="pub-rows" tabindex="0" role="region" aria-label="Lista rolável">\n'
         for x in items[:n_itens]:
-            h += (f'<a class="pub-card" href="artigo-{x["slug"]}.html">\n'
-                  f'<figure><img src="capa-{x["slug"]}-hero.svg" alt="{html.escape("Capa do artigo: " + x["titulo"])}" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
-                  f'<div class="pub-card-copy">\n<span class="publication-meta">{html.escape(FORMATOS[x["formato"]])} <i aria-hidden="true">·</i> {html.escape(x["area"].upper())}</span>\n'
-                  f'<h4>{html.escape(x["titulo"])}</h4>\n<p>{html.escape(x["subtitulo"])}</p>\n'
-                  f'<span class="publication-action">Ler artigo <i aria-hidden="true">↗</i></span>\n</div>\n</a>\n')
+            h += (f'<a class="pub-row" href="artigo-{x["slug"]}.html">\n'
+                  f'<figure><img class="art-thumb" src="capa-{x["slug"]}-hero.svg" alt="" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
+                  f'<div>\n<span class="publication-meta">{html.escape(FORMATOS[x["formato"]])} <i aria-hidden="true">·</i> {html.escape(x["area"].upper())}</span>\n'
+                  f'<h4>{html.escape(x["titulo"])}</h4>\n</div>\n<span class="pub-row-arrow" aria-hidden="true">→</span>\n</a>\n')
         return h + '</div>\n'
-    trocar(DIST / 'index.html', '<!-- ARTIGO-DESTAQUE:START -->', '<!-- ARTIGO-DESTAQUE:END -->', lane(4))
-    trocar(DIST / 'publicacoes.html', '<!-- ARTIGO-DESTAQUE:START -->', '<!-- ARTIGO-DESTAQUE:END -->', lane(6))
+    trocar(DIST / 'index.html', '<!-- ARTIGO-DESTAQUE:START -->', '<!-- ARTIGO-DESTAQUE:END -->', lane(10))
+    trocar(DIST / 'publicacoes.html', '<!-- ARTIGO-DESTAQUE:START -->', '<!-- ARTIGO-DESTAQUE:END -->', lane(12))
     convite = (f'<p class="eyebrow">LEITURA COM CONTEXTO</p>\n<h2>{html.escape(u["titulo"])}</h2>\n<p>{html.escape(u["subtitulo"])}</p>\n'
                f'<a class="inline-link" href="artigo-{u["slug"]}.html">Leia o artigo <span>↗</span>\n</a>\n')
     trocar(DIST / 'noticias.html', '<!-- CONVITE:START -->', '<!-- CONVITE:END -->', convite)

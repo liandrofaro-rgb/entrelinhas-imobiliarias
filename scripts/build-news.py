@@ -172,22 +172,15 @@ def main():
                  f'<strong>{html.escape(n["titulo"])}</strong></a></li>\n')
     trocar(DIST / 'newsletter.html', '<!-- NL:START -->', '<!-- NL:END -->', f'<ul class="nl-feed">\n{feed}</ul>\n')
     def radar_html(n):
-        radar = ''
-        for i, n_ in enumerate(items[:n]):
-            href = f'noticia-{n_["slug"]}.html'
-            meta = f'{n_["orgao"]} · {curta(n_["data_publicacao"])}'
-            img = f'<figure><img src="{n_["imagem"]}" alt="{html.escape(n_["imagem_alt"])}" width="1200" height="630" loading="lazy" decoding="async"></figure>'
-            if i == 0:
-                radar += (f'<a class="publication-radar-feature" href="{href}">\n{img}\n<div>\n'
-                          f'<span class="publication-meta">{meta}</span>\n<h4>{html.escape(n_["titulo"])}</h4>\n'
-                          f'<span class="publication-action">Ler notícia <i aria-hidden="true">→</i></span>\n</div>\n</a>\n')
-            else:
-                radar += (f'<a class="publication-radar-item" href="{href}">\n{img}\n<div>\n'
-                          f'<span class="publication-meta">{meta}</span>\n<h4>{html.escape(n_["titulo"])}</h4>\n</div>\n'
-                          f'<span class="publication-radar-arrow" aria-hidden="true">→</span>\n</a>\n')
-        return radar
-    trocar(DIST / 'index.html', '<!-- RADAR:START -->', '<!-- RADAR:END -->', radar_html(3))
-    trocar(DIST / 'publicacoes.html', '<!-- RADAR:START -->', '<!-- RADAR:END -->', radar_html(6))
+        h = '<div class="pub-rows" tabindex="0" role="region" aria-label="Lista rolável">\n'
+        for n_ in items[:n]:
+            h += (f'<a class="pub-row" href="noticia-{n_["slug"]}.html">\n'
+                  f'<figure><img src="{n_["imagem"]}" alt="" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
+                  f'<div>\n<span class="publication-meta">{n_["orgao"]} <i aria-hidden="true">·</i> {curta(n_["data_publicacao"])}</span>\n'
+                  f'<h4>{html.escape(n_["titulo"])}</h4>\n</div>\n<span class="pub-row-arrow" aria-hidden="true">→</span>\n</a>\n')
+        return h + '</div>\n'
+    trocar(DIST / 'index.html', '<!-- RADAR:START -->', '<!-- RADAR:END -->', radar_html(10))
+    trocar(DIST / 'publicacoes.html', '<!-- RADAR:START -->', '<!-- RADAR:END -->', radar_html(12))
     mapa = DIST / 'sitemap.xml'
     t = re.sub(r'[ \t]*<url><loc>' + re.escape(ORIGIN) + r'/noticia-[^<]*</loc></url>\n', '', mapa.read_text(encoding='utf-8'))
     novas = ''.join(f'  <url><loc>{ORIGIN}/{a}</loc></url>\n' for a in sorted(gerados))
