@@ -284,10 +284,10 @@ def main():
     linhas = ''
     for a in items:
         cat = a['area'].lower()
-        linhas += (f'<a class="article-row readable-article" href="artigo-{a["slug"]}.html" data-category="{html.escape(cat)}">\n'
-                   f'<span class="eyebrow">{html.escape((a["area"] + " / " + FORMATOS[a["formato"]]).upper())}</span>\n'
-                   f'<h2>{html.escape(a["titulo"])}</h2>\n<p>{html.escape(a["subtitulo"])}</p>\n'
-                   f'<span class="inline-link">Leia o artigo <span>↗</span>\n</span>\n</a>\n')
+        linhas += (f'<a class="pub-row lst-row" href="artigo-{a["slug"]}.html" data-category="{html.escape(cat)}">\n'
+                   f'<figure><img class="art-thumb" src="capa-{a["slug"]}-hero.svg" alt="" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
+                   f'<div>\n<span class="publication-meta">{html.escape(a["area"].upper())} <i aria-hidden="true">·</i> {html.escape(FORMATOS[a["formato"]])}</span>\n'
+                   f'<h2>{html.escape(a["titulo"])}</h2>\n</div>\n<span class="pub-row-arrow" aria-hidden="true">→</span>\n</a>\n')
     trocar(DIST / 'artigos.html', '<!-- ARTIGOS:START -->', '<!-- ARTIGOS:END -->', linhas)
     areas = sorted({a['area'] for a in items} | {'Condomínio'})
     botoes = '<button data-filter="all" aria-pressed="true" class="active">Todos</button>\n' + ''.join(

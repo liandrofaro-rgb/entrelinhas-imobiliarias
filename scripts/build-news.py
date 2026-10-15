@@ -134,6 +134,16 @@ def card(n, destaque):
             f'<h2>{html.escape(n["titulo"])}</h2>{desc}<span class="news-card-link">{link}</span></div>\n</a>\n')
 
 
+def linha(n):
+    externo = n.get('externo')
+    href = n['fontes'][0]['url'] if externo else f'noticia-{n["slug"]}.html'
+    alvo = ' target="_blank" rel="noopener"' if externo else ''
+    return (f'<a class="pub-row lst-row" href="{html.escape(href)}"{alvo} data-category="{html.escape(n["orgao"].lower())}">\n'
+            f'<figure><img src="{n["imagem"]}" alt="" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
+            f'<div>\n<span class="publication-meta">{html.escape(n["orgao"])} <i aria-hidden="true">·</i> {curta(n["data_publicacao"])} <i aria-hidden="true">·</i> {html.escape(n["area"].upper())}</span>\n'
+            f'<h2>{html.escape(n["titulo"])}</h2>\n</div>\n<span class="pub-row-arrow" aria-hidden="true">→</span>\n</a>\n')
+
+
 def trocar(arquivo, inicio, fim, novo, marcador_inicial=None):
     t = arquivo.read_text(encoding='utf-8')
     padrao = re.compile(re.escape(inicio) + r'.*?' + re.escape(fim), re.S)
@@ -163,7 +173,11 @@ def main():
     for velho in DIST.glob('noticia-*.html'):
         if velho.name not in gerados:
             velho.unlink()
-    cards = ''.join(card(n, i == 0) for i, n in enumerate(items))
+    cards = ''.join(linha(n) for n in items)
+    orgaos = sorted({n['orgao'] for n in items})
+    nbot = '<button data-filter="all" aria-pressed="true" class="active">Todos</button>\n' + ''.join(
+        f'<button data-filter="{html.escape(o.lower())}" aria-pressed="false">{html.escape(o)}</button>\n' for o in orgaos)
+    trocar(DIST / 'noticias.html', '<!-- NFILTROS:START -->', '<!-- NFILTROS:END -->', nbot)
     trocar(DIST / 'noticias.html', '<!-- NEWS:START -->', '<!-- NEWS:END -->', cards)
     feed = ''
     for n in items[:2]:

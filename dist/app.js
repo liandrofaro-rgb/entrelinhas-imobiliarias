@@ -140,7 +140,7 @@
   }
 
   const search = document.querySelector('#search');
-  const rows = [...document.querySelectorAll('.article-row')];
+  const rows = [...document.querySelectorAll('.article-row, .lst-row')];
   const filters = [...document.querySelectorAll('[data-filter]')];
   const noResults = document.querySelector('#no-results');
   let category = 'all';
