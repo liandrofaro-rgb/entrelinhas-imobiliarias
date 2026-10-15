@@ -111,7 +111,17 @@ def cena_usucapiao():
             + f'<polyline points="{face("d", cx, cy, a, h, [(0.5, 0.25), (0.5, 0.5), (0.68, 0.62)])}" fill="none" stroke="#c8a154" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>')
 
 
-CENAS = {'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
+def cena_distrato():
+    # bloco azul (o que permanece) e bloco dourado (a parte retida), sobre a base do empreendimento
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(840, 400, 110, 150, *BLUE) + janelas('e', 840, 400, 110, 150, 3, 3, '#bcd3e6') + janelas('d', 840, 400, 110, 150, 3, 3, '#5f8fb8')
+            + cube(1010, 330, 70, 90, *GOLD)
+            + '<circle cx="1010" cy="190" r="42" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<circle cx="995" cy="178" r="7" fill="none" stroke="#07172f" stroke-width="4"/><circle cx="1025" cy="204" r="7" fill="none" stroke="#07172f" stroke-width="4"/>'
+            + '<path d="M1030 174 L990 208" stroke="#07172f" stroke-width="5" stroke-linecap="round"/>')
+
+
+CENAS = {'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
 
 def quebra(titulo, limite=17):
     linhas, atual = [], ''
