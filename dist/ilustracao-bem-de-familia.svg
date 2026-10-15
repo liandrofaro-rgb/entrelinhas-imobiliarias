@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Ilustração de uma casa protegida por um escudo">
+<rect width="1200" height="630" fill="#eef4f8"/>
+<circle cx="980" cy="120" r="220" fill="#dce8f1"/>
+<circle cx="150" cy="560" r="180" fill="#e6eef5"/>
+<g fill="none" stroke="#07172f" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+<path d="M380 330 L600 150 L820 330"/>
+<path d="M420 300 V470 H780 V300"/>
+<rect x="560" y="370" width="80" height="100" rx="4"/>
+<rect x="450" y="340" width="70" height="60" rx="4"/>
+<rect x="680" y="340" width="70" height="60" rx="4"/>
+</g>
+<path d="M600 205 L690 240 V310 C690 370 650 410 600 430 C550 410 510 370 510 310 V240 Z" fill="#1e5e91" stroke="#07172f" stroke-width="6" stroke-linejoin="round" opacity=".95"/>
+<path d="M565 320 L592 348 L640 288" fill="none" stroke="#fff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<g fill="none" stroke="#07172f" stroke-opacity=".25" stroke-width="3"><path d="M120 480 H330"/><path d="M870 480 H1080"/><path d="M200 520 H300"/><path d="M900 520 H1000"/></g>
+</svg>

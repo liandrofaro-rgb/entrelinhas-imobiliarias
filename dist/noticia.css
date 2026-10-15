@@ -1,0 +1,27 @@
+.news-hero { margin: 0 auto 40px; }
+.news-hero img { display: block; width: 100%; height: auto; max-height: 460px; object-fit: cover; border-radius: 6px; background: #eef4f8; }
+.news-hero figcaption { margin-top: 10px; color: #5d6c7a; font: 400 12px/1.5 "DM Sans", Arial, sans-serif; }
+.news-facts, .news-summary { margin: 0 0 40px; padding: 24px 28px; border: 1px solid #dfe4e9; border-radius: 6px; background: #fff; }
+.news-summary { background: #eef4f8; border-color: #d6e2ec; }
+.news-facts dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px 28px; margin: 14px 0 0; }
+.news-facts dt { color: #5d6c7a; font: 700 11px/1.4 "DM Sans", Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+.news-facts dd { margin: 4px 0 0; color: #07172f; font: 600 15px/1.45 "DM Sans", Arial, sans-serif; }
+.news-summary ul { margin: 14px 0 0; padding-left: 20px; }
+.news-summary li { margin: 0 0 10px; color: #07172f; font: 500 17px/1.55 "DM Sans", Arial, sans-serif; }
+.news-summary li::marker { color: #1e5e91; }
+.article-body strong { color: #07172f; }
+.source-box a + a { display: block; margin-top: 8px; }
+
+/* Leitura confortável */
+.article-body { max-width: 680px; }
+.article-body p { font-size: 19px; line-height: 1.75; margin: 0 0 1.15em; }
+.article-body h2 { margin-top: 2em; }
+.article-body strong { font-weight: 700; }
+mark.kw { padding: .05em .25em; color: inherit; background: linear-gradient(transparent 55%, rgba(30,94,145,.22) 55%); border-radius: 2px; }
+.news-key { margin: 1.6em 0; padding: 16px 20px; border-left: 4px solid #1e5e91; background: #f3f7fa; color: #07172f; font-size: 18px; }
+.news-close { margin: 3em 0; padding: 26px 30px 10px; background: #f3f7fa; border-left: 4px solid #1e5e91; border-radius: 0 6px 6px 0; }
+.news-close .label { color: #1e5e91; }
+.news-close h2 { margin-top: .3em; }
+.news-close .news-takeaway { margin: 1.4em 0 1em; padding-top: 18px; border-top: 1px solid #d6e2ec; font-size: 20px; line-height: 1.55; }
+.news-facts { margin-top: 2.5em; }
+@media (max-width: 600px) { .article-body p { font-size: 18px; } .news-close { padding: 20px 18px 6px; } }
