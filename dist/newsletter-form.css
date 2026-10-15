@@ -202,3 +202,10 @@ html.reduce-motion .nl-feed li { animation: none; opacity: 1; }
 @media (min-width: 1081px) { .nl-hero { grid-template-columns: minmax(0, 420px) minmax(0, 1fr); gap: clamp(48px, 6vw, 88px); } }
 .nl-hero .nl-eyebrow::before { flex: none; }
 @media (max-width: 560px) { .nl-hero .nl-eyebrow { padding: 9px 16px; font-size: 11.5px; letter-spacing: .1em; gap: 10px; } }
+
+/* Lados de novo como no original: título e leituras à esquerda, inscrição à direita */
+@media (min-width: 1081px) {
+  .nl-hero { grid-template-columns: minmax(0, 1fr) minmax(0, 420px); }
+  .nl-hero .newsletter-signup { order: 0; }
+  .nl-hero .nl-visual { padding-left: 0; }
+}
