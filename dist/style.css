@@ -2057,3 +2057,13 @@ body.newsletter-page { background:#fff; }
 .page-head + .archive .archive-tools { margin-bottom: 36px; }
 @media (max-width: 900px) { .lst { grid-template-columns: 1fr; } }
 @media (max-width: 560px) { .lst .pub-row { grid-template-columns: 60px minmax(0, 1fr); } .lst .pub-row figure { width: 60px; } }
+
+/* Cabeçalho enxuto nas páginas de lista */
+.page-head:has(+ .archive) { padding: clamp(48px, 6vw, 80px) 0 28px; display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 40px; }
+.page-head:has(+ .archive) .eyebrow { flex-basis: 100%; margin-bottom: 8px; }
+.page-head:has(+ .archive) h1 { font-size: clamp(44px, 5.5vw, 72px); margin: 0; }
+.page-head:has(+ .archive) > p:last-child:not(.eyebrow) { margin: 0 0 0 auto; font-size: 16px; }
+.page-head:has(+ .archive) + .archive .archive-tools { margin-top: 32px; }
+@media (max-width: 700px) { .page-head:has(+ .archive) > p:last-child:not(.eyebrow) { margin: 6px 0 0; flex-basis: 100%; } }
+.page-head:has(+ .archive) + .archive { padding-top: 28px; }
+.page-head:has(+ .archive) + .archive .archive-tools { margin-top: 0; margin-bottom: 28px; }
