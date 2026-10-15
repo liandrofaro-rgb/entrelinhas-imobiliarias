@@ -55,3 +55,42 @@
   .lp-cases .areas-block p { grid-column: 2; padding: 0; }
   .lp-cases .areas-block-content::after { display: none; }
 }
+
+/* Texto próprio: título do topo menor, para caber a frase completa */
+.lp-page .law-hero h1 { font-size: clamp(40px, 5.4vw, 82px); }
+.lp-page .law-hero .hero-word-indent { margin-left: 6vw; }
+.lp-hero-note { color: var(--steel); font-size: 13px; line-height: 1.4; }
+.lp-page .nav-contact { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; }
+
+/* Como funciona */
+.lp-step-list { margin: 0 auto; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(24px, 4vw, 56px); border-top: 1px solid var(--navy); padding-top: 28px; }
+.lp-step-list li { padding-top: 22px; border-top: 2px solid var(--gold); margin-top: -30px; }
+.lp-step-label { display: block; margin-bottom: 14px; color: var(--blue-bright); font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.lp-step-list h3 { margin: 0 0 10px; font: 600 clamp(20px, 2vw, 26px)/1.15 "Manrope", Arial, sans-serif; letter-spacing: -.03em; color: var(--navy); }
+.lp-step-list p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.6; }
+.lp-steps { padding-bottom: clamp(72px, 8vw, 110px); }
+
+/* Quem conduz: credenciais em coluna própria */
+.lp-about .lawyer-credentials strong { font-size: 20px; }
+.lp-about h2 { text-transform: none; }
+
+/* Leituras */
+.lp-reads-section { padding: clamp(64px, 7vw, 100px) 0; }
+.lp-reads-section .section-code { margin-bottom: 34px; }
+.lp-reads-title { margin: 0; font: 600 clamp(32px, 3.8vw, 52px)/1.08 "Manrope", Arial, sans-serif; letter-spacing: -.04em; color: var(--navy); max-width: 20ch; }
+.lp-reads { margin: 40px 0 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--navy); }
+.lp-reads li + li { border-left: 1px solid var(--line); }
+.lp-reads a { position: relative; display: block; height: 100%; padding: 28px 44px 30px 0; transition: background .25s ease; }
+.lp-reads li + li a { padding-left: 28px; }
+.lp-reads small { display: block; margin-bottom: 12px; color: var(--blue-bright); font-size: 11px; font-weight: 700; letter-spacing: .14em; }
+.lp-reads strong { font: 600 clamp(18px, 1.7vw, 23px)/1.3 "Manrope", Arial, sans-serif; letter-spacing: -.02em; color: var(--navy); }
+.lp-reads a > span { position: absolute; top: 28px; right: 6px; color: var(--gold); }
+.lp-reads a:hover strong { color: var(--blue-bright); }
+
+@media (max-width: 820px) {
+  .lp-step-list { grid-template-columns: minmax(0, 1fr); border-top: 0; padding-top: 0; }
+  .lp-step-list li { margin-top: 0; }
+  .lp-reads { grid-template-columns: minmax(0, 1fr); }
+  .lp-reads li + li { border-left: 0; border-top: 1px solid var(--line); }
+  .lp-reads li + li a { padding-left: 0; }
+}
