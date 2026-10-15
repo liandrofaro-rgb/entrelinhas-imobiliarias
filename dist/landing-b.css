@@ -70,3 +70,6 @@
   .sb-sticky .sb-btn { width: 100%; margin: 0; }
   .sb-footer { padding-bottom: 96px; }
 }
+
+.sb-bring { margin-top: 44px; padding-top: 32px; border-top: 1px solid var(--line); }
+.sb-bring h3 { font-size: 21px; line-height: 1.25; }
