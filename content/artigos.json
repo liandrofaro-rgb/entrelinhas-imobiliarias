@@ -84,6 +84,81 @@
    "Área de preservação permanente: STJ, Terceira Turma, REsp 2.211.711, rel. Min. Nancy Andrighi (divulgado em 06.02.26).",
    "Limite de 250 m²: STJ, Quarta Turma, processo sob segredo de justiça, rel. Min. Antonio Carlos Ferreira, unânime (divulgado em 30.06.26).",
    "Recibo como justo título: STJ, Terceira Turma, REsp 2.215.421, rel. Min. Nancy Andrighi, unânime (divulgado em 24.04.26)."
-  ]
+  ],
+  "titulo_capa": "O tempo não faz ninguém dono."
+ },
+ {
+  "slug": "airbnb-condominio-destinacao-nao-plataforma",
+  "titulo": "Airbnb em condomínio: o debate é sobre destinação, não sobre plataforma.",
+  "subtitulo": "O STJ já decidiu que estadias de curta temporada em prédio residencial dependem de aprovação de dois terços dos condôminos, e agora vai fixar uma tese obrigatória para todo o país.",
+  "descricao": "Análise das decisões do STJ sobre locação por curta temporada em condomínios residenciais: o precedente de maio e o Tema 1.443, ainda em julgamento.",
+  "area": "Condomínio",
+  "formato": "analise",
+  "data_publicacao": "2026-10-15",
+  "relacionadas": [
+   "airbnb-aprovacao-condominio-dois-tercos"
+  ],
+  "abertura": [
+   "Um apartamento em prédio residencial, anunciado em uma plataforma para estadias de poucos dias. Os vizinhos reclamam do entra e sai; o proprietário responde que o imóvel é dele e que ninguém pode impedi-lo de alugar. Quem tem razão? A resposta que o Superior Tribunal de Justiça (STJ) vem construindo é menos intuitiva do que parece: o problema não está na plataforma, e sim naquilo para que o prédio foi feito.",
+   "Duas iniciativas do tribunal em 2026 mostram o caminho e o ponto em que ele ainda está aberto. A primeira fixou que o uso para estadias curtas depende de aprovação em assembleia. A segunda, ainda sem julgamento de mérito, vai transformar o debate em tese de observância obrigatória em todo o país."
+  ],
+  "secoes": [
+   {
+    "titulo": "O que a Segunda Seção decidiu em maio",
+    "paragrafos": [
+     "Em 07.05.26, a Segunda Seção do STJ, por maioria de votos (REsp 2.121.055, rel. Min. Nancy Andrighi), negou o recurso de uma proprietária que queria oferecer seu apartamento em estadias de curta duração sem aprovação do condomínio. O condomínio sustentava que essa destinação não estava prevista na convenção e afastava o caráter residencial do prédio. O Tribunal de Justiça de Minas Gerais já havia negado o pedido, e a empresa Airbnb atuou como interessada no processo.",
+     "O voto que prevaleceu começa por desfazer uma confusão. Segundo a relatora, os contratos intermediados por plataformas não se enquadram, propriamente, nem como locação residencial nem como hospedagem de hotel: são contratos atípicos. E o canal por onde o imóvel é oferecido importa pouco para a análise jurídica.",
+     "> “O meio de disponibilização do imóvel não caracteriza a natureza jurídica do negócio.” | Ministra Nancy Andrighi, relatora (REsp 2.121.055)",
+     "O que importa, para a ministra, é a regra do Código Civil: os condôminos devem dar às partes do edifício a mesma destinação da edificação (art. 1.336, inciso IV), e a mudança de destinação exige a aprovação de dois terços dos condôminos (art. 1.351). Ela lembrou que as plataformas intensificaram a rotatividade de pessoas nos condomínios, com consequências para a segurança e o sossego dos moradores.",
+     "> “…a mudança na destinação do condomínio deve ser aprovada por dois terços dos condôminos; na ausência de tal aprovação, a utilização pretendida pela recorrente está vedada diante da previsão de uso residencial das unidades.” | Ministra Nancy Andrighi, relatora (REsp 2.121.055)"
+    ]
+   },
+   {
+    "titulo": "Por que a plataforma é um falso problema",
+    "paragrafos": [
+     "A discussão popular costuma girar em torno de definir o que é o Airbnb: locação, hospedagem, um terceiro gênero. A decisão de maio mostra que essa pergunta pouco ajuda. Por maioria, o colegiado considerou que o uso dos imóveis para exploração econômica ou profissional descaracteriza a destinação residencial e, por isso, deve ser autorizado pelo condomínio.",
+     "Isso desloca o foco: de “o que é este contrato?” para “o que é este prédio?”. Um edifício concebido para moradia tem convenção, vizinhança e rotina pensados para essa finalidade, e a lei trata a mudança dessa finalidade como decisão coletiva, não individual.",
+     "O corolário é que a liberdade do proprietário sobre a própria unidade encontra limite na destinação do conjunto. Não se trata de proibir a locação por temporada em si, mas de reconhecer que, em prédio residencial, o caminho legítimo passa pela assembleia."
+    ]
+   },
+   {
+    "titulo": "O que ainda falta decidir: o Tema 1.443",
+    "paragrafos": [
+     "Em 17.09.26, o STJ divulgou que a Segunda Seção afetou os REsp 2.272.537 e 2.272.536, de relatoria do ministro Raul Araújo, ao rito dos recursos repetitivos (Tema 1.443) e determinou a suspensão, em todo o país, dos processos que discutem se a cláusula de destinação residencial prevista na convenção é suficiente para impedir a locação por curta temporada em plataformas como o Airbnb, ou se é necessário haver proibição expressa.",
+     "O relator observou que o tema já foi apreciado pelas duas turmas de direito privado e que a Comissão Gestora de Precedentes do tribunal identificou 50 decisões monocráticas e acórdãos sobre ele. Lembrou ainda que, no REsp 2.121.055, a Segunda Seção consolidou que a convenção não precisa vedar expressamente a locação por curta temporada: basta que estabeleça a destinação exclusivamente residencial. Ainda assim, entendeu que uma tese sob o rito dos repetitivos trará mais segurança e coerência.",
+     "> “…terá o condão de possibilitar a formação de um precedente judicial dotado de segurança jurídica…” | Ministro Raul Araújo, relator (Tema 1.443)",
+     "A diferença prática é grande. Um precedente de turma ou de seção orienta, mas a tese fixada em repetitivo deve ser observada por juízes e tribunais de todo o país (art. 927, inciso III, do Código de Processo Civil). Até o julgamento de mérito, cuja data não foi informada, os processos sobre o tema permanecem suspensos."
+    ]
+   },
+   {
+    "titulo": "Nas entrelinhas: dois direitos de propriedade em conflito",
+    "paragrafos": [
+     "No fundo, o debate opõe duas faces do direito de propriedade: a liberdade de usar e fruir da própria unidade e a proteção do conjunto, que também é propriedade, dividida entre todos os condôminos. O STJ vem resolvendo o conflito pelo caminho da deliberação coletiva: a mudança de destinação exige dois terços, o que afasta tanto a proibição imposta de cima quanto a liberação dada por conta própria.",
+     "A suspensão nacional dá a dimensão do problema. Se o próprio tribunal já contava 50 decisões sobre o tema, os processos nas instâncias de origem devem ser numerosos, e a tese servirá para uniformizá-los. Enquanto ela não vem, vale acompanhar o andamento no site do STJ.",
+     "Convém lembrar, por fim, os limites desta leitura. O precedente de maio foi decidido por maioria, e a tese do Tema 1.443 ainda não foi fixada: ela pode confirmar, refinar ou ajustar o entendimento atual. Cada condomínio tem a sua convenção, e a leitura dela é determinante."
+    ]
+   }
+  ],
+  "destaque": "Em condomínio residencial, quem decide é a destinação do prédio, e mudar essa destinação é tarefa da assembleia, não do proprietário.",
+  "destaque_apos_secao": 2,
+  "decisoes": [
+   "Precedente: STJ, Segunda Seção, REsp 2.121.055, rel. Min. Nancy Andrighi, por maioria (divulgado em 07.05.26).",
+   "Recurso repetitivo: STJ, Segunda Seção, REsp 2.272.537 e 2.272.536, rel. Min. Raul Araújo, Tema 1.443, afetação divulgada em 17.09.26."
+  ],
+  "fontes": [
+   {
+    "rotulo": "STJ · notícia da decisão de 7/5/2026 ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/07052026-Oferta-de-imovel-em-plataformas-como-Airbnb-exige-aprovacao-do-condominio--define-Segunda-Secao.aspx"
+   },
+   {
+    "rotulo": "STJ · notícia da afetação (Tema 1.443) de 17/9/2026 ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/17092026-Airbnb-afetacao-de-repetitivo-sobre-locacao-de-curta-temporada-em-condominios-suspende-processos-em-todo-o-pais.aspx"
+   }
+  ],
+  "base_legal": [
+   "**Código Civil**, art. 1.336, inciso IV (destinação das partes do edifício) e art. 1.351 (mudança de destinação, dois terços)",
+   "**Código de Processo Civil**, art. 927, inciso III e arts. 1.036 e seguintes (recursos repetitivos)"
+  ],
+  "titulo_capa": "Airbnb em condomínio: destinação, não plataforma."
  }
 ]

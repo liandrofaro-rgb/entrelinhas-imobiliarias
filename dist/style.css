@@ -1957,3 +1957,4 @@ body.newsletter-page { background:#fff; }
   .site-footer .footer-bottom { gap: 10px 20px; }
   .site-footer .footer-bottom .motion-toggle { margin-left: 0; }
 }
+.publication-feature-image img.art-thumb { object-fit: cover; object-position: 80% 50%; }

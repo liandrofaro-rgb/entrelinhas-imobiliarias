@@ -36,6 +36,7 @@ Parágrafos curtos (uma ideia cada); negrito só em termos-chave; marca-texto (`
 - Direitos autorais: tudo reescrito; imagens só as geradas no projeto.
 
 ## Capa
+Cada artigo tem **desenho exclusivo**: uma cena isométrica própria, na mesma identidade (azul-marinho, blocos isométricos e um detalhe dourado que simboliza o tema), criada em `CENAS` no `scripts/build-articles.py`. Se o artigo ainda não tiver cena, o gerador usa uma composição de blocos como alternativa temporária. Título longo? Usar o campo `titulo_capa` (versão curta, até 4 linhas).
 Estilo "capa editorial": fundo azul-marinho, blocos isométricos em azul com um bloco dourado como destaque, rótulo do formato e área em dourado e o título em branco. Gerada por `scripts/build-articles.py`: `capa-<slug>.svg` (com título; usada em compartilhamento e listas) e `capa-<slug>-hero.svg` (sem título; usada no topo da página para não repetir o H1).
 
 ## Como publicar

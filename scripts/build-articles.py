@@ -68,6 +68,51 @@ def blocos(seed):
     return cube(820, 430, 90, 110, *BLUE) + cube(990, 350, 90, 170, *PALE) + cube(905, 260, 60, 40, *GOLD)  # torres
 
 
+
+# ---------- cenas exclusivas por artigo (mesma identidade: azul-marinho, isométrico, um detalhe dourado) ----------
+def face(lado, cx, cy, a, h, pts):
+    """Mapeia pontos (u,v) de 0 a 1 para uma face esquerda ('e') ou direita ('d') do cubo."""
+    out = []
+    for u, v in pts:
+        if lado == 'e': out.append((cx - a + a * u, cy + (a / 2) * u + h * v))
+        else: out.append((cx + a * u, cy + a / 2 - (a / 2) * u + h * v))
+    return ' '.join(f'{x:.1f},{y:.1f}' for x, y in out)
+
+
+def janelas(lado, cx, cy, a, h, cols, rows, cor, ouro=None):
+    out = ''
+    for i in range(cols):
+        for j in range(rows):
+            u0, u1 = 0.12 + i * (0.76 / cols), 0.12 + i * (0.76 / cols) + 0.76 / cols * 0.62
+            v0, v1 = 0.07 + j * (0.86 / rows), 0.07 + j * (0.86 / rows) + 0.86 / rows * 0.55
+            c = '#c8a154' if ouro == (i, j) else cor
+            out += f'<polygon points="{face(lado, cx, cy, a, h, [(u0, v0), (u1, v0), (u1, v1), (u0, v1)])}" fill="{c}"/>'
+    return out
+
+
+def cena_airbnb():
+    cx, cy, a, h = 900, 250, 120, 250
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(cx, cy, a, h, *BLUE)
+            + janelas('e', cx, cy, a, h, 3, 5, '#bcd3e6') + janelas('d', cx, cy, a, h, 3, 5, '#5f8fb8', ouro=(1, 2))
+            + cube(780, 520, 55, 38, *GOLD)
+            + '<path d="M762 506 q18 -26 36 0" fill="none" stroke="#8a6c2e" stroke-width="5" stroke-linecap="round"/>')
+
+
+def cena_usucapiao():
+    cx, cy, a, h = 900, 400, 110, 110
+    relogio = [(0.5 + 0.30 * __import__('math').cos(t / 24 * 6.2832), 0.5 + 0.30 * __import__('math').sin(t / 24 * 6.2832)) for t in range(24)]
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(cx, cy, a, h, *BLUE).replace(f'<polygon points="{cx-a},{cy} {cx},{cy-a//2} {cx+a},{cy} {cx},{cy+a//2}" fill="#8fb8dc"/>', '')
+            + f'<polygon points="{cx-a},{cy} {cx},{cy+a//2} {cx},265" fill="#1e5e91" stroke="#07172f" stroke-width="3"/>'
+            + f'<polygon points="{cx+a},{cy} {cx},{cy+a//2} {cx},265" fill="#12375b" stroke="#07172f" stroke-width="3"/>'
+            + f'<polygon points="{face("e", cx, cy, a, h, [(0.15, 0.25), (0.45, 0.25), (0.45, 0.95), (0.15, 0.95)])}" fill="#bcd3e6"/>'
+            + f'<polygon points="{face("d", cx, cy, a, h, relogio)}" fill="#07172f" stroke="#c8a154" stroke-width="6"/>'
+            + f'<polyline points="{face("d", cx, cy, a, h, [(0.5, 0.25), (0.5, 0.5), (0.68, 0.62)])}" fill="none" stroke="#c8a154" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>')
+
+
+CENAS = {'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
+
 def quebra(titulo, limite=17):
     linhas, atual = [], ''
     for palavra in titulo.split():
@@ -81,7 +126,7 @@ def quebra(titulo, limite=17):
 
 def capa(a, hero=False):
     seed = int(hashlib.md5(a['slug'].encode()).hexdigest(), 16)
-    linhas = quebra(a['titulo'].rstrip('.') + '.')
+    linhas = quebra(a.get('titulo_capa', a['titulo']).rstrip('.') + '.')
     if len(linhas) > 5: linhas = linhas[:5]
     tam = 62 if len(linhas) <= 3 else 52
     y0 = 560 - (len(linhas) - 1) * (tam + 13)
@@ -98,7 +143,7 @@ def capa(a, hero=False):
             '<rect width="1200" height="630" fill="#07172f"/><circle cx="900" cy="250" r="330" fill="#0c2a4a"/>'
             '<circle cx="900" cy="250" r="210" fill="#12375b"/>'
             '<g stroke="#1e5e91" stroke-opacity=".35" stroke-width="1"><path d="M0 120H1200M0 240H1200M0 360H1200M0 480H1200M300 0V630M600 0V630M900 0V630"/></g>'
-            f'<g stroke="#07172f" stroke-width="3" stroke-linejoin="round">{blocos(seed)}</g>'
+            f'<g stroke="#07172f" stroke-width="3" stroke-linejoin="round">{CENAS[a["slug"]]() if a["slug"] in CENAS else blocos(seed)}</g>'
             f'{texto}</svg>\n')
 
 
@@ -190,7 +235,8 @@ def main():
     noticias = json.loads((ROOT / 'content' / 'noticias.json').read_text(encoding='utf-8'))
     erros = validar(items, noticias)
     if erros: sys.exit('Erros na lista de artigos:\n- ' + '\n- '.join(erros))
-    items.sort(key=lambda a: a['data_publicacao'], reverse=True)
+    # mais recentes primeiro; na mesma data, o último incluído na lista vem antes
+    items = [a for _, a in sorted(enumerate(items), key=lambda x: (x[1]['data_publicacao'], x[0]), reverse=True)]
     modelo = (ROOT / 'content' / 'artigo-template.html').read_text(encoding='utf-8')
     gerados = set()
     for a in items:
@@ -218,6 +264,18 @@ def main():
     botoes = '<button data-filter="all" aria-pressed="true" class="active">Todos</button>\n' + ''.join(
         f'<button data-filter="{html.escape(x.lower())}" aria-pressed="false">{html.escape(x)}</button>\n' for x in areas)
     trocar(DIST / 'artigos.html', '<!-- FILTROS:START -->', '<!-- FILTROS:END -->', botoes)
+    u = items[0]
+    destaque = (f'<a class="publication-feature" href="artigo-{u["slug"]}.html">\n'
+                f'            <figure class="publication-feature-image">\n'
+                f'              <img class="art-thumb" src="capa-{u["slug"]}-hero.svg" alt="{html.escape("Capa do artigo: " + u["titulo"])}" width="1200" height="630" loading="lazy" decoding="async">\n'
+                f'            </figure>\n            <div class="publication-feature-copy">\n'
+                f'              <span class="publication-meta">{html.escape(FORMATOS[u["formato"]])} AUTORAL <i aria-hidden="true">·</i> {html.escape(u["area"].upper())}</span>\n'
+                f'              <h4>{html.escape(u["titulo"])}</h4>\n              <p>{html.escape(u["subtitulo"])}</p>\n'
+                f'              <span class="publication-action">Ler artigo <i aria-hidden="true">↗</i></span>\n            </div>\n          </a>\n')
+    trocar(DIST / 'index.html', '<!-- ARTIGO-DESTAQUE:START -->', '<!-- ARTIGO-DESTAQUE:END -->', '          ' + destaque)
+    convite = (f'<p class="eyebrow">LEITURA COM CONTEXTO</p>\n<h2>{html.escape(u["titulo"])}</h2>\n<p>{html.escape(u["subtitulo"])}</p>\n'
+               f'<a class="inline-link" href="artigo-{u["slug"]}.html">Leia o artigo <span>↗</span>\n</a>\n')
+    trocar(DIST / 'noticias.html', '<!-- CONVITE:START -->', '<!-- CONVITE:END -->', convite)
     mapa = DIST / 'sitemap.xml'
     t = re.sub(r'[ \t]*<url><loc>' + re.escape(ORIGIN) + r'/artigo-[^<]*</loc></url>\n', '', mapa.read_text(encoding='utf-8'))
     t = t.replace('</urlset>', ''.join(f'  <url><loc>{ORIGIN}/{x}</loc></url>\n' for x in sorted(gerados)) + '</urlset>')
