@@ -17,9 +17,11 @@ class Page(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.path, self.ids, self.refs, self.stack = path, set(), [], []
         self.h1, self.canonical, self.ld, self.ld_text = 0, [], False, ''
+        self.consent = False
         self.feed(path.read_text())
         if self.stack: errors.append(f'{path.name}: unclosed {self.stack}')
         if self.h1 != 1: errors.append(f'{path.name}: h1 count {self.h1}')
+        if not self.consent: errors.append(f'{path.name}: missing consentimento.js (cookie notice)')
         expected = ORIGIN + ('/' if path.name == 'index.html' else '/' + path.name)
         if path.name != '404.html' and self.canonical != [expected]:
             errors.append(f'{path.name}: canonical {self.canonical}')
@@ -37,6 +39,7 @@ class Page(HTMLParser):
         if tag == 'a' and a.get('target') == '_blank' and 'noopener' not in a.get('rel', ''):
             errors.append(f'{self.path.name}: unsafe external target')
         if tag == 'script' and a.get('type') == 'application/ld+json': self.ld = True
+        if tag == 'script' and a.get('src', '').lstrip('/') == 'consentimento.js': self.consent = True
     def handle_endtag(self, tag):
         if tag in VOID: return
         if not self.stack or self.stack[-1] != tag:
