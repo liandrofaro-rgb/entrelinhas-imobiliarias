@@ -2006,3 +2006,28 @@ body.newsletter-page { background:#fff; }
 .pub-card p { margin: 0 0 18px; color: var(--muted); font-size: 13px; line-height: 1.55; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 .pub-card .publication-action { margin-top: auto; }
 @media (max-width: 760px) { .pub-cards { grid-template-columns: minmax(0, 1fr); } }
+
+/* Listas compactas e iguais (artigos e radar) */
+.pub-rows { display: flex; flex-direction: column; }
+.pub-row { display: grid; grid-template-columns: 92px minmax(0, 1fr) auto; gap: 18px; align-items: center; padding: 14px 0; color: var(--navy); border-bottom: 1px solid var(--line); transition: padding .25s ease; }
+.pub-row:first-child { padding-top: 4px; }
+.pub-row figure { margin: 0; width: 92px; aspect-ratio: 1 / 1; overflow: hidden; background: var(--navy); }
+.pub-row figure img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; transition: transform .45s var(--ease); }
+.pub-row figure img.art-thumb { object-position: 100% 50%; }
+.pub-row:hover figure img { transform: scale(1.06); }
+.pub-row .publication-meta { color: var(--gold); font-size: 9px; font-weight: 700; letter-spacing: .14em; }
+.pub-row h4 { margin: 6px 0 0; color: var(--navy); font: 600 16px/1.3 "Manrope", Arial, sans-serif; letter-spacing: -.01em; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.pub-row-arrow { color: var(--gold); font-size: 18px; transition: transform .25s ease; }
+.pub-row:hover .pub-row-arrow { transform: translateX(4px); }
+.pub-row:hover h4 { color: var(--blue-bright); }
+.publications-radar .pub-row { border-color: var(--line); }
+@media (max-width: 560px) { .pub-row { grid-template-columns: 76px minmax(0, 1fr); } .pub-row figure { width: 76px; } .pub-row-arrow { display: none; } }
+
+/* Listas roláveis: altura fixa, a página não cresce */
+.pub-rows { max-height: 500px; overflow-y: auto; overscroll-behavior: contain; padding-right: 10px; scrollbar-width: thin; scrollbar-color: var(--gold) transparent; -webkit-mask-image: linear-gradient(to bottom, #000 calc(100% - 36px), transparent); mask-image: linear-gradient(to bottom, #000 calc(100% - 36px), transparent); }
+.pub-rows:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
+.pub-rows::-webkit-scrollbar { width: 6px; }
+.pub-rows::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 3px; }
+.pub-rows::-webkit-scrollbar-track { background: transparent; }
+.pub-rows .pub-row:last-child { margin-bottom: 28px; }
+@media (max-width: 560px) { .pub-rows { max-height: 440px; } }

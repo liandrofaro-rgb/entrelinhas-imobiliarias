@@ -121,7 +121,24 @@ def cena_distrato():
             + '<path d="M1030 174 L990 208" stroke="#07172f" stroke-width="5" stroke-linecap="round"/>')
 
 
-CENAS = {'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
+def cena_caso_heranca():
+    import math
+    cx, cy, a, h = 900, 400, 110, 110
+    coracao = []
+    for t in range(0, 36):
+        r = t / 36 * 2 * math.pi
+        x = 16 * math.sin(r) ** 3
+        y = 13 * math.cos(r) - 5 * math.cos(2 * r) - 2 * math.cos(3 * r) - math.cos(4 * r)
+        coracao.append((0.5 + x / 40, 0.46 - y / 40))
+    return ('<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(cx, cy, a, h, *BLUE).replace(f'<polygon points="{cx-a},{cy} {cx},{cy-a//2} {cx+a},{cy} {cx},{cy+a//2}" fill="#8fb8dc"/>', '')
+            + f'<polygon points="{cx-a},{cy} {cx},{cy+a//2} {cx},265" fill="#1e5e91" stroke="#07172f" stroke-width="3"/>'
+            + f'<polygon points="{cx+a},{cy} {cx},{cy+a//2} {cx},265" fill="#12375b" stroke="#07172f" stroke-width="3"/>'
+            + f'<polygon points="{face("e", cx, cy, a, h, [(0.15, 0.25), (0.45, 0.25), (0.45, 0.95), (0.15, 0.95)])}" fill="#bcd3e6"/>'
+            + f'<polygon points="{face("d", cx, cy, a, h, coracao)}" fill="#c8a154" stroke="#8a6c2e" stroke-width="3"/>')
+
+
+CENAS = {'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
 
 def quebra(titulo, limite=17):
     linhas, atual = [], ''
@@ -277,16 +294,15 @@ def main():
     u = items[0]
 
     def lane(n_itens):
-        h = '<div class="pub-cards">\n'
+        h = '<div class="pub-rows" tabindex="0" role="region" aria-label="Lista rolável">\n'
         for x in items[:n_itens]:
-            h += (f'<a class="pub-card" href="artigo-{x["slug"]}.html">\n'
-                  f'<figure><img src="capa-{x["slug"]}-hero.svg" alt="{html.escape("Capa do artigo: " + x["titulo"])}" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
-                  f'<div class="pub-card-copy">\n<span class="publication-meta">{html.escape(FORMATOS[x["formato"]])} <i aria-hidden="true">·</i> {html.escape(x["area"].upper())}</span>\n'
-                  f'<h4>{html.escape(x["titulo"])}</h4>\n<p>{html.escape(x["subtitulo"])}</p>\n'
-                  f'<span class="publication-action">Ler artigo <i aria-hidden="true">↗</i></span>\n</div>\n</a>\n')
+            h += (f'<a class="pub-row" href="artigo-{x["slug"]}.html">\n'
+                  f'<figure><img class="art-thumb" src="capa-{x["slug"]}-hero.svg" alt="" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
+                  f'<div>\n<span class="publication-meta">{html.escape(FORMATOS[x["formato"]])} <i aria-hidden="true">·</i> {html.escape(x["area"].upper())}</span>\n'
+                  f'<h4>{html.escape(x["titulo"])}</h4>\n</div>\n<span class="pub-row-arrow" aria-hidden="true">→</span>\n</a>\n')
         return h + '</div>\n'
-    trocar(DIST / 'index.html', '<!-- ARTIGO-DESTAQUE:START -->', '<!-- ARTIGO-DESTAQUE:END -->', lane(4))
-    trocar(DIST / 'publicacoes.html', '<!-- ARTIGO-DESTAQUE:START -->', '<!-- ARTIGO-DESTAQUE:END -->', lane(6))
+    trocar(DIST / 'index.html', '<!-- ARTIGO-DESTAQUE:START -->', '<!-- ARTIGO-DESTAQUE:END -->', lane(10))
+    trocar(DIST / 'publicacoes.html', '<!-- ARTIGO-DESTAQUE:START -->', '<!-- ARTIGO-DESTAQUE:END -->', lane(12))
     convite = (f'<p class="eyebrow">LEITURA COM CONTEXTO</p>\n<h2>{html.escape(u["titulo"])}</h2>\n<p>{html.escape(u["subtitulo"])}</p>\n'
                f'<a class="inline-link" href="artigo-{u["slug"]}.html">Leia o artigo <span>↗</span>\n</a>\n')
     trocar(DIST / 'noticias.html', '<!-- CONVITE:START -->', '<!-- CONVITE:END -->', convite)
