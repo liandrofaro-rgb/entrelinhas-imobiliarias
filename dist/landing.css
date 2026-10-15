@@ -1,0 +1,83 @@
+/* Landing pages — visual extension of the Liandro Faro design system. */
+.landing-regularizacao { --lp-ink:#07172f; --lp-gold:#c8a154; --lp-muted:#5d6c7a; }
+.lp-hero { background: #f4f6f7; overflow: hidden; }
+.lp-hero-inner { display:grid; grid-template-columns: minmax(0,1.05fr) minmax(340px,.75fr); gap: clamp(32px,6vw,110px); align-items:stretch; min-height: 660px; }
+.lp-hero-copy { display:flex; flex-direction:column; align-items:flex-start; justify-content:center; padding:54px 0 68px; }
+.lp-crumb { display:flex; flex-wrap:wrap; gap:10px; color:#5d6c7a; font-size:11px; margin-bottom:54px; }
+.lp-crumb a:hover, .lp-quiet-link:hover, .lp-return a:hover { color:#1e5e91; }
+.lp-eyebrow,.lp-section-code { margin:0; color:#9b7736; font-size:11px; font-weight:700; letter-spacing:.16em; text-transform:uppercase; }
+.lp-hero h1 { margin:21px 0 28px; max-width:790px; color:#07172f; font:500 clamp(46px,5.1vw,83px)/1.04 "Manrope",sans-serif; letter-spacing:-.062em; }
+.lp-hero h1 em { display:block; font-style:normal; color:#42637e; }
+.lp-intro { max-width:650px; margin:0; color:#4d5e6d; font-size:clamp(16px,1.45vw,19px); line-height:1.8; }
+.lp-hero-actions { display:flex; gap:27px; align-items:center; flex-wrap:wrap; margin-top:42px; }
+.lp-quiet-link { padding-bottom:7px; color:#07172f; border-bottom:1px solid #9eabb4; font-size:12px; font-weight:600; }
+.lp-portrait { position:relative; margin:0; min-height:600px; background:#d6dce3; overflow:hidden; }
+.lp-portrait::after { content:""; position:absolute; inset:0; background:linear-gradient(0deg,rgba(7,23,47,.78),transparent 38%); pointer-events:none; }
+.lp-portrait img { height:100%; width:100%; object-fit:cover; object-position:center 30%; }
+.lp-portrait figcaption { position:absolute; bottom:24px; left:26px; right:26px; z-index:1; display:flex; justify-content:space-between; gap:12px; color:#fff; font-size:11px; font-weight:600; letter-spacing:.13em; }
+.lp-portrait figcaption span { font-size:10px; color:#e4d0a7; }
+.lp-overview { padding-top:112px; padding-bottom:120px; }
+.lp-overview-body { display:grid; grid-template-columns:1.1fr 1fr; gap:clamp(40px,7vw,125px); align-items:start; margin-top:26px; }
+.lp-overview h2,.lp-section-heading h2,.lp-method h2,.lp-faq h2,.lp-closing h2 { margin:0; font:500 clamp(33px,3.7vw,59px)/1.13 "Manrope",sans-serif; letter-spacing:-.052em; }
+.lp-overview-body p,.lp-method-lead>p:last-child { margin:0 0 18px; font-size:16px; line-height:1.85; color:var(--lp-muted); }
+.lp-issues { background:#07172f; color:#fff; padding:108px 0 125px; }
+.lp-issues .lp-section-code { color:#c8a154; }
+.lp-section-heading { max-width:840px; }
+.lp-section-heading h2 { margin:20px 0 18px; color:#fff; }
+.lp-section-heading>p:last-child { color:#bac6d1; max-width:610px; line-height:1.75; }
+.lp-issues-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1px; margin-top:55px; background:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.18); }
+.lp-issue { min-height:245px; padding:31px 30px; background:#0b213e; }
+.lp-issue>span { display:block; color:#c8a154; font-size:12px; font-weight:600; margin-bottom:34px; }
+.lp-issue h3 { margin:0 0 16px; font:600 20px/1.35 "Manrope",sans-serif; letter-spacing:-.025em; }
+.lp-issue p { margin:0; font-size:14px; line-height:1.7; color:#bcc9d7; }
+.lp-method { display:grid; grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr); gap:clamp(40px,8vw,150px); padding-top:125px; padding-bottom:125px; }
+.lp-method h2 { margin:21px 0 25px; }
+.lp-method-steps { list-style:none; margin:0; padding:0; border-top:1px solid #07172f; }
+.lp-method-steps li { display:grid; grid-template-columns:54px 1fr; gap:20px; padding:27px 0; border-bottom:1px solid rgba(7,23,47,.16); }
+.lp-method-steps li>span { color:#a37e39; font-size:12px; font-weight:700; }
+.lp-method-steps h3 { margin:0 0 9px; font:600 20px "Manrope",sans-serif; }
+.lp-method-steps p { margin:0; color:#5d6c7a; font-size:15px; line-height:1.7; }
+.lp-faq { background:#f1f4f6; padding:105px 0 115px; }
+.lp-faq-grid { display:grid; grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr); gap:clamp(30px,8vw,150px); }
+.lp-faq h2 { margin-top:18px; }
+.lp-faq-list { border-top:1px solid #07172f; }
+.lp-faq-list details { border-bottom:1px solid rgba(7,23,47,.17); }
+.lp-faq-list summary { position:relative; padding:24px 36px 24px 0; cursor:pointer; list-style:none; font:600 17px/1.55 "Manrope",sans-serif; }
+.lp-faq-list summary::-webkit-details-marker { display:none; }
+.lp-faq-list summary::after { content:"+"; position:absolute; right:2px; top:19px; color:#9b7736; font-size:22px; }
+.lp-faq-list details[open] summary::after { content:"−"; }
+.lp-faq-list details p { margin:0 0 26px; max-width:700px; font-size:15px; line-height:1.85; color:#586976; }
+.lp-faq-list summary:focus-visible,.lp-quiet-link:focus-visible,.lp-crumb a:focus-visible { outline:2px solid #c8a154; outline-offset:3px; }
+.lp-closing { margin-top:110px; margin-bottom:75px; padding:65px; display:flex; align-items:center; justify-content:space-between; gap:35px; background:#12375b; color:white; }
+.lp-closing h2 { max-width:640px; margin:16px 0; }
+.lp-closing p:not(.lp-section-code) { margin:0; max-width:630px; color:#c7d5e0; line-height:1.7; }
+.lp-closing .button { flex-shrink:0; }
+.lp-return { display:flex; justify-content:space-between; align-items:center; gap:30px; padding-bottom:95px; font-size:12px; color:#657583; }
+.lp-return a { font-weight:700; color:#07172f; }
+@media(max-width:1000px) {
+ .lp-hero-inner { grid-template-columns:minmax(0,1fr) minmax(270px,.7fr); gap:35px; min-height:560px; }
+ .lp-hero h1 { font-size:clamp(43px,5vw,65px); }
+ .lp-issues-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+ .lp-closing { flex-direction:column; align-items:flex-start; }
+}
+@media(max-width:720px) {
+ .lp-hero-inner { display:flex; flex-direction:column; gap:0; }
+ .lp-hero-copy { padding:24px 0 50px; }
+ .lp-crumb { margin-bottom:45px; }
+ .lp-hero h1 { font-size:clamp(42px,10vw,61px); }
+ .lp-portrait { width:100%; min-height:0; height:360px; }
+ .lp-portrait figcaption { font-size:10px; left:18px; }
+ .lp-portrait figcaption span { font-size:9px; }
+ .lp-overview { padding-top:75px; padding-bottom:78px; }
+ .lp-overview-body,.lp-method,.lp-faq-grid { grid-template-columns:1fr; gap:24px; }
+ .lp-issues { padding:74px 0 82px; }
+ .lp-issues-grid { grid-template-columns:1fr; margin-top:35px; }
+ .lp-issue { min-height:0; padding:26px 22px; }
+ .lp-issue>span { margin-bottom:18px; }
+ .lp-method { padding-top:75px; padding-bottom:75px; }
+ .lp-faq { padding:75px 0; }
+ .lp-closing { padding:37px 26px; margin-top:70px; margin-bottom:40px; }
+ .lp-closing .button { flex-shrink:1; }
+ .lp-return { flex-direction:column; align-items:flex-start; padding-bottom:70px; }
+}
+@media(prefers-reduced-motion:reduce) { .lp-faq details, .lp-hero-actions .button { transition:none; } }
