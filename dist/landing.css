@@ -187,3 +187,16 @@ html:not(.sb-js) .sb-steps li:not(:last-child)::after { transform: scaleY(1); }
 .sb-footer .footer-intro h2 { margin-top: 30px; }
 .sb-footer .footer-intro > p { max-width: 460px; }
 @media (max-width: 760px) { .sb-page .site-footer { padding-bottom: 84px; } .sb-footer .footer-grid { grid-template-columns: minmax(0, 1fr); gap: 40px; } }
+
+/* Botão flutuante do WhatsApp: acompanha a rolagem */
+.sb-float { position: fixed; right: 24px; bottom: 24px; z-index: 95; display: inline-flex; align-items: center; gap: 10px; min-height: 60px; padding: 0 22px 0 16px; border-radius: 999px; color: #fff; background: #25d366; box-shadow: 0 12px 28px rgba(7,23,47,.28); font: 700 15px/1 "DM Sans", Arial, sans-serif; transition: transform .25s ease, box-shadow .25s ease, background .25s ease; }
+.sb-float:hover { transform: translateY(-3px); background: #1ebe5b; box-shadow: 0 18px 34px rgba(7,23,47,.34); }
+.sb-float:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.sb-float-ico { width: 30px; height: 30px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.sb-float::before { content: ""; position: absolute; inset: 0; border-radius: inherit; box-shadow: 0 0 0 0 rgba(37,211,102,.55); animation: sb-wa-ring 2.4s ease-out infinite; pointer-events: none; }
+@keyframes sb-wa-ring { 0% { box-shadow: 0 0 0 0 rgba(37,211,102,.55); } 70%, 100% { box-shadow: 0 0 0 20px rgba(37,211,102,0); } }
+@media (max-width: 760px) {
+  .sb-float { right: 16px; bottom: 84px; width: 62px; min-height: 62px; padding: 0; justify-content: center; }
+  .sb-float-text { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
+@media (prefers-reduced-motion: reduce) { .sb-float::before { animation: none; } .sb-float:hover { transform: none; } }
