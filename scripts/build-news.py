@@ -155,7 +155,9 @@ def main():
         arq = f'noticia-{n["slug"]}.html'
         pagina = (modelo.replace('{{MAIN}}', pagina_main(n)).replace('{{TITULO}}', html.escape(n['titulo']))
                   .replace('{{DESCRICAO}}', html.escape(n['descricao'])).replace('{{ARQUIVO}}', arq)
-                  .replace('{{IMAGEM}}', n['imagem']))
+                  .replace('{{IMAGEM}}', n['imagem'])
+                  .replace('{{IMAGEM_OG}}', 'og-' + Path(n['imagem']).stem + '.png').replace('{{DESCRICAO_OG}}', html.escape(n['descricao'])))
+        if not (DIST / ('og-' + Path(n['imagem']).stem + '.png')).exists(): print(f'aviso: falta og-{Path(n["imagem"]).stem}.png; rode scripts/build-og-images.py')
         (DIST / arq).write_text(pagina, encoding='utf-8')
         gerados.add(arq)
     for velho in DIST.glob('noticia-*.html'):
