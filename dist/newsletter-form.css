@@ -137,12 +137,13 @@ html.reduce-motion .nl-feed li { animation: none; opacity: 1; }
 }
 
 /* Dois blocos menores: últimas notícias e artigos/análises, ambos visíveis */
-.nl-doc--compact { margin-top: 16px; padding: 20px 26px 22px; }
-.nl-doc--compact:first-of-type { margin-top: 30px; }
+.nl-docs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; max-width: 700px; margin-top: 30px; }
+.nl-docs .nl-doc { max-width: none; margin-top: 0; }
+.nl-doc--compact { padding: 20px 24px 22px; }
 .nl-doc--compact .nl-tag { margin-bottom: 4px; }
 .nl-doc--compact .nl-feed a { padding: 12px 0; }
 .nl-doc--compact .nl-feed-meta { margin-bottom: 4px; }
-.nl-doc--compact .nl-feed strong { font-size: 16px; }
+.nl-doc--compact .nl-feed strong { font-size: 15.5px; line-height: 1.35; }
 .nl-doc--compact .nl-feed a::after { margin-top: 5px; }
 .nl-feed a[data-ler]::after { content: attr(data-ler) " →"; }
-@media (max-width: 480px) { .nl-doc--compact { padding: 18px 20px 20px; } }
+@media (max-width: 640px) { .nl-docs { grid-template-columns: minmax(0, 1fr); gap: 16px; } .nl-doc--compact { padding: 18px 20px 20px; } }
