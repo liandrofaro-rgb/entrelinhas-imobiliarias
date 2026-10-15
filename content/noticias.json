@@ -1835,5 +1835,333 @@
         "url": "https://conjur.com.br/2026-out-14/stj-avalia-se-cabe-usucapiao-de-nome-de-dominio-na-internet/"
       }
     ]
+  },
+  {
+    "slug": "stj-uniao-estavel-idoso-regime-bens-tema-1236-nao-retroage",
+    "titulo": "STJ: escolha de regime de bens por maiores de 70 anos não alcança união estável encerrada antes da decisão do STF.",
+    "subtitulo": "A Terceira Turma manteve a separação obrigatória em união que terminou com a morte do companheiro, quatro dias após a escritura que previa comunhão universal.",
+    "descricao": "A Terceira Turma do STJ decidiu, por unanimidade, que a tese do STF sobre a escolha do regime por maiores de 70 anos não retroage a uniões já encerradas.",
+    "orgao": "STJ",
+    "area": "União estável e partilha",
+    "data_publicacao": "2026-10-06",
+    "imagem": "ilustracao-familia.svg",
+    "imagem_alt": "Ilustração de uma casa com figuras de família ao centro",
+    "resumo": [
+      "A ==Terceira Turma do STJ== decidiu, por ==unanimidade==, que a regra do STF para maiores de 70 anos não vale para união estável encerrada antes dela.",
+      "O casal havia escolhido a ==comunhão universal de bens== em escritura pública em 13/09/2019; o companheiro morreu quatro dias depois.",
+      "O relator, ministro Villas Bôas Cueva, lembrou que o STF deu ==eficácia prospectiva== ao Tema 1.236 da repercussão geral.",
+      "Segundo o relator, a ==falta de inventário e partilha== de casamento anterior também atrai a separação obrigatória de bens à união estável.",
+      "Processo: REsp 2.217.405."
+    ],
+    "aconteceu": [
+      "A união estável começou em 2013. Em **13 de setembro de 2019**, os conviventes lavraram escritura pública escolhendo a **comunhão universal de bens**. Quatro dias depois, em 17 de setembro, o companheiro faleceu, e a controvérsia sobre qual regime vale para a sucessão chegou ao STJ.",
+      "No **Tema 1.236** da repercussão geral, o Supremo Tribunal Federal admitiu que pessoas com mais de 70 anos afastem a separação obrigatória de bens por manifestação expressa de vontade. A pergunta no STJ foi se essa orientação poderia ser usada para valorizar a escolha feita pelo casal em 2019, antes do julgamento do STF.",
+      "A notícia do Migalhas não informa a data da sessão de julgamento nem o tribunal de origem."
+    ],
+    "decisao": [
+      "O relator, ministro **Ricardo Villas Bôas Cueva**, explicou que o STF atribuiu **eficácia prospectiva** ao seu entendimento. Assim, a nova interpretação não pode ser usada para reconstruir, de forma retroativa, o regime patrimonial de uma relação já encerrada. No caso, a união terminou com a morte do convivente em 2019, mais de quatro anos antes de o Supremo julgar o tema.",
+      "Para o ministro, com o falecimento a relação foi extinta e a sucessão foi aberta, consolidando-se os direitos patrimoniais e sucessórios conforme o regime jurídico então vigente.",
+      "O relator também analisou a ausência de inventário e partilha dos bens de um casamento anterior. Segundo ele, embora as causas suspensivas do casamento não impeçam o reconhecimento da união estável, podem produzir **efeitos patrimoniais**: enquanto persistir a falta de inventário e partilha, a união fica sujeita à **separação obrigatória de bens**. A Turma decidiu por unanimidade."
+    ],
+    "entrelinhas_titulo": "O que está por trás da decisão",
+    "entrelinhas": [
+      "**O conflito de fundo é de tempo.** O STF mudou a leitura sobre a liberdade de escolha de quem tem mais de 70 anos, mas a pergunta é a partir de quando essa mudança vale. Para o STJ, nesse caso, ela não alcança relações que já tinham terminado.",
+      "**A escritura não decidiu sozinha.** O casal formalizou a escolha em cartório, mas o fato de a morte ter ocorrido quatro dias depois e de a decisão do Supremo ser posterior pesaram. Quem decide, ao fim, é o Judiciário, aplicando o regime vigente no momento em que a sucessão se abriu.",
+      "**Efeito prático sobre patrimônio.** O regime de bens define o que entra na partilha e qual a posição do sobrevivente na herança, inclusive sobre imóveis. Por isso, detalhes como o momento da escolha e a regularização de relações anteriores podem mudar o resultado.",
+      "**Limites do que se sabe.** A notícia não detalha todos os fundamentos do voto nem a situação dos herdeiros. A decisão vale para o caso julgado e não é uma orientação para situações concretas."
+    ],
+    "sintese": "Em uma frase: **o STJ entendeu que a possibilidade de maiores de 70 anos escolherem o regime de bens não retroage a uma união estável encerrada antes da decisão do STF, e que a falta de partilha de casamento anterior atrai a separação obrigatória.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Terceira Turma"
+      ],
+      [
+        "Relator",
+        "Ministro Ricardo Villas Bôas Cueva"
+      ],
+      [
+        "Processo",
+        "REsp 2.217.405"
+      ],
+      [
+        "Resultado",
+        "Unanimidade"
+      ],
+      [
+        "Divulgação pela fonte",
+        "6 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/465939/stj-mantem-separacao-de-bens-de-idoso-em-uniao-anterior-a-entendimento-do-stf"
+      }
+    ]
+  },
+  {
+    "slug": "stj-procuracoes-renuncia-heranca-invalidas-novo-inventario",
+    "titulo": "STJ mantém anulação de procurações usadas para irmãos renunciarem à herança e invalida a escritura de inventário.",
+    "subtitulo": "Terceira Turma entendeu que o vício na manifestação de vontade contamina os atos seguintes, e os herdeiros terão de abrir novo inventário.",
+    "descricao": "A Terceira Turma do STJ manteve a anulação de procurações que serviram à renúncia de herança em favor de um irmão e declarou inválida a escritura de inventário baseada nelas.",
+    "orgao": "STJ",
+    "area": "Inventário",
+    "data_publicacao": "2026-10-07",
+    "imagem": "ilustracao-heranca.svg",
+    "imagem_alt": "Ilustração de uma árvore estilizada representando a herança",
+    "resumo": [
+      "A ==Terceira Turma do STJ== manteve, por unanimidade, a anulação de procurações usadas para que irmãos ==renunciassem à herança== em favor de um deles.",
+      "Relatora: ministra ==Nancy Andrighi==; processos REsp 2.268.485 e REsp 2.289.380.",
+      "O TJPB havia reconhecido ==vício de consentimento==: os irmãos acreditavam que as procurações serviriam para agilizar o inventário.",
+      "Os atos posteriores, ==inclusive a escritura pública de inventário e partilha==, também foram invalidados.",
+      "A situação volta ao estado anterior e os herdeiros deverão ajuizar novo inventário."
+    ],
+    "aconteceu": [
+      "A disputa envolve a partilha dos bens deixados pela mãe dos envolvidos. Os irmãos ajuizaram ações para anular procurações pelas quais haviam dado poderes relacionados à **renúncia de seus direitos hereditários** em favor de um deles. Eles afirmaram que, ao assinar, não sabiam que abriam mão da herança exclusivamente em benefício do irmão.",
+      "O **Tribunal de Justiça da Paraíba** reconheceu o vício de consentimento. Segundo o tribunal, o irmão que administrava lojas de calçados com a mãe apresentou as procurações aos demais como forma de agilizar o inventário. Pesou também o fato de que, **um dia depois** da escritura de inventário extrajudicial, os demais herdeiros buscaram revogar os poderes concedidos.",
+      "A Migalhas não informa a data da sessão no STJ."
+    ],
+    "decisao": [
+      "A **Terceira Turma** acompanhou a relatora, ministra **Nancy Andrighi**, e manteve o entendimento de que houve vício na manifestação de vontade. A decisão foi **unânime**.",
+      "Para a ministra, a invalidade das procurações compromete também os atos praticados com base nelas, incluindo a **escritura pública de inventário e partilha**. Em suas palavras, todos os atos posteriores ao instrumento viciado ficam prejudicados.",
+      "Com isso, segundo a relatora, a situação **retorna ao estado anterior** e os demais irmãos terão de ajuizar o inventário. Ela classificou a história como \"bastante triste\"."
+    ],
+    "entrelinhas_titulo": "O que está por trás da decisão",
+    "entrelinhas": [
+      "**O conflito de fundo é a confiança.** Procurações são instrumentos práticos, mas dão poderes amplos. Quando quem as recebe está na posse dos bens, a análise do que o outorgante realmente entendeu ganha peso.",
+      "**Um vício na origem contamina o resto.** A decisão mostra que a escritura de inventário, mesmo feita em cartório, não se sustenta se o documento que a embasou foi anulado. Por isso o STJ falou em retorno ao estado anterior.",
+      "**Efeito prático.** Sem a renúncia válida, volta a valer a divisão da herança entre todos os herdeiros, o que pode envolver imóveis e empresas familiares. Como o inventário será refeito, o resultado final dependerá do que for apurado nele.",
+      "**Limites do que se sabe.** A notícia não detalha os bens, os valores nem o que ocorreu depois da escritura. A decisão trata do caso julgado e não é orientação para situações concretas."
+    ],
+    "sintese": "Em uma frase: **o STJ manteve a anulação de procurações que levaram irmãos a renunciar à herança e, com ela, a escritura de inventário e partilha, determinando novo inventário.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Terceira Turma"
+      ],
+      [
+        "Relatora",
+        "Ministra Nancy Andrighi"
+      ],
+      [
+        "Processos",
+        "REsp 2.268.485 e REsp 2.289.380"
+      ],
+      [
+        "Resultado",
+        "Unanimidade"
+      ],
+      [
+        "Divulgação pela fonte",
+        "7 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466027/stj-invalida-procuracoes-que-fizeram-irmaos-renunciar-a-heranca"
+      }
+    ]
+  },
+  {
+    "slug": "stj-repetitivos-retencao-distrato-imoveis-temas-1464-1465",
+    "titulo": "STJ vai definir em recursos repetitivos quanto o vendedor pode reter quando o comprador desiste de imóvel.",
+    "subtitulo": "A Segunda Seção afetou dois temas para uniformizar o percentual e a base de cálculo da retenção; as teses ainda não foram fixadas.",
+    "descricao": "A Segunda Seção do STJ afetou os Temas 1.465 e 1.464 para uniformizar os limites de retenção em distratos imobiliários; o mérito ainda não foi julgado.",
+    "orgao": "STJ",
+    "area": "Imóvel na planta",
+    "data_publicacao": "2026-10-09",
+    "imagem": "ilustracao-recibo.svg",
+    "imagem_alt": "Ilustração de um recibo com bordas recortadas",
+    "resumo": [
+      "A ==Segunda Seção do STJ== afetou, para julgamento em ==recursos repetitivos==, os limites de retenção quando o consumidor dá causa ao distrato.",
+      "==Tema 1.465==: contratos anteriores à Lei 13.786/2018; ==Tema 1.464==: lotes e terrenos contratados depois da lei.",
+      "A Terceira e a Quarta Turma divergem sobre ==percentual== e ==base de cálculo==.",
+      "Os processos sobre o tema foram ==suspensos== nos tribunais de segunda instância e no STJ.",
+      "==Ainda não há tese==: a afetação não define os limites de retenção."
+    ],
+    "aconteceu": [
+      "Sob relatoria do ministro **Ricardo Villas Bôas Cueva**, a Segunda Seção decidiu julgar, pelo rito dos repetitivos, quanto o vendedor pode reter quando o consumidor dá causa à rescisão de contrato de compra e venda de imóvel. A discussão foi dividida em dois temas, conforme a data da contratação e o tipo de imóvel.",
+      "O **Tema 1.465** tratará do percentual de retenção e da base de cálculo em contratos firmados **antes da Lei 13.786/2018** (lei do distrato), quando o rompimento ocorre por iniciativa e culpa do consumidor. O **Tema 1.464** examinará os limites de retenção na compra de imóveis **não edificados**, como lotes e terrenos, contratada após a vigência da norma.",
+      "A Migalhas informa que, no Tema 1.464, foram identificados 53 acórdãos e 692 decisões monocráticas nas turmas de Direito Privado; no Tema 1.465, 133 acórdãos e 3.615 decisões individuais."
+    ],
+    "lei": [
+      "A notícia cita a **Lei 13.786/2018** (lei do distrato), o **Código de Defesa do Consumidor** e o **art. 32-A da Lei 6.766/1979**."
+    ],
+    "decisao_titulo": "O que foi decidido até agora",
+    "decisao": [
+      "A Seção determinou a **suspensão** dos processos sobre essas questões nos quais tenha sido interposto recurso especial ou agravo em recurso especial, tanto nos tribunais de segunda instância quanto no STJ.",
+      "A afetação busca resolver a divergência entre as turmas. Para lotes e terrenos posteriores à lei, a **Terceira Turma** entende que o CDC prevalece: a retenção incide sobre as parcelas pagas e fica limitada, em regra, a 25%, ressalvada a fruição do imóvel. A **Quarta Turma** considera a lei compatível com o CDC e admite retenção de até 10% do valor atualizado do contrato, conforme o art. 32-A da Lei 6.766/1979.",
+      "Para contratos anteriores à lei, a Terceira Turma admite retenção entre 10% e 25% dos valores pagos, deixando às instâncias de origem a definição do percentual; a Quarta Turma aplica, como regra, 25% do montante quitado, com redução apenas se houver circunstâncias que a justifiquem. Os processos listados na notícia são os REsps 2.255.394, 2.255.370, 2.255.054 e 2.255.393. Segundo a fonte, a afetação não define os limites; as teses virão no julgamento de mérito."
+    ],
+    "entrelinhas_titulo": "O que está por trás da afetação",
+    "entrelinhas": [
+      "**O conflito de fundo é quanto o comprador perde ao desistir.** De um lado, o vendedor alega despesas e o risco do rompimento; de outro, o consumidor busca devolver o máximo possível do que pagou. A lei do distrato fixou parâmetros, mas as turmas do STJ os leem de modos diferentes.",
+      "**Duas divergências em uma.** Não há apenas diferença de percentual (10%, 25%): muda também a base, que pode ser o total pago ou o valor atualizado do contrato. Dependendo da conta, o resultado em reais varia bastante.",
+      "**Efeito prático.** Como é repetitivo, a tese futura orientará milhares de processos parados. Enquanto isso, as ações sobre o tema ficam suspensas, e o resultado final ainda é incerto.",
+      "**Limites do que se sabe.** A notícia não traz a data da sessão de afetação nem prazo para o julgamento de mérito. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **o STJ vai uniformizar, em repetitivos, os limites de retenção em distratos imobiliários, mas ainda não fixou nenhuma tese e os processos sobre o tema estão suspensos.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Segunda Seção"
+      ],
+      [
+        "Relator",
+        "Ministro Ricardo Villas Bôas Cueva"
+      ],
+      [
+        "Temas",
+        "1.464 e 1.465 (recursos repetitivos)"
+      ],
+      [
+        "Situação",
+        "Afetados; teses ainda não fixadas"
+      ],
+      [
+        "Divulgação pela fonte",
+        "9 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466255/stj-definira-limites-de-retencao-na-rescisao-de-compra-de-imoveis"
+      }
+    ]
+  },
+  {
+    "slug": "stj-iptu-lotes-area-preservacao-ambiental-guarulhos",
+    "titulo": "STJ mantém afastamento de IPTU sobre 1.161 lotes em área de preservação ambiental em Guarulhos.",
+    "subtitulo": "Segunda Turma entendeu que as restrições impedem construção, ocupação e aproveitamento econômico, o que inviabiliza a tributação neste caso.",
+    "descricao": "A Segunda Turma do STJ manteve decisão que afastou a cobrança de IPTU sobre lotes no Parque Estadual de Itaberaba, em Guarulhos (SP).",
+    "orgao": "STJ",
+    "area": "Tributação imobiliária",
+    "data_publicacao": "2026-10-06",
+    "data_julgamento": "2026-10-06",
+    "imagem": "ilustracao-floresta.svg",
+    "imagem_alt": "Ilustração de árvores e uma área verde de preservação",
+    "resumo": [
+      "A ==Segunda Turma do STJ== manteve decisão que afastou o ==IPTU== sobre ==1.161 lotes== em área de preservação em Guarulhos (SP).",
+      "Os lotes ficam na área do ==Parque Estadual de Itaberaba==; a cobrança discutida vai de 1997 a 2019.",
+      "Para o colegiado, as restrições impedem ==construção, ocupação e aproveitamento econômico==, o que inviabiliza a tributação.",
+      "Relator: ministro ==Francisco Falcão==; processo ==REsp 2.287.456==.",
+      "O TJSP já havia reconhecido a inexistência da relação tributária, mas declarou prescrita parte do período."
+    ],
+    "aconteceu": [
+      "Uma empresa proprietária de 1.161 lotes ajuizou **ação declaratória de inexistência de relação jurídico-tributária** contra a cobrança de IPTU feita entre 1997 e 2019. Os lotes ficam em área abrangida pelo **Parque Estadual de Itaberaba**, em Guarulhos (SP). Segundo a empresa, a zona é de preservação ambiental máxima, com restrições que impedem construir, edificar e ocupar.",
+      "O **TJSP** reconheceu a inexistência da relação tributária, mas declarou prescrita parte do período discutido. Ambas as partes recorreram ao STJ. Na sessão de 6 de outubro, a defesa da empresa citou, entre outros elementos, termo de ajustamento de conduta e certidões, e sustentou que a ação seria imprescritível e que a sucumbência recíproca deveria ser revista.",
+      "A fonte não informa o resultado desses pedidos sobre prescrição e sucumbência."
+    ],
+    "decisao": [
+      "O relator, ministro **Francisco Falcão**, votou para conhecer o recurso da empresa e **desprover o recurso do município de Guarulhos**. O colegiado acompanhou o relator.",
+      "Para a Segunda Turma, as restrições impostas aos imóveis impedem a construção, a ocupação e o aproveitamento econômico da área, o que **inviabiliza a tributação** pelo IPTU.",
+      "A notícia não informa se a decisão foi unânime nem detalha os fundamentos jurídicos do voto."
+    ],
+    "entrelinhas_titulo": "O que está por trás da decisão",
+    "entrelinhas": [
+      "**O conflito de fundo é a propriedade esvaziada.** O IPTU incide sobre a propriedade urbana, mas o município também cobrava de lotes em que a lei ambiental proíbe construir e ocupar. A pergunta é se há sentido em cobrar imposto de quem não pode usar o imóvel.",
+      "**O caso tem características próprias.** Segundo a fonte, a empresa apontou restrição ambiental máxima, com documentos nos autos. Não se deve ler a decisão como regra para qualquer imóvel com alguma limitação ambiental.",
+      "**Efeito prático.** A decisão mantém sem cobrança um grande conjunto de lotes e mostra que a análise concreta da restrição pode pesar na tributação. Para os municípios, é um sinal sobre a arrecadação em áreas protegidas.",
+      "**Limites do que se sabe.** A notícia não traz o valor discutido nem o voto completo. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **a Segunda Turma do STJ manteve o afastamento do IPTU sobre 1.161 lotes em área de preservação em Guarulhos, por entender que as restrições ambientais inviabilizam a tributação neste caso.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Segunda Turma"
+      ],
+      [
+        "Relator",
+        "Ministro Francisco Falcão"
+      ],
+      [
+        "Processo",
+        "REsp 2.287.456"
+      ],
+      [
+        "Julgamento",
+        "6 de outubro de 2026"
+      ],
+      [
+        "Divulgação pela fonte",
+        "6 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/465995/stj-afasta-iptu-sobre-mais-de-mil-lotes-em-area-de-preservacao"
+      }
+    ]
+  },
+  {
+    "slug": "justica-ma-sao-luis-reurb-s-novo-angelim-titulos",
+    "titulo": "Justiça do Maranhão manda São Luís concluir regularização fundiária do Novo Angelim e entregar títulos em 1 ano e 6 meses.",
+    "subtitulo": "Sentença em ação da Defensoria Pública determina cronograma em 60 dias e fundamenta a decisão no direito à moradia digna.",
+    "descricao": "Juiz da Vara de Interesses Difusos e Imobiliários de São Luís determinou que o município conclua a REURB-S do Novo Angelim e entregue os títulos às famílias habilitadas.",
+    "orgao": "TJMA",
+    "area": "Posse e moradia",
+    "data_publicacao": "2026-09-26",
+    "imagem": "ilustracao-terra.svg",
+    "imagem_alt": "Ilustração de um mapa de terreno dividido em lotes",
+    "resumo": [
+      "O juiz ==Douglas de Melo Martins== determinou que São Luís conclua a ==REURB-S== do Novo Angelim e entregue ==títulos definitivos== em um ano e seis meses.",
+      "A ação foi proposta pela ==Defensoria Pública==; a sentença é de primeira instância.",
+      "O município deve apresentar ==cronograma e plano de trabalho em 60 dias==.",
+      "A Corregedoria do TJMA apontou que não há impedimentos jurídicos ou técnicos à conclusão.",
+      "O número do processo não foi informado pela fonte."
+    ],
+    "aconteceu": [
+      "A **Defensoria Pública** ajuizou ação para que o município de São Luís concluísse a **Regularização Fundiária Urbana de Interesse Social (REURB-S)** do Novo Angelim, ocupação consolidada há décadas e habitada, em sua maioria, por famílias de baixa renda. A associação de moradores foi declarada de utilidade pública em 1990, por lei municipal.",
+      "Segundo a Defensoria, apesar da formalização registral da gleba em 2019 e das reivindicações da comunidade, o município interrompeu desde 2016 os atos de execução da política habitacional. A Secretaria Municipal de Urbanismo e Habitação já havia emitido, em 31 de outubro de 2018, a **Certidão de Regularização Fundiária**.",
+      "A informação vem do Conjur, com dados da assessoria de imprensa da Corregedoria-Geral da Justiça do TJMA."
+    ],
+    "lei": [
+      "A sentença, segundo a fonte, cita a **Lei 13.465/2017**, que define o conteúdo do projeto de REURB: unidades, sistema viário, áreas públicas e obras essenciais de água, esgoto, drenagem e energia."
+    ],
+    "decisao": [
+      "O juiz **Douglas de Melo Martins**, da Vara de Interesses Difusos e Imobiliários de São Luís, determinou que o município conclua a REURB-S no **1º Cartório de Registro de Imóveis de São Luís** e entregue, em **um ano e seis meses**, os títulos de propriedade às famílias habilitadas.",
+      "Ele fixou o prazo de **60 dias** para o município apresentar cronograma e plano de trabalho. O cronograma deve prever levantamento e memoriais, estudos urbanísticos e ambientais, saneamento de inconsistências cartorárias, cadastramento socioeconômico das famílias e expedição e registro dos títulos, com abertura de matrícula de cada casa.",
+      "O magistrado fundamentou a decisão no acesso à moradia digna como direito fundamental social, ligado à dignidade da pessoa humana e à função socioambiental da propriedade. A fonte não informa se há recurso."
+    ],
+    "entrelinhas_titulo": "O que está por trás da decisão",
+    "entrelinhas": [
+      "**O conflito de fundo é entre a posse de fato e o título.** Famílias vivem há décadas no local, mas sem o documento que permite vender, financiar ou transmitir o imóvel por herança. A REURB-S é o instrumento previsto em lei para fechar essa distância.",
+      "**O Judiciário cobra a política pública.** O processo administrativo já existia, com certidão de 2018, mas travou. A sentença não cria um direito novo: obriga o município a cumprir o que a lei de regularização prevê e a dar prazos.",
+      "**Efeito prático.** Com os títulos e as matrículas individuais, as famílias passam a ter segurança jurídica sobre a casa. Isso depende, porém, de o município cumprir a ordem e de eventual recurso.",
+      "**Limites do que se sabe.** É decisão de primeira instância, sem número divulgado, e a notícia não traz detalhes sobre quantas famílias serão beneficiadas. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **uma sentença do TJMA determinou que São Luís conclua a regularização fundiária do Novo Angelim e entregue os títulos às famílias habilitadas em um ano e seis meses.**",
+    "dados": [
+      [
+        "Órgão",
+        "Vara de Interesses Difusos e Imobiliários de São Luís (TJMA)"
+      ],
+      [
+        "Juiz",
+        "Douglas de Melo Martins"
+      ],
+      [
+        "Processo",
+        "Não informado pela fonte"
+      ],
+      [
+        "Natureza",
+        "Sentença de primeira instância, em ação da Defensoria Pública"
+      ],
+      [
+        "Divulgação pela fonte",
+        "26 de setembro de 2026 (Conjur)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Conjur ↗",
+        "url": "https://conjur.com.br/2026-set-26/municipio-deve-concluir-projeto-de-regularizacao-fundiaria-no-maranhao/"
+      }
+    ]
   }
 ]

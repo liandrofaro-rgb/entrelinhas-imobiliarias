@@ -1,25 +1,26 @@
-# Última rotina — 2026-10-15 05:13 UTC
+# Última rotina — 2026-10-15 10:07 UTC
 
 ## Publicado (5)
-- **Vara cível do ES autoriza venda de direitos possessórios sobre imóvel para efetivar partilha entre ex-companheiros** — `partilha-imovel-ex-companheiros-venda-direitos-possessorios` — IBDFAM (TJES), 14/10 — https://ibdfam.org.br/noticias/14323/Perspectiva+de+g%C3%AAnero+assegura+venda+de+im%C3%B3vel+para+viabilizar+partilha+entre+ex-companheiros
-- **Juiz de Goiás remove inventariante por indícios de exclusão de herdeiras da gestão de imóveis e aluguéis** — `inventariante-removido-lawfare-patrimonial-alugueis-goias` — IBDFAM (TJGO), 09/10 — https://ibdfam.org.br/noticias/14317/Justi%C3%A7a+reconhece+lawfare+patrimonial+de+g%C3%AAnero+e+remove+inventariante+em+Goi%C3%A1s
-- **STJ suspende por vista julgamento sobre herdeira defender sozinha a herança (REsp 2.231.641)** — `stj-herdeira-embargos-execucao-pais-falecidos-vista` — IBDFAM/Migalhas, 13/10 — https://ibdfam.org.br/noticias/14322/STJ+discute+legitimidade+de+herdeira+para+apresentar+embargos+%C3%A0+execu%C3%A7%C3%A3o+contra+os+pais+falecidos
-- **TJ-GO: empresas condenadas por vícios em condomínio devem adiantar a perícia** — `tjgo-condominio-vicios-construtivos-pericia-devedoras` — Migalhas, 14/10 — https://www.migalhas.com.br/quentes/466461/condenadas-a-reparar-vicios-empresas-anteciparao-custo-de-pericia
-- **STJ suspende por vista julgamento inédito sobre usucapião de nome de domínio (REsp 1.823.904)** — `stj-usucapiao-nome-dominio-internet-vista` — ConJur, 14/10 — https://conjur.com.br/2026-out-14/stj-avalia-se-cabe-usucapiao-de-nome-de-dominio-na-internet/
+- **STJ: escolha de regime de bens por maiores de 70 anos não alcança união estável encerrada antes da decisão do STF** — `stj-uniao-estavel-idoso-regime-bens-tema-1236-nao-retroage` — Migalhas, 06/10 — https://www.migalhas.com.br/quentes/465939/stj-mantem-separacao-de-bens-de-idoso-em-uniao-anterior-a-entendimento-do-stf
+- **STJ mantém anulação de procurações usadas para renúncia de herança** — `stj-procuracoes-renuncia-heranca-invalidas-novo-inventario` — Migalhas, 07/10 — https://www.migalhas.com.br/quentes/466027/stj-invalida-procuracoes-que-fizeram-irmaos-renunciar-a-heranca
+- **STJ vai definir em repetitivos a retenção em distratos imobiliários (Temas 1.464/1.465)** — `stj-repetitivos-retencao-distrato-imoveis-temas-1464-1465` — Migalhas, 09/10 — https://www.migalhas.com.br/quentes/466255/stj-definira-limites-de-retencao-na-rescisao-de-compra-de-imoveis
+- **STJ mantém afastamento de IPTU sobre 1.161 lotes em área de preservação (Guarulhos)** — `stj-iptu-lotes-area-preservacao-ambiental-guarulhos` — Migalhas, 06/10 — https://www.migalhas.com.br/quentes/465995/stj-afasta-iptu-sobre-mais-de-mil-lotes-em-area-de-preservacao
+- **Justiça do MA manda São Luís concluir REURB-S do Novo Angelim** — `justica-ma-sao-luis-reurb-s-novo-angelim-titulos` — Conjur, 26/09 — https://conjur.com.br/2026-set-26/municipio-deve-concluir-projeto-de-regularizacao-fundiaria-no-maranhao/
 
 ## Descartados
-- STF/IPTU por área (Migalhas 14/10) e honorários/relevância: já publicados.
-- Informativo STJ 904: sem item imobiliário relevante lido por completo.
-- "Competência da posse de imóvel rural (STJ)": resultado de busca só; a matéria que achei é de 2020. Não verificado.
-- Itens de outras áreas (canabidiol, ICMS/PIS, multas de veículo, etc.): fora do tema.
-- Opinião da ConJur sobre financiamento de obra: artigo de opinião, tema já coberto.
+- STF/ITBI integralização de capital (maioria formada): tema já publicado em 16/09; julgamento ainda não concluído.
+- Informativo STJ 904 (retenção de 50% em patrimônio de afetação; Fazenda Pública e convenção): a página do informativo não trouxe o texto via curl; só havia resumo de busca, não verificado.
+- Artigos de opinião (Conjur sobre ITBI/LC 227, IBDFAM sobre planejamento): não são notícias de decisão.
+- Locação por temporada em condomínio (Conjur 29/09): tema coberto por notícia já publicada.
+- TJPA: busca sem decisão imobiliária relevante em outubro.
 
 ## Fontes consultadas
-IBDFAM, Migalhas, ConJur, STF, CNJ (listagens), STJ (Informativo 904; portal de notícias deu 403), buscas em IRIB/Anoreg (sem item novo).
+Migalhas, Conjur, IBDFAM, IRIB, STJ (Informativo 904; portal oficial não consultado), TJPA (DJe, via busca).
 
 ## Atenção do dono
-- Todas as fontes são secundárias (sem página oficial do tribunal); não achei links oficiais.
-- Três itens são julgamentos em andamento (2 STJ suspensos por vista) ou decisões de 1º grau/monocráticas, sem força de precedente: conferir o tom em "Nas entrelinhas".
-- A notícia de usucapião de nome de domínio é um tema limítrofe (bem incorpóreo/digital).
-- A notícia do ES omite o número do processo (relação familiar) embora a fonte o divulgue.
-- O prompt pede indent=1 no JSON, mas o arquivo existente usa indent=2; mantive indent=2 para não reformatar as notícias antigas.
+- Todas as fontes são secundárias (Migalhas/Conjur); não achei links oficiais. As datas vêm do metadado de publicação das páginas.
+- O Migalhas não informa a data das sessões de julgamento (exceto o IPTU, 06/10) nem se há unanimidade em alguns casos; escrevi "não informado".
+- IPTU/Guarulhos: a fonte diz que o relator votou por "conhecer o recurso da empresa e desprover o do município"; mantive a redação literal e destaquei que não é regra geral.
+- Repetitivos: a fonte não liga cada REsp a um tema; listei os processos sem associação.
+- REURB (MA): sentença de 1º grau, número do processo não divulgado.
+- Mantive indent=2 no JSON (formato existente), apesar do prompt dizer indent=1.
