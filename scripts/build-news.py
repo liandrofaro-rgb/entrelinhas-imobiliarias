@@ -171,20 +171,23 @@ def main():
         feed += (f'<li><a href="{html.escape(href)}"{alvo}><span class="nl-feed-meta">{n["orgao"]} · {curta(n["data_publicacao"])}</span>'
                  f'<strong>{html.escape(n["titulo"])}</strong></a></li>\n')
     trocar(DIST / 'newsletter.html', '<!-- NL:START -->', '<!-- NL:END -->', f'<ul class="nl-feed">\n{feed}</ul>\n')
-    radar = ''
-    for i, n in enumerate(items[:3]):
-        href = f'noticia-{n["slug"]}.html'
-        meta = f'{n["orgao"]} · {curta(n["data_publicacao"])}'
-        img = f'<figure><img src="{n["imagem"]}" alt="{html.escape(n["imagem_alt"])}" width="1200" height="630" loading="lazy" decoding="async"></figure>'
-        if i == 0:
-            radar += (f'<a class="publication-radar-feature" href="{href}">\n            {img}\n            <div>\n'
-                      f'              <span class="publication-meta">{meta}</span>\n              <h4>{html.escape(n["titulo"])}</h4>\n'
-                      f'              <span class="publication-action">Ler notícia <i aria-hidden="true">→</i></span>\n            </div>\n          </a>\n          ')
-        else:
-            radar += (f'<a class="publication-radar-item" href="{href}">\n            {img}\n            <div>\n'
-                      f'              <span class="publication-meta">{meta}</span>\n              <h4>{html.escape(n["titulo"])}</h4>\n            </div>\n'
-                      f'            <span class="publication-radar-arrow" aria-hidden="true">→</span>\n          </a>\n          ')
-    trocar(DIST / 'index.html', '<!-- RADAR:START -->', '<!-- RADAR:END -->', '          ' + radar)
+    def radar_html(n):
+        radar = ''
+        for i, n_ in enumerate(items[:n]):
+            href = f'noticia-{n_["slug"]}.html'
+            meta = f'{n_["orgao"]} · {curta(n_["data_publicacao"])}'
+            img = f'<figure><img src="{n_["imagem"]}" alt="{html.escape(n_["imagem_alt"])}" width="1200" height="630" loading="lazy" decoding="async"></figure>'
+            if i == 0:
+                radar += (f'<a class="publication-radar-feature" href="{href}">\n{img}\n<div>\n'
+                          f'<span class="publication-meta">{meta}</span>\n<h4>{html.escape(n_["titulo"])}</h4>\n'
+                          f'<span class="publication-action">Ler notícia <i aria-hidden="true">→</i></span>\n</div>\n</a>\n')
+            else:
+                radar += (f'<a class="publication-radar-item" href="{href}">\n{img}\n<div>\n'
+                          f'<span class="publication-meta">{meta}</span>\n<h4>{html.escape(n_["titulo"])}</h4>\n</div>\n'
+                          f'<span class="publication-radar-arrow" aria-hidden="true">→</span>\n</a>\n')
+        return radar
+    trocar(DIST / 'index.html', '<!-- RADAR:START -->', '<!-- RADAR:END -->', radar_html(3))
+    trocar(DIST / 'publicacoes.html', '<!-- RADAR:START -->', '<!-- RADAR:END -->', radar_html(6))
     mapa = DIST / 'sitemap.xml'
     t = re.sub(r'[ \t]*<url><loc>' + re.escape(ORIGIN) + r'/noticia-[^<]*</loc></url>\n', '', mapa.read_text(encoding='utf-8'))
     novas = ''.join(f'  <url><loc>{ORIGIN}/{a}</loc></url>\n' for a in sorted(gerados))
