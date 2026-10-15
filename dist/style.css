@@ -1802,9 +1802,7 @@ body.newsletter-page { background:#fff; }
   width: max-content;
   display: inline-flex;
   align-items: center;
-  gap: 15px;
 }
-.footer-wordmark img { width: 52px; height: 52px; }
 .footer-wordmark span {
   font: 500 22px/1 "Manrope", sans-serif;
   letter-spacing: .16em;
