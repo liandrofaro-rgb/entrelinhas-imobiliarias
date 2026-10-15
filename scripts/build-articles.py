@@ -270,7 +270,9 @@ def main():
         arq = f'artigo-{a["slug"]}.html'
         pag = (modelo.replace('{{MAIN}}', pagina_main(a, noticias)).replace('{{TITULO}}', html.escape(a['titulo']))
                .replace('{{DESCRICAO}}', html.escape(a['descricao'])).replace('{{ARQUIVO}}', arq)
-               .replace('{{IMAGEM}}', f'capa-{a["slug"]}.svg'))
+               .replace('{{IMAGEM}}', f'capa-{a["slug"]}.svg')
+               .replace('{{IMAGEM_OG}}', f'og-capa-{a["slug"]}.png').replace('{{DESCRICAO_OG}}', html.escape(a['subtitulo'])))
+        if not (DIST / f'og-capa-{a["slug"]}.png').exists(): print(f'aviso: falta og-capa-{a["slug"]}.png; rode scripts/build-og-images.py')
         pag = pag.replace('Newsletter', 'Newsletter') if False else pag
         (DIST / arq).write_text(pag, encoding='utf-8')
         (DIST / f'capa-{a["slug"]}.svg').write_text(capa(a), encoding='utf-8')
