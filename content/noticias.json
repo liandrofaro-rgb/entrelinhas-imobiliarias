@@ -834,5 +834,594 @@
   "lei": [
    "O **art. 206, §5º, inciso I, do Código Civil** fixa em cinco anos a prescrição da pretensão de cobrança de dívidas líquidas constantes de instrumento público ou particular. O **art. 205** prevê o prazo geral de dez anos quando a lei não estabelece prazo menor."
   ]
+ },
+ {
+  "slug": "airbnb-aprovacao-condominio-dois-tercos",
+  "titulo": "Airbnb em condomínio residencial exige aprovação de dois terços dos condôminos, decide o STJ.",
+  "subtitulo": "A Segunda Seção entendeu, por maioria, que o uso de unidades para estadias de curta temporada muda a destinação residencial do prédio.",
+  "descricao": "O STJ decidiu que a oferta de imóvel em plataformas como o Airbnb depende de alteração da destinação do condomínio, aprovada por dois terços dos condôminos.",
+  "orgao": "STJ",
+  "area": "Condomínio",
+  "data_publicacao": "2026-05-07",
+  "imagem": "ilustracao-hospedagem.svg",
+  "imagem_alt": "Ilustração de uma mala de viagem ao lado de uma pequena casa",
+  "resumo": [
+   "A Segunda Seção do STJ decidiu, ==por maioria==, que estadias de curta temporada em condomínio residencial exigem ==alteração da destinação== do prédio.",
+   "A mudança precisa ser aprovada em assembleia por, no mínimo, ==dois terços dos condôminos==.",
+   "Para a corte, a exploração econômica da unidade descaracteriza o uso residencial.",
+   "O tribunal considerou que o contrato intermediado por plataformas é atípico: não é locação residencial nem hospedagem de hotel.",
+   "A decisão uniformiza o entendimento do STJ sobre o tema."
+  ],
+  "aconteceu": [
+   "O caso começou com a proprietária de um **apartamento** que queria destiná-lo a **estadias de curta duração**, sem precisar de aprovação em assembleia. O condomínio argumentou que essa destinação não estava prevista na convenção e afastava o caráter residencial do prédio. A empresa **Airbnb** atuou como interessada na ação.",
+   "O **Tribunal de Justiça de Minas Gerais (TJMG)** negou o pedido da proprietária, e o caso chegou à Segunda Seção do STJ, que reúne as turmas de direito privado."
+  ],
+  "entrelinhas": [
+   "**O foco é a destinação, não a plataforma.** O STJ deixou claro que o problema não é o Airbnb em si, e sim o uso econômico de uma unidade num prédio pensado para moradia. A mesma lógica valeria para qualquer anúncio de estadias curtas.",
+   "**A assembleia decide.** A decisão devolve o debate ao condomínio: quem quer permitir esse tipo de uso precisa convencer dois terços dos condôminos. Para quem prefere mais controle, a decisão dá um caminho claro.",
+   "**Convenção e realidade precisam combinar.** Condomínios cuja convenção já trata do assunto, em qualquer sentido, tendem a ter menos conflitos. Quando ela é silenciosa, a decisão oferece um critério.",
+   "**Decisão por maioria.** Como não houve unanimidade, o tema continua sendo observado de perto por proprietários, condomínios e plataformas. Cada situação concreta depende da convenção do prédio."
+  ],
+  "sintese": "Em uma frase: **em condomínio residencial, alugar por temporada pela internet muda a destinação do prédio e precisa da aprovação de dois terços dos condôminos.**",
+  "fontes": [
+   {
+    "rotulo": "STJ · notícia oficial ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/07052026-Oferta-de-imovel-em-plataformas-como-Airbnb-exige-aprovacao-do-condominio--define-Segunda-Secao.aspx"
+   }
+  ],
+  "decisao": [
+   "A **Segunda Seção negou o recurso** da proprietária, por maioria de votos, e manteve a decisão do TJMG. Em 7 de maio de 2026, o colegiado estabeleceu que o uso de imóveis em condomínios para **estadia de curta temporada**, como na plataforma Airbnb, exige que a destinação das unidades tenha sido **alterada em assembleia**, por no mínimo **dois terços** dos condôminos.",
+   "No voto que prevaleceu, a ministra **Nancy Andrighi** afirmou que contratos intermediados por plataformas não se enquadram propriamente como locação residencial nem como hospedagem em hotel, e por isso podem ser considerados **contratos atípicos**. Para ela, o meio usado para oferecer o imóvel, seja plataforma digital, imobiliária ou anúncio de classificados, é irrelevante para a natureza jurídica do negócio.",
+   "A ministra lembrou que as plataformas intensificaram a rotatividade de pessoas nos condomínios, com reflexos na **segurança e no sossego** dos moradores. Pelo art. 1.336, inciso IV, do Código Civil, os condôminos devem dar às partes do edifício a mesma destinação da edificação. E, pelo art. 1.351, a mudança de destinação exige aprovação de **dois terços** dos condôminos."
+  ],
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Segunda Seção"
+   ],
+   [
+    "Julgamento",
+    "7 de maio de 2026, por maioria"
+   ],
+   [
+    "Relatora",
+    "Ministra Nancy Andrighi"
+   ],
+   [
+    "Divulgação pelo tribunal",
+    "7 de maio de 2026"
+   ]
+  ],
+  "lei": [
+   "O **art. 1.336, inciso IV, do Código Civil** obriga o condômino a dar à sua unidade a mesma destinação do edifício. O **art. 1.351** exige a aprovação de dois terços dos condôminos para mudar a destinação do prédio ou da unidade."
+  ],
+  "data_julgamento": "2026-05-07"
+ },
+ {
+  "slug": "corretor-nao-responde-atraso-construtora",
+  "titulo": "Corretor de imóveis, em regra, não responde por atraso ou descumprimento da construtora.",
+  "subtitulo": "A Segunda Seção fixou tese em recurso repetitivo: a regra vale para todo o país.",
+  "descricao": "O STJ fixou, em recurso repetitivo, que o corretor de imóveis não é, em regra, responsável por descumprimento da construtora ou da incorporadora.",
+  "orgao": "STJ",
+  "area": "Imóvel na planta",
+  "data_publicacao": "2026-01-26",
+  "imagem": "ilustracao-corretor.svg",
+  "imagem_alt": "Ilustração de uma placa de venda ao lado de uma casa",
+  "resumo": [
+   "A Segunda Seção do STJ fixou tese (==Tema 1.173==): em regra, o corretor ==não responde== pelo descumprimento da construtora.",
+   "A decisão foi unânime e deve ser seguida por juízes e tribunais de todo o país.",
+   "O corretor pode responder se atuar também como incorporador ou construtor, ou se integrar o mesmo grupo econômico.",
+   "O caso analisado envolvia a devolução integral de valores pagos por consumidores à construtora."
+  ],
+  "aconteceu": [
+   "Em um dos recursos usados como referência (**REsp 2.008.542**), uma corretora contestou decisão do **Tribunal de Justiça do Rio de Janeiro**, que a havia condenado, **junto com uma construtora**, a devolver integralmente os valores pagos por dois consumidores, depois do descumprimento do contrato de promessa de compra e venda.",
+   "A questão foi levada à Segunda Seção sob o **rito dos recursos repetitivos**, que fixa uma tese para casos semelhantes em todo o país."
+  ],
+  "entrelinhas": [
+   "**Quem vende não é quem constrói.** A decisão separa dois papéis: o de intermediar o negócio e o de executar a obra. O consumidor que sofre atraso deve buscar, em regra, a construtora ou a incorporadora.",
+   "**Mas o rótulo não basta.** Se o corretor lidera o empreendimento, vende unidades antes da obra, registra a incorporação ou faz parte do mesmo grupo econômico, a história muda. O tribunal olha para o que a pessoa faz, e não para o nome que ela usa.",
+   "**Previsibilidade para o mercado.** Por ser tese de repetitivo, os mesmos critérios se aplicam a milhares de processos. Isso reduz a incerteza para corretores, construtoras e compradores.",
+   "**Cuidado ao comprar na planta.** Vale identificar quem é o incorporador, quem constrói e qual é a relação do corretor com eles, e guardar os contratos e anúncios de cada etapa."
+  ],
+  "sintese": "Em uma frase: **quem intermedia a venda do imóvel na planta, em regra, não responde pelos atrasos da obra, salvo quando também faz parte do empreendimento.**",
+  "fontes": [
+   {
+    "rotulo": "STJ · notícia oficial ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/26012026-Em-regra--corretor-de-imoveis-nao-responde-por-descumprimento-de-obrigacoes-da-construtora.aspx"
+   }
+  ],
+  "decisao": [
+   "Por **unanimidade**, a Segunda Seção consolidou que o corretor de imóveis, pessoa física ou jurídica, **não é, em regra, responsável** pelos danos causados ao consumidor por descumprimento, pela construtora ou incorporadora, de obrigações do empreendimento previstas no contrato de promessa de compra e venda. O relator foi o ministro **Raul Araújo**, e a tese deve ser observada por juízes e tribunais (art. 927 do CPC).",
+   "Para o relator, o corretor geralmente atua como **intermediário** do negócio e tem direito à comissão. Com o pagamento da comissão, **extingue-se a obrigação do corretor**, que não se vincula à conclusão da obra nem à entrega do imóvel.",
+   "A responsabilização só é possível quando o corretor tem **envolvimento direto** na incorporação e na construção, integra o **mesmo grupo econômico** da construtora ou incorporadora, ou quando há confusão ou desvio patrimonial em seu benefício. Nesses casos, a responsabilidade não nasce da corretagem, e sim da participação no negócio principal (art. 31 da Lei 4.591/1964)."
+  ],
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Segunda Seção"
+   ],
+   [
+    "Julgamento",
+    "Por unanimidade, em recurso repetitivo (Tema 1.173)"
+   ],
+   [
+    "Relator",
+    "Ministro Raul Araújo"
+   ],
+   [
+    "Processo de referência",
+    "REsp 2.008.542"
+   ],
+   [
+    "Divulgação pelo tribunal",
+    "26 de janeiro de 2026"
+   ]
+  ]
+ },
+ {
+  "slug": "usucapiao-area-preservacao-permanente",
+  "titulo": "Imóvel em área de preservação permanente não pode ser usucapido, decide o STJ.",
+  "subtitulo": "A Terceira Turma entendeu que ocupação irregular de APP é antijurídica e que o interesse ambiental prevalece.",
+  "descricao": "O STJ decidiu que não é possível reconhecer usucapião de imóvel localizado em Área de Preservação Permanente.",
+  "orgao": "STJ",
+  "area": "Posse e propriedade",
+  "data_publicacao": "2026-02-06",
+  "imagem": "ilustracao-floresta.svg",
+  "imagem_alt": "Ilustração de duas árvores com um marcador de confirmação",
+  "resumo": [
+   "A Terceira Turma do STJ decidiu que ==não cabe usucapião== de imóvel em Área de Preservação Permanente (APP).",
+   "O ocupante alegava posse de mais de ==20 anos== sobre uma faixa de terreno em Mato Grosso.",
+   "Para a relatora, ocupar APP irregularmente favorece o desmatamento e dificulta a fiscalização ambiental.",
+   "O interesse coletivo no meio ambiente prevalece sobre o interesse individual do possuidor."
+  ],
+  "aconteceu": [
+   "O caso é uma **ação reivindicatória**: um proprietário buscava recuperar a posse de uma **faixa de terreno** em uma **APP no estado de Mato Grosso**, ocupada irregularmente. Em sua defesa, o réu disse exercer posse mansa, pacífica e ininterrupta havia mais de **20 anos**, com ânimo de dono, e pediu a declaração da usucapião.",
+   "A primeira instância aceitou a tese do ocupante. O **TJMT** reformou a sentença e deu razão ao proprietário, por considerar que a ocupação da APP não gerou direito à usucapião. No STJ, o ocupante sustentou que fez benfeitorias e atividades produtivas e que o art. 8º do Código Florestal não proibiria de forma absoluta a usucapião dessas áreas."
+  ],
+  "entrelinhas": [
+   "**Tempo de posse não resolve tudo.** Mesmo com mais de 20 anos de ocupação, a localização do imóvel pode impedir a usucapião. A natureza da área pesa tanto quanto o tempo.",
+   "**Meio ambiente como limite.** A decisão mostra que a propriedade e a posse convivem com restrições de interesse coletivo. A função socioambiental da propriedade não é só um princípio: pode decidir o caso.",
+   "**Antes de comprar ou regularizar,** convém verificar se o terreno está, total ou parcialmente, em APP, como margens de rios, topos de morro e outras áreas protegidas. Isso afeta o que se pode fazer, registrar e adquirir.",
+   "**O que a notícia não diz.** A decisão trata de usucapião em APP em ação reivindicatória. Cada terreno exige análise da área, do registro e da legislação aplicável."
+  ],
+  "sintese": "Em uma frase: **terreno em área de preservação permanente não vira propriedade por usucapião, por mais tempo que a pessoa more nele.**",
+  "fontes": [
+   {
+    "rotulo": "STJ · notícia oficial ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06022026-Para-Terceira-Turma--lei-impede-usucapiao-de-imovel-situado-em-area-de-preservacao-permanente.aspx"
+   }
+  ],
+  "decisao": [
+   "A **Terceira Turma** entendeu que **não é possível acolher a exceção de usucapião** em ação reivindicatória sobre imóvel em APP. A relatora, ministra Nancy Andrighi, afirmou que, pela leitura dos arts. 7º e 8º do Código Florestal, invasões e ocupações irregulares em APP são **antijurídicas**, porque favorecem a supressão da vegetação e dificultam o poder de polícia ambiental do Estado.",
+   "Embora a APP não seja considerada bem público, o art. 8º veda a intervenção ou a supressão de vegetação nessas áreas, o que se justifica pela importância da preservação. Para fins de usucapião, essa limitação restringe as atividades possíveis no local, e os requisitos devem ser analisados com **maior rigor**, pois o interesse coletivo prevalece sobre o individual.",
+   "Permitir a usucapião, segundo a decisão, **estimularia a invasão** dessas áreas, o que prejudicaria a garantia da propriedade e sua função socioambiental."
+  ],
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Terceira Turma"
+   ],
+   [
+    "Relatora",
+    "Ministra Nancy Andrighi"
+   ],
+   [
+    "Processo",
+    "REsp 2.211.711"
+   ],
+   [
+    "Divulgação pelo tribunal",
+    "6 de fevereiro de 2026"
+   ]
+  ]
+ },
+ {
+  "slug": "stf-reintegracao-posse-campinas-adpf-828",
+  "titulo": "STF suspende retirada de famílias de terreno em Campinas por falta de proteção a vulneráveis.",
+  "subtitulo": "O ministro Alexandre de Moraes concedeu liminar por entender que a ordem do TJSP não seguiu as regras da ADPF 828.",
+  "descricao": "O STF suspendeu, por liminar, reintegração de posse de terreno urbano em Campinas (SP) que atingiria sete famílias, por descumprimento das regras para desocupações coletivas.",
+  "orgao": "STF",
+  "area": "Posse e moradia",
+  "data_publicacao": "2026-07-28",
+  "imagem": "ilustracao-familia.svg",
+  "imagem_alt": "Ilustração de uma casa com três pessoas sob o telhado",
+  "resumo": [
+   "O ministro ==Alexandre de Moraes== suspendeu, por liminar, uma reintegração de posse em Campinas (SP).",
+   "Ele entendeu que o TJSP não observou as regras da ==ADPF 828== para desocupações coletivas de pessoas vulneráveis.",
+   "Entre as regras estão ==mediação prévia== e encaminhamento das famílias a abrigo ou local digno.",
+   "A decisão também proíbe, em qualquer hipótese, a separação de integrantes da mesma família.",
+   "A decisão é provisória: o caso seguirá para o relator, ministro Cristiano Zanin."
+  ],
+  "aconteceu": [
+   "A Justiça de São Paulo havia autorizado o cumprimento de uma **reintegração de posse** de um **terreno urbano** em Campinas, inclusive com **força policial e arrombamento de casas**, se necessário. A decisão considerou que o terreno vinha sendo descaracterizado por construções irregulares, o que poderia gerar prejuízos e multas ao proprietário.",
+   "Os moradores levaram a questão ao STF por meio de uma **Reclamação (Rcl 97610)**. Eles informaram que a desocupação atingiria **17 pessoas, em sete famílias**, entre elas **sete crianças**, um idoso de 79 anos e uma gestante."
+  ],
+  "entrelinhas": [
+   "**Propriedade e moradia em tensão.** O proprietário tem direito de recuperar o terreno, e as famílias dependem dele para morar. A decisão não nega a reintegração: exige que ela seja feita com **cuidados mínimos**, em respeito à moradia digna.",
+   "**Como se faz importa tanto quanto o quê.** Mediação prévia, abrigo e a proibição de separar famílias são regras sobre o procedimento. Sem elas, uma ordem legal pode ser suspensa.",
+   "**Para proprietários,** o caminho passa por conhecer essas regras antes de pedir ou cumprir a desocupação de áreas ocupadas por muitas pessoas, para evitar nulidades e atrasos.",
+   "**Provisória.** A liminar vale até o relator analisar o caso. O resultado final pode ser diferente, e a situação concreta de cada ocupação continua decisiva."
+  ],
+  "sintese": "Em uma frase: **a retirada de famílias de áreas ocupadas precisa respeitar mediação, abrigo e a unidade familiar, mesmo quando há ordem de reintegração.**",
+  "fontes": [
+   {
+    "rotulo": "STF · notícia oficial ↗",
+    "url": "https://noticias.stf.jus.br/postsnoticias/stf-suspende-retirada-de-familias-de-imovel-urbano-em-campinas-sp/"
+   }
+  ],
+  "decisao": [
+   "O vice-presidente do STF, ministro **Alexandre de Moraes**, no exercício da Presidência durante as férias coletivas, **suspendeu a ordem por liminar**, isto é, de forma provisória. Para ele, o TJSP deixou de observar as regras fixadas pelo STF na **ADPF 828** para desocupações coletivas envolvendo pessoas em situação de vulnerabilidade.",
+   "Entre essas regras estão a realização de **mediação antes da retirada** das famílias e a garantia de que as pessoas vulneráveis sejam **encaminhadas para abrigos públicos** ou outro local com condições dignas de moradia. A decisão também proíbe, em qualquer hipótese, a **separação de integrantes da mesma família**.",
+   "O pedido foi apresentado durante o recesso, havia risco de cumprimento imediato, e o ministro considerou a urgência e o impacto potencial sobre a **dignidade e os direitos fundamentais** das pessoas envolvidas. Encerrado o recesso, o processo será encaminhado ao relator, ministro **Cristiano Zanin**."
+  ],
+  "dados": [
+   [
+    "Tribunal",
+    "Supremo Tribunal Federal · Vice-presidência, no exercício da Presidência"
+   ],
+   [
+    "Decisão",
+    "Liminar (provisória), proferida por Alexandre de Moraes"
+   ],
+   [
+    "Processo",
+    "Reclamação 97610 (ADPF 828)"
+   ],
+   [
+    "Relator após o recesso",
+    "Ministro Cristiano Zanin"
+   ],
+   [
+    "Divulgação pelo tribunal",
+    "28 de julho de 2026"
+   ]
+  ],
+  "decisao_titulo": "O que o STF decidiu"
+ },
+ {
+  "slug": "stf-desapropriacao-baixa-renda-tema-1464",
+  "titulo": "STF vai discutir indenização por desapropriação de imóveis de famílias sem registro de propriedade.",
+  "subtitulo": "O Tribunal reconheceu a repercussão geral do tema e fixará tese para casos semelhantes.",
+  "descricao": "O STF reconheceu repercussão geral sobre a indenização em desapropriação de imóvel ocupado por famílias de baixa renda sem registro de propriedade (Tema 1.464).",
+  "orgao": "STF",
+  "area": "Posse e moradia",
+  "data_publicacao": "2026-06-30",
+  "imagem": "ilustracao-desapropriacao.svg",
+  "imagem_alt": "Ilustração de uma casa com um traçado de via passando ao lado",
+  "resumo": [
+   "O STF vai decidir se, na desapropriação de imóvel ocupado por famílias de baixa renda ==sem registro de propriedade==, a indenização pode se limitar às ==benfeitorias==.",
+   "A discussão inclui o pagamento de ==juros compensatórios e moratórios==.",
+   "O tema teve repercussão geral reconhecida (Tema 1.464) pelo Plenário Virtual.",
+   "O julgamento de mérito ainda não tem data, e a tese valerá para casos semelhantes em todo o país."
+  ],
+  "aconteceu": [
+   "O **Município do Rio de Janeiro** desapropriou, por utilidade pública, um imóvel habitado por **famílias de baixa renda sem registro formal de propriedade**, para a implantação do **corredor viário Transcarioca**. O município condicionou o pagamento da indenização à apresentação da certidão de registro imobiliário.",
+   "O **TJ-RJ** reconheceu a possibilidade de desapropriar a posse e autorizou o pagamento de indenização aos ocupantes, com base em precedente do STJ que admite indenização prévia a possuidores. Mas entendeu que a indenização deveria se limitar às **benfeitorias**, sem considerar a posse exercida, e afastou **juros compensatórios e moratórios**.",
+   "O recurso ao STF (**ARE 1.594.146**) foi apresentado pelos moradores. Eles sustentam violação da **justa indenização**, da isonomia, do devido processo legal e do **direito à moradia**, e afirmam que a indenização deve incluir o valor econômico da posse pacífica e contínua, inclusive de pequenos comércios que funcionavam no local."
+  ],
+  "entrelinhas": [
+   "**Quem não tem papel também mora.** O caso trata de uma realidade comum no Brasil: famílias que ocupam imóveis há anos sem registro. A pergunta é se a posse, por si só, tem valor econômico que o Estado deve indenizar.",
+   "**Benfeitoria ou posse?** Indenizar só as benfeitorias protege menos quem não tem título. Incluir a posse protege mais, mas muda o custo das obras públicas. O STF vai pesar esses dois lados.",
+   "**Documento importa, mas não é tudo.** O caso mostra como a falta de registro pode virar um obstáculo para receber indenização. Regularizar a propriedade é um caminho para evitar essa discussão, e a tese do STF dirá o que vale para quem ainda não regularizou.",
+   "**Ainda aberto.** Por ora há só o reconhecimento da repercussão geral. A tese final, quando vier, valerá para milhares de casos semelhantes."
+  ],
+  "sintese": "Em uma frase: **o STF vai decidir quanto vale a posse de quem mora sem registro quando o Estado desapropria o imóvel.**",
+  "fontes": [
+   {
+    "rotulo": "STF · notícia oficial ↗",
+    "url": "https://noticias.stf.jus.br/postsnoticias/stf-vai-discutir-indenizacao-por-desapropriacao-de-imoveis-ocupados-por-familias-de-baixa-renda-sem-registro-de-propriedade/"
+   }
+  ],
+  "decisao": [
+   "O Plenário Virtual **reconheceu a repercussão geral** da questão (**Tema 1.464**). Isso significa que o STF considera que o tema vai além do caso concreto e que a tese a ser fixada será seguida em casos semelhantes nas demais instâncias.",
+   "Ao votar pelo reconhecimento, o presidente do STF, ministro **Edson Fachin**, afirmou que a matéria pode impactar inúmeros processos e influenciar a forma como o poder público conduz desapropriações em contextos de **vulnerabilidade social**. Destacou que a garantia da justa indenização afeta tanto a recomposição patrimonial dos expropriados quanto a atuação financeira do ente público.",
+   "O ministro também ressaltou que a proteção à **moradia digna** é um aspecto essencial da discussão, pois sua restrição pode comprometer saúde, segurança e desenvolvimento pessoal e familiar. **Ainda não há data** para o julgamento do mérito."
+  ],
+  "dados": [
+   [
+    "Tribunal",
+    "Supremo Tribunal Federal · Plenário Virtual"
+   ],
+   [
+    "Situação",
+    "Repercussão geral reconhecida; mérito sem data de julgamento"
+   ],
+   [
+    "Processo",
+    "ARE 1.594.146 (Tema 1.464)"
+   ],
+   [
+    "Divulgação pelo tribunal",
+    "30 de junho de 2026"
+   ]
+  ],
+  "decisao_titulo": "Como está o caso"
+ },
+ {
+  "slug": "heranca-digital-inventariante-digital",
+  "titulo": "Herança digital: o que o STJ já decidiu sobre bens deixados na internet.",
+  "subtitulo": "Não há lei específica, mas a Justiça já define caminhos para o acesso a ativos digitais de quem morreu.",
+  "descricao": "O STJ divulgou reportagem especial sobre herança digital e a decisão que prevê um inventariante digital quando os herdeiros não têm as senhas.",
+  "orgao": "STJ",
+  "area": "Inventário",
+  "data_publicacao": "2026-09-02",
+  "imagem": "ilustracao-digital.svg",
+  "imagem_alt": "Ilustração de uma nuvem com um cadeado",
+  "resumo": [
+   "No Brasil, ainda ==não existe lei específica== sobre o acesso a bens digitais de quem morreu.",
+   "Entram nessa discussão criptomoedas, arquivos em nuvem e perfis de redes sociais monetizados.",
+   "O STJ tem uma ==decisão inédita== sobre o caso em que os herdeiros não têm as senhas.",
+   "Nesses casos, deve ser aberto, junto ao inventário, um ==incidente== para identificar, classificar e avaliar os bens.",
+   "Um ==inventariante digital== ajuda o juiz a localizar o patrimônio e preserva informações íntimas."
+  ],
+  "aconteceu": [
+   "A **Secretaria de Comunicação do STJ** produziu uma **reportagem especial** sobre a chamada **herança digital**, o conjunto de bens e conteúdos que ficam na internet depois da morte de uma pessoa. O vídeo aborda os principais desafios jurídicos e os caminhos que a Justiça vem construindo.",
+   "O ponto de partida é uma lacuna: **não há lei específica** no Brasil que regule o acesso a ativos como **criptomoedas**, arquivos armazenados em nuvem e **perfis de redes sociais monetizados**. Ainda assim, o tema já chegou ao Judiciário, inclusive ao STJ."
+  ],
+  "entrelinhas": [
+   "**O patrimônio mudou de lugar.** Parte do que as pessoas possuem hoje não está em cartório nem em conta bancária: está em contas e plataformas. Se ninguém sabe que existe, ou não sabe como acessar, o bem pode se perder.",
+   "**Valor econômico e intimidade se misturam.** O mesmo celular ou conta pode guardar criptomoedas e conversas privadas. Por isso o STJ fala em \"inventariante digital\": é preciso localizar o patrimônio sem devassar tudo.",
+   "**Planejamento sucessório inclui o digital.** Quem organiza o patrimônio em vida pode listar bens digitais e deixar orientações sobre acesso, em conjunto com um advogado, para facilitar o inventário.",
+   "**Sem lei, caso a caso.** Enquanto não há regra específica, os tribunais constroem soluções pontuais. As decisões podem variar, e é prudente acompanhar a evolução."
+  ],
+  "sintese": "Em uma frase: **bens digitais também entram no inventário, e a Justiça já aceita um \"inventariante digital\" para localizá-los.**",
+  "fontes": [
+   {
+    "rotulo": "STJ · reportagem especial ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/02092026-Heranca-digital-as-decisoes-do-STJ-sobre-o-acesso-a-bens-deixados-na-internet-.aspx"
+   }
+  ],
+  "decisao": [
+   "Segundo a reportagem, o STJ tem uma **decisão inédita** que definiu medidas para situações em que os herdeiros **não têm as senhas de acesso** aos bens digitais do falecido.",
+   "Nesses casos, deve ser instaurado, **junto ao inventário**, um **incidente** para **identificar, classificar e avaliar** esses bens. O juiz conta com o auxílio de um **\"inventariante digital\"**, profissional especializado que ajuda a localizar o patrimônio **preservando informações íntimas e protegidas**."
+  ],
+  "decisao_titulo": "O que o STJ já decidiu"
+ },
+ {
+  "slug": "partilha-juros-mora-transito-em-julgado",
+  "titulo": "Juros de mora na partilha de bens só correm após o trânsito em julgado, decide o STJ.",
+  "subtitulo": "A Terceira Turma entendeu que antes da decretação da partilha ainda não há inadimplemento.",
+  "descricao": "O STJ decidiu que, na partilha de bens, o termo inicial dos juros de mora é o trânsito em julgado da ação em que a partilha foi decretada.",
+  "orgao": "STJ",
+  "area": "Divórcio e união estável",
+  "data_publicacao": "2026-01-23",
+  "imagem": "ilustracao-tributo.svg",
+  "imagem_alt": "Ilustração de uma casa ao lado de uma moeda com o símbolo de porcentagem",
+  "resumo": [
+   "A Terceira Turma do STJ decidiu que os ==juros de mora== na partilha só começam no ==trânsito em julgado== da ação que decretou a partilha.",
+   "A simples citação do devedor não basta para constituí-lo em mora.",
+   "Antes da partilha, o patrimônio do casal está em uma espécie de ==copropriedade atípica==.",
+   "O caso envolvia a dissolução de união estável, com partilha e pensão alimentícia.",
+   "A decisão também trata de honorários na fase de liquidação."
+  ],
+  "aconteceu": [
+   "Um dos companheiros ajuizou **ação de reconhecimento e dissolução de união estável**, com pedidos de **partilha de bens e pensão alimentícia**. A ação foi julgada parcialmente procedente e seguiu-se a **liquidação de sentença**. Depois de **cinco anos** de tramitação, o juiz homologou a liquidação, fixou o valor a ser partilhado e concedeu **50%** para cada ex-companheiro.",
+   "O juiz determinou que a correção monetária e os juros de mora fossem aplicados **a partir do trânsito em julgado da ação de conhecimento**. O tribunal de segundo grau manteve a decisão. No STJ, o recurso sustentava que os juros deveriam correr **desde a citação** do réu e que os honorários deveriam ser fixados também na liquidação."
+  ],
+  "entrelinhas": [
+   "**Antes da divisão, ninguém \"deve\" ainda.** A decisão trata o patrimônio do casal, nesse período, como algo que pertence aos dois. Só quando a partilha é definida surge o dever de entregar a parte do outro.",
+   "**O tempo conta a partir de um marco.** O trânsito em julgado, quando não cabem mais recursos, é o ponto em que a dívida de entregar bens ou valores passa a render juros. Isso afeta o valor final a ser pago e a estratégia de cada lado.",
+   "**Demora tem consequência, mas não retroativa.** Processos de partilha podem levar anos. A decisão evita que o juros corram desde o início do processo, mas não elimina os efeitos do descumprimento depois da decisão definitiva.",
+   "**Honorários na liquidação são exceção.** A advocacia que atua nessa fase só tem majoração se houver litígio real, o que exige demonstração caso a caso."
+  ],
+  "sintese": "Em uma frase: **na partilha de bens, os juros só começam a correr depois que a decisão sobre a divisão se torna definitiva.**",
+  "fontes": [
+   {
+    "rotulo": "STJ · notícia oficial ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/23012026-Para-Terceira-Turma--juros-de-mora-so-incidem-na-partilha-de-bens-apos-transito-em-julgado-da-acao.aspx"
+   }
+  ],
+  "decisao": [
+   "A **Terceira Turma** decidiu que o termo inicial dos juros de mora na partilha é o **trânsito em julgado da ação de conhecimento** em que a partilha foi decretada. A relatora, ministra Nancy Andrighi, lembrou que a lei não disciplina o regime do patrimônio comum entre a separação de fato e a decretação da partilha. Até que o patrimônio seja quantificado e dividido, ele permanece em uma espécie de **copropriedade atípica**.",
+   "Para a ministra, **\"não há inadimplemento imputável antes da decretação da partilha\"**. Só depois de saber exatamente quais bens integram o patrimônio comum e qual é o quinhão de cada um é possível falar em mora. Por isso, **a citação não basta** para constituir o devedor em mora: nesse momento ainda não se sabe quem deve e o que deve.",
+   "Quanto aos honorários, a ministra explicou que a liquidação de sentença não é um novo processo, e por isso não há fixação de honorários nessa fase, apenas, em caráter excepcional, a **majoração** dos já fixados, se houver litigiosidade que prolongue a atuação dos advogados. Como esse ponto não foi discutido na origem, a Turma devolveu os autos para que ele seja avaliado. O número do processo não é divulgado por segredo de justiça."
+  ],
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Terceira Turma"
+   ],
+   [
+    "Relatora",
+    "Ministra Nancy Andrighi"
+   ],
+   [
+    "Processo",
+    "Não divulgado (segredo de justiça)"
+   ],
+   [
+    "Divulgação pelo tribunal",
+    "23 de janeiro de 2026"
+   ]
+  ]
+ },
+ {
+  "slug": "banco-atraso-obra-agente-financeiro",
+  "titulo": "Banco que só financia a obra não responde por atraso na entrega, decide o STJ.",
+  "subtitulo": "A Quarta Turma afastou a responsabilidade de instituição financeira que divulgava a obra como financiada e garantida por ela.",
+  "descricao": "O STJ decidiu que o banco que atua apenas como agente financeiro não responde, em regra, por atraso de obra, mesmo com publicidade que sugere garantia.",
+  "orgao": "STJ",
+  "area": "Imóvel na planta",
+  "data_publicacao": "2026-10-06",
+  "imagem": "ilustracao-banco.svg",
+  "imagem_alt": "Ilustração de um prédio com colunas, como o de uma instituição financeira",
+  "resumo": [
+   "A Quarta Turma do STJ decidiu, por unanimidade, que o banco que atua só como ==agente financeiro== não responde por atraso de obra.",
+   "A exceção é quando o banco atua como ==executor de políticas públicas de habitação== para a população de baixa renda.",
+   "A publicidade que sugere que o banco é ==garantidor da obra== não muda essa conclusão.",
+   "A decisão consta do Informativo de Jurisprudência nº 904, de 6 de outubro de 2026."
+  ],
+  "aconteceu": [
+   "O caso é uma **ação de indenização por atraso na entrega de obra** de um residencial, em uma **promessa de compra e venda**. O tribunal estadual reconheceu que as **propagandas** do banco o colocavam na posição de **aparente garantidor** da obra, já que diziam que o residencial era uma **\"obra financiada e garantida pelo banco\"**.",
+   "O banco recorreu ao STJ, afirmando que não tinha legitimidade para responder à ação."
+  ],
+  "entrelinhas": [
+   "**Financiar não é construir.** A decisão separa quem empresta o dinheiro de quem entrega a obra. O atraso, em regra, é problema da construtora ou incorporadora.",
+   "**Propaganda não cria vínculo automático.** Frases como \"financiado e garantido pelo banco\" não bastam, por si, para transformar o banco em responsável. O tribunal olha para o papel real que a instituição desempenha no contrato.",
+   "**A exceção existe e tem público definido.** Quando o banco executa política habitacional para baixa renda, a legitimidade pode existir. Por isso, a natureza do financiamento, e não só a marca, faz diferença.",
+   "**Para quem compra na planta,** vale conhecer quem é a incorporadora e como o financiamento é estruturado, guardando anúncios e contratos. Cada caso exige análise dos documentos."
+  ],
+  "sintese": "Em uma frase: **banco que só financia a compra do imóvel, em regra, não responde pelo atraso da obra, mesmo anunciando o empreendimento.**",
+  "fontes": [
+   {
+    "rotulo": "STJ · Informativo de Jurisprudência nº 904 ↗",
+    "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022655"
+   }
+  ],
+  "decisao": [
+   "A **Quarta Turma**, por unanimidade, reconheceu a **ilegitimidade do banco** para a ação. O relator foi o ministro João Otávio de Noronha. O julgamento ocorreu em **12 de agosto de 2026**.",
+   "O STJ lembrou o entendimento consolidado: a circunstância que autoriza incluir uma instituição financeira em ações por atraso de obra é aquela em que o banco atua como **executor de políticas públicas de habitação voltadas à população de baixa renda**. Se atua **meramente como agente financeiro**, não responde (precedente: REsp 2.217.479/RS, Quarta Turma, relatora ministra Maria Isabel Gallotti, julgado em 24/11/2025).",
+   "No caso, não houve afirmação nem reconhecimento de que o banco tenha atuado como executor de política pública de habitação, nem de que se tratava de pessoas de baixa renda. Para o relator, a divulgação de que a instituição seria **\"garantidora da obra\"** é um fundamento diferente, que **não autoriza** concluir que o banco estava vinculado ao empreendimento nessa qualidade."
+  ],
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Quarta Turma"
+   ],
+   [
+    "Julgamento",
+    "12 de agosto de 2026, por unanimidade"
+   ],
+   [
+    "Relator",
+    "Ministro João Otávio de Noronha"
+   ],
+   [
+    "Processo",
+    "REsp 2.252.124/RS"
+   ],
+   [
+    "Publicação no Informativo",
+    "Nº 904, de 6 de outubro de 2026"
+   ]
+  ],
+  "data_julgamento": "2026-08-12"
+ },
+ {
+  "slug": "despejo-nu-proprietario-usufruto",
+  "titulo": "Nu-proprietário pode pedir despejo quando alugou o imóvel com a concordância do usufrutuário.",
+  "subtitulo": "A Terceira Turma entendeu que o locatário não pode alegar ilegitimidade de quem assinou o contrato com ele.",
+  "descricao": "O STJ decidiu que o nu-proprietário tem legitimidade para propor ação de despejo por falta de pagamento quando alugou o imóvel com a anuência expressa do usufrutuário.",
+  "orgao": "STJ",
+  "area": "Locação",
+  "data_publicacao": "2026-09-22",
+  "imagem": "ilustracao-chave.svg",
+  "imagem_alt": "Ilustração de uma chave grande ao lado de uma pequena casa",
+  "resumo": [
+   "A Terceira Turma do STJ, por unanimidade, reconheceu que o ==nu-proprietário== pode pedir ==despejo== por falta de pagamento.",
+   "No caso, o contrato foi feito pelas nuas-proprietárias com a ==concordância expressa da usufrutuária==, que assinou como interveniente.",
+   "O locatário que alega, depois, que elas não têm legitimidade age contra a ==boa-fé objetiva==.",
+   "A decisão consta do Informativo de Jurisprudência nº 902, de 22 de setembro de 2026."
+  ],
+  "aconteceu": [
+   "O **usufruto** é um direito real em que o dono do imóvel (o **nu-proprietário**) mantém a propriedade, mas entrega a outra pessoa (o **usufrutuário**) o direito de usar o bem e de retirar seus frutos, como o aluguel.",
+   "No caso, as **nuas-proprietárias** de um imóvel alugaram o bem a um terceiro, com a **aquiescência expressa da usufrutuária**, que assinou o contrato como **interveniente**. Diante da falta de pagamento, elas ajuizaram **ação de despejo**. A controvérsia era saber se, havendo usufruto, as nuas-proprietárias podiam propor a ação."
+  ],
+  "entrelinhas": [
+   "**Quem assina, responde.** Quem fecha um contrato com duas pessoas não pode, depois, desprezar uma delas para tentar escapar da cobrança. A boa-fé impede esse tipo de comportamento contraditório.",
+   "**Usufruto e aluguel exigem cuidado.** Quando o imóvel tem usufruto, o ideal é que o contrato diga quem está alugando e com a concordância de quem. Assinaturas de ambos evitam discussões.",
+   "**Segurança para os dois lados.** Para o locador, a decisão evita que o locatário use uma formalidade para atrasar o despejo. Para o locatário, a participação dos dois no contrato reforça a validade da locação.",
+   "**Planejamento patrimonial.** Famílias que organizam o patrimônio em vida com doação de nua-propriedade e usufruto devem prever como o imóvel será administrado e alugado."
+  ],
+  "sintese": "Em uma frase: **quem aluga um imóvel com usufruto e depois deixa de pagar não pode se livrar do despejo alegando que o nu-proprietário não tinha direito de cobrar.**",
+  "fontes": [
+   {
+    "rotulo": "STJ · Informativo de Jurisprudência nº 902 ↗",
+    "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022633"
+   }
+  ],
+  "decisao": [
+   "A **Terceira Turma**, por unanimidade, concluiu que **sim**. A relatora foi a ministra Nancy Andrighi, e o julgamento ocorreu em **14 de setembro de 2026** (REsp 2.218.467-SP). Segundo a decisão, o usufrutuário pode alugar o imóvel sem a concordância do nu-proprietário, mas o contrário não vale: o **nu-proprietário só pode alugar com o consentimento do usufrutuário**.",
+   "No caso, esse consentimento existia. Por isso, é possível que **ambos figurem como locadores** no mesmo contrato, o que, segundo o acórdão, até **aumenta a segurança jurídica**, inclusive do locatário. Havendo ação de despejo, é **incompatível com a boa-fé objetiva** que o locatário alegue a ilegitimidade do nu-proprietário, já que a assinatura conjunta foi feita em seu benefício.",
+   "A decisão citou o art. 1.394 do Código Civil, que dá ao usufrutuário o direito à posse, uso, administração e percepção dos frutos, e o art. 5º da Lei do Inquilinato, que prevê a ação de despejo."
+  ],
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Terceira Turma"
+   ],
+   [
+    "Julgamento",
+    "14 de setembro de 2026, por unanimidade"
+   ],
+   [
+    "Relatora",
+    "Ministra Nancy Andrighi"
+   ],
+   [
+    "Processo",
+    "REsp 2.218.467-SP"
+   ],
+   [
+    "Publicação no Informativo",
+    "Nº 902, de 22 de setembro de 2026"
+   ]
+  ],
+  "data_julgamento": "2026-09-14"
+ },
+ {
+  "slug": "alienacao-fiduciaria-quitacao-tema-1288",
+  "titulo": "Financiamento com alienação fiduciária: depois da consolidação, quitar o atraso não devolve o imóvel ao devedor.",
+  "subtitulo": "Em repetitivo, a Segunda Seção definiu os efeitos de pagar a dívida depois que a propriedade já passou ao banco.",
+  "descricao": "O STJ fixou, em recurso repetitivo, as regras para quem quita a dívida de financiamento imobiliário com alienação fiduciária depois da consolidação da propriedade.",
+  "orgao": "STJ",
+  "area": "Imóveis e financiamento",
+  "data_publicacao": "2026-02-19",
+  "imagem": "ilustracao-fiduciaria.svg",
+  "imagem_alt": "Ilustração de uma casa com um cadeado",
+  "resumo": [
+   "A Segunda Seção do STJ fixou, em ==recurso repetitivo (Tema 1.288)==, os efeitos da quitação da dívida após a consolidação da propriedade.",
+   "Antes da ==Lei 13.465/2017==, se a mora foi purgada, o contrato de financiamento é retomado.",
+   "Depois da lei, se a propriedade foi consolidada e a mora não foi purgada, o devedor tem apenas ==direito de preferência==.",
+   "A decisão foi por maioria e vale para todos os processos semelhantes.",
+   "Os processos que estavam suspensos poderão voltar a tramitar."
+  ],
+  "aconteceu": [
+   "Na **alienação fiduciária de imóvel**, o comprador financia o bem, mas ele fica em nome do banco como garantia. Se o comprador atrasa, o banco pode **consolidar a propriedade** em seu nome. A dúvida é: se o devedor paga o atraso **depois disso**, ele recupera o contrato?",
+   "No recurso usado como referência (**REsp 2.126.726**), um banco contestou decisão do **TJSP** que, em ação anulatória de execução extrajudicial, permitiu a **purgação da mora** até a assinatura do auto de arrematação, mesmo após a consolidação da propriedade já sob a vigência da **Lei 13.465/2017**."
+  ],
+  "entrelinhas": [
+   "**Quitar depois pode ser tarde.** Pela regra atual, passada a consolidação da propriedade, pagar o atraso não devolve o imóvel ao comprador. Ele só terá preferência para comprá-lo de volta.",
+   "**Prazo é decisivo.** O que muda a situação é o momento: se a mora foi purgada antes da lei nova, vale a regra antiga; se não, aplica-se a lei de 2017. Por isso, as datas do contrato, da consolidação e do pagamento pesam muito.",
+   "**Prevenção vale mais que correção.** Quem enfrenta dificuldade de pagamento tem mais chances de negociar antes da consolidação, com o banco, do que depois. A decisão reforça a importância de agir cedo.",
+   "**Segurança para o crédito imobiliário.** A tese dá previsibilidade ao mercado, mas deixa o devedor em posição mais frágil depois da consolidação. Cada caso exige análise do contrato e do histórico."
+  ],
+  "sintese": "Em uma frase: **depois que o imóvel financiado passa para o nome do banco, quitar o atraso não basta para retomar o contrato; o devedor só tem direito de preferência na compra.**",
+  "fontes": [
+   {
+    "rotulo": "STJ · notícia oficial ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/19022026-Repetitivo-define-efeitos-da-quitacao-da-divida-em-imovel-com-alienacao-fiduciaria-apos-a-Lei-13-4652017.aspx"
+   }
+  ],
+  "decisao": [
+   "Por **maioria**, a **Segunda Seção** aprovou duas teses, seguindo o voto do relator, ministro **Ricardo Villas Bôas Cueva**: (1) **antes** da Lei 13.465/2017, se a propriedade já estava consolidada e a **mora foi purgada** nos termos do art. 34 do Decreto-Lei 70/1966 (ato jurídico perfeito), deve ser **desfeita a consolidação** e retomado o contrato; (2) **a partir** da Lei 13.465/2017, se a propriedade foi consolidada e a mora **não foi purgada**, o devedor tem **apenas o direito de preferência** do art. 27, §2º-B, da Lei 9.514/1997.",
+   "O relator lembrou que a Lei 13.465/2017 incluiu o §2º-B no art. 27 da Lei 9.514/1997, e que, após a consolidação em nome do credor, o devedor **não pode mais purgar a mora**. Esse entendimento já vinha sendo aplicado também a contratos anteriores à lei, considerando **a data da consolidação e da purga da mora**, e não a data do contrato.",
+   "No caso concreto, o STJ **deu provimento ao recurso do banco** e julgou improcedente a ação do devedor, assegurando a ele **apenas o direito de preferência**. A tese vale para todos os processos semelhantes, que estavam suspensos."
+  ],
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Segunda Seção"
+   ],
+   [
+    "Julgamento",
+    "Por maioria, em recurso repetitivo (Tema 1.288)"
+   ],
+   [
+    "Relator",
+    "Ministro Ricardo Villas Bôas Cueva"
+   ],
+   [
+    "Processo de referência",
+    "REsp 2.126.726"
+   ],
+   [
+    "Divulgação pelo tribunal",
+    "19 de fevereiro de 2026"
+   ]
+  ],
+  "lei": [
+   "A alienação fiduciária de imóvel é regulada pela **Lei 9.514/1997**. A **Lei 13.465/2017** incluiu o **§2º-B no art. 27**, que assegura ao devedor apenas o direito de preferência após a consolidação da propriedade em nome do credor."
+  ]
  }
 ]
