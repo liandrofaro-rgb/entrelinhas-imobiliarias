@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#07172f">
+<title>Posso usar a API de Conversões da Meta? Uma cartilha jurídica em cinco perguntas. | Liandro Faro</title>
+<meta name="description" content="Cartilha didática sobre a API de Conversões (CAPI) da Meta e a LGPD: base legal, consentimento, dados que podem ou não ser enviados e política de privacidade.">
+<link rel="canonical" href="https://liandrofaro.adv.br/artigo-capi-meta-lgpd-pode-usar.html">
+<link rel="icon" href="favicon.png" type="image/png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Posso usar a API de Conversões da Meta? Uma cartilha jurídica em cinco perguntas. | Liandro Faro">
+<meta property="og:description" content="A CAPI é permitida, mas não é um atalho para contornar a LGPD. O que muda é o caminho do dado; a responsabilidade continua sendo de quem anuncia.">
+<meta property="og:url" content="https://liandrofaro.adv.br/artigo-capi-meta-lgpd-pode-usar.html">
+<meta property="og:image" content="https://liandrofaro.adv.br/og-capa-capi-meta-lgpd-pode-usar.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://liandrofaro.adv.br/og-capa-capi-meta-lgpd-pode-usar.png">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="noticia.css">
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<header class="site-header">
+<div class="header-inner">
+<a class="brand" href="index.html">
+<img src="liandro-faro.png" width="585" height="159" alt="Liandro Faro">
+</a>
+<button class="menu-toggle" aria-controls="nav" aria-expanded="false">Menu <span aria-hidden="true">+</span>
+</button>
+<nav id="nav" aria-label="Navegação principal">
+<span class="nav-indicator" aria-hidden="true"></span>
+<a href="index.html">Início</a>
+<a href="atuacao.html">Área de atuação</a>
+<a href="sobre.html">Quem sou</a>
+<div class="nav-has-sub">
+<a href="publicacoes.html" aria-current="page">Publicações</a>
+<div class="nav-sub">
+<a href="artigos.html"><strong>Artigos e Análises</strong><span>Textos autorais, com tese e fontes</span></a>
+<a href="noticias.html"><strong>Radar de Notícias</strong><span>Decisões e novidades, explicadas</span></a>
+</div>
+</div>
+<a href="newsletter.html">Assine newsletters</a>
+</nav>
+</div>
+<div class="reading-progress" aria-hidden="true">
+</div>
+</header>
+<main id="conteudo" tabindex="-1">
+<div class="reading-head wrap">
+<a class="back-link" href="artigos.html">← Artigos</a>
+<p class="label">CARTILHA · LGPD E MARKETING DIGITAL</p>
+<h1>Posso usar a API de Conversões da Meta? Uma cartilha jurídica em cinco perguntas.</h1>
+<p class="article-deck">A CAPI é permitida, mas não é um atalho para contornar a LGPD. O que muda é o caminho do dado; a responsabilidade por ele continua sendo de quem anuncia.</p>
+<div class="article-meta">Por Liandro Faro · 16 OUT 2026 · Leitura de 7 minutos</div>
+</div>
+<figure class="news-hero art-hero wrap">
+<img src="capa-capi-meta-lgpd-pode-usar-hero.svg" width="1200" height="630" alt="Capa da cartilha: Posso usar a API de Conversões da Meta?">
+</figure>
+<div class="article-layout wrap">
+<aside class="article-aside">
+<span class="label">NESTA CARTILHA</span>
+<a href="#s1">O que é a CAPI, em português simples</a>
+<a href="#s2">A resposta curta</a>
+<a href="#s3">As cinco perguntas antes de ativar</a>
+<a href="#s4">Quatro armadilhas comuns</a>
+<a href="#s5">Nas entrelinhas: o servidor não muda a regra</a>
+<a href="#fontes">Fontes e base legal</a>
+</aside>
+<article class="article-body art-essay">
+<div class="art-lead">
+<p>Quem anuncia no Facebook e no Instagram já ouviu a recomendação: “instale a API de Conversões, o Pixel sozinho perde dados”. A orientação técnica faz sentido. A dúvida que costuma ficar para trás é outra: <strong>eu posso, juridicamente, enviar esses dados para a Meta?</strong></p>
+<p>Esta cartilha responde a essa pergunta sem jargão. Ela serve para empresas, profissionais liberais e lojas virtuais que usam ou pensam em usar a ferramenta, e para quem quer entender o que acontece com os próprios dados quando visita um site.</p>
+</div>
+<section id="s1">
+<h2>O que é a CAPI, em português simples</h2>
+<p>O <strong>Pixel</strong> é um pequeno código que roda no navegador do visitante e avisa a Meta quando ele faz algo no site: vê uma página, preenche um formulário, clica no WhatsApp, compra. A <strong>API de Conversões</strong> (Conversions API, ou CAPI) faz o mesmo trabalho por outro caminho: em vez de o navegador avisar, é o <strong>servidor do próprio anunciante</strong> que envia a informação diretamente à Meta.</p>
+<p>Por isso a CAPI não depende de bloqueadores de anúncio nem das restrições de privacidade dos navegadores. É justamente essa vantagem técnica que pede cuidado jurídico: se o envio não passa mais pelo navegador, também não passa automaticamente pelas escolhas que o visitante fez nele.</p>
+<div class="art-glossario">
+<span class="label">GLOSSÁRIO RÁPIDO</span>
+<dl>
+<dt>Evento</dt><dd>Cada ação registrada: visita, cadastro, contato, compra.</dd>
+<dt>Parâmetros do cliente</dt><dd>Dados que ajudam a Meta a reconhecer a pessoa: e-mail, telefone, nome, cidade, endereço IP, identificadores do navegador.</dd>
+<dt>Hash</dt><dd>Embaralhamento matemático (normalmente SHA-256) aplicado ao e-mail ou telefone antes do envio. Transforma “maria@email.com” em uma sequência de letras e números.</dd>
+<dt>Controlador</dt><dd>Na LGPD, quem decide por que e como os dados são tratados. Em regra, é o dono do site que instala a ferramenta.</dd>
+</dl>
+</div>
+</section>
+<section id="s2">
+<h2>A resposta curta</h2>
+<div class="news-summary">
+<span class="label">PODE OU NÃO PODE?</span>
+<ul>
+<li><strong>Pode</strong> usar a CAPI, desde que exista uma base legal adequada, o visitante seja informado e as escolhas dele sejam respeitadas também no envio pelo servidor.</li>
+<li><strong>Pode, com cautela,</strong> enviar e-mail e telefone com hash, se forem realmente necessários para a finalidade de medir e direcionar anúncios.</li>
+<li><strong>Não pode</strong> enviar dados de quem recusou o rastreamento publicitário, nem usar a CAPI para “recuperar” o que o bloqueio de cookies impediu.</li>
+<li><strong>Não pode</strong> enviar dados sensíveis, como informações de saúde, religião, opinião política ou vida sexual, nem detalhes que revelem o conteúdo de uma consulta, de um tratamento ou de um processo.</li>
+</ul>
+</div>
+<p>A LGPD não proíbe nenhuma ferramenta pelo nome. Ela regula o <strong>tratamento</strong> de dados pessoais (art. 5º, X), e enviar dados a uma plataforma de anúncios é tratamento. A pergunta certa, portanto, não é “a CAPI é legal?”, e sim “o uso que eu faço dela cumpre a lei?”.</p>
+</section>
+<section id="s3">
+<h2>As cinco perguntas antes de ativar</h2>
+<p>Se a resposta a qualquer uma delas for “não sei”, vale parar e resolver antes de ligar a integração.</p>
+<h3>1. Qual é a base legal?</h3>
+<p>Todo tratamento precisa se apoiar em uma das hipóteses do art. 7º da LGPD. Para publicidade direcionada, as duas candidatas são o <strong>consentimento</strong> (art. 7º, I) e o <strong>legítimo interesse</strong> (art. 7º, IX).</p>
+<p>O consentimento precisa ser livre, informado e inequívoco, para finalidade determinada (art. 5º, XII, e art. 8º), e pode ser revogado a qualquer momento (art. 8º, § 5º). O legítimo interesse exige uma avaliação documentada de que o tratamento é necessário, respeita as expectativas do titular e não se sobrepõe aos direitos dele (art. 10). No guia sobre cookies, a Autoridade Nacional de Proteção de Dados (ANPD) indica o consentimento como a hipótese, em regra, mais adequada para cookies de publicidade. Como a CAPI cumpre a mesma finalidade por outro caminho, a leitura mais segura é seguir a mesma lógica.</p>
+<h3>2. O envio respeita quem disse “não”?</h3>
+<p>Este é o ponto que mais gera problema. Se o site tem um aviso de cookies e o visitante recusa os de publicidade, o Pixel deixa de disparar. Mas, se o servidor continua enviando eventos daquela pessoa pela CAPI, a recusa foi ignorada por outra porta. A integração precisa ler a escolha do visitante e só enviar quando ela permitir.</p>
+<h3>3. Quais dados vão, e todos são necessários?</h3>
+<p>A LGPD adota o princípio da <strong>necessidade</strong>: tratar apenas o mínimo indispensável para a finalidade (art. 6º, III). Integrações prontas de plataformas de loja e de formulário costumam enviar, por padrão, tudo o que conseguem. Antes de ativar, liste campo por campo o que sai do seu servidor e retire o que não for essencial.</p>
+<h3>4. A política de privacidade conta isso ao visitante?</h3>
+<p>O titular tem direito a informação clara sobre a finalidade, a forma do tratamento e com quem os dados são compartilhados (art. 9º). Uma política que só menciona “cookies” de forma genérica não informa que dados de contato podem ser enviados, a partir do servidor, para uma empresa de publicidade. O texto precisa dizer isso com todas as letras.</p>
+<h3>5. Quem responde se algo der errado?</h3>
+<p>Quem instala a CAPI no próprio site decide quais dados coletar e enviar e, por isso, responde como controlador por essa coleta. Os termos de uso das ferramentas da Meta distribuem papéis entre as partes, mas não transferem ao anunciante a dispensa de cumprir a LGPD. Também é preciso considerar que os dados podem ser processados fora do Brasil, o que atrai as regras de transferência internacional (arts. 33 e seguintes) e a Resolução CD/ANPD nº 19/2024. E o titular continua com o direito de pedir acesso, correção ou eliminação dos seus dados (art. 18): alguém na empresa precisa saber atender esse pedido.</p>
+</section>
+<blockquote class="art-pull">A CAPI muda o caminho do dado, não a obrigação de quem o envia. Se o visitante disse “não” no navegador, o servidor também precisa ouvir esse “não”.</blockquote>
+<section id="s4">
+<h2>Quatro armadilhas comuns</h2>
+<p><strong>“Com hash, o dado fica anônimo.”</strong> Não fica. Dado anonimizado é aquele que não permite identificar a pessoa por meios razoáveis (art. 5º, III, e art. 12). O hash do e-mail é enviado justamente para que a Meta o compare com o hash que ela própria gera dos e-mails dos seus usuários e encontre a pessoa. Na linguagem da lei, isso se aproxima da pseudonimização (art. 13, § 4º): o dado continua sendo pessoal.</p>
+<p><strong>“O plugin já resolve.”</strong> A integração pronta resolve a parte técnica. A escolha de quais dados enviar, a base legal, o aviso ao visitante e o respeito à recusa continuam sendo do dono do site.</p>
+<p><strong>“O formulário só pede nome e telefone.”</strong> O risco nem sempre está no campo, e sim no contexto. Um evento chamado “agendou consulta de cardiologia” ou “pediu orçamento de defesa criminal” revela, por si só, informação sensível ou delicada. Nomes de eventos, de páginas e de produtos também são dados enviados.</p>
+<p><strong>“Minha empresa é pequena, ninguém vai fiscalizar.”</strong> A LGPD vale para agentes de qualquer porte, com regras simplificadas para os de pequeno porte, mas não com dispensa das bases legais nem dos direitos dos titulares. As sanções administrativas vão de advertência a multa de até 2% do faturamento, limitada a R$ 50 milhões por infração (art. 52), além da possibilidade de reparação de danos (art. 42).</p>
+</section>
+<section id="s5">
+<h2>Nas entrelinhas: o servidor não muda a regra</h2>
+<p>A CAPI é, antes de tudo, uma ferramenta de medição. Ela ajuda o anunciante a saber quais campanhas trazem resultado e a gastar melhor. Não há nada de ilícito nisso. O problema aparece quando a vantagem técnica, que é escapar dos bloqueios do navegador, é usada para escapar também da vontade do visitante.</p>
+<p>Um bom teste prático é perguntar: <strong>se o visitante lesse exatamente o que meu servidor envia à Meta, ele se surpreenderia?</strong> Se a resposta for sim, a integração provavelmente precisa de ajuste, seja no consentimento, seja na lista de dados, seja na política de privacidade.</p>
+<div class="news-close">
+<span class="label">CHECKLIST FINAL</span>
+<ul>
+<li>Base legal escolhida e registrada (consentimento ou legítimo interesse com avaliação por escrito).</li>
+<li>Aviso de cookies que bloqueia o Pixel e a CAPI enquanto não houver permissão.</li>
+<li>Lista dos dados enviados, reduzida ao necessário e sem dados sensíveis.</li>
+<li>Política de privacidade que menciona o envio à Meta, a finalidade e a transferência internacional.</li>
+<li>Canal para o titular exercer os seus direitos e registro das operações de tratamento (art. 37).</li>
+</ul>
+</div>
+<p>Vale lembrar os limites desta cartilha. Ela trata do uso típico da ferramenta em sites e lojas virtuais. Setores com regras próprias, como saúde, serviços financeiros e profissões regulamentadas, podem ter exigências adicionais, e as próprias regras da Meta mudam com frequência.</p>
+</section>
+<section class="source-box art-fontes" id="fontes">
+<span class="label">FONTES E LEITURA RELACIONADA</span>
+<ul class="art-decisoes">
+<li>ANPD, Guia Orientativo sobre Cookies e Proteção de Dados Pessoais (outubro de 2022).</li>
+<li>ANPD, Guia Orientativo sobre Hipóteses Legais de Tratamento: Legítimo Interesse (fevereiro de 2024).</li>
+<li>ANPD, Resolução CD/ANPD nº 19/2024 (transferência internacional de dados).</li>
+<li>Meta, Termos das Ferramentas de Negócios.</li>
+</ul>
+<a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" target="_blank" rel="noopener">Planalto · Lei Geral de Proteção de Dados (Lei 13.709/2018) ↗</a>
+<a href="https://www.gov.br/anpd/pt-br" target="_blank" rel="noopener">ANPD · guias orientativos e resoluções ↗</a>
+<a href="https://www.facebook.com/legal/technology_terms" target="_blank" rel="noopener">Meta · Termos das Ferramentas de Negócios ↗</a>
+<span class="label art-legal">BASE LEGAL</span>
+<ul>
+<li><strong>LGPD</strong>, art. 5º (definições), art. 6º (princípios), arts. 7º a 10 (bases legais, consentimento e legítimo interesse), art. 11 (dados sensíveis), arts. 12 e 13 (anonimização e pseudonimização), art. 18 (direitos do titular), arts. 33 a 36 (transferência internacional), art. 37 (registro), arts. 42 e 52 (responsabilidade e sanções)</li>
+</ul>
+</section>
+<p class="art-aviso">Conteúdo informativo. Não substitui a análise individual de uma situação concreta.</p>
+<div class="art-autor"><strong>Liandro Faro</strong><span>Advogado e professor · Belém, Pará · OAB/PA 14.611-A</span><a href="sobre.html">Quem sou →</a></div>
+<a class="text-link" href="artigos.html">Veja outros artigos <span>→</span>
+</a>
+</article>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="footer-grid wrap">
+    <section class="footer-intro" aria-labelledby="footer-intro-title">
+      <a class="footer-wordmark" href="index.html" aria-label="Liandro Faro — página inicial">
+        <span>Liandro Faro</span>
+      </a>
+      <h2 id="footer-intro-title">Experiência jurídica construída na prática.</h2>
+      <p>Quase 20 anos de advocacia e 19 anos como professor, reunindo experiência profissional, conhecimento e visão estratégica em questões imobiliárias, patrimoniais, familiares e sucessórias.</p>
+      <div class="footer-socials" aria-label="Redes e contato">
+        <a href="https://www.instagram.com/liandrofaro/" target="_blank" rel="noopener" aria-label="Instagram de Liandro Faro">
+          <svg class="footer-social-icon" aria-hidden="true"><use href="footer-icons.svg#icon-instagram"></use></svg>
+        </a>
+        <a href="https://wa.me/5591984529721" target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+          <svg class="footer-social-icon" aria-hidden="true"><use href="footer-icons.svg#icon-whatsapp"></use></svg>
+        </a>
+      </div>
+    </section>
+
+    <nav class="footer-column" aria-labelledby="footer-nav-title">
+      <h2 id="footer-nav-title">Navegue</h2>
+      <ul class="footer-list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Quem sou</a></li>
+        <li><a href="atuacao.html">Áreas de atuação</a></li>
+        <li><a href="artigos.html">Artigos e análises</a></li>
+        <li><a href="noticias.html">Radar jurídico</a></li>
+        <li><a href="newsletter.html">Newsletter</a></li>
+        <li><a href="privacidade.html">Privacidade e LGPD</a></li>
+      </ul>
+    </nav>
+
+    <nav class="footer-column footer-services" aria-labelledby="footer-services-title">
+      <h2 id="footer-services-title">Serviços jurídicos</h2>
+      <ul class="footer-list">
+        <li><a href="atuacao.html#imobiliario">Usucapião e adjudicação</a></li>
+        <li><a href="atuacao.html#imobiliario">Contratos de compra e venda</a></li>
+        <li><a href="atuacao.html#imobiliario">Condomínios e locações</a></li>
+        <li><a href="atuacao.html#regularizacao">Regularização de imóveis</a></li>
+        <li><a href="atuacao.html#inventario">Inventários judiciais e extrajudiciais</a></li>
+        <li><a href="atuacao.html#divorcio">Partilha de bens e imóveis</a></li>
+        <li><a href="atuacao.html#planejamento-patrimonial">Planejamento patrimonial</a></li>
+      </ul>
+    </nav>
+
+    <section class="footer-column footer-contact-column" aria-labelledby="footer-contact-title">
+      <h2 id="footer-contact-title">Contato</h2>
+      <address>
+        <a class="footer-contact-item" href="https://wa.me/5591984529721" target="_blank" rel="noopener">
+          <svg class="footer-contact-icon" aria-hidden="true"><use href="footer-icons.svg#icon-phone"></use></svg>
+          <span class="footer-contact-copy"><small>WhatsApp</small><strong>(91) 98452-9721</strong></span>
+        </a>
+        <a class="footer-contact-item" href="mailto:liandro@faroadvocacia.adv.br">
+          <svg class="footer-contact-icon" aria-hidden="true"><use href="footer-icons.svg#icon-mail"></use></svg>
+          <span class="footer-contact-copy"><small>E-mail</small><strong>liandro@faroadvocacia.adv.br</strong></span>
+        </a>
+        <a class="footer-contact-item" href="https://www.instagram.com/liandrofaro/" target="_blank" rel="noopener">
+          <svg class="footer-contact-icon" aria-hidden="true"><use href="footer-icons.svg#icon-instagram"></use></svg>
+          <span class="footer-contact-copy"><small>Instagram</small><strong>@liandrofaro</strong></span>
+        </a>
+        <p class="footer-contact-item">
+          <svg class="footer-contact-icon" aria-hidden="true"><use href="footer-icons.svg#icon-location"></use></svg>
+          <span class="footer-contact-copy"><small>Atendimento</small><strong>Belém · Pará · Brasil</strong></span>
+        </p>
+      </address>
+    </section>
+  </div>
+
+  <div class="footer-bottom wrap">
+    <span>© 2026 Liandro Faro</span>
+    <span>OAB/PA 14.611-A</span>
+    <button class="motion-toggle" aria-pressed="false" type="button">Reduzir movimento</button>
+    <a href="privacidade.html">Privacidade e LGPD</a>
+    <a href="referencias.html">Referências</a>
+  </div>
+  <p class="footer-notice wrap">Conteúdo informativo. A análise de uma situação concreta depende de orientação jurídica individualizada.</p>
+</footer>
+<script src="app.js">
+</script>
+<script src="editorial-motion.js">
+</script>
+<script src="consentimento.js"></script>
+</body>
+</html>
