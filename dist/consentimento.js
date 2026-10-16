@@ -7,7 +7,7 @@
  */
 (function () {
   var CONFIG = {
-    metaPixelId: '890575473339865',     // Meta > Gerenciador de Eventos > Fontes de dados (número de 15 ou 16 dígitos)
+    metaPixelId: '2402863303246556',     // Meta > Gerenciador de Eventos > Fontes de dados (número de 15 ou 16 dígitos)
     clarityProjectId: 'yy5ugafk3a' // Clarity > Settings > Overview > Project ID (código de 10 letras/números)
   };
 
