@@ -69,10 +69,17 @@
   }
 
   // Clique no WhatsApp vira evento "Contact" (sem número, nome ou mensagem).
+  // "botao" diz qual link foi clicado (atributo data-wa na página).
+  // Um segundo clique no mesmo link em menos de 1,5 s não conta de novo.
+  var lastLink = null, lastTime = 0;
   document.addEventListener('click', function (event) {
     var link = event.target.closest && event.target.closest('a[href*="wa.me/"], a[href*="api.whatsapp.com"]');
     if (!link) return;
-    if (window.fbq) window.fbq('track', 'Contact', { content_name: 'WhatsApp' });
+    var now = Date.now();
+    if (link === lastLink && now - lastTime < 1500) return;
+    lastLink = link; lastTime = now;
+    var botao = link.getAttribute('data-wa') || 'outro';
+    if (window.fbq) window.fbq('track', 'Contact', { content_name: 'WhatsApp', botao: botao });
     if (window.clarity) window.clarity('event', 'whatsapp_clique');
   }, true);
 
