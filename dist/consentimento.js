@@ -9,7 +9,7 @@
   var CONFIG = {
     metaPixelId: '2402863303246556',     // Meta > Gerenciador de Eventos > Fontes de dados (número de 15 ou 16 dígitos)
     clarityProjectId: 'yy5ugafk3a', // Clarity > Settings > Overview > Project ID (código de 10 letras/números)
-    ga4Id: ''                // GA4 > Administrador > Fluxos de dados > ID da métrica (começa com G-)
+    ga4Id: 'G-F8DFP490DP'    // GA4 > Administrador > Fluxos de dados > ID da métrica (começa com G-)
   };
 
   var STORAGE_KEY = 'lf-consentimento';
