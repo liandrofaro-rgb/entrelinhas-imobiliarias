@@ -1,5 +1,5 @@
 /*
- * Aviso de cookies, Meta Pixel e Microsoft Clarity.
+ * Aviso de cookies, Meta Pixel, Microsoft Clarity e Google Analytics 4.
  * Nada externo é carregado antes da escolha do visitante.
  *
  * IDs: troque somente aqui. Enquanto um ID estiver vazio, o serviço
@@ -8,14 +8,19 @@
 (function () {
   var CONFIG = {
     metaPixelId: '2402863303246556',     // Meta > Gerenciador de Eventos > Fontes de dados (número de 15 ou 16 dígitos)
-    clarityProjectId: 'yy5ugafk3a' // Clarity > Settings > Overview > Project ID (código de 10 letras/números)
+    clarityProjectId: 'yy5ugafk3a', // Clarity > Settings > Overview > Project ID (código de 10 letras/números)
+    ga4Id: ''                // GA4 > Administrador > Fluxos de dados > ID da métrica (começa com G-)
   };
 
   var STORAGE_KEY = 'lf-consentimento';
-  var VERSION = 1;
   var hasPixel = /^\d{10,20}$/.test(CONFIG.metaPixelId);
   var hasClarity = /^[a-z0-9]{6,20}$/i.test(CONFIG.clarityProjectId);
-  if (!hasPixel && !hasClarity) return;
+  var hasGA4 = /^G-[A-Z0-9]{6,12}$/.test(CONFIG.ga4Id);
+  var hasMedicao = hasClarity || hasGA4;
+  if (!hasPixel && !hasClarity && !hasGA4) return;
+  // Com o GA4 ligado, quem já tinha escolhido vê o aviso de novo, porque a
+  // permissão antiga não citava o Google.
+  var VERSION = hasGA4 ? 2 : 1;
 
   function readChoice() {
     try {
@@ -63,9 +68,35 @@
     window.clarity('consent');
   }
 
+  // GA4 só com Medição aceita. Os sinais de anúncios do Google (Google Ads)
+  // ficam negados, a menos que Anúncios também tenha sido aceito.
+  function startGA4(choice) {
+    if (!hasGA4) return;
+    var ads = choice.anuncios ? 'granted' : 'denied';
+    var consent = { analytics_storage: 'granted', ad_storage: ads, ad_user_data: ads, ad_personalization: ads };
+    if (window.gtag) { window.gtag('consent', 'update', consent); return; }
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag('consent', 'default', consent);
+    loadScript('https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(CONFIG.ga4Id));
+    window.gtag('js', new Date());
+    window.gtag('config', CONFIG.ga4Id, { allow_google_signals: false });
+  }
+
   function apply(choice) {
     if (choice.anuncios) startPixel();
     if (choice.medicao) startClarity();
+    if (choice.medicao) startGA4(choice);
+  }
+
+  // De onde veio a visita: utm_source, se houver; senão, marcação automática
+  // do Google Ads ou da Meta; senão, "direto".
+  function origem() {
+    var q = new URLSearchParams(location.search);
+    if (q.get('utm_source')) return q.get('utm_source');
+    if (q.has('gclid') || q.has('gbraid') || q.has('gad_source')) return 'google';
+    if (q.has('fbclid')) return 'meta';
+    return 'direto';
   }
 
   // Clique no WhatsApp vira evento "Contact" (sem número, nome ou mensagem).
@@ -79,8 +110,9 @@
     if (link === lastLink && now - lastTime < 1500) return;
     lastLink = link; lastTime = now;
     var botao = link.getAttribute('data-wa') || 'outro';
-    if (window.fbq) window.fbq('track', 'Contact', { content_name: 'WhatsApp', botao: botao });
+    if (window.fbq) window.fbq('track', 'Contact', { content_name: 'WhatsApp', botao: botao, origem: origem() });
     if (window.clarity) window.clarity('event', 'whatsapp_clique');
+    if (window.gtag) window.gtag('event', 'whatsapp_click', { botao: botao, origem: origem() });
   }, true);
 
   function clearCookies() {
@@ -89,7 +121,7 @@
     for (var i = 0; i < host.length - 1; i++) domains.push('; domain=.' + host.slice(i).join('.'));
     document.cookie.split(';').forEach(function (c) {
       var name = c.split('=')[0].trim();
-      if (/^(_fbp|_fbc|_clck|_clsk|CLID|MUID|ANONCHK|SM)$/.test(name)) {
+      if (/^(_fbp|_fbc|_clck|_clsk|CLID|MUID|ANONCHK|SM|_ga|_ga_[A-Z0-9]+|_gcl_au)$/.test(name)) {
         domains.forEach(function (d) {
           document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/' + d;
         });
@@ -122,8 +154,12 @@
     if (banner) return;
     var current = readChoice() || {};
     var services = [];
-    if (hasClarity) services.push('medir o uso do site');
-    if (hasPixel) services.push('mostrar anúncios a quem já visitou');
+    var medidores = [];
+    if (hasClarity) medidores.push('Microsoft Clarity');
+    if (hasGA4) medidores.push('Google Analytics');
+    var anunciantes = hasGA4 ? 'Meta Pixel e Google Ads' : 'Meta Pixel';
+    if (hasMedicao) services.push('medir o uso do site (' + medidores.join(' e ') + ')');
+    if (hasPixel) services.push('mostrar anúncios a quem já visitou (' + anunciantes + ')');
     banner = document.createElement('section');
     banner.className = 'lf-consent';
     banner.setAttribute('aria-label', 'Aviso de cookies');
@@ -131,8 +167,8 @@
       '<p class="lf-consent-text">Com a sua permissão, uso cookies para ' + services.join(' e ') +
       '. Nada disso é ativado se você recusar. <a href="/privacidade.html#cookies">Saiba mais</a>.</p>' +
       '<div class="lf-consent-options" hidden>' +
-        (hasClarity ? option('lf-medicao', 'Medição (Microsoft Clarity):', 'como as páginas são usadas, com formulários mascarados.', current.medicao) : '') +
-        (hasPixel ? option('lf-anuncios', 'Anúncios (Meta Pixel):', 'páginas visitadas, para anúncios no Instagram e Facebook.', current.anuncios) : '') +
+        (hasMedicao ? option('lf-medicao', 'Medição (' + medidores.join(' e ') + '):', 'como as páginas são usadas, com formulários mascarados.', current.medicao) : '') +
+        (hasPixel ? option('lf-anuncios', 'Anúncios (' + anunciantes + '):', hasGA4 ? 'páginas visitadas, para anúncios no Instagram, no Facebook e no Google.' : 'páginas visitadas, para anúncios no Instagram e Facebook.', current.anuncios) : '') +
       '</div>' +
       '<div class="lf-consent-actions">' +
         '<button type="button" class="lf-consent-btn" data-acao="recusar">Recusar</button>' +
@@ -144,7 +180,7 @@
       if (!btn) return;
       var acao = btn.getAttribute('data-acao');
       if (acao === 'recusar') decide({ medicao: false, anuncios: false });
-      if (acao === 'aceitar') decide({ medicao: hasClarity, anuncios: hasPixel });
+      if (acao === 'aceitar') decide({ medicao: hasMedicao, anuncios: hasPixel });
       if (acao === 'escolher') {
         banner.querySelector('.lf-consent-options').hidden = false;
         btn.setAttribute('aria-expanded', 'true');
