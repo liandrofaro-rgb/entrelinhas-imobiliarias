@@ -144,17 +144,19 @@
     apply(choice);
   }
 
-  // Aviso curto: só Recusar ou Aceitar. Os detalhes ficam na página de privacidade.
-  function showBanner() {
+  // Faixa fina com uma frase e o botão Aceitar. Sem clicar, nada é ativado.
+  // Aberta pelo botão "Alterar minhas escolhas" (privacidade), traz também Recusar.
+  function showBanner(event) {
     if (banner) return;
+    var alterar = !!(event && event.type === 'click');
     banner = document.createElement('section');
     banner.className = 'lf-consent';
     banner.setAttribute('aria-label', 'Aviso de cookies');
     banner.innerHTML =
-      '<p class="lf-consent-text">Uso cookies para medir visitas e para anúncios, só se você aceitar. ' +
-      '<a href="/privacidade.html#cookies">Saiba mais</a>.</p>' +
+      '<p class="lf-consent-text">Uso cookies para medir as visitas e melhorar o site e os anúncios. ' +
+      '<a href="/privacidade.html#cookies">Política de Privacidade</a></p>' +
       '<div class="lf-consent-actions">' +
-        '<button type="button" class="lf-consent-btn" data-acao="recusar">Recusar</button>' +
+        (alterar ? '<button type="button" class="lf-consent-btn" data-acao="recusar">Recusar</button>' : '') +
         '<button type="button" class="lf-consent-btn lf-consent-primary" data-acao="aceitar">Aceitar</button>' +
       '</div>';
     banner.addEventListener('click', function (event) {
