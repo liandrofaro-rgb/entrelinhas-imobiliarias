@@ -9,14 +9,14 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 16px 28px;
-  padding: 22px 20px calc(22px + env(safe-area-inset-bottom));
+  gap: 14px 32px;
+  padding: 28px 24px calc(28px + env(safe-area-inset-bottom));
   color: #07172f;
   background: #f1eeea;
   border-top: 4px solid #c8a154;
   box-shadow: 0 -8px 28px rgba(7, 23, 47, .18);
   font-family: "DM Sans", Arial, sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
 }
 .lf-consent-text { margin: 0; }
@@ -24,14 +24,14 @@
 .lf-consent-text a:hover { text-decoration: underline; }
 .lf-consent-actions { display: flex; gap: 10px; }
 .lf-consent-btn {
-  min-height: 52px;
-  padding: 10px 40px;
+  min-height: 56px;
+  padding: 10px 48px;
   color: #07172f;
   background: transparent;
   border: 1px solid rgba(7, 23, 47, .35);
   border-radius: 999px;
   font: inherit;
-  font-size: 19px;
+  font-size: 20px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -39,9 +39,9 @@
 .lf-consent-primary { background: #c8a154; border-color: #c8a154; }
 .lf-consent-primary:hover { background: #e3c487; border-color: #e3c487; }
 @media (max-width: 640px) {
-  .lf-consent { flex-direction: column; align-items: stretch; text-align: center; }
+  .lf-consent { flex-direction: column; align-items: stretch; gap: 12px; padding: 16px 20px calc(16px + env(safe-area-inset-bottom)); border-top-width: 3px; text-align: center; font-size: 15px; }
   .lf-consent-actions { flex-direction: column; }
-  .lf-consent-btn { min-height: 56px; }
+  .lf-consent-btn { min-height: 48px; padding: 8px 20px; font-size: 16px; }
   .lf-consent-primary { order: -1; }
 }
 .lf-consent a:focus-visible,
