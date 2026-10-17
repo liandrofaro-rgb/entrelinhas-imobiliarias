@@ -61,3 +61,4 @@ mark.kw { padding: .05em .25em; color: inherit; background: linear-gradient(tran
 .art-quote::before { content: "\201C"; position: absolute; left: 10px; top: -4px; color: #1e5e91; font: 700 56px/1 Georgia, serif; opacity: .35; }
 .art-quote p { margin: 0 0 .7em; color: #07172f; font: italic 500 20px/1.55 Georgia, "Times New Roman", serif; }
 .art-quote cite { display: block; color: #5d6c7a; font: 700 12px/1.5 "DM Sans", Arial, sans-serif; font-style: normal; letter-spacing: .06em; text-transform: uppercase; }
+.article-aside a { display: flex; }
