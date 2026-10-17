@@ -6,7 +6,7 @@
   var YEARS = ['Menos de 2 anos', 'De 2 a 5 anos', 'De 5 a 10 anos', 'De 10 a 15 anos', 'Mais de 15 anos'];
   var QUESTIONS = [
     { text: 'Você usa o imóvel como se fosse seu, sem ter pedido permissão ao dono e sem pagar aluguel?',
-      help: 'Quem mora por aluguel, empréstimo ou favor do dono, em regra, não conta tempo para a usucapião.' },
+      help: 'Quem mora por aluguel, empréstimo ou favor do dono, em regra, não conta tempo para a usucapião. Se o imóvel é de herança e só você o usa, como dono e sem oposição dos outros herdeiros, responda sim.' },
     { text: 'O imóvel é particular? Ou seja: não é da prefeitura, do Estado ou da União, nem fica em área de preservação ambiental.',
       help: 'Imóvel público não pode ser usucapido. Área de preservação ambiental também não, segundo o STJ.' },
     { text: 'Desde que você ocupa o imóvel, ninguém tentou retomá-lo na Justiça?',
