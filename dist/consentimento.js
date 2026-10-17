@@ -131,12 +131,6 @@
 
   var banner;
 
-  function option(id, title, text, checked) {
-    return '<label class="lf-consent-option" for="' + id + '">' +
-      '<input type="checkbox" id="' + id + '"' + (checked ? ' checked' : '') + '>' +
-      '<span><strong>' + title + '</strong> ' + text + '</span></label>';
-  }
-
   function close() {
     if (banner) { banner.remove(); banner = null; }
   }
@@ -150,29 +144,17 @@
     apply(choice);
   }
 
+  // Aviso curto: só Recusar ou Aceitar. Os detalhes ficam na página de privacidade.
   function showBanner() {
     if (banner) return;
-    var current = readChoice() || {};
-    var services = [];
-    var medidores = [];
-    if (hasClarity) medidores.push('Microsoft Clarity');
-    if (hasGA4) medidores.push('Google Analytics');
-    var anunciantes = hasGA4 ? 'Meta Pixel e Google Ads' : 'Meta Pixel';
-    if (hasMedicao) services.push('medir o uso do site (' + medidores.join(' e ') + ')');
-    if (hasPixel) services.push('mostrar anúncios a quem já visitou (' + anunciantes + ')');
     banner = document.createElement('section');
     banner.className = 'lf-consent';
     banner.setAttribute('aria-label', 'Aviso de cookies');
     banner.innerHTML =
-      '<p class="lf-consent-text">Com a sua permissão, uso cookies para ' + services.join(' e ') +
-      '. Nada disso é ativado se você recusar. <a href="/privacidade.html#cookies">Saiba mais</a>.</p>' +
-      '<div class="lf-consent-options" hidden>' +
-        (hasMedicao ? option('lf-medicao', 'Medição (' + medidores.join(' e ') + '):', 'como as páginas são usadas, com formulários mascarados.', current.medicao) : '') +
-        (hasPixel ? option('lf-anuncios', 'Anúncios (' + anunciantes + '):', hasGA4 ? 'páginas visitadas, para anúncios no Instagram, no Facebook e no Google.' : 'páginas visitadas, para anúncios no Instagram e Facebook.', current.anuncios) : '') +
-      '</div>' +
+      '<p class="lf-consent-text">Uso cookies para medir visitas e para anúncios, só se você aceitar. ' +
+      '<a href="/privacidade.html#cookies">Saiba mais</a>.</p>' +
       '<div class="lf-consent-actions">' +
         '<button type="button" class="lf-consent-btn" data-acao="recusar">Recusar</button>' +
-        '<button type="button" class="lf-consent-btn" data-acao="escolher" aria-expanded="false">Escolher</button>' +
         '<button type="button" class="lf-consent-btn lf-consent-primary" data-acao="aceitar">Aceitar</button>' +
       '</div>';
     banner.addEventListener('click', function (event) {
@@ -181,18 +163,6 @@
       var acao = btn.getAttribute('data-acao');
       if (acao === 'recusar') decide({ medicao: false, anuncios: false });
       if (acao === 'aceitar') decide({ medicao: hasMedicao, anuncios: hasPixel });
-      if (acao === 'escolher') {
-        banner.querySelector('.lf-consent-options').hidden = false;
-        btn.setAttribute('aria-expanded', 'true');
-        btn.setAttribute('data-acao', 'salvar');
-        btn.textContent = 'Salvar escolhas';
-        return;
-      }
-      if (acao === 'salvar') {
-        var m = banner.querySelector('#lf-medicao');
-        var a = banner.querySelector('#lf-anuncios');
-        decide({ medicao: !!(m && m.checked), anuncios: !!(a && a.checked) });
-      }
     });
     document.body.appendChild(banner);
   }
