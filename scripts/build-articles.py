@@ -204,6 +204,9 @@ def validar(items, noticias):
     return erros
 
 
+CONTATOS = '<section class="cv-contact" id="contatos">\n<span class="cv-kicker">CONTATOS</span>\n<h2>Liandro Faro</h2>\n<p class="cv-contact-sub">Advogado e professor · OAB/PA 14.611-A</p>\n<a class="cv-wa" href="https://wa.me/5591984529721" target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp"><svg class="cv-ic" aria-hidden="true"><use href="footer-icons.svg#icon-whatsapp"></use></svg><span>Conversar no WhatsApp</span></a>\n<ul class="cv-contact-list">\n<li><a href="mailto:liandro@faroadvocacia.adv.br"><svg class="cv-ic" aria-hidden="true"><use href="footer-icons.svg#icon-mail"></use></svg><span><small>E-mail</small>liandro@faroadvocacia.adv.br</span></a></li>\n<li><a href="https://www.instagram.com/liandrofaro/" target="_blank" rel="noopener"><svg class="cv-ic" aria-hidden="true"><use href="footer-icons.svg#icon-instagram"></use></svg><span><small>Instagram</small>@liandrofaro</span></a></li>\n<li><div class="cv-contact-loc"><svg class="cv-ic" aria-hidden="true"><use href="footer-icons.svg#icon-location"></use></svg><span><small>Atendimento</small>Belém · Pará · Brasil</span></div></li>\n</ul>\n</section>\n\n'
+
+
 def pagina_main(a, noticias):
     n = palavras(a)
     minutos = max(1, round(n / 200))
@@ -216,6 +219,15 @@ def pagina_main(a, noticias):
 <h1>{html.escape(a["titulo"])}</h1>
 <p class="article-deck">{html.escape(a["subtitulo"])}</p>
 <div class="article-meta">{html.escape(meta)}</div>
+<div class="cv-author">
+<img src="liandro-sentado.jpg" width="1365" height="2048" alt="Liandro Faro, advogado">
+<div class="cv-author-info">
+<span class="cv-author-by">Por</span>
+<strong>Liandro Faro</strong>
+<span>Advogado e professor · Belém, Pará · OAB/PA 14.611-A</span>
+<a class="cv-insta" href="https://www.instagram.com/liandrofaro/" target="_blank" rel="noopener"><svg class="cv-ic" aria-hidden="true"><use href="footer-icons.svg#icon-instagram"></use></svg> @liandrofaro</a>
+</div>
+</div>
 </div>
 <figure class="news-hero art-hero wrap">
 <img src="capa-{a["slug"]}-hero.svg" width="1200" height="630" alt="{html.escape("Capa do artigo: " + a["titulo"])}">
@@ -224,7 +236,7 @@ def pagina_main(a, noticias):
 <aside class="article-aside">
 <span class="label">NESTE ARTIGO</span>
 {aside}</aside>
-<article class="article-body art-essay">
+<article class="article-body art-essay cv-article">
 <div class="art-lead">
 {paras(a["abertura"])}</div>
 '''
@@ -233,6 +245,7 @@ def pagina_main(a, noticias):
         out += f'<section id="s{i+1}">\n<h2>{html.escape(sec["titulo"])}</h2>\n{paras(sec["paragrafos"])}</section>\n'
         if a.get('destaque') and i + 1 == apos:
             out += f'<blockquote class="art-pull">{inline(a["destaque"])}</blockquote>\n'
+    out += CONTATOS
     out += '<section class="source-box art-fontes" id="fontes">\n<span class="label">FONTES E LEITURA RELACIONADA</span>\n'
     if a.get('decisoes'):
         out += '<ul class="art-decisoes">\n' + ''.join(f'<li>{inline(x)}</li>\n' for x in a['decisoes']) + '</ul>\n'
