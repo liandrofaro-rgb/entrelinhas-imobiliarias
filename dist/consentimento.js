@@ -153,7 +153,7 @@
     banner.className = 'lf-consent';
     banner.setAttribute('aria-label', 'Aviso de cookies');
     banner.innerHTML =
-      '<p class="lf-consent-text">Uso cookies para medir as visitas e melhorar o site e os anúncios. ' +
+      '<p class="lf-consent-text"><strong>Precisamos da sua permissão.</strong> Aceite os cookies para medirmos as visitas e melhorarmos o site e os anúncios. ' +
       '<a href="/privacidade.html#cookies">Política de Privacidade</a></p>' +
       '<div class="lf-consent-actions">' +
         (alterar ? '<button type="button" class="lf-consent-btn" data-acao="recusar">Recusar</button>' : '') +
