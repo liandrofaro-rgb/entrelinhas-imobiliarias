@@ -13,7 +13,7 @@
   padding: 10px 16px;
   color: #07172f;
   background: #f1eeea;
-  border-top: 3px solid #c8a154;
+  border-top: 1px solid rgba(7, 23, 47, .12);
   box-shadow: 0 -6px 20px rgba(7, 23, 47, .12);
   font-family: "DM Sans", Arial, sans-serif;
   font-size: 15px;
@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 .lf-consent-btn:hover { border-color: #07172f; }
-.lf-consent-primary { padding: 8px 34px; background: #c8a154; border-color: #c8a154; box-shadow: 0 0 0 4px rgba(200, 161, 84, .3); }
+.lf-consent-primary { background: #c8a154; border-color: #c8a154; }
 .lf-consent-primary:hover { background: #e3c487; border-color: #e3c487; }
 .lf-consent a:focus-visible,
 .lf-consent-btn:focus-visible { outline: 2px solid #07172f; outline-offset: 2px; }
