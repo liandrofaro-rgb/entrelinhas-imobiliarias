@@ -1,5 +1,18 @@
 /* Teste "Tenho direito à usucapião?". Roda só no navegador: não guarda nem envia nenhuma resposta. */
 (function () {
+  var tabs = document.querySelector('[data-cases-tabs]'), grid = document.querySelector('[data-cases]');
+  if (tabs && grid) {
+    var tb = tabs.querySelectorAll('button');
+    tabs.classList.add('is-ready');
+    Array.prototype.forEach.call(tb, function (b) {
+      b.addEventListener('click', function () {
+        var w = b.getAttribute('data-show');
+        grid.classList.remove('only-ok', 'only-no');
+        if (w !== 'all') grid.classList.add('only-' + w);
+        Array.prototype.forEach.call(tb, function (x) { x.classList.toggle('is-on', x === b); x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+      });
+    });
+  }
   var root = document.querySelector('[data-quiz]');
   if (!root) return;
 

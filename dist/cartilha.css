@@ -45,16 +45,25 @@
 .cv-tag-no { background: #f6dfda; color: #82291c; }
 
 /* Quando cabe e quando não cabe */
-.cv-panel { margin: 22px 0; padding: 22px 22px 10px; border: 2px solid; border-radius: 12px; }
-.cv-panel-ok { background: #f2f9f5; border-color: #b9dcc8; }
-.cv-panel-no { background: #fcf3f1; border-color: #ecc6bf; }
-.cv-panel > h3 { display: flex; align-items: center; gap: 10px; font-size: 20px; }
-.cv-cases { margin: 12px 0 0; padding: 0; list-style: none; }
-.cv-cases li { display: grid; grid-template-columns: 28px 1fr; gap: 14px; padding: 14px 0; border-top: 1px solid rgba(7, 23, 47, .1); }
-.cv-cases li .cv-mark { width: 24px; height: 24px; margin-top: 2px; }
-.cv-cases strong { display: block; color: #07172f; font: 800 17px/1.35 "Manrope", Arial, sans-serif; }
-.cv-cases span { display: block; margin-top: 3px; color: #24313f; font: 400 16px/1.5 "DM Sans", Arial, sans-serif; }
-.cv-cases .cv-tag { margin-top: 8px; }
+.cv-tabs { display: none;  gap: 8px; flex-wrap: wrap; margin: 18px 0 16px; }
+.cv-tab { padding: 9px 18px; border: 2px solid #9fb4c7; border-radius: 99px; background: #fff; color: #07172f; font: 700 15px/1.2 "Manrope", Arial, sans-serif; cursor: pointer; }
+.cv-tab:hover, .cv-tab:focus-visible { border-color: #07172f; outline: none; }
+.cv-tab.is-on { background: #07172f; border-color: #07172f; color: #fff; }
+.cv-cases-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin: 0 0 28px; align-items: start; }
+.cv-cases-grid.only-ok, .cv-cases-grid.only-no { grid-template-columns: minmax(0, 1fr); }
+.cv-cases-grid.only-ok [data-col="no"], .cv-cases-grid.only-no [data-col="ok"] { display: none; }
+.cv-col { display: grid; gap: 10px; }
+.cv-col-head { display: flex; align-items: center; gap: 10px; margin: 0 0 4px; font: 800 18px/1.3 "Manrope", Arial, sans-serif; }
+.cv-badge { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; color: #fff; font: 800 16px/1 "Manrope", Arial, sans-serif; }
+.cv-badge-ok { background: #2f7d5b; }
+.cv-badge-no { background: #b3402f; }
+.cv-case { display: grid; gap: 3px; padding: 14px 16px 14px 18px; background: #fff; border: 1px solid #d6e2ec; border-left-width: 5px; border-radius: 8px; }
+.cv-case-ok { border-left-color: #2f7d5b; }
+.cv-case-no { border-left-color: #b3402f; }
+.cv-case strong { color: #07172f; font: 800 16px/1.35 "Manrope", Arial, sans-serif; }
+.cv-case span { color: #24313f; font: 400 15px/1.45 "DM Sans", Arial, sans-serif; }
+.cv-case .cv-tag { margin-top: 6px; font-size: 12px; }
+@media (max-width: 700px) { .cv-cases-grid { grid-template-columns: minmax(0, 1fr); } }
 
 /* Destaque: herança */
 .cv-feature { margin: 2.6em 0 1em; padding: 26px; background: #faf6ec; border: 2px solid #e7d6ad; border-radius: 12px; }
@@ -120,10 +129,10 @@ a.cv-btn { display: inline-block; text-decoration: none; }
 
 @media (max-width: 600px) {
   .cv-band, .cv-feature { padding: 20px 16px; }
-  .cv-panel { padding: 18px 14px 6px; }
   .cv-quiz { padding: 18px 14px; }
   .cv-quiz .cv-q-text { font-size: 19px; }
   .cv-ruler { padding: 16px 14px; }
   .cv-row { grid-template-columns: 72px 1fr; }
   .cv-grid-4 { grid-template-columns: repeat(2, 1fr); }
 }
+.cv-tabs.is-ready { display: flex; }
