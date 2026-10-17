@@ -265,7 +265,10 @@ def main():
     # mais recentes primeiro; na mesma data, o último incluído na lista vem antes
     items = [a for _, a in sorted(enumerate(items), key=lambda x: (x[1]['data_publicacao'], x[0]), reverse=True)]
     modelo = (ROOT / 'content' / 'artigo-template.html').read_text(encoding='utf-8')
-    gerados = set()
+    # Páginas feitas à mão (não vêm de artigos.json): mantidas no topo das listas e fora da limpeza.
+    FIXOS = [dict(arq='artigo-usucapiao-quando-cabe.html', capa='capa-usucapiao-quando-cabe-hero.svg', cat='usucapião',
+                  meta='USUCAPIÃO · GUIA PRÁTICO', titulo='Usucapião: quando cabe, quando não cabe e como pedir.')]
+    gerados = set(x['arq'] for x in FIXOS)
     for a in items:
         arq = f'artigo-{a["slug"]}.html'
         pag = (modelo.replace('{{MAIN}}', pagina_main(a, noticias)).replace('{{TITULO}}', html.escape(a['titulo']))
@@ -280,8 +283,13 @@ def main():
         gerados.add(arq)
     for velho in list(DIST.glob('artigo-*.html')) + list(DIST.glob('capa-*.svg')):
         if velho.name.startswith('artigo-') and velho.name not in gerados: velho.unlink()
-        if velho.name.startswith('capa-') and f'artigo-{velho.stem[5:].removesuffix("-hero")}.html' not in gerados: velho.unlink()
-    linhas = ''
+        if velho.name.startswith('capa-') and not velho.name.startswith('capa-usucapiao-quando-cabe') and f'artigo-{velho.stem[5:].removesuffix("-hero")}.html' not in gerados: velho.unlink()
+    def fixo(x, h, extra=''):
+        return (f'<a class="pub-row{extra}" href="{x["arq"]}"' + (f' data-category="{x["cat"]}"' if extra else '') + '>\n'
+                f'<figure><img class="art-thumb" src="{x["capa"]}" alt="" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
+                f'<div>\n<span class="publication-meta">{x["meta"].replace(" · ", " <i aria-hidden=\"true\">·</i> ")}</span>\n'
+                f'<{h}>{html.escape(x["titulo"])}</{h}>\n</div>\n<span class="pub-row-arrow" aria-hidden="true">→</span>\n</a>\n')
+    linhas = ''.join(fixo(x, 'h2', ' lst-row') for x in FIXOS)
     for a in items:
         cat = a['area'].lower()
         linhas += (f'<a class="pub-row lst-row" href="artigo-{a["slug"]}.html" data-category="{html.escape(cat)}">\n'
@@ -296,7 +304,7 @@ def main():
     u = items[0]
 
     def lane(n_itens):
-        h = '<div class="pub-rows" tabindex="0" role="region" aria-label="Lista rolável">\n'
+        h = '<div class="pub-rows" tabindex="0" role="region" aria-label="Lista rolável">\n' + ''.join(fixo(f, 'h4') for f in FIXOS)
         for x in items[:n_itens]:
             h += (f'<a class="pub-row" href="artigo-{x["slug"]}.html">\n'
                   f'<figure><img class="art-thumb" src="capa-{x["slug"]}-hero.svg" alt="" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
