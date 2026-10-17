@@ -2291,5 +2291,331 @@
         "url": "https://www.irib.org.br/penhora-direitos-aquisitivos-escritura-publica-nao-registrada-averbacao-impossibilidade-principio-da-continuidade-registral/"
       }
     ]
+  },
+  {
+    "slug": "stj-alimentos-ex-conjuge-prazo-certo-regra",
+    "titulo": "STJ: alimentos entre ex-cônjuges devem ter prazo certo, e pensão sem fim é exceção.",
+    "subtitulo": "A Quarta Turma manteve pensão de oito meses a ex-esposa que tem curso superior e bens que geram renda.",
+    "descricao": "A Quarta Turma do STJ reafirmou que a pensão entre ex-cônjuges, em regra, tem prazo determinado e só dura indefinidamente em casos excepcionais.",
+    "orgao": "STJ",
+    "area": "Divórcio",
+    "data_publicacao": "2026-10-13",
+    "data_julgamento": "2026-09-14",
+    "imagem": "ilustracao-divorcio.svg",
+    "imagem_alt": "Ilustração de duas alianças entrelaçadas com uma casa ao centro",
+    "resumo": [
+      "A Quarta Turma do STJ decidiu que os ==alimentos entre ex-cônjuges== devem ser fixados, como regra, ==com prazo certo==.",
+      "A pensão sem prazo é exceção, ligada à incapacidade permanente para o trabalho ou à impossibilidade de voltar ao mercado de trabalho.",
+      "No caso, a obrigação foi limitada a oito meses; o ex-marido já havia arcado com as despesas da ex-esposa por quase dez anos.",
+      "A ex-esposa tem diploma de nível superior em Administração, e os bens do casal, quando alugados, geram renda extra.",
+      "A decisão foi unânime e o processo corre em segredo de justiça."
+    ],
+    "aconteceu": [
+      "A ação discute o fim de um casamento no regime de **comunhão parcial de bens**. A ex-esposa afirmou que passou anos cuidando do lar e das filhas e que dependia economicamente do ex-marido depois da separação de fato. Por isso, pediu **divórcio, partilha de bens e alimentos** na mesma ação.",
+      "A sentença, mantida pelo tribunal de origem, limitou o dever de assistência entre os ex-cônjuges a **oito meses**. Os julgadores consideraram que o ex-marido já havia arcado com todas as despesas da ex-esposa por quase dez anos, que ela tem curso superior em Administração e que existem bens em comum que rendem aluguel."
+    ],
+    "decisao": [
+      "A **Quarta Turma** entendeu que o tribunal de origem decidiu de acordo com a jurisprudência do STJ. O relator foi o ministro Raul Araújo, e o julgamento foi **unânime**, em 14 de setembro de 2026.",
+      "Segundo o resumo do Informativo, a pensão entre ex-cônjuges deve ter **prazo certo**, para dar à pessoa tempo hábil de se inserir, se recolocar ou progredir no mercado de trabalho e manter, por conta própria, padrão de vida semelhante ao do casamento. Manter a obrigação por **prazo indeterminado** só se justifica em casos excepcionais, como a incapacidade permanente para o trabalho ou a impossibilidade de reinserção profissional.",
+      "O STJ também afastou a alegação de que a ex-esposa não poderia voltar a trabalhar, diante da formação superior dela."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: a pensão entre ex-cônjuges é uma ponte, não um destino",
+    "entrelinhas": [
+      "**A regra é a transição.** A decisão reforça que a pensão entre ex-cônjuges existe para dar um período de adaptação, e não para manter a dependência econômica para sempre. O prazo é o ponto de partida.",
+      "**A exceção exige prova.** Para a pensão não ter fim, a pessoa precisa demonstrar incapacidade permanente para o trabalho ou impossibilidade de voltar ao mercado. Dedicar-se ao lar durante o casamento, por si só, não foi tratado na decisão como motivo para pensão sem prazo.",
+      "**O conjunto do caso pesa.** Neste processo, o tribunal considerou o tempo em que o ex-marido sustentou as despesas, a escolaridade da ex-esposa e a renda dos bens do casal. Em outros casos, outros fatos podem levar a conclusões diferentes.",
+      "**Limites da notícia.** O processo é sigiloso e o Informativo traz apenas um resumo. Não há, ali, detalhes sobre valores, idade das partes ou a divisão dos bens."
+    ],
+    "sintese": "Em uma frase: **o STJ reafirmou que a pensão entre ex-cônjuges tem, em regra, prazo certo, e só dura sem fim em casos excepcionais comprovados.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Quarta Turma"
+      ],
+      [
+        "Julgamento",
+        "14 de setembro de 2026 (unânime)"
+      ],
+      [
+        "Relator",
+        "Ministro Raul Araújo"
+      ],
+      [
+        "Processo",
+        "Não divulgado (segredo de justiça)"
+      ],
+      [
+        "Divulgação pelo tribunal",
+        "13 de outubro de 2026 (Informativo de Jurisprudência n. 905)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "STJ · Informativo de Jurisprudência n. 905 ↗",
+        "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022668"
+      }
+    ]
+  },
+  {
+    "slug": "stj-possessoria-inquerito-civil-nao-desloca-competencia",
+    "titulo": "STJ: inquérito civil sobre dano ambiental não tira de vara comum a ação possessória.",
+    "subtitulo": "A Primeira Turma afastou a mudança de foro decidida só porque o Ministério Público investigava o terreno em disputa.",
+    "descricao": "O STJ decidiu que a mera existência de inquérito civil não define competência funcional para julgar ações de posse.",
+    "orgao": "STJ",
+    "area": "Posse e propriedade",
+    "data_publicacao": "2026-10-06",
+    "data_julgamento": "2026-09-01",
+    "imagem": "ilustracao-floresta.svg",
+    "imagem_alt": "Ilustração de duas árvores com um sinal de verificação, representando área de preservação",
+    "resumo": [
+      "A Primeira Turma do STJ decidiu que o ==inquérito civil não atrai a competência funcional== de outro foro.",
+      "O caso envolve ações possessórias sobre imóvel supostamente em Área de Preservação Permanente (APP).",
+      "A primeira instância havia declinado da competência por causa de um inquérito civil que apurava dano ambiental.",
+      "Para o STJ, ==sem ação civil pública== proposta, não há razão para deslocar o processo.",
+      "A decisão foi unânime e tratou apenas da competência, não de quem tem direito à posse."
+    ],
+    "aconteceu": [
+      "Em ações possessórias sobre um imóvel em Goiás, o juiz de primeiro grau declinou da competência. O motivo foi a instauração de **inquérito civil** para investigar suposto dano ambiental no terreno, que estaria em **Área de Preservação Permanente**.",
+      "O tribunal de origem considerou a declinação correta, com base nos arts. 1º e 2º da Lei da Ação Civil Pública (Lei 7.347/1985), que preveem a competência do foro do local do dano. O caso chegou ao STJ por meio de um agravo em recurso especial."
+    ],
+    "lei": [
+      "Lei 7.347/1985 (Lei da Ação Civil Pública), arts. 1º, I, e 2º."
+    ],
+    "decisao": [
+      "A **Primeira Turma** deu razão a quem recorreu. O relator foi o ministro Gurgel de Faria, e o julgamento foi **unânime**, em 1º de setembro de 2026.",
+      "O STJ explicou que o art. 2º da Lei 7.347/1985 trata das **ações** previstas naquela lei, que devem ser propostas no foro do local do dano. Como houve apenas inquérito civil, e não ação civil pública, não existe competência funcional capaz de atrair o caso para outro foro.",
+      "Segundo o resumo do Informativo, o inquérito civil é um procedimento **administrativo, investigatório e facultativo**, usado pelo Ministério Público para decidir se propõe ou não a ação. Por isso, não define nem atrai competência funcional."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: investigar não é processar",
+    "entrelinhas": [
+      "**A decisão é sobre quem julga, não sobre quem tem a posse.** O STJ não analisou se o terreno é mesmo APP nem quem deve ficar com o imóvel. Apenas disse que o processo de posse não muda de juízo por causa de uma investigação.",
+      "**Inquérito e ação são coisas diferentes.** O inquérito civil reúne informações para o Ministério Público avaliar se vai à Justiça. Só uma ação civil pública proposta pode, nos termos da lei, fixar o foro do local do dano.",
+      "**Efeito prático: menos idas e vindas.** Mudar o processo de vara por um fundamento que não existe pode atrasar uma disputa de posse, que costuma envolver moradia ou uso da terra.",
+      "**Preocupação ambiental segue aberta.** A decisão não impede a apuração do dano ambiental; apenas separa essa investigação da definição de competência na ação possessória."
+    ],
+    "sintese": "Em uma frase: **sem ação civil pública proposta, o inquérito civil sobre dano ambiental não desloca a competência da ação de posse.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Primeira Turma"
+      ],
+      [
+        "Julgamento",
+        "1º de setembro de 2026 (unânime)"
+      ],
+      [
+        "Relator",
+        "Ministro Gurgel de Faria"
+      ],
+      [
+        "Processo",
+        "AREsp 2.902.262-GO"
+      ],
+      [
+        "Divulgação pelo tribunal",
+        "6 de outubro de 2026 (Informativo de Jurisprudência n. 904)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "STJ · Informativo de Jurisprudência n. 904 ↗",
+        "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022648"
+      }
+    ]
+  },
+  {
+    "slug": "tjsp-usucapiao-extrajudicial-uniao-terreno-marinha-impugnacao",
+    "titulo": "TJSP: impugnação da União por terreno de marinha impede usucapião extrajudicial no cartório.",
+    "subtitulo": "O Conselho Superior da Magistratura mandou a interessada buscar a via judicial.",
+    "descricao": "O TJSP entendeu que a impugnação fundamentada da União, por suposta área de terreno de marinha, inviabiliza a usucapião feita só no registro de imóveis.",
+    "orgao": "IRIB",
+    "area": "Usucapião",
+    "data_publicacao": "2026-10-09",
+    "data_julgamento": "2026-08-13",
+    "imagem": "ilustracao-usucapiao.svg",
+    "imagem_alt": "Ilustração de uma ampulheta com uma casa ao lado, representando o tempo da usucapião",
+    "resumo": [
+      "O Conselho Superior da Magistratura de São Paulo negou apelação em ==usucapião extrajudicial== com impugnação da União.",
+      "A União disse que o imóvel está ==parcialmente em terreno de marinha== e apontou procedimento em curso na Secretaria do Patrimônio da União.",
+      "Para o tribunal, a controvérsia exige produção de provas, incompatível com o procedimento do art. 216-A da Lei 6.015/1973.",
+      "A pretensão deve ser levada ao juízo competente.",
+      "A fonte é a seleção de jurisprudência do IRIB, com a ementa do julgado."
+    ],
+    "aconteceu": [
+      "Uma interessada pediu a **usucapião extrajudicial** de um imóvel em Mongaguá (SP), procedimento feito diretamente no registro de imóveis. A **União** apresentou impugnação: informou que o terreno está parcialmente inserido em área de **terreno de marinha**, indicou procedimento administrativo em curso na Secretaria do Patrimônio da União e juntou documentos para demonstrar seu interesse.",
+      "O oficial de registro suscitou dúvida, e a sentença a julgou procedente, reconhecendo a impugnação como fundamentada e extinguindo o procedimento extrajudicial, com remessa da interessada às vias ordinárias. Ela apelou."
+    ],
+    "lei": [
+      "Lei 6.015/1973 (Lei de Registros Públicos), art. 216-A."
+    ],
+    "decisao": [
+      "O **Conselho Superior da Magistratura do TJSP** negou a apelação. A relatora foi a desembargadora Silvia Rocha, e o julgamento ocorreu em 13 de agosto de 2026, com publicação em 17 de agosto de 2026.",
+      "Segundo a ementa, a usucapião extrajudicial pressupõe a **inexistência de controvérsia relevante** sobre o direito invocado, e uma impugnação fundamentada de ente público impede seguir pela via administrativa. A discussão sobre a natureza do imóvel exige **dilação probatória**, que não cabe no procedimento do art. 216-A.",
+      "Tese fixada: a impugnação de ente público que evidencie controvérsia jurídica relevante sobre a natureza do imóvel é impugnação fundamentada; reconhecida a pertinência, a pretensão deve ser deduzida perante o juízo competente."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: o cartório resolve o simples, o juiz resolve o disputado",
+    "entrelinhas": [
+      "**A via do cartório tem limite.** A usucapião extrajudicial é pensada para casos sem conflito. Quando surge uma impugnação séria, o procedimento sai do cartório e vai para a Justiça.",
+      "**Terreno de marinha é assunto da União.** A decisão não afirma que todo o imóvel pertence à União nem que a usucapião será negada. Diz apenas que a dúvida sobre a natureza da área precisa ser examinada por um juiz, com produção de provas.",
+      "**Efeito prático.** Antes de escolher o caminho da usucapião, é relevante saber se o imóvel tem alguma sobreposição com áreas públicas, já que isso pode mudar o rito.",
+      "**Alcance da fonte.** A notícia reproduz a ementa; o inteiro teor não foi lido, e o IRIB remete à íntegra em outro site."
+    ],
+    "sintese": "Em uma frase: **se a União contesta de forma fundamentada, alegando terreno de marinha, a usucapião deixa o cartório e segue para a via judicial.**",
+    "dados": [
+      [
+        "Tribunal",
+        "TJSP · Conselho Superior da Magistratura"
+      ],
+      [
+        "Julgamento",
+        "13 de agosto de 2026 (publicação em 17/08/2026)"
+      ],
+      [
+        "Relatora",
+        "Desembargadora Silvia Rocha"
+      ],
+      [
+        "Processo",
+        "Apelação Cível 1000134-42.2024.8.26.0366 (Mongaguá)"
+      ],
+      [
+        "Divulgação pelo IRIB",
+        "9 de outubro de 2026"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IRIB · jurisprudência selecionada ↗",
+        "url": "https://www.irib.org.br/usucapiao-extrajudicial-uniao-federal-impugnacao-terreno-de-marinha/"
+      }
+    ]
+  },
+  {
+    "slug": "tjms-carta-adjudicacao-nao-registra-com-indisponibilidade-outros-juizos",
+    "titulo": "TJMS: carta de adjudicação não é registrada se imóveis têm indisponibilidade determinada por outros juízos.",
+    "subtitulo": "Cabe a cada juízo que ordenou o bloqueio decidir sobre o levantamento, segundo a 5ª Câmara Cível.",
+    "descricao": "O TJMS decidiu que o juízo da adjudicação compulsória não pode mandar o registro ignorar arrestos e indisponibilidades ordenados por outros órgãos.",
+    "orgao": "IRIB",
+    "area": "Registros públicos",
+    "data_publicacao": "2026-10-08",
+    "data_julgamento": "2026-09-16",
+    "imagem": "ilustracao-cadeado.svg",
+    "imagem_alt": "Ilustração de um cadeado fechado, representando bloqueio de imóvel",
+    "resumo": [
+      "A 5ª Câmara Cível do TJMS negou recurso em ==adjudicação compulsória== de imóveis rurais.",
+      "Os imóveis tinham ==arrestos e indisponibilidades== determinados por outros juízos.",
+      "O cancelamento deve ser pedido aos juízos que ordenaram as restrições.",
+      "Registrar a transferência mantendo os gravames contraria a ordem de indisponibilidade.",
+      "A fonte é a seleção de jurisprudência do IRIB, com a ementa do julgado."
+    ],
+    "aconteceu": [
+      "Em ação de **adjudicação compulsória** de imóveis rurais, em Corumbá (MS), a parte pediu que o juízo do processo cancelasse os **arrestos e as indisponibilidades** que outros juízos haviam determinado sobre os bens. Pediu também o registro da carta de adjudicação com a manutenção dessas restrições.",
+      "O pedido foi indeferido em primeira instância, e a parte recorreu por agravo de instrumento."
+    ],
+    "decisao": [
+      "A **5ª Câmara Cível do TJMS** negou o recurso. A relatora foi a juíza Eliane de Freitas Lima Vicente, e o julgamento ocorreu em 16 de setembro de 2026, com publicação em 17 de setembro de 2026.",
+      "Segundo a ementa, o cancelamento das indisponibilidades deve ser requerido perante os **juízos que as determinaram**. A ementa afirma ainda que a matéria já estava decidida no processo e alcançada pela coisa julgada.",
+      "Para o tribunal, transferir a propriedade mesmo com os gravames contraria a ordem de indisponibilidade, cuja finalidade é impedir atos de disposição. Não cabe ao juízo da adjudicação mandar o oficial de registro desconsiderar restrições de outros órgãos, sob pena de violar a legalidade registral, a eficácia das decisões judiciais e a segurança jurídica."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: quem bloqueia é quem desbloqueia",
+    "entrelinhas": [
+      "**Cada ordem judicial tem seu juízo.** Uma indisponibilidade criada por um juiz não é desfeita por outro, mesmo que o segundo esteja julgando a adjudicação do mesmo imóvel.",
+      "**O registro olha para as restrições.** O oficial de registro precisa respeitar as ordens de indisponibilidade que constam da matrícula. A decisão reforça que o juízo da adjudicação não pode dispensá-las.",
+      "**Efeito prático.** Quem obtém a adjudicação, mas encontra bloqueios de outros processos, precisa resolver cada um perante o juízo responsável antes de registrar a transferência.",
+      "**Alcance da fonte.** A notícia reproduz a ementa; o inteiro teor não foi lido, e o tribunal pode ter detalhes que ela não traz."
+    ],
+    "sintese": "Em uma frase: **a carta de adjudicação não é registrada enquanto houver indisponibilidade de outro juízo; o levantamento é pedido a quem a ordenou.**",
+    "dados": [
+      [
+        "Tribunal",
+        "TJMS · 5ª Câmara Cível"
+      ],
+      [
+        "Julgamento",
+        "16 de setembro de 2026 (publicação em 17/09/2026)"
+      ],
+      [
+        "Relatora",
+        "Juíza Eliane de Freitas Lima Vicente"
+      ],
+      [
+        "Processo",
+        "Agravo de Instrumento 1415648-20.2026.8.12.0000 (Corumbá)"
+      ],
+      [
+        "Divulgação pelo IRIB",
+        "8 de outubro de 2026"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IRIB · jurisprudência selecionada ↗",
+        "url": "https://www.irib.org.br/carta-de-adjudicacao-imovel-rural-arresto-indisponibilidade-gravames-cancelamento-impossibilidade-seguranca-juridica/"
+      }
+    ]
+  },
+  {
+    "slug": "tjsc-desapropriacao-indireta-complementacao-pericia-memorial-descritivo",
+    "titulo": "TJSC: após o trânsito em julgado, pode-se complementar perícia para registrar área de desapropriação indireta.",
+    "subtitulo": "Memorial descritivo, planta georreferenciada e ART não reabrem a discussão, desde que não mudem área nem indenização.",
+    "descricao": "O TJSC admitiu complementar o trabalho técnico para o registro da área desapropriada, sem alterar o que a decisão já definiu.",
+    "orgao": "IRIB",
+    "area": "Desapropriação",
+    "data_publicacao": "2026-10-15",
+    "data_julgamento": "2026-10-13",
+    "imagem": "ilustracao-desapropriacao.svg",
+    "imagem_alt": "Ilustração de uma casa cortada por uma linha tracejada, representando área desapropriada",
+    "resumo": [
+      "A 3ª Câmara de Direito Público do TJSC permitiu ==complementar a perícia== mesmo após o trânsito em julgado.",
+      "O objetivo é gerar ==memorial descritivo, planta georreferenciada e ART== para o registro da área.",
+      "A insuficiência dos dados técnicos foi apontada pelo próprio Registro de Imóveis.",
+      "É proibido reavaliar o imóvel, mudar a metragem ou o valor da indenização.",
+      "A fonte é a seleção de jurisprudência do IRIB, com a ementa do julgado."
+    ],
+    "aconteceu": [
+      "O caso é uma **desapropriação indireta**, aquela em que o poder público ocupa o imóvel sem o procedimento formal. A ação já havia transitado em julgado, mas o **Registro de Imóveis** constatou que faltavam elementos técnicos para individualizar a área e registrá-la.",
+      "Os autos chegaram a ser arquivados sem a complementação, o que manteve o obstáculo ao registro. O Estado recorreu por agravo de instrumento para obter os documentos que faltavam."
+    ],
+    "decisao": [
+      "A **3ª Câmara de Direito Público do TJSC** deu provimento ao recurso. O relator foi o desembargador Jaime Ramos, e o julgamento ocorreu em 13 de outubro de 2026, com publicação em 14 de outubro de 2026.",
+      "Segundo a ementa, a coisa julgada impede rediscutir o que o título judicial definiu, mas não impede **providências técnicas** necessárias para efetivá-lo. Elaborar memorial descritivo, representação georreferenciada e ART, só para individualizar a área já reconhecida, é complementação da perícia, e não reabertura da fase de conhecimento. Se o perito não puder atuar, outro profissional habilitado pode fazer os documentos.",
+      "A complementação tem limites: é vedada nova avaliação, alteração da metragem, ampliação ou redução da área, mudança do valor indenizatório ou revisão de qualquer matéria coberta pela coisa julgada."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: decidir é uma coisa, registrar é outra",
+    "entrelinhas": [
+      "**A sentença nem sempre basta para o cartório.** O registro exige descrição técnica precisa da área. Quando o título judicial não traz esses dados, o direito reconhecido pode ficar parado.",
+      "**Ajuste técnico não é nova discussão.** O tribunal separou o que está protegido pela coisa julgada (área, valor, mérito) do que é apenas detalhamento para o registro.",
+      "**Segurança para as duas partes.** Os limites impostos evitam que a complementação vire pretexto para mudar a indenização, ao mesmo tempo em que permite concluir a regularização da área.",
+      "**Alcance da fonte.** A notícia reproduz a ementa, com trechos omitidos; o inteiro teor não foi lido."
+    ],
+    "sintese": "Em uma frase: **após o trânsito em julgado, é possível complementar a perícia para viabilizar o registro, desde que a área e a indenização fixadas não mudem.**",
+    "dados": [
+      [
+        "Tribunal",
+        "TJSC · 3ª Câmara de Direito Público"
+      ],
+      [
+        "Julgamento",
+        "13 de outubro de 2026 (publicação em 14/10/2026)"
+      ],
+      [
+        "Relator",
+        "Desembargador Jaime Ramos"
+      ],
+      [
+        "Processo",
+        "Agravo de Instrumento 5059691-06.2026.8.24.0000"
+      ],
+      [
+        "Divulgação pelo IRIB",
+        "15 de outubro de 2026"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IRIB · jurisprudência selecionada ↗",
+        "url": "https://www.irib.org.br/desapropriacao-indireta-transito-em-julgado-pericia-complementacao-memorial-descritivo-art-georreferenciamento-necessidade-regularizacao-registral/"
+      }
+    ]
   }
 ]

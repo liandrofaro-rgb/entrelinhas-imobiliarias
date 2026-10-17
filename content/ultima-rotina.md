@@ -1,26 +1,23 @@
-# Última rotina — 2026-10-15 10:07 UTC
+# Última rotina — 2026-10-17 10:19 UTC
 
 ## Publicado (5)
-- **STJ: escolha de regime de bens por maiores de 70 anos não alcança união estável encerrada antes da decisão do STF** — `stj-uniao-estavel-idoso-regime-bens-tema-1236-nao-retroage` — Migalhas, 06/10 — https://www.migalhas.com.br/quentes/465939/stj-mantem-separacao-de-bens-de-idoso-em-uniao-anterior-a-entendimento-do-stf
-- **STJ mantém anulação de procurações usadas para renúncia de herança** — `stj-procuracoes-renuncia-heranca-invalidas-novo-inventario` — Migalhas, 07/10 — https://www.migalhas.com.br/quentes/466027/stj-invalida-procuracoes-que-fizeram-irmaos-renunciar-a-heranca
-- **STJ vai definir em repetitivos a retenção em distratos imobiliários (Temas 1.464/1.465)** — `stj-repetitivos-retencao-distrato-imoveis-temas-1464-1465` — Migalhas, 09/10 — https://www.migalhas.com.br/quentes/466255/stj-definira-limites-de-retencao-na-rescisao-de-compra-de-imoveis
-- **STJ mantém afastamento de IPTU sobre 1.161 lotes em área de preservação (Guarulhos)** — `stj-iptu-lotes-area-preservacao-ambiental-guarulhos` — Migalhas, 06/10 — https://www.migalhas.com.br/quentes/465995/stj-afasta-iptu-sobre-mais-de-mil-lotes-em-area-de-preservacao
-- **Justiça do MA manda São Luís concluir REURB-S do Novo Angelim** — `justica-ma-sao-luis-reurb-s-novo-angelim-titulos` — Conjur, 26/09 — https://conjur.com.br/2026-set-26/municipio-deve-concluir-projeto-de-regularizacao-fundiaria-no-maranhao/
+- **STJ: alimentos entre ex-cônjuges devem ter prazo certo** — `stj-alimentos-ex-conjuge-prazo-certo-regra` — STJ, Informativo 905 (13/10) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022668
+- **STJ: inquérito civil não desloca competência de ação possessória** — `stj-possessoria-inquerito-civil-nao-desloca-competencia` — STJ, Informativo 904 (06/10) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022648
+- **TJSP: impugnação da União (terreno de marinha) impede usucapião extrajudicial** — `tjsp-usucapiao-extrajudicial-uniao-terreno-marinha-impugnacao` — IRIB (09/10) — https://www.irib.org.br/usucapiao-extrajudicial-uniao-federal-impugnacao-terreno-de-marinha/
+- **TJMS: carta de adjudicação não é registrada com indisponibilidade de outros juízos** — `tjms-carta-adjudicacao-nao-registra-com-indisponibilidade-outros-juizos` — IRIB (08/10) — https://www.irib.org.br/carta-de-adjudicacao-imovel-rural-arresto-indisponibilidade-gravames-cancelamento-impossibilidade-seguranca-juridica/
+- **TJSC: complementação de perícia após trânsito em julgado em desapropriação indireta** — `tjsc-desapropriacao-indireta-complementacao-pericia-memorial-descritivo` — IRIB (15/10) — https://www.irib.org.br/desapropriacao-indireta-transito-em-julgado-pericia-complementacao-memorial-descritivo-art-georreferenciamento-necessidade-regularizacao-registral/
 
 ## Descartados
-- STF/ITBI integralização de capital (maioria formada): tema já publicado em 16/09; julgamento ainda não concluído.
-- Informativo STJ 904 (retenção de 50% em patrimônio de afetação; Fazenda Pública e convenção): a página do informativo não trouxe o texto via curl; só havia resumo de busca, não verificado.
-- Artigos de opinião (Conjur sobre ITBI/LC 227, IBDFAM sobre planejamento): não são notícias de decisão.
-- Locação por temporada em condomínio (Conjur 29/09): tema coberto por notícia já publicada.
-- TJPA: busca sem decisão imobiliária relevante em outubro.
+- STJ, repetitivo de curta temporada em condomínio (notícia de 17/09): página do STJ bloqueada (desafio anti-bot), só havia resumo de busca; tema já coberto por notícia do Airbnb.
+- IRIB/TJSP inventário com divergência de CPF (16/10): item menor, ficou de fora.
+- Informativos 903–905: demais itens sem relação com as áreas (penhora, plano de saúde, concessionárias etc.).
+- Buscas em Migalhas/Conjur/IBDFAM: sem decisão nova de outubro ainda não publicada.
 
 ## Fontes consultadas
-Migalhas, Conjur, IBDFAM, IRIB, STJ (Informativo 904; portal oficial não consultado), TJPA (DJe, via busca).
+STJ (Informativos 903, 904, 905), IRIB, Migalhas, Conjur, IBDFAM (via busca), ANOREG/CNJ (via busca).
 
 ## Atenção do dono
-- Todas as fontes são secundárias (Migalhas/Conjur); não achei links oficiais. As datas vêm do metadado de publicação das páginas.
-- O Migalhas não informa a data das sessões de julgamento (exceto o IPTU, 06/10) nem se há unanimidade em alguns casos; escrevi "não informado".
-- IPTU/Guarulhos: a fonte diz que o relator votou por "conhecer o recurso da empresa e desprover o do município"; mantive a redação literal e destaquei que não é regra geral.
-- Repetitivos: a fonte não liga cada REsp a um tema; listei os processos sem associação.
-- REURB (MA): sentença de 1º grau, número do processo não divulgado.
-- Mantive indent=2 no JSON (formato existente), apesar do prompt dizer indent=1.
+- As 3 notícias do IRIB baseiam-se só na ementa publicada (inteiro teor não lido); avisei isso em "Nas entrelinhas".
+- Alimentos: o Informativo traz resumo curto; processo em segredo, sem número.
+- Posse: "AREsp ...-GO" indica origem em Goiás; o Informativo não diz quem recorreu.
+- Ilustrações reaproveitadas (divorcio, floresta, usucapiao, cadeado, desapropriacao). JSON mantido com indent=2 (formato existente).
