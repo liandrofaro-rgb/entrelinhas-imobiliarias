@@ -86,48 +86,54 @@
   .lf-chamada-x { right: 4px; }
 }
 
-/* Destaques de Publicações */
-.pub-destaques { display: grid; gap: 6px; padding-top: 4px; padding-bottom: 8px; }
-.pub-dst-row { display: grid; grid-template-columns: 190px minmax(0, 1fr); align-items: center; gap: 12px; }
-.pub-dst-label { display: inline-flex; align-items: center; gap: 9px; color: #07172f; font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
-.pub-dst-dot { position: relative; flex: none; width: 8px; height: 8px; background: #c8a154; border-radius: 50%; }
-.pub-dst-dot::after { content: ""; position: absolute; inset: -4px; border: 2px solid #c8a154; border-radius: 50%; opacity: 0; }
-.pub-dst-chips { display: flex; gap: 8px; padding: 4px 2px 8px; overflow-x: auto; scrollbar-width: none; }
-.pub-dst-chips::-webkit-scrollbar { display: none; }
-.pub-dst-chip {
-  flex: 0 0 auto;
-  display: inline-flex;
+/* Artigo em destaque de Publicações */
+.pub-destaque { padding-top: 6px; padding-bottom: 22px; }
+.pub-destaque-card {
+  position: relative;
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr) auto;
   align-items: center;
-  gap: 8px;
-  padding: 5px 14px 5px 5px;
+  gap: 24px;
+  padding: 14px 28px 14px 14px;
+  overflow: hidden;
   color: #07172f;
-  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(135deg, rgba(200, 161, 84, .8), rgba(30, 94, 145, .35)) border-box;
-  border: 1px solid transparent;
-  border-radius: 999px;
-  font-size: 12px;
-  font-weight: 600;
-  white-space: nowrap;
+  background: linear-gradient(#fff, #fff) padding-box, linear-gradient(135deg, #c8a154, rgba(30, 94, 145, .45), #c8a154) border-box;
+  border: 2px solid transparent;
+  border-radius: 22px;
+  box-shadow: 0 10px 30px rgba(7, 23, 47, .12), 0 0 0 0 rgba(200, 161, 84, .45);
   text-decoration: none;
-  transition: transform .25s, box-shadow .25s;
+  transition: transform .35s cubic-bezier(.22, 1, .36, 1), box-shadow .35s;
 }
-.pub-dst-chip:hover, .pub-dst-chip:focus-visible { transform: translateY(-2px); box-shadow: 0 6px 16px rgba(200, 161, 84, .35); outline: none; }
-.pub-dst-ico { width: 24px; height: 24px; display: grid; place-items: center; color: #e3c487; background: #07172f; border-radius: 50%; font-size: 11px; }
-.pub-dst-chip.is-news .pub-dst-ico { color: #fff; background: #1e5e91; }
+.pub-destaque-card:hover, .pub-destaque-card:focus-visible { transform: translateY(-3px); box-shadow: 0 18px 40px rgba(7, 23, 47, .18), 0 0 18px 2px rgba(200, 161, 84, .5); outline: none; }
+.pub-destaque-card figure { margin: 0; overflow: hidden; border-radius: 14px; background: #07172f; aspect-ratio: 16 / 9; }
+.pub-destaque-card img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .8s cubic-bezier(.22, 1, .36, 1); }
+.pub-destaque-card:hover img { transform: scale(1.06); }
+.pub-destaque-txt { min-width: 0; display: grid; gap: 7px; }
+.pub-destaque-selo { display: inline-flex; align-items: center; gap: 9px; width: fit-content; padding: 5px 12px; color: #07172f; background: #c8a154; border-radius: 999px; font-size: 10px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.pub-destaque-dot { position: relative; width: 7px; height: 7px; background: #07172f; border-radius: 50%; }
+.pub-destaque-txt strong { font: 600 clamp(17px, 1.6vw, 22px)/1.25 "Manrope", Arial, sans-serif; letter-spacing: -.01em; text-wrap: balance; }
+.pub-destaque-go { width: 46px; height: 46px; display: grid; place-items: center; color: #07172f; background: #c8a154; border-radius: 50%; font-size: 19px; font-weight: 700; transition: transform .3s; }
+.pub-destaque-card:hover .pub-destaque-go { transform: translateX(4px); }
+.pub-destaque-card::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(105deg, transparent 38%, rgba(200, 161, 84, .28) 50%, transparent 62%); transform: translateX(-120%); }
 
 @media (max-width: 760px) {
-  .pub-dst-row { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+  .pub-destaque-card { grid-template-columns: 96px minmax(0, 1fr); gap: 14px; padding: 10px 14px 10px 10px; border-radius: 18px; }
+  .pub-destaque-card figure { border-radius: 10px; aspect-ratio: 1; }
+  .pub-destaque-go { display: none; }
+  .pub-destaque-txt strong { font-size: 14.5px; }
+  .pub-destaque-txt { gap: 5px; }
+  .pub-destaque-selo { padding: 4px 10px; font-size: 9px; }
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .pub-dst-dot::after { animation: lf-anel 2.2s ease-out infinite; }
-  .pub-dst-chip { animation: lf-entra .6s cubic-bezier(.22, 1, .36, 1) both; }
-  .pub-dst-chip:nth-child(2) { animation-delay: .1s; }
-  .pub-dst-chip:nth-child(3) { animation-delay: .2s; }
-  .pub-dst-chip.is-first { animation: lf-entra .6s cubic-bezier(.22, 1, .36, 1) both, lf-brilho 2.8s ease-in-out infinite .8s; }
+  .pub-destaque-dot::after { content: ""; position: absolute; inset: -4px; border: 2px solid #07172f; border-radius: 50%; opacity: 0; animation: lf-anel 2.2s ease-out infinite; }
+  .pub-destaque-card { animation: lf-entra .7s cubic-bezier(.22, 1, .36, 1) both, lf-brilho 2.8s ease-in-out infinite .9s; }
+  .pub-destaque-card::after { animation: lf-passa 5.5s ease-in-out infinite 1.5s; }
 }
-@keyframes lf-anel { 0% { transform: scale(.6); opacity: .9; } 100% { transform: scale(1.9); opacity: 0; } }
-@keyframes lf-entra { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
-@keyframes lf-brilho { 0%, 100% { box-shadow: 0 0 0 0 rgba(200, 161, 84, 0); } 50% { box-shadow: 0 0 14px 2px rgba(200, 161, 84, .55); } }
+@keyframes lf-anel { 0% { transform: scale(.6); opacity: .9; } 100% { transform: scale(2); opacity: 0; } }
+@keyframes lf-entra { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@keyframes lf-brilho { 0%, 100% { box-shadow: 0 10px 30px rgba(7, 23, 47, .12), 0 0 0 0 rgba(200, 161, 84, 0); } 50% { box-shadow: 0 10px 30px rgba(7, 23, 47, .12), 0 0 16px 2px rgba(200, 161, 84, .55); } }
+@keyframes lf-passa { 0%, 55% { transform: translateX(-120%); } 85%, 100% { transform: translateX(120%); } }
 @media (prefers-reduced-motion: reduce) {
   .lf-chamada { transition: opacity .2s; transform: none; }
 }
