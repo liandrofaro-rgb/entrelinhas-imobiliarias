@@ -1,23 +1,24 @@
-# Última rotina — 2026-10-17 10:19 UTC
+# Última rotina — 2026-10-19 10:08 UTC
 
 ## Publicado (5)
-- **STJ: alimentos entre ex-cônjuges devem ter prazo certo** — `stj-alimentos-ex-conjuge-prazo-certo-regra` — STJ, Informativo 905 (13/10) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022668
-- **STJ: inquérito civil não desloca competência de ação possessória** — `stj-possessoria-inquerito-civil-nao-desloca-competencia` — STJ, Informativo 904 (06/10) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022648
-- **TJSP: impugnação da União (terreno de marinha) impede usucapião extrajudicial** — `tjsp-usucapiao-extrajudicial-uniao-terreno-marinha-impugnacao` — IRIB (09/10) — https://www.irib.org.br/usucapiao-extrajudicial-uniao-federal-impugnacao-terreno-de-marinha/
-- **TJMS: carta de adjudicação não é registrada com indisponibilidade de outros juízos** — `tjms-carta-adjudicacao-nao-registra-com-indisponibilidade-outros-juizos` — IRIB (08/10) — https://www.irib.org.br/carta-de-adjudicacao-imovel-rural-arresto-indisponibilidade-gravames-cancelamento-impossibilidade-seguranca-juridica/
-- **TJSC: complementação de perícia após trânsito em julgado em desapropriação indireta** — `tjsc-desapropriacao-indireta-complementacao-pericia-memorial-descritivo` — IRIB (15/10) — https://www.irib.org.br/desapropriacao-indireta-transito-em-julgado-pericia-complementacao-memorial-descritivo-art-georreferenciamento-necessidade-regularizacao-registral/
+- **STJ: julgamento sobre usucapião de terreno da Cehab/RJ suspenso por vista** — `stj-usucapiao-terreno-sociedade-economia-mista-cehab-vista` — Migalhas (13/10) — https://www.migalhas.com.br/quentes/466415/stj-julga-usucapiao-em-imovel-de-sociedade-de-economia-mista
+- **TJGO: impenhorabilidade de 120 ha de fazenda de 269 ha** — `tjgo-impenhorabilidade-parcial-fazenda-120-hectares` — Migalhas (17/10) — https://www.migalhas.com.br/quentes/466337/tj-go-impede-penhora-de-parte-de-fazenda-maior-que-limite-legal
+- **Suzano (SP): multipropriedade rescindida, devolução de 90%** — `tjsp-multipropriedade-rescisao-devolucao-90-por-cento` — Migalhas (17/10) — https://www.migalhas.com.br/quentes/466330/justica-rescinde-multipropriedade-e-manda-devolver-90-das-parcelas
+- **TJSP: R$ 10 mil por tubulação obstruída em apartamento novo (MRV)** — `tjsp-mrv-vicio-construtivo-tubulacao-dano-moral` — Migalhas (18/10) — https://www.migalhas.com.br/quentes/466447/mrv-e-condenada-apos-madeira-entupir-tubulacao-de-apartamento-novo
+- **TJSP (CSM): divergência de CPF em inventário exige retificação oficial** — `tjsp-csm-inventario-divergencia-cpf-matricula-retificacao` — IRIB (16/10) — https://www.irib.org.br/inventario-partilha-escritura-publica-qualificacao-pessoal-cpf-divergencia-especialidade-subjetiva-retificacao/
 
 ## Descartados
-- STJ, repetitivo de curta temporada em condomínio (notícia de 17/09): página do STJ bloqueada (desafio anti-bot), só havia resumo de busca; tema já coberto por notícia do Airbnb.
-- IRIB/TJSP inventário com divergência de CPF (16/10): item menor, ficou de fora.
-- Informativos 903–905: demais itens sem relação com as áreas (penhora, plano de saúde, concessionárias etc.).
-- Buscas em Migalhas/Conjur/IBDFAM: sem decisão nova de outubro ainda não publicada.
+- Conjur (TJMG, aluguel de área comum, 14/10): página bloqueada (desafio anti-bot), só havia resumo de busca.
+- "Doação inoficiosa" (Informativo 905) e patrimônio de afetação (Informativo 904): constavam só em resumo de busca; não encontrei no texto bruto dos Informativos lidos.
+- Usucapião/herdeiro (STJ 01/10) e TJMG usucapião pós-separação: tema já coberto ou sem leitura completa.
+- IBDFAM (lista de 19/10): itens de guarda, filiação e violência, fora das áreas.
 
 ## Fontes consultadas
-STJ (Informativos 903, 904, 905), IRIB, Migalhas, Conjur, IBDFAM (via busca), ANOREG/CNJ (via busca).
+Migalhas (listagem e matérias), IRIB, IBDFAM, STJ (Informativos 904 e 905), Conjur (bloqueado), CNJ/ANOREG (via busca).
 
 ## Atenção do dono
-- As 3 notícias do IRIB baseiam-se só na ementa publicada (inteiro teor não lido); avisei isso em "Nas entrelinhas".
-- Alimentos: o Informativo traz resumo curto; processo em segredo, sem número.
-- Posse: "AREsp ...-GO" indica origem em Goiás; o Informativo não diz quem recorreu.
-- Ilustrações reaproveitadas (divorcio, floresta, usucapiao, cadeado, desapropriacao). JSON mantido com indent=2 (formato existente).
+- Quatro notícias vêm de Migalhas, sem o acórdão/sentença original; o IRIB traz só a ementa (inteiro teor não lido).
+- Cehab: julgamento em andamento; só o voto da relatora é conhecido.
+- Multipropriedade: sentença de 1º grau com revelia da empresa; evitei nomes da consumidora.
+- Alt de ilustrações reaproveitadas (terra, hospedagem, predio, cartorio, usucapiao).
+- JSON mantido com indent=2 (formato existente no arquivo).

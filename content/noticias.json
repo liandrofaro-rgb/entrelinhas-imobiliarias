@@ -2617,5 +2617,330 @@
         "url": "https://www.irib.org.br/desapropriacao-indireta-transito-em-julgado-pericia-complementacao-memorial-descritivo-art-georreferenciamento-necessidade-regularizacao-registral/"
       }
     ]
+  },
+  {
+    "slug": "stj-usucapiao-terreno-sociedade-economia-mista-cehab-vista",
+    "titulo": "STJ: julgamento sobre usucapião de terreno de companhia estadual de habitação é suspenso por pedido de vista.",
+    "subtitulo": "Relatora votou contra a usucapião, ao entender que a proteção vale também para imóvel temporariamente sem uso, mas com potencial de uso público.",
+    "descricao": "A Terceira Turma do STJ começou a julgar se terreno da Cehab/RJ pode ser usucapido; a relatora votou contra e o ministro Villas Bôas Cueva pediu vista.",
+    "orgao": "STJ",
+    "area": "Usucapião",
+    "data_publicacao": "2026-10-13",
+    "imagem": "ilustracao-usucapiao.svg",
+    "imagem_alt": "Ilustração de uma ampulheta ao lado de uma casa, simbolizando a aquisição pelo tempo",
+    "resumo": [
+      "A ==Terceira Turma do STJ== começou a julgar se um terreno da ==Cehab/RJ== (companhia estadual de habitação) pode ser adquirido por ==usucapião==.",
+      "A relatora, ministra Nancy Andrighi, ==votou contra== a usucapião.",
+      "Para ela, a proteção também alcança imóveis ==temporariamente sem uso==, mas com potencial de destinação pública.",
+      "O julgamento está ==suspenso por pedido de vista== do ministro Ricardo Villas Bôas Cueva.",
+      "O TJRJ havia reconhecido a usucapião; não há decisão final do STJ."
+    ],
+    "aconteceu": [
+      "O caso envolve um terreno na Gávea, no Rio de Janeiro, registrado em nome da **Cehab/RJ**, sociedade de economia mista. O autor da ação pediu a **usucapião** depois de ter adquirido, em 2007, os **direitos possessórios** dos herdeiros de um homem que, segundo o relato, ocupava o imóvel desde a década de 1940.",
+      "A sentença de primeiro grau rejeitou o pedido, por entender que os bens da companhia estavam protegidos contra a usucapião. O **TJRJ** reformou a sentença: para o tribunal, imóveis de sociedades de economia mista só ficam protegidos quando estão **efetivamente destinados à prestação de serviço público**. A perícia concluiu que a área de lazer apontada pela Cehab como destinação pública ficava em outro terreno, e o tribunal reconheceu a usucapião, excluindo apenas a parcela pertencente ao município.",
+      "O Estado do Rio de Janeiro e a Cehab recorreram ao STJ por meio de recursos especiais."
+    ],
+    "decisao_titulo": "O julgamento até agora",
+    "decisao": [
+      "A relatora, ministra **Nancy Andrighi**, lembrou que a Constituição e o Código Civil proíbem a usucapião de bens públicos. Explicou que, embora as sociedades de economia mista tenham personalidade de direito privado, seus bens podem receber ==proteção equivalente à dos bens públicos== quando vinculados à prestação de serviços públicos.",
+      "Segundo a relatora, a destinação pública **não exige uso efetivo e permanente**: o conceito abrange também bens temporariamente sem uso, que possam ser empregados no futuro em atividades de interesse público. Ela afirmou que isso é especialmente relevante para empresas responsáveis por políticas habitacionais, pois admitir a usucapião desses terrenos poderia legitimar ocupações irregulares e comprometer o acesso à moradia. Também observou que a inclinação do terreno, apontada pela defesa, não afastaria necessariamente seu aproveitamento.",
+      "Com esses fundamentos, votou para dar provimento aos recursos do Estado e da Cehab e afastar a propriedade reconhecida ao autor. O julgamento foi interrompido por **pedido de vista** do ministro **Ricardo Villas Bôas Cueva**. A data da retomada não foi informada pela fonte."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: quando um terreno “parado” ainda é protegido",
+    "entrelinhas": [
+      "**O ponto central não é o tempo de posse.** A ocupação descrita pela fonte é antiga, mas a discussão é outra: saber se o terreno de uma companhia estadual de habitação se equipara a bem público e, por isso, não pode ser usucapido.",
+      "**Dois critérios em disputa.** O tribunal estadual olhou para o uso efetivo da área, a perícia mostrou que o espaço indicado como de interesse público ficava em outro lugar. A relatora, por sua vez, defende que basta o **potencial de uso** para uma finalidade pública, ainda que o terreno esteja parado.",
+      "**Efeito prático possível.** Se esse entendimento prevalecer, terrenos de empresas públicas ou mistas ligadas a políticas de moradia ficariam mais protegidos contra pedidos de usucapião, mesmo sem uso atual. Por ora, é apenas o voto de uma ministra.",
+      "**Limites do que se sabe.** O julgamento está suspenso, os demais votos são desconhecidos e a decisão será do colegiado. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **o STJ ainda não decidiu se o terreno de uma companhia estadual de habitação pode ser usucapido; a relatora votou contra e o julgamento está suspenso por vista.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Terceira Turma"
+      ],
+      [
+        "Processo",
+        "REsp 2.226.773"
+      ],
+      [
+        "Relatora",
+        "Ministra Nancy Andrighi"
+      ],
+      [
+        "Situação",
+        "Julgamento iniciado e suspenso por pedido de vista do ministro Ricardo Villas Bôas Cueva"
+      ],
+      [
+        "Divulgação pela fonte",
+        "13 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466415/stj-julga-usucapiao-em-imovel-de-sociedade-de-economia-mista"
+      }
+    ]
+  },
+  {
+    "slug": "tjgo-impenhorabilidade-parcial-fazenda-120-hectares",
+    "titulo": "TJGO reconhece impenhorabilidade de 120 hectares de fazenda de 269 hectares explorada pela família.",
+    "subtitulo": "A 4ª Câmara Cível entendeu que o imóvel maior que quatro módulos fiscais pode ser protegido só até o limite legal; o restante segue penhorável.",
+    "descricao": "O TJGO protegeu da penhora a área equivalente a quatro módulos fiscais de uma propriedade rural maior e manteve a execução sobre os 149,2 hectares restantes.",
+    "orgao": "TJGO",
+    "area": "Propriedade rural",
+    "data_publicacao": "2026-10-17",
+    "imagem": "ilustracao-terra.svg",
+    "imagem_alt": "Ilustração de um mapa de terreno dividido em lotes",
+    "resumo": [
+      "A 4ª Câmara Cível do ==TJGO== reconheceu a ==impenhorabilidade de 120 hectares== de uma fazenda de 269,2 hectares, em Ivolândia (GO).",
+      "Foi mantida a possibilidade de ==penhora dos 149,2 hectares== excedentes para pagar dívida bancária.",
+      "O colegiado exigiu o limite de ==quatro módulos fiscais== e a comprovação de ==exploração familiar==.",
+      "A hipoteca dada pelo devedor não afastou a proteção, segundo o relator.",
+      "A decisão foi unânime; a delimitação exata da área será feita pelo juízo de origem."
+    ],
+    "aconteceu": [
+      "A origem é uma **execução de título extrajudicial** movida por um banco, na qual se discutiu a penhora de uma fazenda de **269,2 hectares** usada para atividade agropecuária, em Ivolândia (GO). O produtor rural pediu que ao menos **120 hectares** fossem protegidos como pequena propriedade rural explorada em regime de economia familiar.",
+      "A juíza de primeiro grau negou o pedido. Considerou que a propriedade, de cerca de **8,97 módulos fiscais**, ultrapassava o limite de quatro módulos previsto na lei e que não seria possível proteger apenas parte de um único imóvel.",
+      "O produtor recorreu ao tribunal sustentando que a fração de 120 hectares devia permanecer protegida."
+    ],
+    "lei": [
+      "A fonte menciona a **Constituição Federal** e o **CPC** (impenhorabilidade da pequena propriedade rural trabalhada pela família), o **Tema 1.234 do STJ** e o **Tema 961 do STF**, sem indicar artigos."
+    ],
+    "decisao": [
+      "O relator, desembargador **Kisleu Dias Maciel Filho**, destacou que a Constituição e o CPC protegem a pequena propriedade rural trabalhada pela família, e que a proteção exige o **limite de quatro módulos fiscais** e a **comprovação da exploração familiar**, conforme o Tema 1.234 do STJ. Considerou provada a atividade produtiva com documentos como Cadastro Ambiental Rural, declarações de ITR, notas fiscais, guias de trânsito animal e fotografias do rebanho e das instalações.",
+      "Como o módulo fiscal em Ivolândia corresponde a 30 hectares, o limite equivale a **120 hectares**. Segundo o relator, a fazenda ser maior não afasta automaticamente a proteção: a ==impenhorabilidade pode ficar restrita à área do limite legal==, permitindo a penhora do excedente. Ele afastou o Tema 961 do STF como obstáculo, por tratar da soma de terrenos contínuos, e não da proteção de parte de um único imóvel.",
+      "Quanto à hipoteca oferecida pelo devedor, o relator afirmou que a proteção tem natureza de ordem pública e não é afastada pela garantia voluntária, nem depende de a dívida ter relação com a atividade rural. O recurso foi provido por unanimidade. Cabe ao juízo de origem definir, com avaliação técnica, qual parcela ficará protegida, observando normas agrárias, ambientais e registrais."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: proteger a terra de trabalho, não a propriedade inteira",
+    "entrelinhas": [
+      "**A lógica é proteger o sustento da família.** A regra existe para que a terra trabalhada pela família não seja toda levada por dívidas. A decisão separa a parte que cumpre essa função da parte excedente.",
+      "**Tamanho não é tudo.** Para o relator, ultrapassar quatro módulos não elimina a proteção; ela fica limitada ao tamanho legal. Mesmo assim, a prova da exploração familiar foi decisiva, com documentos fiscais, ambientais e de rebanho.",
+      "**A hipoteca não resolveu a disputa.** O banco argumentou que o próprio devedor ofereceu o imóvel em garantia, mas o relator tratou a proteção como matéria de ordem pública.",
+      "**Limites da decisão.** É decisão de uma câmara estadual, em caso concreto; qual área será protegida ainda será definida pelo juízo de origem. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **o TJGO protegeu da penhora a área equivalente a quatro módulos fiscais de uma fazenda maior e manteve a execução sobre o excedente.**",
+    "dados": [
+      [
+        "Tribunal",
+        "TJGO · 4ª Câmara Cível"
+      ],
+      [
+        "Processo",
+        "5591507-29.2026.8.09.0076"
+      ],
+      [
+        "Relator",
+        "Desembargador Kisleu Dias Maciel Filho"
+      ],
+      [
+        "Resultado",
+        "Recurso provido por unanimidade"
+      ],
+      [
+        "Divulgação pela fonte",
+        "17 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466337/tj-go-impede-penhora-de-parte-de-fazenda-maior-que-limite-legal"
+      }
+    ]
+  },
+  {
+    "slug": "tjsp-multipropriedade-rescisao-devolucao-90-por-cento",
+    "titulo": "Juiz de Suzano (SP) rescinde contrato de multipropriedade e manda devolver 90% das parcelas pagas.",
+    "subtitulo": "Sentença admitiu a desistência do comprador, com retenção de 10%, e excluiu a comissão de corretagem da restituição.",
+    "descricao": "A 5ª Vara Cível de Suzano (SP) rescindiu contrato de multipropriedade a pedido da consumidora e fixou a devolução de 90% das parcelas, em processo sem contestação da empresa.",
+    "orgao": "TJSP",
+    "area": "Compra e venda de imóveis",
+    "data_publicacao": "2026-10-17",
+    "imagem": "ilustracao-hospedagem.svg",
+    "imagem_alt": "Ilustração de uma mala de viagem ao lado de uma pequena casa",
+    "resumo": [
+      "A ==5ª Vara Cível de Suzano (SP)== rescindiu contrato de ==multipropriedade== por pedido da consumidora, que alegou dificuldades financeiras.",
+      "O juiz determinou a ==devolução de 90%== das parcelas, com ==retenção de 10%== pela empresa.",
+      "A empresa ==não contestou== a ação, e o juiz julgou o mérito de forma antecipada.",
+      "A ==comissão de corretagem== de R$ 3.990 ficou fora da restituição.",
+      "É sentença de primeiro grau, sujeita a recurso."
+    ],
+    "aconteceu": [
+      "Uma consumidora comprou cotas imobiliárias em regime de **multipropriedade** e, alegando que não tinha mais condições de pagar as prestações, ajuizou ação para **rescindir o contrato** e recuperar o que pagou. Ela própria admitiu que a empresa retivesse de 10% a 20% dos valores. Em caráter liminar, pediu a suspensão das parcelas vencidas e vincendas, o que foi parcialmente concedido durante o processo.",
+      "A empresa foi citada, mas **não apresentou contestação** no prazo. O juiz Paulo Roberto Dallan reconheceu a revelia e decidiu o mérito de forma antecipada."
+    ],
+    "lei": [
+      "A fonte cita a **Lei 13.786/2018** (Lei do Distrato), as **Súmulas 1, 2 e 3 do TJSP** e a **Súmula 543 do STJ**."
+    ],
+    "decisao": [
+      "O juiz destacou que o contrato foi firmado na vigência da Lei do Distrato e aplicou as Súmulas 1, 2 e 3 do TJSP, que garantem ao promitente comprador o direito de ==rescindir o contrato e reaver as quantias pagas==, admitida a compensação de certas despesas do vendedor. Segundo a sentença, esse entendimento vale também para contratos de multipropriedade. Mencionou ainda a Súmula 543 do STJ: a restituição é integral se a culpa é só do vendedor e parcial se a responsabilidade é do comprador.",
+      "Como a desistência partiu da consumidora, a empresa pode reter parte dos valores para compensar gastos com administração e propaganda. O juiz fixou a retenção em **10%**, observando que nem todas as cláusulas haviam sido juntadas e que a empresa, por não contestar, não demonstrou despesas excepcionais que justificassem percentual maior. A **comissão de corretagem** de R$ 3.990 foi excluída da restituição.",
+      "Os valores serão corrigidos pelo **IPCA** desde cada pagamento até a citação e, depois, pela **Selic**, que abrange correção e juros. A empresa pagará custas, despesas e honorários de 10% sobre a condenação. Processo: 4003141-76.2026.8.26.0606."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: desistir do contrato tem custo, mas não perda total",
+    "entrelinhas": [
+      "**O comprador pode pedir o desfazimento.** A sentença segue a linha de que quem não consegue continuar pagando não fica preso ao contrato, mas arca com uma retenção para cobrir despesas do vendedor.",
+      "**O percentual depende do caso.** Os 10% decorreram do que havia nos autos: a empresa não contestou e não provou gastos maiores. A fonte mostra outras decisões com percentuais diferentes para multipropriedade, o que indica que não há número fixo.",
+      "**Efeito da revelia.** Como a empresa não se defendeu, o juiz decidiu com base nos documentos disponíveis. Em um caso com defesa, o resultado poderia ser outro.",
+      "**Limites da decisão.** É sentença de primeiro grau, em caso concreto, ainda sujeita a recurso. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **uma sentença de Suzano (SP) admitiu que o comprador desista da multipropriedade e fixou a devolução de 90% das parcelas, com retenção de 10%.**",
+    "dados": [
+      [
+        "Órgão",
+        "TJSP · 5ª Vara Cível de Suzano"
+      ],
+      [
+        "Processo",
+        "4003141-76.2026.8.26.0606"
+      ],
+      [
+        "Juiz",
+        "Paulo Roberto Dallan"
+      ],
+      [
+        "Natureza",
+        "Sentença de primeiro grau"
+      ],
+      [
+        "Divulgação pela fonte",
+        "17 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466330/justica-rescinde-multipropriedade-e-manda-devolver-90-das-parcelas"
+      }
+    ]
+  },
+  {
+    "slug": "tjsp-mrv-vicio-construtivo-tubulacao-dano-moral",
+    "titulo": "TJSP condena construtora a pagar R$ 10 mil por tubulação obstruída por madeira em apartamento novo.",
+    "subtitulo": "A 10ª Câmara de Direito Privado entendeu que o defeito comprometeu a higiene e a habitabilidade e foi além do mero descumprimento contratual.",
+    "descricao": "O TJSP reformou sentença para reconhecer dano moral de R$ 10 mil a moradora de apartamento novo cuja tubulação sanitária estava obstruída por resíduo de obra.",
+    "orgao": "TJSP",
+    "area": "Imóvel na planta",
+    "data_publicacao": "2026-10-18",
+    "imagem": "ilustracao-predio.svg",
+    "imagem_alt": "Ilustração de um prédio de apartamentos com prédios menores ao lado",
+    "resumo": [
+      "A ==10ª Câmara de Direito Privado do TJSP== condenou a MRV a pagar ==R$ 10 mil por danos morais==.",
+      "Uma peça de ==madeira== obstruía a tubulação do banheiro de apartamento novo, com retorno de água.",
+      "A sentença havia negado o dano moral; os ==R$ 1.853,45 por danos materiais== foram mantidos.",
+      "Para o relator, o defeito afetou ==condições essenciais de higiene e habitabilidade==.",
+      "A decisão foi unânime."
+    ],
+    "aconteceu": [
+      "Cerca de seis meses depois da mudança para um apartamento recém-adquirido, a moradora percebeu **mofo** nas paredes. A construtora fez serviços de pintura, mas, segundo o relato nos autos, o problema persistiu. Depois, surgiram falhas no escoamento do banheiro, com **retorno de água pelos ralos** e alagamento.",
+      "Durante uma intervenção feita pelo apartamento de baixo, foi encontrado um **pedaço de madeira** obstruindo a tubulação. Em primeira instância, a MRV foi condenada a pagar R$ 1.853,45 por danos materiais, mas o pedido de dano moral foi negado, por se entender que havia mero descumprimento contratual e desconforto insuficiente para violar direitos da personalidade.",
+      "A consumidora recorreu, alegando que os defeitos impediram temporariamente o uso normal do único banheiro da residência."
+    ],
+    "decisao": [
+      "O relator, desembargador **Eduardo Francisco Marcondes**, ressaltou que a existência de defeitos construtivos **não gera automaticamente** indenização por dano moral. No caso, porém, considerou que a obstrução da rede sanitária por resíduo de obra, o retorno de água e a limitação do uso do único banheiro comprometeram ==condições essenciais de higiene e habitabilidade==.",
+      "Ele observou que fotografias e registros de atendimento confirmavam os problemas, embora não houvesse prova de que a água tivesse ficado acumulada por uma semana inteira, e que os defeitos apareceram em imóvel novo, após cerca de seis meses de ocupação.",
+      "Por unanimidade, o colegiado reconheceu o dano moral, fixou a indenização em **R$ 10 mil** e manteve a condenação por danos materiais. Processo: 1033454-93.2024.8.26.0007."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: quando o defeito vira dano moral",
+    "entrelinhas": [
+      "**Defeito de obra, por si só, não basta.** O relator disse expressamente que vício construtivo não gera dano moral automático. O que pesou foi o efeito na rotina: um único banheiro com uso comprometido.",
+      "**A prova foi decisiva.** Fotos e registros de atendimento comprovaram o problema; ao mesmo tempo, o tribunal notou que não havia prova do alagamento por uma semana inteira, o que mostra que a descrição precisa ser comprovada.",
+      "**Imóvel novo pesa.** O fato de o defeito surgir em apartamento novo, poucos meses após a mudança, foi levado em conta pelo colegiado.",
+      "**Limites da decisão.** É acórdão de caso concreto, que não fixa tese para outros processos. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **o TJSP reconheceu dano moral de R$ 10 mil porque a tubulação obstruída por resíduo de obra comprometeu o uso do único banheiro de apartamento novo.**",
+    "dados": [
+      [
+        "Tribunal",
+        "TJSP · 10ª Câmara de Direito Privado"
+      ],
+      [
+        "Processo",
+        "1033454-93.2024.8.26.0007"
+      ],
+      [
+        "Relator",
+        "Desembargador Eduardo Francisco Marcondes"
+      ],
+      [
+        "Resultado",
+        "Decisão unânime"
+      ],
+      [
+        "Divulgação pela fonte",
+        "18 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466447/mrv-e-condenada-apos-madeira-entupir-tubulacao-de-apartamento-novo"
+      }
+    ]
+  },
+  {
+    "slug": "tjsp-csm-inventario-divergencia-cpf-matricula-retificacao",
+    "titulo": "TJSP: divergência de CPF entre matrícula e escritura de inventário exige retificação com documento oficial.",
+    "subtitulo": "O Conselho Superior da Magistratura negou recurso e afirmou que mera declaração particular não basta para corrigir o dado.",
+    "descricao": "Em dúvida registral, o Conselho Superior da Magistratura de SP manteve a recusa de registro de escritura de inventário e partilha com CPF diferente do constante na matrícula.",
+    "orgao": "IRIB",
+    "area": "Registros públicos",
+    "data_publicacao": "2026-10-16",
+    "data_julgamento": "2026-10-07",
+    "imagem": "ilustracao-cartorio.svg",
+    "imagem_alt": "Ilustração de um documento com selo e fita, símbolo de cartório",
+    "resumo": [
+      "O ==Conselho Superior da Magistratura do TJSP== negou apelação em ==dúvida registral==.",
+      "O CPF da matrícula era ==diferente== do indicado na escritura pública de inventário e partilha.",
+      "A retificação exige ==documento oficial idôneo==; ==mera declaração particular não basta==.",
+      "A decisão invoca os princípios da especialidade subjetiva, da continuidade e da segurança jurídica.",
+      "A fonte é a seleção de jurisprudência do IRIB, com a ementa do julgado."
+    ],
+    "aconteceu": [
+      "O caso chegou ao Conselho Superior da Magistratura de São Paulo por **apelação em procedimento de dúvida**, em que se discute se o oficial de registro de imóveis agiu corretamente ao recusar um título. O título era uma **escritura pública de inventário e partilha**, e o CPF de uma pessoa indicado na escritura diferia do constante na **matrícula** do imóvel.",
+      "A ementa menciona ainda tratar-se de matrícula por transporte (aberta com base em registro anterior) e diz que a dispensa de retificação não se aplica quando falta coincidência de dados. O processo é da Comarca de Várzea Paulista."
+    ],
+    "decisao": [
+      "O colegiado, sob relatoria da desembargadora **Silvia Rocha**, negou provimento ao recurso. O julgamento ocorreu em 7 de outubro de 2026, com publicação em 13 de outubro de 2026.",
+      "Segundo a ementa, a divergência de CPF atinge os princípios da ==especialidade subjetiva== (a pessoa registrada deve estar identificada com precisão), da **continuidade** e da **segurança jurídica**. Por isso, a correção exige **retificação instruída com documento oficial idôneo**, sendo **insuficiente a mera declaração particular**."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: um número errado pode travar o registro",
+    "entrelinhas": [
+      "**O registro depende de identificar a pessoa com exatidão.** O CPF é um dos dados que ligam o título à matrícula. Se não coincidem, o oficial não consegue ter certeza de que se trata da mesma pessoa.",
+      "**Declaração própria não corrige.** Segundo a ementa, é preciso documento oficial; uma declaração particular, mesmo assinada pelos interessados, não substitui a prova.",
+      "**Efeito prático.** Antes de registrar uma partilha, convém conferir se os dados pessoais da escritura batem com a matrícula; do contrário, o título pode ser recusado e exigir retificação.",
+      "**Alcance da fonte.** A notícia reproduz apenas a ementa; o inteiro teor não foi lido, e o acórdão pode trazer detalhes que ela não informa. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **no TJSP, CPF diferente entre matrícula e escritura de inventário só se corrige com documento oficial idôneo, não com declaração particular.**",
+    "dados": [
+      [
+        "Tribunal",
+        "TJSP · Conselho Superior da Magistratura"
+      ],
+      [
+        "Processo",
+        "Apelação Cível 1001758-98.2025.8.26.0655 (Várzea Paulista)"
+      ],
+      [
+        "Relatora",
+        "Desembargadora Silvia Rocha"
+      ],
+      [
+        "Julgamento",
+        "7 de outubro de 2026 (publicação em 13/10/2026)"
+      ],
+      [
+        "Divulgação pelo IRIB",
+        "16 de outubro de 2026"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IRIB · jurisprudência selecionada ↗",
+        "url": "https://www.irib.org.br/inventario-partilha-escritura-publica-qualificacao-pessoal-cpf-divergencia-especialidade-subjetiva-retificacao/"
+      }
+    ]
   }
 ]
