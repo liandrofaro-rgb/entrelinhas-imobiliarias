@@ -138,7 +138,16 @@ def cena_caso_heranca():
             + f'<polygon points="{face("d", cx, cy, a, h, coracao)}" fill="#c8a154" stroke="#8a6c2e" stroke-width="3"/>')
 
 
-CENAS = {'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
+def cena_inventario_itcmd():
+    # prédio do cartório (azul) e moeda dourada com o sinal de percentual: o imposto ao lado da escritura
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(840, 400, 110, 150, *BLUE) + janelas('e', 840, 400, 110, 150, 3, 3, '#bcd3e6') + janelas('d', 840, 400, 110, 150, 3, 3, '#5f8fb8')
+            + cube(1010, 340, 70, 80, *PALE)
+            + '<circle cx="1010" cy="200" r="46" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<text x="1010" y="219" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="52" fill="#07172f" stroke="none">%</text>')
+
+
+CENAS = {'inventario-cartorio-itcmd-imposto-nao-sumiu': cena_inventario_itcmd, 'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
 
 def quebra(titulo, limite=17):
     linhas, atual = [], ''
