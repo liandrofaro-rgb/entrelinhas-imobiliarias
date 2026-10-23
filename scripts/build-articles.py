@@ -147,7 +147,16 @@ def cena_inventario_itcmd():
             + '<text x="1010" y="219" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="52" fill="#07172f" stroke="none">%</text>')
 
 
-CENAS = {'inventario-cartorio-itcmd-imposto-nao-sumiu': cena_inventario_itcmd, 'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
+def cena_violencia_patrimonial():
+    # cartório (azul) e escudo dourado com visto: a proteção entra no ato
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(840, 400, 110, 150, *BLUE) + janelas('e', 840, 400, 110, 150, 3, 3, '#bcd3e6') + janelas('d', 840, 400, 110, 150, 3, 3, '#5f8fb8')
+            + cube(1010, 340, 70, 80, *PALE)
+            + '<polygon points="1010,150 1060,170 1060,215 1010,255 960,215 960,170" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<polyline points="988,202 1005,220 1036,184" fill="none" stroke="#07172f" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>')
+
+
+CENAS = {'cartorio-violencia-patrimonial-mulher-provimento-222': cena_violencia_patrimonial, 'inventario-cartorio-itcmd-imposto-nao-sumiu': cena_inventario_itcmd, 'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
 
 def quebra(titulo, limite=17):
     linhas, atual = [], ''
