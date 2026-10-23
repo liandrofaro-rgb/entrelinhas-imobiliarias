@@ -2942,5 +2942,329 @@
         "url": "https://www.irib.org.br/inventario-partilha-escritura-publica-qualificacao-pessoal-cpf-divergencia-especialidade-subjetiva-retificacao/"
       }
     ]
+  },
+  {
+    "slug": "stj-registro-imovel-sobreposicao-matriculas-palmas-tocantins",
+    "titulo": "STJ mantém registro de imóvel em disputa de matrículas sobrepostas em Palmas (TO).",
+    "subtitulo": "A Terceira Turma lembrou que o registro tem presunção relativa de veracidade e que anulá-lo exige prova robusta de irregularidade.",
+    "descricao": "A Terceira Turma do STJ negou recurso de construtora que questionava registros de terrenos de um loteamento em Palmas/TO, ligados à criação do estado.",
+    "orgao": "STJ",
+    "area": "Registros públicos",
+    "data_publicacao": "2026-10-20",
+    "data_julgamento": "2026-10-20",
+    "imagem": "ilustracao-cartorio.svg",
+    "imagem_alt": "Ilustração de um documento com selo e fita, símbolo de cartório",
+    "resumo": [
+      "A ==Terceira Turma do STJ== manteve decisão do TJ/TO em disputa sobre ==sobreposição de matrículas== em loteamento de Palmas.",
+      "A relatora, ministra Nancy Andrighi, lembrou que o ==registro tem presunção relativa== de veracidade.",
+      "Para anulá-lo, são necessárias ==provas robustas== de irregularidade, porque a decisão atinge toda a cadeia de proprietários.",
+      "No caso, o título dos proprietários era ==anterior== ao apresentado pela construtora.",
+      "O recurso foi conhecido, mas teve provimento negado."
+    ],
+    "aconteceu": [
+      "A Terceira Turma do STJ analisou uma disputa imobiliária sobre a **sobreposição de matrículas** de terrenos do loteamento Taquaruçu Canela, em Palmas (TO). Uma construtora questionava a validade dos registros dos terrenos e recorreu ao STJ depois de o TJ/TO manter a sentença que não acolheu a sua pretensão.",
+      "No recurso, a empresa discutiu a validade dos atos registrais, a origem das matrículas e a regularidade da cadeia dominial. Alegou também negativa de prestação jurisdicional e julgamento fora do pedido (**extra petita**).",
+      "Segundo a relatora, a origem do conflito remonta à criação do estado do Tocantins, em 1988, e à fundação de Palmas, no ano seguinte, que trouxeram dificuldades para a abertura de matrículas na capital."
+    ],
+    "lei": [
+      "Código Civil, art. 1.245 (transferência da propriedade imóvel entre vivos mediante registro do título)."
+    ],
+    "decisao": [
+      "A ministra **Nancy Andrighi** explicou que, pelo art. 1.245 do Código Civil, a propriedade de imóvel só se transfere com o **registro do título** no cartório, o que garante segurança jurídica e publicidade. Os registros têm ==presunção relativa de veracidade==, que dura até eventual anulação.",
+      "Essa presunção pode ser afastada, mas a invalidação exige elementos fortes, porque anular um registro pode atingir toda a **cadeia dominial** e os sucessivos proprietários. Entre as hipóteses que podem levar à nulidade, a relatora citou a sobreposição de matrículas, em que registros diferentes formam cadeias de propriedade distintas sobre o mesmo imóvel, e lembrou do princípio da **continuidade registral**.",
+      "No caso, o TJ/TO examinou a cadeia dominial e concluiu que não havia fundamento para anular o registro contestado. A transferência aos recorridos foi regular e o título deles era anterior ao da construtora, o que, para a relatora, está de acordo com a jurisprudência do STJ. Ela rejeitou as alegações de negativa de prestação jurisdicional e de julgamento extra petita e afirmou que rever as conclusões sobre a validade dos registros exigiria reexame de fatos e provas, o que não cabe em recurso especial. O recurso foi conhecido e desprovido."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: por que um registro não cai com facilidade",
+    "entrelinhas": [
+      "**O conflito de fundo é a segurança do registro.** Quando duas matrículas disputam o mesmo terreno, alguém terá a propriedade reconhecida e alguém a perderá. A decisão reforça que o registro é a base da propriedade imóvel e vale até que se prove o contrário.",
+      "**Quem decide e como.** Foram os tribunais de origem que analisaram a cadeia de propriedade e as provas; o STJ não reexamina fatos. Por isso o peso do caso está na regra jurídica aplicada, e não em nova análise dos documentos.",
+      "**Efeito prático possível.** Anular um registro pode alcançar vários compradores sucessivos, o que explica a exigência de prova robusta. Em disputas de sobreposição, a ==anterioridade do título== costuma ser um dos pontos examinados, conforme o entendimento citado pela relatora.",
+      "**Limites.** É um caso concreto, decidido com base nas provas dos autos e noticiado pela imprensa jurídica, sem acesso ao acórdão. Esta é uma informação geral, não uma orientação para situação específica."
+    ],
+    "sintese": "Em uma frase: **o STJ manteve um registro de imóvel em Palmas, lembrando que a presunção de veracidade do registro só cai com prova robusta de irregularidade.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Terceira Turma"
+      ],
+      [
+        "Processo",
+        "REsp 2.189.786"
+      ],
+      [
+        "Relatora",
+        "Ministra Nancy Andrighi"
+      ],
+      [
+        "Julgamento",
+        "20 de outubro de 2026"
+      ],
+      [
+        "Divulgação pela fonte",
+        "20 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466890/stj-mantem-registro-de-imovel-em-disputa-ligada-a-criacao-do-tocantins"
+      }
+    ]
+  },
+  {
+    "slug": "stj-doacao-simulada-compra-venda-terceiro-boa-fe",
+    "titulo": "STJ: nulidade de doação disfarçada de compra e venda não prejudica terceiro de boa-fé.",
+    "subtitulo": "A Terceira Turma aplicou o art. 167, §2º, do Código Civil em disputa sobre negócio entre mãe e filha.",
+    "descricao": "A Terceira Turma do STJ decidiu que o reconhecimento de simulação não pode atingir quem não participou do negócio e confiou na sua aparência.",
+    "orgao": "STJ",
+    "area": "Planejamento patrimonial",
+    "data_publicacao": "2026-10-20",
+    "imagem": "ilustracao-recibo.svg",
+    "imagem_alt": "Ilustração de um recibo com bordas recortadas, símbolo de documento de compra e venda",
+    "resumo": [
+      "A ==Terceira Turma do STJ== discutiu se uma doação teria sido disfarçada de ==compra e venda== entre mãe e filha.",
+      "A relatora, ministra Nancy Andrighi, aplicou o ==art. 167, §2º, do Código Civil==.",
+      "Segundo a decisão, a nulidade de negócio simulado ==não pode prejudicar terceiro de boa-fé==.",
+      "A terceira pessoa não participou do negócio e foi considerada de boa-fé.",
+      "Reexaminar a natureza do negócio exigiria reanálise de provas, o que o recurso especial não permite."
+    ],
+    "aconteceu": [
+      "O caso começou com um negócio entre uma mulher e sua mãe. Alegou-se que uma **doação** teria sido dissimulada por um contrato de **compra e venda**. O processo foi julgado pelo TJ/SC, que examinou as circunstâncias da negociação e a situação de uma terceira pessoa que não havia participado do negócio.",
+      "No recurso especial, discutiu-se a possibilidade de reconhecer a **simulação** e os efeitos dela sobre os direitos dessa terceira pessoa. A fonte não informa qual era o bem envolvido nem o valor."
+    ],
+    "lei": [
+      "Código Civil, art. 167, §2º (ressalva dos direitos de terceiros de boa-fé em face dos contratantes do negócio simulado)."
+    ],
+    "decisao": [
+      "A relatora, ministra **Nancy Andrighi**, explicou que o Código Civil protege expressamente os direitos de **terceiros de boa-fé** diante da nulidade de negócios simulados. Para ela, a regra concretiza a **boa-fé objetiva**, ao impedir que quem confiou na aparência de regularidade seja prejudicado pela conduta dos envolvidos.",
+      "Segundo a ministra, a jurisprudência do STJ admite que os próprios participantes de um negócio simulado aleguem o vício entre si, mas preserva os direitos de terceiros. Ela afirmou: ==“O terceiro de boa-fé não pode ser prejudicado”== pela invalidação do negócio simulado.",
+      "No caso concreto, considerou inviável reconhecer a simulação pretendida contra a recorrida, que não participou do negócio e foi tida como terceira de boa-fé. Acrescentou que alterar as conclusões do TJ/SC sobre a natureza jurídica do negócio exigiria novo exame de provas, o que não cabe em recurso especial. A fonte noticia que a Turma acompanhou a relatora."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: simulação entre os contratantes e proteção de quem confiou",
+    "entrelinhas": [
+      "**Dois planos diferentes.** Entre quem fez o negócio, é possível alegar que ele foi simulado, por exemplo, que a compra e venda escondia uma doação. Perante quem não participou e agiu de boa-fé, a história é outra: a lei preserva os seus direitos.",
+      "**Por que isso importa para o patrimônio.** Negócios entre pais e filhos costumam ser examinados em inventários e em disputas entre herdeiros. A decisão lembra que, mesmo que a simulação seja reconhecida entre as partes, terceiros que confiaram na aparência não são atingidos.",
+      "**O que a decisão não faz.** Segundo a fonte, o STJ não reexaminou se houve ou não doação disfarçada, porque isso depende de provas, analisadas pelo tribunal de origem. O ponto decidido foi a proteção do terceiro.",
+      "**Limites.** A notícia não detalha o bem nem o resultado final entre mãe e filha. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **a nulidade de um negócio simulado pode valer entre quem o fez, mas não alcança o terceiro de boa-fé que confiou na sua aparência.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Terceira Turma"
+      ],
+      [
+        "Processo",
+        "REsp 2.206.795"
+      ],
+      [
+        "Relatora",
+        "Ministra Nancy Andrighi"
+      ],
+      [
+        "Julgamento",
+        "data não informada pela fonte"
+      ],
+      [
+        "Divulgação pela fonte",
+        "20 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466897/stj-nulidade-de-doacao-simulada-nao-atinge-terceiro-de-boa-fe"
+      }
+    ]
+  },
+  {
+    "slug": "stj-uniao-estavel-escritura-separacao-bens-nao-retroage",
+    "titulo": "STJ: escritura de união estável não pode impor separação total de bens com efeito retroativo se isso prejudica um dos companheiros.",
+    "subtitulo": "A Terceira Turma decidiu, por unanimidade, que mudanças no regime de bens valem, em regra, só para o futuro.",
+    "descricao": "Em caso de união estável declarada em escritura de 2012 como iniciada em 1982, a Terceira Turma do STJ afastou a retroatividade da separação total de bens.",
+    "orgao": "STJ",
+    "area": "União estável e partilha",
+    "data_publicacao": "2026-10-20",
+    "imagem": "ilustracao-familia.svg",
+    "imagem_alt": "Ilustração de uma casa com figuras de família, símbolo de união e patrimônio familiar",
+    "resumo": [
+      "A ==Terceira Turma do STJ== decidiu, por unanimidade, que companheiros não podem fixar em escritura a ==separação total de bens com efeito retroativo==, se isso restringe direitos de um deles.",
+      "Em regra, mudanças no regime de bens produzem efeitos ==apenas para o futuro==.",
+      "A retroatividade só é admitida em hipóteses excepcionais, quando amplia garantias e não prejudica terceiros.",
+      "No caso, a escritura de ==2012== declarava união desde ==1982==; o TJ/DF reconheceu a união de 1998 a 2012.",
+      "A separação total é mais restritiva que a comunhão parcial anteriormente aplicável."
+    ],
+    "aconteceu": [
+      "Em 2012, dois companheiros formalizaram uma **escritura pública** declarando que viviam em união estável desde 1982 e que os bens adquiridos por cada um sempre pertenceram exclusivamente ao respectivo titular. Isso equivale a adotar, de forma retroativa, a **separação total de bens**.",
+      "A disputa começou em ação do **espólio** de um dos companheiros, para reconhecer a união estável e definir o regime patrimonial aplicável. O TJ/DF reconheceu a união no período de **1998 a 2012**, mas afastou a eficácia retroativa da escritura. O caso chegou ao STJ."
+    ],
+    "decisao": [
+      "A relatora, ministra **Nancy Andrighi**, explicou que, pela jurisprudência do STJ, alterações no regime de bens produzem efeitos **ex nunc**, isto é, apenas daí em diante. Lembrou que a **Quarta Turma** reconhece uma exceção: a retroatividade pode ser admitida quando o novo regime amplia as garantias patrimoniais e não causa prejuízo a terceiros.",
+      "Para a relatora, essa exceção não se aplica ao caso, porque a separação total de bens é ==mais restritiva== do que a comunhão parcial que incidia antes. Permitir a retroatividade poderia comprometer direitos patrimoniais constituídos durante a convivência.",
+      "Durante o julgamento, a ministra observou que, na hipótese, uma das partes perderia parte significativa do patrimônio e que a regra deve valer dali para frente. Afirmou ainda que a autonomia da vontade, embora relevante, não afasta necessariamente outras normas de proteção de direitos. A decisão foi unânime, segundo a fonte."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: o que a escritura pode e o que não pode fazer",
+    "entrelinhas": [
+      "**O conflito de fundo.** De um lado, a liberdade do casal para escolher como os bens serão tratados; de outro, a proteção de direitos que já nasceram durante a convivência. A decisão dá peso ao segundo lado quando a mudança piora a situação de um dos companheiros.",
+      "**Passado e futuro.** A escritura pode definir o regime daqui em diante, mas apagar para trás o que já foi construído em comum exige cuidado: para a relatora, a regra é a de efeitos apenas futuros.",
+      "**Efeito prático possível.** Em disputas sobre partilha e herança de companheiros, declarações feitas depois, mesmo em cartório, podem não bastar para afastar a comunhão que já existia. O resultado depende das provas e do período reconhecido da união.",
+      "**Limites.** A notícia não informa a data do julgamento. É um caso concreto, noticiado sem acesso ao acórdão. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **o STJ entendeu que a separação total de bens declarada em escritura não retroage quando prejudica um dos companheiros.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Terceira Turma"
+      ],
+      [
+        "Processo",
+        "REsp 2.292.996"
+      ],
+      [
+        "Relatora",
+        "Ministra Nancy Andrighi"
+      ],
+      [
+        "Julgamento",
+        "data não informada pela fonte (decisão unânime)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "20 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466894/stj-barra-retroatividade-de-separacao-de-bens-em-uniao-estavel"
+      }
+    ]
+  },
+  {
+    "slug": "tjmg-desafetacao-area-loteamento-lei-municipal-moradia-barbacena",
+    "titulo": "TJMG admite desafetação de área de loteamento por lei municipal para moradia de famílias em risco.",
+    "subtitulo": "Segundo a ementa divulgada pelo IRIB, a inalienabilidade dos bens públicos não é absoluta e a perícia não apontou dano ambiental relevante.",
+    "descricao": "Em ação civil pública de Barbacena (MG), a 7ª Câmara Cível do TJMG manteve a improcedência do pedido de demolição e de indenização por dano moral coletivo.",
+    "orgao": "TJMG",
+    "area": "Moradia e regularização",
+    "data_publicacao": "2026-10-20",
+    "data_julgamento": "2026-06-02",
+    "imagem": "ilustracao-terra.svg",
+    "imagem_alt": "Ilustração de um terreno demarcado, símbolo de área e loteamento",
+    "resumo": [
+      "A ==7ª Câmara Cível do TJMG== manteve sentença que não acolheu ação civil pública contra a ==desafetação de área pública== de loteamento em Barbacena.",
+      "A desafetação foi feita por ==lei municipal==, para moradia de famílias em situação de risco.",
+      "Segundo a ementa, a inalienabilidade dos bens públicos ==não é absoluta==.",
+      "A perícia não comprovou ==dano ambiental significativo== e o local não tinha praça funcional.",
+      "O recurso não foi provido; foram afastados a demolição e o dano moral coletivo."
+    ],
+    "aconteceu": [
+      "O IRIB divulgou a ementa de um acórdão do **TJMG** em **ação civil pública** da comarca de Barbacena (MG). O processo discutia a **desafetação** de uma área de loteamento, isto é, a mudança da sua destinação pública, feita por lei municipal para viabilizar moradia a famílias em situação de risco.",
+      "A sentença julgou improcedente a ação, e o recurso foi levado à 7ª Câmara Cível. Entre os pedidos afastados, segundo a ementa, estavam a **demolição** e a **indenização por dano moral coletivo**. A fonte divulgada traz apenas a ementa; detalhes como o número de famílias, a extensão da área e o autor da ação não constam do texto lido."
+    ],
+    "lei": [
+      "Constituição Federal, art. 30, I (competência municipal para legislar sobre assuntos de interesse local) e art. 6º (direito à moradia)."
+    ],
+    "decisao": [
+      "Conforme a ementa, embora as áreas originadas de loteamento tenham destinação específica, a **inalienabilidade dos bens públicos não é absoluta**. Ela pode ser afastada por lei que atenda a um interesse público relevante, no exercício da **autonomia municipal**.",
+      "Na ponderação de interesses, o tribunal entendeu que a concretização do ==direito à moradia== de famílias em situação de risco, amparada por lei municipal e pelo apoio da comunidade, pode justificar a desafetação de uma área que, na prática, era um terreno vago, sem estrutura de praça de uso comum.",
+      "A ausência de dano ambiental significativo, atestada por laudo pericial, e a existência de outras áreas de lazer nas proximidades enfraqueceram a tese de prejuízo à coletividade. Sem ilegalidade no ato de desafetação e sem prova de dano, o tribunal negou provimento ao recurso e afastou a demolição e a indenização."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: quando o interesse social pesa na destinação de uma área pública",
+    "entrelinhas": [
+      "**O conflito de fundo.** Áreas públicas de loteamentos servem, em regra, a praças, lazer e equipamentos comuns. De outro lado está a necessidade de moradia de famílias em risco. A decisão pesou os dois e deu prevalência ao segundo, naquele caso.",
+      "**Quem decide e como.** O município agiu por lei, e o Judiciário avaliou se havia ilegalidade e dano. Contou muito a perícia: o local não funcionava como praça e não houve dano ambiental relevante comprovado.",
+      "**Efeito prático possível.** A decisão indica que a desafetação por lei municipal não é, por si só, ilegal, mas depende das circunstâncias do caso, como o uso real da área e a prova de dano. Não cria regra geral para outros loteamentos.",
+      "**Limites.** Trata-se de decisão de um órgão estadual, noticiada pela ementa divulgada pelo IRIB, sem acesso ao inteiro teor. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **o TJMG entendeu que lei municipal pode desafetar uma área de loteamento para moradia de famílias em risco quando não há ilegalidade nem dano comprovado.**",
+    "dados": [
+      [
+        "Tribunal",
+        "TJMG · 7ª Câmara Cível"
+      ],
+      [
+        "Processo",
+        "Apelação n. 1.0000.25.471901-6/001 (Barbacena)"
+      ],
+      [
+        "Relator",
+        "Desembargador Arnaldo Maciel"
+      ],
+      [
+        "Julgamento",
+        "2 de junho de 2026 (publicação em 8/6/2026)"
+      ],
+      [
+        "Divulgação pelo IRIB",
+        "20 de outubro de 2026"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IRIB · jurisprudência selecionada ↗",
+        "url": "https://www.irib.org.br/loteamento-bem-publico-desafetacao-por-lei-municipal-possibilidade-autonomia-municipal-prevalencia-do-interesse-social/"
+      }
+    ]
+  },
+  {
+    "slug": "tjsc-partilha-homologada-testamento-herdeira-congregacao-religiosa",
+    "titulo": "TJSC homologa partilha de herança deixada por testamento a congregação religiosa.",
+    "subtitulo": "A herdeira única era uma instituição, pois a falecida era solteira e não tinha herdeiros necessários.",
+    "descricao": "Vara cível de São Bento do Sul (SC) homologou a partilha após verificar a regularidade do inventário e a isenção de ITCMD informada pela Fazenda estadual.",
+    "orgao": "TJSC",
+    "area": "Inventário e herança",
+    "data_publicacao": "2026-10-19",
+    "imagem": "ilustracao-heranca.svg",
+    "imagem_alt": "Ilustração de uma árvore com casa, símbolo de herança e sucessão",
+    "resumo": [
+      "A ==2ª Vara Cível de São Bento do Sul (SC)== homologou a partilha de bens deixados em ==testamento== a uma ==congregação religiosa==.",
+      "A falecida era ==solteira e sem herdeiros necessários==.",
+      "O testamento já havia sido aberto, registrado e cumprido por decisão anterior.",
+      "A Fazenda estadual informou ==isenção do ITCMD==.",
+      "Após o trânsito em julgado, poderão ser expedidos os formais de partilha e, se necessário, alvarás."
+    ],
+    "aconteceu": [
+      "A 2ª Vara Cível da comarca de São Bento do Sul, em Santa Catarina, homologou a **partilha** dos bens deixados por uma mulher solteira e sem **herdeiros necessários**. Em testamento, ela destinou todo o patrimônio a uma congregação religiosa, indicada como única herdeira testamentária.",
+      "No inventário, foram reunidos os documentos do acervo hereditário: relação dos bens, avaliações, dívidas deixadas pela falecida e plano de partilha. Constaram também a certidão de óbito, certidões fiscais e a documentação do testamento."
+    ],
+    "decisao_titulo": "A decisão da Justiça",
+    "decisao": [
+      "Ao analisar o caso, o magistrado destacou que o **testamento** já havia sido objeto de decisão de **abertura, registro e cumprimento**, o que permitiu seguir com o inventário com base na última vontade da falecida.",
+      "Também considerou a informação da Fazenda Estadual sobre a ==isenção do ITCMD== (imposto sobre transmissão causa mortis e doação). Verificadas a regularidade formal do procedimento e as certidões negativas de débitos, o juízo homologou a partilha, ressalvados eventuais erros, omissões e direitos de terceiros.",
+      "Depois do **trânsito em julgado**, poderão ser expedidos os **formais de partilha** e, se necessário, os **alvarás**. A fonte não detalha quais bens compunham a herança nem a razão da isenção."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: o que o testamento muda quando não há herdeiros necessários",
+    "entrelinhas": [
+      "**O ponto central é a liberdade de testar.** Quem não tem herdeiros necessários (descendentes, ascendentes ou cônjuge) pode, em geral, destinar o patrimônio a quem desejar. Aqui, a vontade da falecida foi cumprida em favor de uma instituição.",
+      "**Testamento não dispensa inventário.** Mesmo com testamento, o patrimônio passa por inventário, com avaliação de bens, pagamento de dívidas, verificação de impostos e certidões. A homologação é a fase em que o juiz confirma que o procedimento está regular.",
+      "**Efeito prático.** A homologação ainda depende do trânsito em julgado para a expedição dos formais de partilha, documentos usados, por exemplo, para registrar bens imóveis em nome do herdeiro.",
+      "**Limites.** É decisão de primeiro grau noticiada pelo IBDFAM com base em informações do TJSC, e o caso tem particularidades, como a isenção informada pela Fazenda. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **uma vara de Santa Catarina homologou a partilha de herança deixada por testamento a uma congregação religiosa, após verificar a regularidade do inventário.**",
+    "dados": [
+      [
+        "Órgão",
+        "TJSC · 2ª Vara Cível de São Bento do Sul"
+      ],
+      [
+        "Processo",
+        "5008014-88.2025.8.24.0058"
+      ],
+      [
+        "Data da homologação",
+        "não informada pela fonte"
+      ],
+      [
+        "Divulgação pelo IBDFAM",
+        "19 de outubro de 2026 (com informações do TJSC)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IBDFAM ↗",
+        "url": "https://ibdfam.org.br/noticias/14336/Justi%C3%A7a+homologa+partilha+de+heran%C3%A7a+deixada+por+testamento+a+congrega%C3%A7%C3%A3o+religiosa"
+      }
+    ]
   }
 ]
