@@ -3266,5 +3266,200 @@
         "url": "https://ibdfam.org.br/noticias/14336/Justi%C3%A7a+homologa+partilha+de+heran%C3%A7a+deixada+por+testamento+a+congrega%C3%A7%C3%A3o+religiosa"
       }
     ]
+  },
+  {
+    "slug": "stj-taxas-associacao-moradores-nao-associado-lei-13465",
+    "titulo": "STJ afasta taxas de associação de moradores contra proprietário que não aderiu à entidade.",
+    "subtitulo": "A Quarta Turma entendeu, por unanimidade, que a Lei 13.465/2017 não vincula automaticamente quem comprou o imóvel antes dela.",
+    "descricao": "Para a Quarta Turma do STJ, pagamentos anteriores e uso dos serviços não substituem a adesão expressa à associação de moradores.",
+    "orgao": "STJ",
+    "area": "Condomínio e associações de moradores",
+    "data_publicacao": "2026-10-13",
+    "imagem": "ilustracao-predio.svg",
+    "imagem_alt": "Ilustração de um edifício e construções vizinhas, símbolo de condomínio e vida em comunidade",
+    "resumo": [
+      "A ==Quarta Turma do STJ== afastou, por unanimidade, a cobrança de taxas de manutenção feita por associação de moradores.",
+      "O proprietário comprou o imóvel ==antes da Lei 13.465/2017== e ==não aderiu expressamente== à associação.",
+      "Para o relator, a lei de 2017 ==não tem eficácia retroativa== para obrigar antigos proprietários.",
+      "==Pagamentos anteriores e uso dos serviços== não substituem a adesão formal.",
+      "A sentença que havia julgado improcedente a cobrança foi restabelecida."
+    ],
+    "aconteceu": [
+      "Uma associação de moradores cobrou taxas de manutenção de um proprietário que havia adquirido o imóvel **antes da Lei 13.465/2017** e que nunca aderiu expressamente à entidade. A sentença julgou a ação de cobrança improcedente.",
+      "O tribunal de origem, porém, condenou o proprietário a pagar as taxas **a partir da vigência da lei de 2017**, embora tenha reconhecido que a compra era anterior à norma e que não havia adesão expressa. O caso chegou ao STJ por recurso especial."
+    ],
+    "lei": [
+      "Lei 13.465/2017",
+      "Constituição Federal, art. 5º, XX"
+    ],
+    "decisao": [
+      "O relator, ministro **Raul Araújo**, entendeu que a conclusão do tribunal de origem contrariava precedentes vinculantes: o **Tema 492 do STF** e o **Tema 882 do STJ**, segundo os quais as taxas criadas por associações de moradores não obrigam quem não é associado ou não concordou expressamente com a cobrança.",
+      "Para o relator, a lei de 2017 ==não tem eficácia retroativa== para impor a obrigação, automaticamente, a quem já era proprietário e não aderiu. Ele destacou que usar os serviços da associação e ter feito pagamentos antes não equivale ao ato formal de adesão; entender o contrário esvaziaria a **liberdade de associação** garantida pela Constituição.",
+      "Raul Araújo também examinou a lei municipal invocada pelo tribunal de origem e concluiu que ela restringia o rateio das despesas aos membros da associação, sem criar obrigação para todos os proprietários. A turma deu provimento ao recurso e restabeleceu integralmente a sentença."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: associar-se é uma escolha, não uma consequência de morar no local",
+    "entrelinhas": [
+      "**O conflito de fundo.** Em loteamentos e condomínios de fato, a associação presta serviços que beneficiam todos, e quem paga se sente prejudicado por quem não paga. Do outro lado está a regra de que ninguém é obrigado a se associar nem a manter-se associado.",
+      "**O que pesou.** A turma separou o benefício recebido do consentimento. Usar a portaria, a limpeza ou a segurança, ou ter pago taxas antes, não foi tratado como prova de adesão formal.",
+      "**Efeito prático possível.** Em cobranças desse tipo, tende a ganhar peso a pergunta sobre quando o imóvel foi adquirido e se houve adesão ou concordância expressa. A própria notícia mostra que há casos em que outras turmas mantiveram a cobrança, quando existia adesão voluntária.",
+      "**Limites.** É uma decisão de turma, noticiada pelo Migalhas sem acesso ao acórdão, e a data do julgamento não foi informada. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **o STJ entendeu que a Lei 13.465/2017 não obriga quem comprou antes dela e nunca aderiu à associação a pagar as taxas de manutenção.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Quarta Turma"
+      ],
+      [
+        "Processo",
+        "REsp 2.147.399"
+      ],
+      [
+        "Relator",
+        "Ministro Raul Araújo"
+      ],
+      [
+        "Julgamento",
+        "data não informada pela fonte (decisão unânime)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "13 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466424/stj-afasta-taxas-de-associacao-a-morador-que-nao-aderiu-a-entidade"
+      }
+    ]
+  },
+  {
+    "slug": "stf-itbi-imunidade-integralizacao-capital-imobiliarias-tema-1348-conclusao",
+    "titulo": "STF conclui: imunidade de ITBI na integralização de capital vale também para empresas imobiliárias.",
+    "subtitulo": "Por 9 votos a 2, o plenário firmou tese no Tema 1.348, ressalvando casos de simulação ou fraude.",
+    "descricao": "O STF encerrou, em plenário virtual, o julgamento sobre ITBI na transferência de imóveis para o capital social de empresas de atividade imobiliária.",
+    "orgao": "STF",
+    "area": "Tributação imobiliária",
+    "data_publicacao": "2026-10-19",
+    "data_julgamento": "2026-10-19",
+    "imagem": "ilustracao-tributo.svg",
+    "imagem_alt": "Ilustração de uma casa ao lado de uma moeda com símbolo de porcentagem, representando imposto sobre imóveis",
+    "resumo": [
+      "O ==STF concluiu== o julgamento do ==Tema 1.348== (repercussão geral) por ==9 votos a 2==.",
+      "A imunidade de ITBI na ==integralização de capital social== vale mesmo para empresas de ==atividade preponderantemente imobiliária==.",
+      "A tese ressalva a ==simulação ou fraude à lei==, que os municípios podem apurar.",
+      "O benefício se limita ao ==valor do capital integralizado==, conforme o Tema 796.",
+      "Ficaram vencidos os ministros Gilmar Mendes e Flávio Dino."
+    ],
+    "aconteceu": [
+      "A discussão chegou ao STF em recurso contra decisão do TJ/SP que afastou a imunidade na transferência de um imóvel para integralizar o capital social de uma empresa cuja atividade principal envolve locação, compra e venda de imóveis.",
+      "A empresa sustentou que a exceção constitucional sobre atividade imobiliária preponderante se aplica apenas às transmissões decorrentes de fusão, incorporação, cisão ou extinção de pessoas jurídicas, e não à integralização de capital. O julgamento havia sido suspenso por pedido de vista, tema já noticiado neste site, e foi retomado no plenário virtual."
+    ],
+    "lei": [
+      "Constituição Federal, art. 156, § 2º, I"
+    ],
+    "decisao_titulo": "O que o STF decidiu",
+    "decisao": [
+      "O plenário firmou a tese de que a imunidade do ITBI na realização do capital social mediante integralização de bens e valores é ==incondicionada== e, portanto, indiferente à atividade preponderantemente imobiliária, ressalvada eventual prática de **simulação ou fraude à lei** para usufruir indevidamente do benefício.",
+      "Prevaleceu o voto do relator, ministro **Edson Fachin**, acompanhado por Cristiano Zanin, André Mendonça, Nunes Marques, Luiz Fux, Cármen Lúcia e Dias Toffoli. Alexandre de Moraes também acompanhou o relator, com ressalva sobre a possibilidade de fiscalização de fraudes. Fachin lembrou que o benefício se limita ao valor do capital a ser integralizado, conforme o **Tema 796**.",
+      "Gilmar Mendes e Flávio Dino divergiram: para eles, a restrição constitucional também alcança a integralização de capital, de modo que a imunidade não atingiria empresas cuja atividade preponderante seja compra e venda, locação ou arrendamento mercantil de imóveis."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: imunidade ampla, mas não cheque em branco",
+    "entrelinhas": [
+      "**O conflito de fundo.** De um lado, municípios que veem risco de planejamentos para fugir do ITBI; de outro, a leitura de que a Constituição criou uma imunidade para facilitar a formação de empresas, sem distinguir o ramo.",
+      "**O que a tese diz e o que não diz.** A atividade da empresa deixa de ser, por si só, motivo para negar a imunidade na integralização de capital. Mas a tese mantém aberta a apuração de simulação ou fraude, que depende de provas em cada caso.",
+      "**Efeito prático possível.** Por ser tema de repercussão geral, a orientação deve ser aplicada a casos semelhantes. A notícia não traz informações sobre eventual modulação de efeitos, e a publicação do acórdão pode trazer detalhes.",
+      "**Limites.** A imunidade vale até o valor do capital integralizado. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **o STF decidiu, por 9 a 2, que a imunidade de ITBI na integralização de capital vale também para empresas imobiliárias, salvo simulação ou fraude.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Supremo Tribunal Federal · Plenário (sessão virtual)"
+      ],
+      [
+        "Processo",
+        "RE 1.495.108 (Tema 1.348 da repercussão geral)"
+      ],
+      [
+        "Relator",
+        "Ministro Edson Fachin"
+      ],
+      [
+        "Julgamento",
+        "concluído em 19 de outubro de 2026, por 9 votos a 2"
+      ],
+      [
+        "Divulgação pela fonte",
+        "19 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/466801/stf-empresa-imobiliaria-tem-imunidade-de-itbi-ao-integralizar-capital"
+      }
+    ]
+  },
+  {
+    "slug": "tjsc-partilha-heranca-filho-morto-1997-saisine-guaramirim",
+    "titulo": "TJSC homologa partilha de herança aberta em 1971 e aplica a saisine à parte de filho falecido em 1997.",
+    "subtitulo": "O juízo entendeu que a quota do filho já integrava o patrimônio dele e não passava diretamente aos descendentes.",
+    "descricao": "A 1ª Vara Cível de Guaramirim (SC) definiu os efeitos sucessórios de uma herança aberta em 1971, com morte posterior de um herdeiro.",
+    "orgao": "TJSC",
+    "area": "Inventário e herança",
+    "data_publicacao": "2026-09-29",
+    "imagem": "ilustracao-heranca.svg",
+    "imagem_alt": "Ilustração de uma árvore com casa, símbolo de herança e sucessão",
+    "resumo": [
+      "A ==1ª Vara Cível de Guaramirim (SC)== homologou a partilha dos bens de um homem falecido em ==1971==.",
+      "Um dos filhos morreu em ==1997==, depois da abertura da sucessão.",
+      "Pelo princípio da ==saisine==, a parte dele já integrava seu patrimônio quando morreu.",
+      "Por isso, não foi transmitida ==diretamente aos descendentes== do filho, por representação.",
+      "O patrimônio partilhável foi estimado em ==R$ 120 mil==, e o Ministério Público concordou com a partilha."
+    ],
+    "aconteceu": [
+      "A 1ª Vara Cível da comarca de Guaramirim, em Santa Catarina, analisou o inventário de um homem falecido em 1971. Um de seus filhos morreu em 1997, cerca de 26 anos depois, e a questão era como ficaria a parte dele na herança do pai.",
+      "O inventário envolveu também a cônjuge meeira e outros filhos do falecido. Foram apresentados documentos como certidão de óbito, termo de compromisso do inventariante, primeiras declarações, plano de partilha, documentos de titularidade dos bens e certidões negativas de débitos."
+    ],
+    "decisao_titulo": "A decisão da Justiça",
+    "decisao": [
+      "O magistrado aplicou o princípio da **saisine**, segundo o qual a herança se transmite automaticamente aos herdeiros no momento da morte. Como o filho estava vivo na abertura da sucessão e já tinha adquirido o direito à herança, sua parte ==passou a integrar o próprio patrimônio==.",
+      "Com isso, a decisão afastou a possibilidade de os descendentes dele receberem essa parcela **diretamente**, na sucessão do pai original. A proposta de partilha respeitou os direitos dos sucessores, inclusive de um herdeiro incapaz, a quem foi destinado quinhão compatível, e o Ministério Público concordou.",
+      "O juízo homologou a partilha, determinou que o espólio arque com as custas e corrigiu o valor da causa para R$ 60 mil. Depois do trânsito em julgado, devem ser expedidos o formal de partilha, o alvará e os demais documentos. A fonte não informa a data da decisão nem o número do processo."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: quando a herança passa por mais de uma morte",
+    "entrelinhas": [
+      "**O conflito de fundo.** Heranças não resolvidas por décadas misturam duas sucessões: a do primeiro falecido e a do herdeiro que morreu depois. A pergunta é quem recebe a parte de quem.",
+      "**O que a decisão destacou.** Se o herdeiro já estava vivo quando a sucessão se abriu, o direito à herança entrou no patrimônio dele. Assim, a parte seguiu o destino do patrimônio desse herdeiro, e não uma transmissão direta do falecido original.",
+      "**Efeito prático possível.** Em inventários muito antigos, pode ser necessário reconstituir as sucessões em ordem cronológica, com certidões e documentos de cada falecido. A notícia não detalha como ficou a distribuição entre os descendentes.",
+      "**Limites.** É decisão de primeiro grau, noticiada pelo IBDFAM com base em informações do TJSC, e depende das particularidades do caso. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **uma vara de Santa Catarina homologou a partilha de uma herança de 1971 e aplicou a saisine para tratar a parte de um filho morto em 1997 como patrimônio dele.**",
+    "dados": [
+      [
+        "Órgão",
+        "TJSC · 1ª Vara Cível de Guaramirim"
+      ],
+      [
+        "Processo",
+        "não informado pela fonte"
+      ],
+      [
+        "Data da homologação",
+        "não informada pela fonte"
+      ],
+      [
+        "Divulgação pelo IBDFAM",
+        "29 de setembro de 2026 (com informações do TJSC)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IBDFAM ↗",
+        "url": "https://ibdfam.org.br/noticias/14282/Justi%C3%A7a+de+Santa+Catarina+define+partilha+de+heran%C3%A7a+e+afasta+sucess%C3%A3o+direta+por+descendentes"
+      }
+    ]
   }
 ]
