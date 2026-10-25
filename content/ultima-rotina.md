@@ -1,22 +1,24 @@
-# Última rotina — 2026-10-23 10:09 UTC
+# Última rotina — 2026-10-25 UTC
 
-## Publicado (3)
-- **STJ afasta taxas de associação de moradores contra proprietário que não aderiu à entidade** — `stj-taxas-associacao-moradores-nao-associado-lei-13465` — Migalhas (13/10) — https://www.migalhas.com.br/quentes/466424/stj-afasta-taxas-de-associacao-a-morador-que-nao-aderiu-a-entidade
-- **STF conclui: imunidade de ITBI na integralização de capital vale também para empresas imobiliárias** — `stf-itbi-imunidade-integralizacao-capital-imobiliarias-tema-1348-conclusao` — Migalhas (19/10) — https://www.migalhas.com.br/quentes/466801/stf-empresa-imobiliaria-tem-imunidade-de-itbi-ao-integralizar-capital
-- **TJSC homologa partilha de herança aberta em 1971 e aplica a saisine** — `tjsc-partilha-heranca-filho-morto-1997-saisine-guaramirim` — IBDFAM (29/09) — https://ibdfam.org.br/noticias/14282/Justi%C3%A7a+de+Santa+Catarina+define+partilha+de+heran%C3%A7a+e+afasta+sucess%C3%A3o+direta+por+descendentes
+## Publicado (5)
+- **TJGO reintegra mulher na posse da casa, afasta ex-companheiro e reconhece violência patrimonial** — `tjgo-reintegracao-posse-ex-companheira-violencia-patrimonial-cidade-ocidental` — IBDFAM (23/10) — https://ibdfam.org.br/noticias/14357/
+- **TJMT mantém restrições a bens e valores durante separação com alegação de violência patrimonial** — `tjmt-medidas-cautelares-patrimonio-separacao-violencia-patrimonial-protocolo-genero` — IBDFAM (23/10) — https://ibdfam.org.br/noticias/14358/
+- **TRF4 nega usucapião de área dentro do Parque Nacional da Serra Geral** — `trf4-usucapiao-parque-nacional-serra-geral-bem-publico` — IRIB (21/10) — https://www.irib.org.br/usucapiao-imovel-situado-em-unidade-de-conservacao-federal-natureza-de-bem-publico-imprescritibilidade/
+- **TJMS declara nulo o registro de escritura feita com procuração falsa** — `tjms-escritura-procuracao-falsa-venda-a-non-domino-nulidade-registro` — IRIB (13/10) — https://www.irib.org.br/compra-e-venda-escritura-publica-procuracao-falsa-venda-a-non-domino-nulidade-absoluta/
+- **Justiça de Goiânia concede liminar contra ITBI em holding familiar** — `goiania-liminar-itbi-holding-familiar-integralizacao-antecipa-tema-1348` — IBDFAM (22/10) — https://ibdfam.org.br/noticias/14351/
 
 ## Descartados
-- Honorários contratuais no valor do condomínio (Conjur 12/10) e Resolução CNJ 695/2026 (ITCMD): já publicados.
-- Taxa de individualização de matrícula (Conjur 20/10): artigo de opinião sobre julgado de maio; não é notícia.
-- Consolidação fiduciária no stay period (REsp 2.057.574): só artigo de opinião lido; divergência com outra fonte.
-- Tema 1.285 (penhora de investimentos), Lei Maria da Penha entre irmãos: fora das áreas.
-- Informativo 906 do STJ: página dinâmica não carregou.
+- Airbnb / Tema 1.443 (afetação em 17/09): só lido via resultado de busca; página do STJ não aberta nesta rodada.
+- IRIB Responde (cláusula resolutiva, adjudicação por condomínio): conteúdo restrito a associados.
+- Alíquota de IPTU por metragem (Tema 1.455): já publicada.
+- Notícias de alimentos, guarda, adoção (IBDFAM): fora das áreas.
 
 ## Fontes consultadas
-Migalhas, Conjur, IBDFAM, IRIB, STJ/CNJ (via busca).
+IBDFAM, IRIB, Migalhas, Conjur, STJ, STF, CNJ, ANOREG (via busca).
 
 ## Atenção do dono
-- Só 3 notícias (meta 5): poucos itens novos verificáveis.
-- ITBI: data do julgamento = conclusão informada pelo Migalhas; sem acórdão. Cita notícia anterior do site (suspensão por vista).
-- Associação de moradores: data do julgamento não informada. TJSC: sem número de processo na fonte; decisão de 1º grau.
-- JSON mantido com indent=2.
+- Meta 5 atingida, mas só IBDFAM e IRIB lidos por completo; buscas gerais retornaram pouco material novo.
+- Notícia de Goiânia (ITBI): decisão liminar; dados do STF (8 a 2) e fundamentos atribuídos ao relato da advogada, citado pelo IBDFAM; texto lido até ~4.800 caracteres (parte final não lida).
+- TJGO e TJMT: sem número de processo (TJGO) / data de julgamento (ambos) na fonte. TJMT: número do processo informado pelo IBDFAM.
+- TRF4 e TJMS: baseadas em ementa publicada pelo IRIB, sem acórdão. TJMS: relatora indicada como "Juíza" na fonte.
+- JSON mantido com indent=2 (formato real do arquivo; indent=1 reformataria tudo).
