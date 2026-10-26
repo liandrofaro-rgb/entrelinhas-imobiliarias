@@ -13,5 +13,9 @@
 https://entrelinhas-imobiliarias.liandrofaro.workers.dev/*
   X-Robots-Tag: noindex
 
+/ig-posts/*
+  X-Robots-Tag: noindex
+  Cache-Control: public, max-age=3600
+
 /fonts/*
   Cache-Control: public, max-age=604800
