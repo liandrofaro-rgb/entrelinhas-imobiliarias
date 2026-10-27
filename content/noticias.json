@@ -3784,5 +3784,322 @@
         "url": "https://ibdfam.org.br/noticias/14351/Juiz+antecipa+maioria+do+STF+e+afasta+ITBI+sobre+im%C3%B3veis+integralizados+em+holding+familiar"
       }
     ]
+  },
+  {
+    "slug": "stf-leilao-imovel-rural-familiar-alienacao-fiduciaria-pequena-propriedade",
+    "titulo": "STF veda leilão de pequeno imóvel rural familiar dado em alienação fiduciária.",
+    "subtitulo": "O ministro André Mendonça entendeu que a proteção constitucional da pequena propriedade rural não pode ser afastada pela vontade do devedor.",
+    "descricao": "O STF invalidou a autorização de leilão extrajudicial de um imóvel rural de pouco mais de 37 hectares oferecido em garantia a uma cooperativa.",
+    "orgao": "STF",
+    "area": "Alienação fiduciária",
+    "data_publicacao": "2026-10-23",
+    "imagem": "ilustracao-terra.svg",
+    "imagem_alt": "Ilustração de um terreno rural demarcado",
+    "resumo": [
+      "O STF ==invalidou a autorização== de leilão extrajudicial de um imóvel rural familiar oferecido em garantia por alienação fiduciária.",
+      "O imóvel tem **pouco mais de 37 hectares**, extensão inferior a um módulo fiscal, e abriga uma piscicultura que sustenta a família da proprietária.",
+      "O Tribunal de Justiça de Rondônia havia autorizado a expropriação, por entender que a oferta voluntária do bem implicava renúncia tácita à impenhorabilidade.",
+      "Para o relator, a autonomia privada do devedor ==não legitima== a expropriação da pequena propriedade rural.",
+      "A fonte não informa o número do processo nem a data do julgamento."
+    ],
+    "aconteceu": [
+      "Uma produtora rural pegou crédito com uma **cooperativa** para tocar sua atividade e ofereceu o próprio imóvel em garantia, por meio de **alienação fiduciária**. Sem conseguir pagar o débito, ficou inadimplente, e a cooperativa deu início à execução da dívida.",
+      "Ao saber que a propriedade tinha pouco mais de 37 hectares, área menor que um **módulo fiscal**, e que ali funcionava uma piscicultura destinada ao sustento da família, o juízo de primeira instância suspendeu o leilão. A cooperativa recorreu ao **TJRO** e obteve decisão favorável: para o tribunal estadual, a oferta voluntária do imóvel significava renúncia tácita à impenhorabilidade.",
+      "O impasse chegou ao STF, que concedeu uma liminar para sustar a autorização e o leilão, medida que foi referendada pela Segunda Turma."
+    ],
+    "decisao_titulo": "O que o STF decidiu",
+    "decisao": [
+      "Ao julgar o mérito da reclamação, o ministro **André Mendonça**, relator, invalidou a autorização dada anteriormente para o **leilão extrajudicial**. Ele invocou o **Tema 961**, que, segundo a fonte, impõe a indisponibilidade da proteção da pequena propriedade rural familiar, mesmo quando o bem é dado em garantia hipotecária.",
+      "O ministro reconheceu que hipoteca e alienação fiduciária não se confundem, mas observou que ambas podem resultar na retirada do meio de trabalho e de subsistência de uma família. Por isso, a modalidade contratual escolhida ==não afasta a garantia constitucional== dada à pequena propriedade rural.",
+      "Em uma frase citada pela fonte, afirmou que, tratando-se de direito indisponível e irrenunciável, a autonomia privada do devedor não legitima a expropriação do imóvel."
+    ],
+    "lei": [
+      "**Tema 961**, indicado pela fonte como o precedente invocado pelo relator, sobre a proteção da pequena propriedade rural familiar oferecida em garantia."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: a garantia dada pelo devedor tem um limite constitucional",
+    "entrelinhas": [
+      "**O conflito de fundo é entre o crédito e a moradia produtiva.** De um lado, a cooperativa emprestou dinheiro e tinha uma garantia combinada em contrato. De outro, o imóvel era também o meio de trabalho e de sustento de uma família. A decisão dá peso ao segundo lado.",
+      "**A escolha do tipo de garantia não resolveu a questão.** Era possível imaginar que a alienação fiduciária, por ser uma figura diferente da hipoteca, escapasse da proteção. O relator rejeitou essa diferença: o que importa é o efeito prático, a perda do meio de subsistência da família.",
+      "**O argumento da renúncia não prevaleceu.** O TJRO entendeu que, ao oferecer o imóvel, a proprietária abriu mão da proteção. Para o STF, trata-se de um direito que a pessoa não pode dispor, de modo que a vontade do devedor não basta.",
+      "**Limites da notícia.** A fonte não informa o número do processo nem a data do julgamento, e relata a decisão a partir de reportagem do Migalhas. Cada caso depende da área do imóvel, de seu uso pela família e do que ficou provado no processo."
+    ],
+    "sintese": "Em uma frase: **o STF entendeu que a proteção constitucional da pequena propriedade rural familiar vale mesmo quando o imóvel foi dado em alienação fiduciária.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Supremo Tribunal Federal"
+      ],
+      [
+        "Relator",
+        "Ministro André Mendonça"
+      ],
+      [
+        "Julgamento",
+        "Data não informada na fonte"
+      ],
+      [
+        "Processo",
+        "Número não informado na fonte"
+      ],
+      [
+        "Divulgação",
+        "23 de outubro de 2026 (Registro de Imóveis do Brasil)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Registro de Imóveis do Brasil ↗",
+        "url": "https://www.registrodeimoveis.org.br/stf-veda-leilao-de-imovel-rural-familiar-ofertado-em-garantia"
+      }
+    ]
+  },
+  {
+    "slug": "stj-uniao-estavel-pos-morte-namoro-qualificado-filho-noivado",
+    "titulo": "STJ nega união estável pós-morte baseada em filho em comum e noivado, por falta de intenção atual de constituir família.",
+    "subtitulo": "Por maioria, a Terceira Turma manteve a conclusão de que o relacionamento era um namoro qualificado.",
+    "descricao": "A Terceira Turma do STJ rejeitou o reconhecimento de união estável após a morte por não ver provada a intenção atual de formar família.",
+    "orgao": "STJ",
+    "area": "União estável",
+    "data_publicacao": "2026-10-22",
+    "imagem": "ilustracao-familia.svg",
+    "imagem_alt": "Ilustração de uma casa com figuras de uma família",
+    "resumo": [
+      "A Terceira Turma do STJ, ==por maioria==, rejeitou o pedido de reconhecimento de união estável após a morte do suposto companheiro.",
+      "A existência de **filho em comum** e de **noivado** não bastou para provar a união.",
+      "O STJ manteve o acórdão do TJSP, que viu no caso um ==namoro qualificado==.",
+      "Segundo o voto que prevaleceu, o que distingue os dois institutos é a **intenção atual** de constituir família.",
+      "O processo corre em **segredo de justiça**; o número não é divulgado."
+    ],
+    "aconteceu": [
+      "Depois da morte do suposto companheiro, uma mulher ajuizou ação para obter o reconhecimento da união estável. Ela contou que os dois se conheceram pela internet, quando ele ainda era casado e morava em outro estado. Após saberem que teriam um filho, decidiram construir uma vida juntos: ele teria se separado e alugado um imóvel para ela em São Paulo. A autora também relatou um pedido de noivado e disse que o círculo social via a relação como conjugal.",
+      "Os filhos do relacionamento anterior do falecido declararam que ela era apenas namorada do pai. Com base em provas documentais e testemunhais, as instâncias ordinárias concluíram que faltavam elementos de **comunhão de vidas, economia comum e intenção de constituir família**. Apontaram que o homem controlava o próprio patrimônio e que o aluguel foi mero auxílio material, também em razão do filho. O TJSP ainda registrou que, num seguro de vida, o campo destinado a cônjuge ou companheira ficou em branco."
+    ],
+    "decisao_titulo": "O que o STJ decidiu",
+    "decisao": [
+      "A **Terceira Turma** negou provimento ao recurso especial, por maioria de votos, e manteve o acórdão do **TJSP**, que classificou a relação como **namoro qualificado**. O colegiado considerou que, no caso, não ficou demonstrada a intenção atual de constituir família nem a publicidade do relacionamento como se fossem casados.",
+      "O ministro **Ricardo Villas Bôas Cueva**, autor do voto que prevaleceu, explicou que a principal diferença entre namoro qualificado e união estável é a ==intenção atual de constituir família==, isto é, a pretensão de formar núcleo familiar durante a relação, e não apenas a expectativa de um futuro. Mesmo que um namoro tenha traços objetivos da união estável, como convivência pública, contínua e duradoura, é esse elemento subjetivo que separa as duas situações.",
+      "Ele ressaltou que a conclusão das instâncias ordinárias não se baseou apenas na falta de coabitação ou de colaboração patrimonial, que não são requisitos indispensáveis. Como mudar a conclusão exigiria reexaminar as provas, aplicou a **Súmula 7 do STJ**."
+    ],
+    "lei": [
+      "**Súmula 7 do STJ**, que impede o reexame de provas em recurso especial."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: o que pesa é a intenção, não o rótulo",
+    "entrelinhas": [
+      "**Ter filho ou ficar noivo não equivale a ter união estável.** A decisão mostra que fatos que parecem decisivos, como um filho em comum e um noivado, podem não bastar quando o conjunto das provas indica que a família ainda era um projeto, e não uma realidade.",
+      "**A prova é o centro da disputa.** O STJ não reavaliou os fatos: aceitou a análise do TJSP sobre documentos e testemunhas. Por isso a decisão diz mais sobre como as provas foram lidas neste caso do que sobre uma regra automática.",
+      "**Por que isso importa para o patrimônio.** O reconhecimento da união estável após a morte costuma ser o ponto de partida para discutir direitos de partilha e de herança. Quando ele é negado, essas discussões nem chegam a acontecer, o que explica a intensidade dessas ações.",
+      "**Decisão por maioria.** Houve voto divergente, e a fonte não informa seu conteúdo. Cada relação depende de suas circunstâncias, e a notícia não permite concluir como outros casos seriam resolvidos."
+    ],
+    "sintese": "Em uma frase: **para o STJ, a união estável exige intenção atual de constituir família, e filho em comum e noivado, sozinhos, podem configurar apenas um namoro qualificado.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Terceira Turma"
+      ],
+      [
+        "Julgamento",
+        "Por maioria; data não informada na fonte"
+      ],
+      [
+        "Voto prevalecente",
+        "Ministro Ricardo Villas Bôas Cueva"
+      ],
+      [
+        "Processo",
+        "Segredo de justiça; número não divulgado"
+      ],
+      [
+        "Divulgação",
+        "22 de outubro de 2026 (ANOREG/BR, com fonte STJ)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "ANOREG/BR ↗",
+        "url": "https://www.anoreg.org.br/site/filho-e-noivado-nao-bastam-para-comprovar-uniao-estavel-pos-morte-decide-terceira-turma/"
+      }
+    ]
+  },
+  {
+    "slug": "stj-usucapiao-imovel-heranca-casal-29-anos-permissao-familiar",
+    "titulo": "STJ nega usucapião a casal que morou 29 anos em imóvel de herança com permissão da família.",
+    "subtitulo": "A Quarta Turma entendeu que a ocupação por tolerância entre parentes não demonstra posse com intenção de dono.",
+    "descricao": "Por unanimidade, a Quarta Turma do STJ manteve a rejeição de usucapião extraordinária de imóvel que integra herança ainda não partilhada.",
+    "orgao": "STJ",
+    "area": "Usucapião",
+    "data_publicacao": "2026-10-01",
+    "imagem": "ilustracao-usucapiao.svg",
+    "imagem_alt": "Ilustração de uma ampulheta sobre um terreno",
+    "resumo": [
+      "A Quarta Turma do STJ, ==por unanimidade==, negou usucapião extraordinária a um casal que ocupava há **29 anos** um imóvel de herança.",
+      "O tempo de moradia, por si só, ==não prova posse com intenção de dono==.",
+      "A ocupação decorria de **permissão ou tolerância** entre familiares, segundo o relator, ministro Raul Araújo.",
+      "O imóvel estava relacionado para partilha em inventário ainda em andamento, e outros herdeiros se opuseram.",
+      "O relator afirmou que a usucapião entre herdeiros não é totalmente vedada, mas exige todos os requisitos legais."
+    ],
+    "aconteceu": [
+      "O casal, formado pela filha e pelo genro da falecida, afirmou que usava o imóvel como residência havia 29 anos, de forma exclusiva, contínua e sem oposição, e que fez obras no local. A sentença de primeira instância acolheu o pedido de usucapião.",
+      "O **TJ/AL** reformou a sentença. A corte estadual considerou que a ocupação decorria de liberalidade dos proprietários, sem demonstração de intenção de dono, e observou que o bem estava relacionado para partilha em um inventário em andamento. O casal recorreu ao STJ sustentando que os requisitos da **usucapião extraordinária** estavam preenchidos."
+    ],
+    "decisao_titulo": "O que o STJ decidiu",
+    "decisao": [
+      "A **Quarta Turma** manteve a decisão do TJ/AL, por unanimidade. O relator, ministro **Raul Araújo**, destacou que a moradia por permissão ou tolerância entre familiares não se confunde com o **animus domini**, a intenção de ser dono, necessária para adquirir a propriedade por usucapião, nos termos do **art. 1.238 do Código Civil**.",
+      "Segundo o relator, o uso de um imóvel por parentes pode nascer de afeto, solidariedade e auxílio, sem indicar intenção de exercer a propriedade contra os demais titulares. O fato de o bem integrar herança ainda não partilhada e a oposição dos demais herdeiros reforçaram a conclusão.",
+      "O ministro esclareceu que a usucapião de bem hereditário por um dos herdeiros ==não é absolutamente proibida==: exige posse exclusiva, com intenção de dono, pelo prazo legal e sem oposição dos demais proprietários. Ele também lembrou os **arts. 496 e 544** do Código Civil, que tratam da venda de ascendente a descendente e da doação como adiantamento da herança, para afirmar que a usucapião não pode ser um caminho indireto de transferência de patrimônio à margem das regras sucessórias."
+    ],
+    "lei": [
+      "**Art. 1.238 do Código Civil**: usucapião extraordinária.",
+      "**Art. 496**: venda de bens de ascendente a descendente. **Art. 544**: doação de ascendente a descendente como adiantamento da herança."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: morar muito tempo não é o mesmo que ser dono",
+    "entrelinhas": [
+      "**O tempo é só um dos requisitos.** Vinte e nove anos parecem muito, mas a usucapião exige posse com intenção de dono. Quando a ocupação nasce da permissão da família, a própria origem da posse pode impedir esse reconhecimento.",
+      "**A herança pesa.** O imóvel estava listado no inventário, e outros herdeiros se opuseram. Em condomínio hereditário, a posse de um herdeiro costuma se chocar com o direito dos demais, o que exige prova mais exigente.",
+      "**A decisão não fecha a porta.** O relator disse que a usucapião entre herdeiros é possível em casos excepcionais, desde que tudo seja provado. O que o STJ rejeitou foi usar o tempo de moradia como atalho.",
+      "**Regras da sucessão em segundo plano.** Ao citar os arts. 496 e 544, o relator indicou que o Judiciário vigia para que a usucapião não substitua a partilha. A notícia não detalha mais do que isso, e cada situação depende das provas."
+    ],
+    "sintese": "Em uma frase: **morar décadas em imóvel de herança por permissão da família não, por si só, dá direito à usucapião.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Quarta Turma"
+      ],
+      [
+        "Julgamento",
+        "Por unanimidade; data não informada na fonte"
+      ],
+      [
+        "Relator",
+        "Ministro Raul Araújo"
+      ],
+      [
+        "Processo",
+        "AREsp 2.983.084"
+      ],
+      [
+        "Divulgação",
+        "1º de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/465685/stj-morar-por-29-anos-em-imovel-da-familia-nao-garante-usucapiao"
+      }
+    ]
+  },
+  {
+    "slug": "stj-airbnb-condominio-tema-1443-repetitivo-suspensao-processos",
+    "titulo": "STJ suspende em todo o país processos sobre Airbnb em condomínios até julgar o Tema 1.443, recurso repetitivo ainda sem tese.",
+    "subtitulo": "A Segunda Seção vai decidir se a destinação residencial da convenção basta para barrar a locação por curta temporada ou se é preciso proibição expressa.",
+    "descricao": "O STJ afetou dois recursos ao rito dos repetitivos e determinou a suspensão nacional dos processos sobre locação de curta temporada em condomínios.",
+    "orgao": "STJ",
+    "area": "Condomínio",
+    "data_publicacao": "2026-09-17",
+    "imagem": "ilustracao-hospedagem.svg",
+    "imagem_alt": "Ilustração de uma mala de viagem ao lado de uma pequena casa",
+    "resumo": [
+      "A Segunda Seção do STJ afetou os REsp **2.272.537** e **2.272.536** ao rito dos repetitivos (==Tema 1.443==).",
+      "Todos os processos, individuais ou coletivos, sobre o assunto ficam ==suspensos em todo o país==.",
+      "A pergunta é se a cláusula de destinação residencial basta para impedir o aluguel por plataformas como o Airbnb, ou se a convenção precisa proibir de forma expressa.",
+      "O mérito **ainda não foi julgado**: a tese será fixada depois.",
+      "O relator citou o REsp 2.121.055, em que a Seção já havia exigido aprovação de dois terços dos condôminos."
+    ],
+    "aconteceu": [
+      "O STJ identificou que o tema se repete nos tribunais. O relator, ministro **Raul Araújo**, observou que a Comissão Gestora de Precedentes (Cogepac) apontou **50 decisões monocráticas e acórdãos** da corte sobre a questão. Ao propor a afetação, ele disse que uma tese em recurso repetitivo traria segurança e coerência para casos parecidos.",
+      "O assunto não é inédito no tribunal: as duas turmas de direito privado já o haviam analisado, e a Segunda Seção, que reúne a Terceira e a Quarta Turmas, fixou entendimento no REsp 2.121.055."
+    ],
+    "decisao_titulo": "O que foi decidido até agora",
+    "decisao": [
+      "A decisão desta etapa **não julga o mérito**. A Segunda Seção determinou a **suspensão nacional** dos processos que discutem se a cláusula de destinação residencial da convenção condominial é suficiente para impedir a locação de unidades por curta temporada, por plataformas digitais como o Airbnb, ou se é necessária a proibição expressa. A notícia não informa a data exata da sessão.",
+      "O relator lembrou que, no **REsp 2.121.055**, a Seção consolidou que a convenção não precisa vedar expressamente a locação por curta temporada: basta a destinação exclusivamente residencial para que a modalidade seja considerada incompatível com a finalidade do condomínio. Nesse julgamento, ficou definido que eventual autorização depende de deliberação da assembleia, por **dois terços** dos condôminos.",
+      "Pelo art. 927, III, do Código de Processo Civil, juízes e tribunais devem observar as teses fixadas em recursos repetitivos, que são julgados por amostragem nos termos dos arts. 1.036 e seguintes do CPC."
+    ],
+    "lei": [
+      "**Art. 927, III, do CPC**: juízes e tribunais observarão os acórdãos em julgamento de recursos repetitivos.",
+      "**Arts. 1.036 e seguintes do CPC**: julgamento por amostragem de recursos especiais com controvérsia idêntica."
+    ],
+    "destaque": "Importante: a tese do Tema 1.443 ==ainda não foi fixada==; a notícia trata apenas da afetação e da suspensão dos processos.",
+    "entrelinhas_titulo": "Nas entrelinhas: a decisão que vem será obrigatória para todos os juízes",
+    "entrelinhas": [
+      "**Afetar não é decidir.** A notícia mostra o início de um processo: o STJ escolheu dois casos-modelo e pausou os demais. Quem tem ação sobre o tema deve esperar, e a definição final virá com a tese.",
+      "**O que a Seção já indicou.** O relator recordou que o REsp 2.121.055 entendeu que a destinação residencial já basta para tornar incompatível o aluguel por plataformas. Isso sugere a direção do debate, mas não garante o resultado do repetitivo.",
+      "**Por que um repetitivo.** Com dezenas de decisões sobre o mesmo ponto, uma tese obrigatória evita respostas diferentes para casos iguais e dá previsibilidade a condomínios, proprietários e plataformas.",
+      "**Efeito prático imediato.** O principal efeito é a suspensão: processos sobre o tema ficam parados em todo o país até o julgamento. A notícia não informa prazo para isso, e cada convenção de condomínio continua sendo o ponto de partida da análise."
+    ],
+    "sintese": "Em uma frase: **o STJ parou os processos sobre Airbnb em condomínios para fixar, em recurso repetitivo, se a destinação residencial basta para proibir a curta temporada.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Segunda Seção"
+      ],
+      [
+        "Tema",
+        "1.443 (recurso repetitivo)"
+      ],
+      [
+        "Relator",
+        "Ministro Raul Araújo"
+      ],
+      [
+        "Processos",
+        "REsp 2.272.537 e REsp 2.272.536"
+      ],
+      [
+        "Divulgação pelo tribunal",
+        "17 de setembro de 2026"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "STJ · notícia oficial ↗",
+        "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/17092026-Airbnb-afetacao-de-repetitivo-sobre-locacao-de-curta-temporada-em-condominios-suspende-processos-em-todo-o-pais.aspx"
+      }
+    ]
+  },
+  {
+    "slug": "pl-3367-2024-caucao-locaticia-direito-real-registro-imoveis",
+    "titulo": "Projeto de lei no Senado quer tornar a caução locatícia um direito real quando averbada na matrícula do imóvel.",
+    "subtitulo": "O PL 3.367/2024 aguarda designação de relator na CCJ do Senado.",
+    "descricao": "Projeto em tramitação propõe incluir a caução locatícia averbada na matrícula entre os direitos reais do Código Civil.",
+    "orgao": "IRIB",
+    "area": "Locação",
+    "data_publicacao": "2026-10-22",
+    "imagem": "ilustracao-cadeado.svg",
+    "imagem_alt": "Ilustração de um cadeado sobre um documento",
+    "resumo": [
+      "Tramita no Senado o ==PL 3.367/2024==, do deputado federal Marangoni (UNIÃO-SP).",
+      "A proposta inclui a **caução locatícia averbada na matrícula** do imóvel na lista de direitos reais do Código Civil.",
+      "Seria acrescido o **inciso XV ao art. 1.225** do Código Civil.",
+      "O projeto está **em tramitação**: aguarda designação de relator na CCJ do Senado.",
+      "O autor diz que a mudança busca reduzir a insegurança jurídica sobre a natureza da caução."
+    ],
+    "aconteceu": [
+      "O **PL 3.367/2024**, apresentado na Câmara pelo deputado Marangoni (UNIÃO-SP), tramita agora no Senado Federal. A proposta altera o Código Civil para incluir a caução locatícia, desde que registrada no Registro de Imóveis, entre os direitos reais.",
+      "Na justificativa, o autor afirma que a mudança decorre de decisões recentes e da interpretação do STJ sobre a natureza jurídica da caução locatícia, e que a falta de uma definição clara tem gerado insegurança e divergências, principalmente quanto aos direitos dos credores em concurso de credores."
+    ],
+    "decisao_titulo": "O que o projeto prevê",
+    "decisao": [
+      "Se aprovado como foi apresentado, o **art. 1.225 do Código Civil** passaria a ter um novo inciso, o XV, com o texto “caução locatícia averbada na matrícula do imóvel”. O efeito seria enquadrar essa garantia entre os **direitos reais**.",
+      "Segundo o autor, a proposta alinha a lei às práticas judiciais atuais e à realidade dos contratos de locação, com o objetivo de proteger os credores, simplificar o tratamento jurídico das garantias locatícias e dar mais estabilidade ao mercado imobiliário.",
+      "O projeto ==ainda é uma proposta==: não é lei, e aguarda a designação de relator na Comissão de Constituição, Justiça e Cidadania (CCJ) do Senado. Se avançar, ainda terá de percorrer as demais etapas de votação."
+    ],
+    "lei": [
+      "**Art. 1.225 do Código Civil**: lista dos direitos reais, que receberia o inciso XV."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: o que muda quando uma garantia vira direito real",
+    "entrelinhas": [
+      "**É uma proposta, não uma regra em vigor.** A notícia descreve um projeto parado na fase inicial do Senado, sem relator. Nada muda hoje para contratos de locação, e o texto pode ser alterado ou nem avançar.",
+      "**A disputa de fundo é sobre a natureza da caução.** O autor afirma que há divergência de interpretações sobre se a caução locatícia é garantia real, o que seria relevante principalmente quando há vários credores disputando o mesmo imóvel.",
+      "**Registro como porta de entrada.** O projeto condiciona o efeito à averbação na matrícula. Na lógica dos direitos reais, o registro costuma ser o que torna a situação conhecida por terceiros, e por isso o Registro de Imóveis ganharia papel central.",
+      "**Limites da análise.** A fonte reproduz informações do Senado e da Câmara e a justificativa do autor, sem avaliar efeitos. Não é possível prever se o texto será aprovado nem como seria aplicado."
+    ],
+    "sintese": "Em uma frase: **o PL 3.367/2024 propõe que a caução locatícia averbada na matrícula passe a ser direito real, mas ainda aguarda relator na CCJ do Senado.**",
+    "fontes": [
+      {
+        "rotulo": "ANOREG/BR (com informações do IRIB) ↗",
+        "url": "https://www.anoreg.org.br/site/pl-altera-o-codigo-civil-para-incluir-a-caucao-locaticia-como-direito-real-desde-que-registrada-no-registro-de-imoveis/"
+      }
+    ]
   }
 ]
