@@ -4101,5 +4101,206 @@
         "url": "https://www.anoreg.org.br/site/pl-altera-o-codigo-civil-para-incluir-a-caucao-locaticia-como-direito-real-desde-que-registrada-no-registro-de-imoveis/"
       }
     ]
+  },
+  {
+    "slug": "jfrs-ir-valorizacao-bens-heranca-bitributacao-itcmd-mandado-seguranca",
+    "titulo": "Justiça Federal do RS afasta IR sobre a valorização de bens transmitidos por herança em mandado de segurança de espólio.",
+    "subtitulo": "Para o juiz, a transferência aos herdeiros não gera acréscimo patrimonial ao espólio, e cobrar o imposto seria bitributação em relação ao ITCMD.",
+    "descricao": "Sentença da 13ª Vara Federal de Porto Alegre impediu a Receita de exigir IR sobre a diferença entre o valor histórico e o valor de mercado dos bens herdados.",
+    "orgao": "Justiça Federal do RS",
+    "area": "Inventário e herança",
+    "data_publicacao": "2026-10-26",
+    "imagem": "ilustracao-tributo.svg",
+    "imagem_alt": "Ilustração de uma casa ao lado de uma moeda com o símbolo de percentual",
+    "resumo": [
+      "A ==13ª Vara Federal de Porto Alegre== concedeu segurança a um espólio e a seus herdeiros em ==mandado de segurança preventivo==.",
+      "A Receita Federal fica impedida de cobrar ==IR sobre a diferença== entre o valor histórico e o valor de mercado dos bens transmitidos.",
+      "Para o juiz, a herança ==não gera acréscimo patrimonial== para o espólio.",
+      "Segundo a decisão, como a valorização já entrou na base do ==ITCMD==, haveria ==bitributação==.",
+      "É uma ==decisão de primeira instância==, restrita ao caso: cabe recurso e ela não vale para todos os inventários."
+    ],
+    "aconteceu": [
+      "Um espólio e seus sucessores, ainda durante o **inventário** e antes da entrega da declaração final de espólio, foram à Justiça Federal em **mandado de segurança preventivo**. Eles queriam transferir os bens aos herdeiros pelo **valor de mercado**, o mesmo usado pela Receita Estadual para calcular o **ITCMD**, sem pagar **Imposto de Renda** sobre a diferença em relação aos valores declarados pelo falecido.",
+      "A cobrança discutida tem base no **art. 23 da Lei 9.532/1997**. Pela notícia, o dispositivo permite que os bens herdados sejam avaliados pelo valor da declaração do falecido ou pelo valor de mercado; na segunda opção, prevê IR sobre a diferença positiva entre os dois valores. A autoridade fiscal alegou ausência de ato coator e inadequação do mandado de segurança, e defendeu a cobrança. No curso do processo, uma liminar já havia impedido a exigência."
+    ],
+    "lei": [
+      "**Art. 23 da Lei 9.532/1997**: permite avaliar os bens herdados pelo valor da declaração do falecido ou pelo valor de mercado, com IR sobre a diferença positiva nesta segunda hipótese, segundo a fonte."
+    ],
+    "decisao": [
+      "O juiz federal substituto **Evandro Ubiratan Paiva da Silveira** concedeu a segurança e confirmou a liminar. Segundo a notícia, a incidência do IR pressupõe **acréscimo patrimonial**, com disponibilidade econômica ou jurídica, o que não ocorre para o espólio na transferência dos bens aos herdeiros: a sucessão reduz o patrimônio do espólio até sua extinção, sem ingresso de riqueza nova.",
+      "O magistrado também entendeu que a valorização dos bens já havia sido considerada na apuração do **ITCMD**, tributo estadual. Por isso, cobrar IR sobre a mesma diferença alcançaria a mesma base e configuraria **bitributação**.",
+      "Quanto ao cabimento, a sentença rejeitou as preliminares da Receita: a própria defesa da cobrança mostrou o **justo receio** dos impetrantes, e a possibilidade de contestar depois na via administrativa não impede o mandado de segurança preventivo. A fonte não informa se houve recurso."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: a escolha entre o valor declarado e o valor de mercado",
+    "entrelinhas": [
+      "**A disputa de fundo é sobre o que é “ganho”.** A lei permite transferir bens herdados por valores diferentes e, no valor de mercado, prevê imposto sobre a diferença. O juiz entendeu que, na herança, essa diferença não é riqueza nova para o espólio.",
+      "**Dois impostos, uma mesma valorização.** O argumento da bitributação parte de um fato: o ITCMD estadual já considerou o valor de mercado. A decisão diz que o IR alcançaria a mesma materialidade, e é essa a razão que sustenta a sentença.",
+      "**Alcance limitado.** Trata-se de sentença de primeira instância, em mandado de segurança de partes específicas, que impede a cobrança nos bens abrangidos pelo processo. Não é tese fixada por tribunal superior e a fonte não informa se haverá recurso.",
+      "**O que não dá para concluir.** A notícia não diz quais eram os bens nem os valores envolvidos, e o texto não permite prever como outros juízes decidirão. Cada inventário depende de seus próprios documentos e deve ser analisado individualmente."
+    ],
+    "sintese": "Em uma frase: **a Justiça Federal do RS impediu, em mandado de segurança de um espólio, a cobrança de IR sobre a valorização dos bens herdados, por entender que não há acréscimo patrimonial e que haveria bitributação com o ITCMD.**",
+    "dados": [
+      [
+        "Órgão",
+        "Justiça Federal do Rio Grande do Sul · 13ª Vara Federal de Porto Alegre"
+      ],
+      [
+        "Tipo de decisão",
+        "Sentença em mandado de segurança preventivo (confirma liminar)"
+      ],
+      [
+        "Juiz",
+        "Evandro Ubiratan Paiva da Silveira (juiz federal substituto)"
+      ],
+      [
+        "Processo",
+        "5039526-66.2026.4.04.7100"
+      ],
+      [
+        "Divulgação pela fonte",
+        "26 de outubro de 2026 (Migalhas); 27 de outubro de 2026 (IBDFAM)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/467268/justica-afasta-ir-sobre-valorizacao-de-bens-transmitidos-por-heranca"
+      },
+      {
+        "rotulo": "IBDFAM ↗",
+        "url": "https://ibdfam.org.br/noticias/justica-afasta-incidencia-de-ir-sobre-valorizacao-de-bens-transmitidos-por-heranca"
+      }
+    ]
+  },
+  {
+    "slug": "tjdft-usufruto-conjunto-clausula-acrescer-itcd-averbacao-duvida-registral",
+    "titulo": "TJDFT: sobrevivência do usufruto com cláusula de acrescer pode ser averbada sem comprovar recolhimento de ITCD.",
+    "subtitulo": "A 3ª Turma Cível entendeu que o direito de acrescer entre co-usufrutuários não é herança nem doação e, por isso, não exige prova do imposto.",
+    "descricao": "Em dúvida registral, o TJDFT afastou a exigência de comprovante de ITCD para averbar a morte de um dos usufrutuários e a manutenção integral do usufruto ao sobrevivente.",
+    "orgao": "TJDFT",
+    "area": "Registro de imóveis",
+    "data_publicacao": "2026-10-28",
+    "data_julgamento": "2026-09-24",
+    "imagem": "ilustracao-cartorio.svg",
+    "imagem_alt": "Ilustração de um documento com selo de certificação de cartório",
+    "resumo": [
+      "A ==3ª Turma Cível do TJDFT== julgou improcedente uma ==dúvida registrária== sobre usufruto conjunto.",
+      "O usufruto foi instituído para os doadores, com ==cláusula expressa de acrescer== em favor do sobrevivente.",
+      "Segundo a ementa, o direito de acrescer ==não é transmissão causa mortis nem doação==.",
+      "Por isso, o tribunal afastou a exigência de ==comprovar o recolhimento do ITCD== para averbar a morte do co-usufrutuário.",
+      "Relator: desembargador ==Luís Gustavo B. de Oliveira==; julgado em 24/09/2026."
+    ],
+    "aconteceu": [
+      "Um usufruto sobre imóvel foi constituído **em conjunto** em favor dos doadores, com cláusula prevendo que, se um dos usufrutuários morresse, a parte dele caberia ao sobrevivente, como permite o **art. 1.411 do Código Civil**. Com a morte de um deles, foi pedida a **averbação** do falecimento e da manutenção integral do usufruto em favor da usufrutuária sobrevivente.",
+      "A exigência do registrador de comprovar o recolhimento do **ITCD** ou apresentar declaração de não incidência gerou uma **dúvida registrária**. A sentença da primeira instância foi reformada na apelação, segundo a ementa publicada pelo IRIB."
+    ],
+    "lei": [
+      "**Art. 1.411 do Código Civil**: direito de acrescer entre co-usufrutuários, citado na ementa."
+    ],
+    "decisao": [
+      "A **3ª Turma Cível** deu provimento ao recurso, julgou **improcedente a dúvida** e determinou a averbação do falecimento do co-usufrutuário e da subsistência integral do usufruto em favor da sobrevivente.",
+      "Pela ementa, o juízo da dúvida pode examinar matéria tributária **apenas de forma incidental**, na medida necessária para avaliar a legalidade da exigência do registrador, sem substituir a Administração Tributária. No mérito, o tribunal afirmou que, no direito de acrescer, a sobrevivente **não adquire direito novo nem sucede o falecido**: há continuidade e concentração do usufruto já constituído.",
+      "Ainda segundo a ementa, a **legislação distrital do ITCD** não prevê incidência sobre o exercício do direito de acrescer entre co-usufrutuários, e não há transmissão causa mortis nem doação que configure fato gerador. Assim, seria ilegítimo exigir o comprovante do imposto ou a declaração de não incidência para averbar."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: o que o cartório pode exigir e quando o imposto entra em cena",
+    "entrelinhas": [
+      "**O ponto central é se houve “transmissão”.** O imposto sobre herança e doação incide quando algo passa de uma pessoa a outra. O tribunal entendeu que, com a cláusula de acrescer, o usufruto já era de ambos desde o início e apenas se concentra no sobrevivente.",
+      "**A decisão também diz o que a dúvida registrária pode fazer.** O juiz pode olhar a questão tributária só para saber se a exigência do cartório é legal. Não lança nem revisa imposto: esse papel continua com o fisco.",
+      "**Limite importante: a lei do Distrito Federal.** A conclusão se apoia na legislação distrital do ITCD citada na ementa. A notícia não permite afirmar que outros estados adotem o mesmo tratamento.",
+      "**O que não dá para concluir.** O texto reproduz a ementa e não informa o imóvel, os valores nem o cartório envolvido. A decisão vale para o caso julgado e não substitui a análise do instrumento e da legislação aplicável em cada situação."
+    ],
+    "sintese": "Em uma frase: **o TJDFT entendeu que, num usufruto conjunto com cláusula de acrescer, a morte de um usufrutuário pode ser averbada sem exigir prova de ITCD, porque o direito de acrescer não é herança nem doação.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Tribunal de Justiça do Distrito Federal e dos Territórios · 3ª Turma Cível"
+      ],
+      [
+        "Relator",
+        "Desembargador Luís Gustavo B. de Oliveira"
+      ],
+      [
+        "Processo",
+        "Apelação n. 0717496-21.2026.8.07.0001"
+      ],
+      [
+        "Julgamento",
+        "24 de setembro de 2026 (publicado no PJe em 7 de outubro)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "28 de outubro de 2026 (IRIB)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IRIB · Jurisprudência selecionada ↗",
+        "url": "https://www.irib.org.br/usufruto-conjunto-clausula-de-acrescer-itcd-recolhimento-inexigibilidade-de-comprovacao/"
+      }
+    ]
+  },
+  {
+    "slug": "tjsp-cgj-cancelamento-hipoteca-arrematacao-exige-intimacao-credor-hipotecario",
+    "titulo": "TJSP: cancelar hipoteca após arrematação judicial exige prova de intimação prévia do credor hipotecário.",
+    "subtitulo": "Parecer aprovado na Corregedoria-Geral de Justiça de São Paulo afastou a ideia de que o oficial possa presumir uma intimação tácita.",
+    "descricao": "A Corregedoria-Geral da Justiça paulista manteve a recusa de averbar o cancelamento de hipoteca quando o documento apresentado não comprovava a intimação da credora.",
+    "orgao": "TJSP",
+    "area": "Registro de imóveis",
+    "data_publicacao": "2026-10-26",
+    "data_julgamento": "2026-09-29",
+    "imagem": "ilustracao-predio.svg",
+    "imagem_alt": "Ilustração de um prédio com fachada de vários andares",
+    "resumo": [
+      "A ==Corregedoria-Geral da Justiça de SP== analisou recurso administrativo sobre ==cancelamento de hipoteca== após arrematação de imóvel.",
+      "O parecer foi pelo ==não provimento==: faltava prova da ==intimação prévia da credora hipotecária==.",
+      "Segundo a ementa, o oficial ==não pode reconhecer intimação tácita==.",
+      "A hipoteca é ==direito real de garantia== e sua extinção depende de notificação formal do credor, sob pena de ineficácia.",
+      "Relatora: desembargadora ==Silvia Rocha==; julgado em 29/09/2026."
+    ],
+    "aconteceu": [
+      "Depois da **arrematação de um imóvel** em processo de execução, a parte recorrente pediu ao Registro de Imóveis a **averbação do cancelamento de uma hipoteca** que gravava o bem. O oficial exigiu prova de que a **credora hipotecária** tinha sido intimada antes da arrematação.",
+      "O documento apresentado no protocolo **não atestava essa intimação**. A questão chegou à Corregedoria-Geral da Justiça de São Paulo em **recurso administrativo**, vindo da comarca de Campinas, segundo a ementa publicada pelo IRIB."
+    ],
+    "decisao": [
+      "O parecer, assinado pela corregedora-geral da Justiça, desembargadora **Silvia Rocha**, foi pelo **não provimento** do recurso. A ementa lembra que a hipoteca é **direito real de garantia sobre coisa alheia** e que sua extinção depende de **prévia e formal notificação** dos credores hipotecários, sob pena de ineficácia.",
+      "Por isso, o oficial deve exigir a prova da intimação prévia da credora para averbar o cancelamento. No caso concreto, como o documento apresentado não a demonstrava, a recusa foi mantida. A ementa também registra a **inviabilidade de o oficial reconhecer intimação tácita**.",
+      "A fonte transcreve a ementa e não detalha o valor do imóvel, a identidade das partes ou o conteúdo completo do parecer."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: por que o cartório pede prova da intimação",
+    "entrelinhas": [
+      "**Arrematar não limpa a matrícula sozinho.** A venda judicial transfere o bem, mas, segundo a decisão, a hipoteca só sai da matrícula se o credor hipotecário foi formalmente avisado antes. Sem isso, o cancelamento pode ser ineficaz.",
+      "**O cartório trabalha com prova, não com suposição.** A Corregedoria afastou a ideia de intimação “tácita”: o registrador não pode deduzir que o credor soube do processo. É preciso um documento que mostre a intimação.",
+      "**Efeito prático.** Na lógica da decisão, quem pretende cancelar hipoteca depois de uma arrematação deve levar ao cartório a prova da intimação do credor. A notícia não diz como a pendência do caso foi ou será resolvida.",
+      "**Limites.** O texto é uma ementa de caso específico, em procedimento administrativo de São Paulo. Não permite concluir como outros tribunais tratam a questão nem orienta situações concretas."
+    ],
+    "sintese": "Em uma frase: **para a Corregedoria-Geral da Justiça de SP, o cancelamento de hipoteca após arrematação judicial depende de prova de que o credor hipotecário foi intimado antes, e o oficial não pode presumir essa intimação.**",
+    "dados": [
+      [
+        "Órgão",
+        "Tribunal de Justiça de São Paulo · Corregedoria-Geral da Justiça"
+      ],
+      [
+        "Relatora",
+        "Desembargadora Silvia Rocha (Corregedora-Geral da Justiça)"
+      ],
+      [
+        "Processo",
+        "Recurso Administrativo n. 1029852-30.2025.8.26.0114 (Comarca de Campinas)"
+      ],
+      [
+        "Julgamento",
+        "29 de setembro de 2026 (DJ de 6 de outubro)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "26 de outubro de 2026 (IRIB)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IRIB · Jurisprudência selecionada ↗",
+        "url": "https://www.irib.org.br/hipoteca-arrematacao-judicial-cancelamento-de-registro-credor-hipotecario-intimacao-previa-intimacao-tacita-obice/"
+      }
+    ]
   }
 ]
