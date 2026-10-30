@@ -156,7 +156,18 @@ def cena_violencia_patrimonial():
             + '<polyline points="988,202 1005,220 1036,184" fill="none" stroke="#07172f" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>')
 
 
-CENAS = {'cartorio-violencia-patrimonial-mulher-provimento-222': cena_violencia_patrimonial, 'inventario-cartorio-itcmd-imposto-nao-sumiu': cena_inventario_itcmd, 'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
+def cena_terreno_marinha():
+    # casa (azul) avançando sobre a faixa da maré de 1831: ondas douradas e o marco da linha
+    ondas = ''.join(f'<path d="M{700 + k * 24} {540 + k * 30} q22 -16 44 0 t44 0 t44 0" fill="none" stroke="#c8a154" stroke-width="7" stroke-linecap="round"/>' for k in range(3))
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + ondas
+            + cube(940, 380, 110, 130, *BLUE) + janelas('e', 940, 380, 110, 130, 3, 3, '#bcd3e6') + janelas('d', 940, 380, 110, 130, 3, 3, '#5f8fb8')
+            + '<rect x="752" y="300" width="14" height="190" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<polygon points="766,296 866,320 766,344" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<text x="804" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="20" fill="#07172f" stroke="none">1831</text>')
+
+
+CENAS = {'terreno-de-marinha-belem-regua-1831': cena_terreno_marinha, 'cartorio-violencia-patrimonial-mulher-provimento-222': cena_violencia_patrimonial, 'inventario-cartorio-itcmd-imposto-nao-sumiu': cena_inventario_itcmd, 'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
 
 def quebra(titulo, limite=17):
     linhas, atual = [], ''
