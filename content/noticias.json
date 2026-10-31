@@ -4302,5 +4302,272 @@
         "url": "https://www.irib.org.br/hipoteca-arrematacao-judicial-cancelamento-de-registro-credor-hipotecario-intimacao-previa-intimacao-tacita-obice/"
       }
     ]
+  },
+  {
+    "slug": "stj-segunda-secao-banco-credor-fiduciario-obra-atraso-legitimidade",
+    "titulo": "STJ: banco que financia a obra como credor fiduciário não responde, por si só, pelo atraso na entrega do imóvel.",
+    "subtitulo": "A Segunda Seção uniformizou a divergência entre Terceira e Quarta Turmas e fixou que fiscalizar a obra para liberar o crédito não faz do banco o executor do empreendimento.",
+    "descricao": "Em embargos de divergência, a Segunda Seção do STJ decidiu que o banco que atua como agente financeiro em sentido estrito não tem legitimidade para responder por atraso ou vício na obra.",
+    "orgao": "STJ",
+    "area": "Direito imobiliário",
+    "data_publicacao": "2026-10-27",
+    "data_julgamento": "2026-09-03",
+    "imagem": "ilustracao-fiduciaria.svg",
+    "imagem_alt": "Ilustração de uma garantia fiduciária sobre imóvel, com chave e contrato",
+    "resumo": [
+      "A ==Segunda Seção do STJ== resolveu uma divergência entre a Terceira e a Quarta Turmas sobre ==atraso na entrega de imóvel na planta==.",
+      "Prevaleceu o entendimento da Quarta Turma: o banco que é ==credor fiduciário da incorporação== não tem legitimidade passiva nas ações dos compradores.",
+      "Para o STJ, ==fiscalizar a obra== para liberar as parcelas do financiamento não basta para presumir que o banco é executor do empreendimento.",
+      "A decisão se apoia no ==art. 31-A, § 12, da Lei 4.591/1964==.",
+      "Relatora: ministra ==Maria Isabel Gallotti==; julgamento unânime em 3/9/2026."
+    ],
+    "aconteceu": [
+      "O caso trata de um **contrato de promessa de compra e venda** de imóvel em construção, entregue com atraso. O comprador acionou também o **banco** que financiava o empreendimento e que era **credor fiduciário** da incorporação, com garantia de cessão fiduciária de recebíveis.",
+      "A **Terceira Turma** do STJ e o tribunal local haviam entendido que, como o banco fiscalizava a obra e ligava a liberação do empréstimo à evolução do empreendimento, ele seria **agente executor**, e não mero financiador, podendo responder pelo atraso. A **Quarta Turma**, em outro processo parecido, havia decidido o contrário. A divergência chegou à Segunda Seção por meio de embargos de divergência."
+    ],
+    "lei": [
+      "Lei 4.591/1964, art. 31-A, § 12 (financiamento e garantias da incorporação, inclusive propriedade fiduciária sobre as unidades, não implicam responsabilidade do credor pela execução da obra, segundo o Informativo)."
+    ],
+    "decisao": [
+      "A Segunda Seção, por unanimidade, firmou que **deve prevalecer o entendimento da Quarta Turma**. Quando o banco atua como **agente financeiro em sentido estrito**, na condição de credor fiduciário da incorporação, ele **não tem legitimidade passiva** nas ações movidas pelos adquirentes por vício ou atraso na obra.",
+      "Segundo o Informativo, a **mera fiscalização das obras**, prevista em contrato para vincular a liberação das parcelas do empréstimo ao andamento do empreendimento, não permite presumir, por si só, que o banco assume **responsabilidade solidária**. A legitimidade deve ser avaliada pelos fatos afirmados na petição inicial: não basta alegar, de forma abstrata, que o financiador responde pela obra.",
+      "O texto lembra que a própria lei já responde à questão no § 12 do art. 31-A da Lei 4.591/1964. A fonte não informa o valor do imóvel nem as partes."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: financiar uma obra não é o mesmo que construí-la",
+    "entrelinhas": [
+      "**O conflito de fundo** é sobre quem responde quando a obra atrasa. De um lado, a lógica do consumidor, que enxerga toda a cadeia (incorporadora, construtora, banco) como responsável. De outro, a lógica da lei de incorporações, que separa quem constrói de quem apenas empresta e retém uma garantia.",
+      "**Quem decide o que o banco é?** O STJ indicou que o critério é o papel real do banco no caso. Fiscalizar a obra para liberar o dinheiro foi tratado como exercício legítimo da garantia, e não como ingerência na execução. Se os fatos mostrarem que o banco foi além disso, a análise pode mudar; a decisão não diz o contrário.",
+      "**Efeito prático.** Por ser decisão da Segunda Seção, que reúne as duas turmas de direito privado, tende a orientar os julgamentos futuros do tribunal sobre o tema, mas não é um recurso repetitivo. Na prática, ações de comprador por atraso tendem a ficar concentradas na incorporadora e na construtora.",
+      "**Limites.** A notícia vem do Informativo, que resume o julgado; o acórdão completo não foi lido. A decisão trata da responsabilidade por atraso e vício na obra, não de eventuais outras relações do banco com o comprador."
+    ],
+    "sintese": "Em uma frase: **para o STJ, o banco que apenas financia a obra e fiscaliza o uso do crédito, como credor fiduciário, não responde sozinho pelo atraso na entrega do imóvel.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Segunda Seção"
+      ],
+      [
+        "Processo",
+        "EAREsp 2.422.743-BA"
+      ],
+      [
+        "Relatora",
+        "Ministra Maria Isabel Gallotti"
+      ],
+      [
+        "Julgamento",
+        "3 de setembro de 2026, por unanimidade (DJEN 11/9/2026)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "27 de outubro de 2026 (Informativo de Jurisprudência n. 907)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "STJ · Informativo de Jurisprudência n. 907 ↗",
+        "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022709"
+      }
+    ]
+  },
+  {
+    "slug": "stj-quarta-turma-colacao-imovel-vendido-netos-doacao-indireta",
+    "titulo": "STJ: imóvel passado a netos por escritura de compra e venda, sem prova de pagamento, deve ser levado à colação no inventário.",
+    "subtitulo": "A Quarta Turma tratou o negócio como doação indireta e lembrou que só a declaração expressa do doador dispensa a colação.",
+    "descricao": "Netos que herdam por representação precisam colacionar bens recebidos do avô ou da avó, mesmo que a transferência tenha sido feita como compra e venda sem comprovação do preço.",
+    "orgao": "STJ",
+    "area": "Inventário e herança",
+    "data_publicacao": "2026-10-27",
+    "data_julgamento": "2026-08-31",
+    "imagem": "ilustracao-heranca.svg",
+    "imagem_alt": "Ilustração de herança com imóvel e documentos de partilha",
+    "resumo": [
+      "A ==Quarta Turma do STJ== decidiu que ==netos que herdam por representação== devem fazer a ==colação== dos bens recebidos em vida.",
+      "Um dos imóveis foi transferido por ==escritura pública de compra e venda==, mas sem prova do pagamento do preço.",
+      "Sem a contraprestação, o STJ viu ==doação indireta==, sujeita à colação, independentemente da forma usada.",
+      "A dispensa da colação exige ==declaração expressa e inequívoca== do doador de que a liberalidade sai da parte disponível.",
+      "Relatora: ministra ==Maria Isabel Gallotti==; julgamento unânime em 31/8/2026."
+    ],
+    "aconteceu": [
+      "Em um **inventário**, discutiu-se se os **netos da autora da herança**, que herdam por **representação** de sua mãe, precisavam **colacionar** (declarar e trazer ao inventário) os bens que receberam dela em vida. A colação serve para apurar se as liberalidades saíram da **legítima** (a parte que a lei reserva aos herdeiros necessários) ou da **parte disponível**.",
+      "Um dos imóveis havia sido transferido a um dos netos, que também era curador da mãe interditada, por **escritura pública de compra e venda**. Os autos não traziam prova de que o preço foi pago."
+    ],
+    "lei": [
+      "Código Civil, art. 2.002 (dever de colação dos descendentes que concorrem à sucessão)."
+    ],
+    "decisao": [
+      "A Quarta Turma, por unanimidade, entendeu que a **colação é dever dos descendentes** que concorrem à herança, **inclusive quando sucedem por representação**, pois os herdeiros por representação ficam sujeitos às mesmas obrigações do representado.",
+      "Quanto ao imóvel, o STJ afirmou que a qualificação do negócio deve atender à **substância**, e não ao nome dado pelas partes. Sem prova da contraprestação, a escritura de compra e venda configura **doação indireta**, sujeita à colação. O dever de levar o bem ao inventário permanece mesmo com a aparência de venda.",
+      "A dispensa da colação só ocorre com **manifestação expressa e inequívoca** do doador, no testamento ou na escritura, de que a liberalidade sai da parte disponível. Cabe ao inventariante avaliar os bens e incluir os valores no monte partilhável."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: a forma do negócio não protege a igualdade entre herdeiros",
+    "entrelinhas": [
+      "**O que está por trás.** A colação existe para que um ramo da família não saia com vantagem indevida por ter recebido bens antes da morte do autor da herança. Por isso, o Tribunal olhou para o que de fato aconteceu (um imóvel transferido sem prova de preço) e não só para o título da escritura.",
+      "**Quem decide.** No inventário, o juiz apura a natureza de cada transferência. Quem alega que houve venda de verdade tem em princípio de demonstrar o pagamento; a decisão destaca justamente a ausência dessa prova no caso.",
+      "**Efeito prático.** Para a lógica da decisão, é a declaração expressa do doador, e não o silêncio ou a roupagem de compra e venda, que afasta a colação. A notícia não informa o valor dos bens nem como a partilha terminou.",
+      "**Limites.** O resumo vem do Informativo de Jurisprudência, sem a íntegra do acórdão. A conclusão se refere às circunstâncias do caso, incluindo a falta de prova de pagamento, e não diz que toda compra e venda entre avós e netos seja doação."
+    ],
+    "sintese": "Em uma frase: **para o STJ, imóvel transferido em escritura de compra e venda sem prova de pagamento pode ser doação indireta e precisa ser colacionado no inventário, salvo dispensa expressa do doador.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Quarta Turma"
+      ],
+      [
+        "Processo",
+        "REsp 2.199.958-MG"
+      ],
+      [
+        "Relatora",
+        "Ministra Maria Isabel Gallotti"
+      ],
+      [
+        "Julgamento",
+        "31 de agosto de 2026, por unanimidade (DJEN 4/9/2026)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "27 de outubro de 2026 (Informativo de Jurisprudência n. 907)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "STJ · Informativo de Jurisprudência n. 907 ↗",
+        "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022711"
+      }
+    ]
+  },
+  {
+    "slug": "tjmg-aluguel-area-comum-condominio-repartido-condominos",
+    "titulo": "TJMG: aluguel recebido pela locação de área comum de condomínio deve ser repartido entre os condôminos.",
+    "subtitulo": "A 20ª Câmara Cível manteve a condenação do espólio de quem lucrou com a locação de uma quitinete e da ‘casa do zelador’, mas mandou rever os critérios do cálculo.",
+    "descricao": "O TJMG decidiu que o rendimento de áreas registradas como de uso comum pertence a todos os condôminos, na proporção das frações ideais.",
+    "orgao": "TJMG",
+    "area": "Condomínio",
+    "data_publicacao": "2026-10-14",
+    "imagem": "ilustracao-predio.svg",
+    "imagem_alt": "Ilustração de um prédio de apartamentos com vários andares",
+    "resumo": [
+      "A ==20ª Câmara Cível do TJMG== decidiu que o ==aluguel de área comum== deve ser dividido entre os condôminos.",
+      "O caso envolveu uma ==quitinete== no subsolo e a ==‘casa do zelador’== nos fundos do terreno, ambas registradas como áreas comuns.",
+      "A divisão segue as ==frações ideais== (arts. 1.314, 1.319 e 1.335 do Código Civil).",
+      "O tribunal ==reformou parcialmente== a sentença só quanto à liquidação: período de titularidade, locações efetivas, prescrição e acordo anterior.",
+      "Cabe recurso; a fonte não informa se houve."
+    ],
+    "aconteceu": [
+      "Duas proprietárias de apartamentos de um edifício em Patos de Minas (MG) acionaram a Justiça por **apropriação indevida dos aluguéis** de uma quitinete, no subsolo, e de um barracão nos fundos do terreno, descrito nos autos como **‘casa do zelador’**. Os valores teriam sido recebidos por outro condômino, hoje representado pelo seu **espólio**.",
+      "A sentença reconheceu que os dois imóveis **não eram unidades autônomas** do réu, mas **áreas comuns**, e condenou o espólio a devolver a cota-parte das autoras. O espólio recorreu, alegando que as construções eram do antigo construtor, anteriores ao prédio, e que a inclusão como áreas comuns teria decorrido de **erro da prefeitura**."
+    ],
+    "lei": [
+      "Código Civil, arts. 1.314, 1.319 e 1.335."
+    ],
+    "decisao": [
+      "O relator, juiz convocado Christian Gomes Lima, manteve o entendimento de que a **renda obtida com área comum deve ser repartida entre os condôminos**, na proporção das frações ideais. Ele destacou que os registros em cartório têm **fé pública** e que, no edifício e nas unidades das autoras, constava expressamente que a ‘casa do zelador’ e a quitinete eram de uso comum.",
+      "O recurso foi **parcialmente provido**, apenas para ajustar os critérios da liquidação: o cálculo deve observar o **período de titularidade das autoras**, a **efetiva ocorrência das locações**, o **prazo prescricional** e o **acordo já celebrado em ação cautelar anterior**.",
+      "O julgamento foi divulgado pela assessoria do TJMG; a fonte não informa a data da sessão nem os valores envolvidos."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: o que está na matrícula pesa mais do que a versão de cada um",
+    "entrelinhas": [
+      "**O conflito de fundo.** Quem ocupou ou explorou um espaço por anos tende a achar que ele é seu. Aqui, a defesa dizia que o espaço tinha dono anterior e que o registro como área comum seria um erro administrativo. O tribunal, porém, deu peso aos registros cartorários.",
+      "**Quem decide.** A natureza de um espaço (comum ou exclusivo) é definida pelo que consta da instituição do condomínio e das matrículas. Se há erro, ele precisa ser corrigido pelas vias próprias; a decisão não diz que isso foi tentado no caso.",
+      "**Efeito prático.** Aluguéis de áreas comuns pertencem ao conjunto dos condôminos, na proporção das frações ideais, e não a quem as administra ou ocupa de fato. A devolução, porém, depende de cálculo que respeite o tempo de titularidade de quem cobra e a prescrição.",
+      "**Limites.** É um acórdão de segunda instância, de um caso específico, em que o texto lido é a notícia do Conjur com base no TJMG. Não substitui a leitura do acórdão e pode ser objeto de recurso."
+    ],
+    "sintese": "Em uma frase: **o dinheiro do aluguel de uma área registrada como comum pertence a todos os condôminos, não a quem a explora sozinho.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Tribunal de Justiça de Minas Gerais · 20ª Câmara Cível"
+      ],
+      [
+        "Processo",
+        "1.0000.26.096642-9/001"
+      ],
+      [
+        "Relator",
+        "Juiz convocado Christian Gomes Lima"
+      ],
+      [
+        "Julgamento",
+        "data não informada pela fonte"
+      ],
+      [
+        "Divulgação pela fonte",
+        "14 de outubro de 2026 (Conjur)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Conjur ↗",
+        "url": "https://conjur.com.br/2026-out-14/aluguel-recebido-por-area-comum-deve-ser-repartido-entre-condominos/"
+      }
+    ]
+  },
+  {
+    "slug": "tjmg-liminar-suspende-reintegracao-posse-cumprimento-sentenca-sem-titulo",
+    "titulo": "TJMG (liminar): rejeitar pedido de manutenção de posse não gera, por si só, ordem de desocupação do imóvel.",
+    "subtitulo": "Em decisão provisória, desembargador suspendeu mandado de reintegração expedido na fase de cumprimento de sentença sem comando condenatório expresso.",
+    "descricao": "Decisão monocrática do TJMG suspendeu a desocupação de um imóvel porque o título judicial apenas rejeitou o pedido do autor, sem ordenar a entrega do bem.",
+    "orgao": "TJMG",
+    "area": "Posse e propriedade",
+    "data_publicacao": "2026-10-12",
+    "imagem": "ilustracao-chave.svg",
+    "imagem_alt": "Ilustração de uma chave de imóvel",
+    "resumo": [
+      "Decisão ==liminar==, de um ==desembargador do TJMG==, em agravo ainda não julgado pelo colegiado.",
+      "O título transitado em julgado ==rejeitou o pedido de manutenção de posse== e revogou a liminar do autor.",
+      "Na fase de cumprimento, o juízo mandou ==desocupar o imóvel em 15 dias==, sob pena de despejo compulsório.",
+      "O relator suspendeu a ordem: em princípio ==não há título executivo== que a ampare.",
+      "O mérito do recurso ainda será julgado pelo colegiado."
+    ],
+    "aconteceu": [
+      "Em uma ação de **manutenção de posse** sobre um imóvel, a decisão final, já transitada em julgado, **rejeitou os pedidos do autor** e **revogou a liminar** antes concedida a ele. Na fase de **cumprimento de sentença**, o juízo de primeira instância expediu mandado de **reintegração de posse** e deu 15 dias para a retirada dos pertences e a desocupação, sob pena de **despejo compulsório**.",
+      "O autor recorreu ao TJMG, sustentando que a sentença não acolheu nenhum pedido de reintegração do réu nem condenou expressamente à entrega do bem, o que tornaria a ordem **nula**, com base no art. 489, § 1º, do CPC."
+    ],
+    "lei": [
+      "Código de Processo Civil, art. 489, § 1º (invocado pelo autor no recurso)."
+    ],
+    "decisao_titulo": "Liminar: desocupação suspensa até o julgamento do recurso",
+    "decisao": [
+      "O desembargador José Américo Martins da Costa **suspendeu a ordem de reintegração**. Para ele, a mera revogação da liminar não criou um comando que validasse a ordem, e, em princípio, a expedição do mandado na fase de cumprimento **não está amparada em título executivo**.",
+      "Ele também viu **risco ao resultado útil do processo**: a intimação para desocupar levaria à perda imediata da posse antes de o recurso ser julgado pelo colegiado.",
+      "Trata-se de **decisão provisória (efeito suspensivo)**, e não de julgamento final do agravo. A fonte não informa a data da decisão nem o resultado posterior do recurso."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: rejeitar um pedido não é o mesmo que mandar sair",
+    "entrelinhas": [
+      "**O ponto de fundo.** Perder uma ação de posse não significa automaticamente ter de entregar o imóvel. Para retirar alguém do bem à força, é preciso que o título judicial contenha uma ordem de entrega ou condenação nesse sentido, segundo o raciocínio da liminar.",
+      "**Quem decide.** Por ora, só o relator se manifestou, em análise preliminar (‘em princípio’). O colegiado ainda dirá se confirma ou não esse entendimento.",
+      "**Efeito prático.** A desocupação ficou suspensa enquanto o recurso não é julgado. A notícia não diz quem de fato exerce hoje a posse nem a quem pertence o imóvel.",
+      "**Limites.** A frase do advogado do autor sobre a importância do precedente é opinião de parte interessada e não prova que a tese será seguida em outros casos. Uma liminar não vincula outros juízes."
+    ],
+    "sintese": "Em uma frase: **em liminar, o TJMG entendeu que sem comando condenatório expresso no título não se pode, em princípio, expulsar alguém do imóvel apenas porque seu pedido de posse foi rejeitado.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Tribunal de Justiça de Minas Gerais"
+      ],
+      [
+        "Processo",
+        "Agravo de instrumento 1.0000.25.116850-6/004"
+      ],
+      [
+        "Relator",
+        "Desembargador José Américo Martins da Costa"
+      ],
+      [
+        "Julgamento",
+        "decisão liminar; data não informada pela fonte"
+      ],
+      [
+        "Divulgação pela fonte",
+        "12 de outubro de 2026 (Conjur)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Conjur ↗",
+        "url": "https://conjur.com.br/2026-out-12/embargada-rejeicao-de-posse-nao-gera-ordem-automatica-de-desocupacao-do-imovel/"
+      }
+    ]
   }
 ]
