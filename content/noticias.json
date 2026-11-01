@@ -4569,5 +4569,290 @@
         "url": "https://conjur.com.br/2026-out-12/embargada-rejeicao-de-posse-nao-gera-ordem-automatica-de-desocupacao-do-imovel/"
       }
     ]
+  },
+  {
+    "slug": "tjrs-penhora-imovel-alienacao-fiduciaria-direitos-aquisitivos-fiador",
+    "titulo": "TJRS: penhora de imóvel com alienação fiduciária recai sobre os direitos do devedor, e o banco credor deve ser avisado antes.",
+    "subtitulo": "A 15ª Câmara Cível adequou a penhora de dois imóveis financiados pela Caixa, manteve a averbação na matrícula e mandou oficiar o credor fiduciário.",
+    "descricao": "Quando o imóvel está alienado fiduciariamente, o TJRS entendeu que só os direitos aquisitivos do devedor podem ser penhorados, não a propriedade plena.",
+    "orgao": "TJRS",
+    "area": "Alienação fiduciária",
+    "data_publicacao": "2026-10-21",
+    "data_julgamento": "2026-10-09",
+    "imagem": "ilustracao-fiduciaria.svg",
+    "imagem_alt": "Ilustração de um imóvel com contrato de alienação fiduciária e um selo de garantia",
+    "resumo": [
+      "A ==15ª Câmara Cível do TJRS== decidiu que, em imóvel com ==alienação fiduciária==, a penhora atinge os ==direitos aquisitivos== do devedor, e não a propriedade plena.",
+      "O caso é um agravo de instrumento de um ==fiador executado==, que teve dois imóveis penhorados; ambos estavam gravados em favor da Caixa Econômica Federal.",
+      "A ==averbação da penhora== na matrícula foi mantida, para dar publicidade e eficácia perante terceiros.",
+      "Antes de qualquer ato de avaliação e venda, o juízo deve ==oficiar o credor fiduciário== para apurar o saldo devedor e as parcelas já pagas.",
+      "Recurso ==parcialmente provido==; julgamento e publicação em 9/10/2026."
+    ],
+    "aconteceu": [
+      "Em uma **execução de título extrajudicial**, o juízo de primeiro grau deferiu a **penhora de dois imóveis** de titularidade de um **fiador executado**. O fiador recorreu por **agravo de instrumento**, alegando que os dois imóveis estavam **gravados com alienação fiduciária** em favor da **Caixa Econômica Federal**, nos termos da Lei 9.514/1997.",
+      "Na **alienação fiduciária em garantia**, quem financia fica com a propriedade do imóvel de forma **resolúvel**, até que a dívida seja paga. O comprador-devedor, chamado de **fiduciante**, fica com a posse direta e com a expectativa de se tornar proprietário quando quitar o contrato.",
+      "O tribunal precisou responder a duas perguntas: se a penhora pode recair diretamente sobre esses imóveis ou apenas sobre os direitos do devedor, e se o credor fiduciário precisa ser comunicado antes da avaliação e da expropriação."
+    ],
+    "lei": [
+      "Lei 9.514/1997, art. 22 (propriedade resolúvel do credor fiduciário).",
+      "Código de Processo Civil, arts. 789 e 797 (responsabilidade patrimonial do devedor) e art. 835, XII (penhora de direitos aquisitivos de alienação fiduciária), conforme a ementa divulgada.",
+      "A ementa cita ainda o REsp 1.835.431/SP, do STJ."
+    ],
+    "decisao": [
+      "A relatora, desembargadora Carmem Maria Azambuja Farias, afirmou que a **propriedade resolúvel pertence ao credor fiduciário**; o executado detém apenas a posse direta e a expectativa legítima de adquirir o imóvel. Por isso, a penhora **não pode alcançar o domínio pleno**, sob pena de atingir patrimônio de terceiro alheio à dívida.",
+      "Segundo a ementa, o Código de Processo Civil autoriza expressamente a **penhora dos direitos aquisitivos** decorrentes da alienação fiduciária, e a constrição deve recair sobre a **posição contratual do fiduciante**, em linha com a orientação do STJ citada no julgado.",
+      "A **averbação** da penhora no Registro de Imóveis foi mantida, para preservar a publicidade e a eficácia perante terceiros. E o tribunal considerou **indispensável** oficiar antes a Caixa, para apurar o **saldo devedor atualizado** e as parcelas amortizadas, antes de qualquer ato de venda. O recurso foi **parcialmente provido**. A fonte não informa se a votação foi unânime."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: quem deve ao banco só pode oferecer em penhora o que realmente tem",
+    "entrelinhas": [
+      "**O que está por trás.** Enquanto o financiamento não é quitado, o imóvel pertence, em termos jurídicos, ao credor. O devedor-fiduciante tem algo valioso, mas diferente: o direito de ficar com o bem ao pagar. A decisão separa esses dois patrimônios para que a cobrança de uma dívida não alcance o que não é do executado.",
+      "**Quem decide.** Cabe ao juízo da execução ajustar a penhora e conduzir a venda. O aviso prévio ao credor fiduciário existe porque só ele sabe quanto ainda é devido e quanto já foi pago, o que define o valor real dos direitos do devedor.",
+      "**Efeito prático.** Para quem cobra, a penhora continua possível, mas o ganho tende a ser menor do que o valor de mercado do imóvel, pois o saldo do financiamento precisa ser levado em conta. Para o registro de imóveis, a averbação continua sendo o meio de dar publicidade ao ato.",
+      "**Limites.** O texto disponível é a ementa divulgada pelo IRIB, sem a íntegra do acórdão. A decisão trata de um caso concreto, em agravo de instrumento, e não substitui o exame de cada contrato e de cada matrícula."
+    ],
+    "sintese": "Em uma frase: **para o TJRS, o imóvel financiado com alienação fiduciária não pode ser penhorado por inteiro, mas os direitos aquisitivos do devedor podem, com aviso prévio ao credor e averbação mantida na matrícula.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Tribunal de Justiça do Rio Grande do Sul · 15ª Câmara Cível"
+      ],
+      [
+        "Processo",
+        "Agravo de Instrumento n. 5291608-92.2026.8.21.7000 (Comarca de Tramandaí)"
+      ],
+      [
+        "Relatora",
+        "Desembargadora Carmem Maria Azambuja Farias"
+      ],
+      [
+        "Julgamento",
+        "9 de outubro de 2026"
+      ],
+      [
+        "Resultado",
+        "Recurso parcialmente provido"
+      ],
+      [
+        "Divulgação pela fonte",
+        "21 de outubro de 2026 (IRIB)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "IRIB ↗",
+        "url": "https://www.irib.org.br/penhora-imovel-gravado-com-alienacao-fiduciaria-devedor-fiduciante-direitos-aquisitivos-constricao-publicidade-registral/"
+      }
+    ]
+  },
+  {
+    "slug": "stj-terceira-turma-taxa-individualizacao-matricula-onus-incorporador",
+    "titulo": "STJ: taxa de individualização da matrícula é custo do incorporador, e cobrá-la do comprador é abusivo, segundo artigo no ConJur.",
+    "subtitulo": "A Terceira Turma decidiu, em maio, que o custo de criar a matrícula da unidade não pode ser repassado ao consumidor; o julgado não tem efeito vinculante.",
+    "descricao": "Artigo no ConJur analisa o REsp 2.046.977/SP, em que o STJ considerou nula a cláusula que transfere ao comprador a taxa de individualização da matrícula do imóvel na planta.",
+    "orgao": "STJ",
+    "area": "Imóvel na planta",
+    "data_publicacao": "2026-10-20",
+    "data_julgamento": "2026-05-11",
+    "imagem": "ilustracao-predio.svg",
+    "imagem_alt": "Ilustração de um prédio em construção com documentos de matrícula",
+    "resumo": [
+      "Na entrega das chaves de imóvel na planta, é comum cobrar a ==taxa de individualização da matrícula== (ou ‘taxa de matrícula’).",
+      "A ==Terceira Turma do STJ== julgou, por unanimidade, que o custo de criar a matrícula é ==ônus do incorporador==.",
+      "Para o STJ, a cláusula que repassa a taxa ao consumidor é ==abusiva== à luz do art. 51, IV, do CDC.",
+      "O julgado é de turma e ==não tem efeito vinculante==; o artigo informa que há ==decisões divergentes== no TJSP.",
+      "Fonte principal: ==artigo de opinião== publicado no ConJur, e não o acórdão."
+    ],
+    "aconteceu": [
+      "Ao receber as chaves de um imóvel comprado na planta, o adquirente muitas vezes recebe também um boleto chamado **taxa de individualização da matrícula**, ou ‘taxa de matrícula’, ou ainda ‘taxa de atribuição de unidade’. A discussão é se o contrato pode transferir esse custo ao comprador.",
+      "Segundo o artigo publicado no ConJur por **Gustavo Alan de Sá Bezerra** (e reproduzido pelo IRIB), a **Terceira Turma do STJ** examinou o tema no **REsp 2.046.977/SP**, relatado pelo ministro **Humberto Martins**, julgado por unanimidade em **11 de maio de 2026** (DJEN de 15/5/2026). O recurso especial foi provido.",
+      "O autor ressalta que o acórdão, por ser de turma e fora do rito dos repetitivos, **não tem efeito vinculante**. Ele destaca também que o Tribunal de Justiça de São Paulo ainda não é uniforme: segundo o texto, ao menos uma câmara validou a cobrança depois do julgamento do STJ, enquanto outras mantêm a nulidade da cláusula."
+    ],
+    "lei": [
+      "Lei de Incorporações, art. 44, na redação da Lei 14.382/2022 (averbação da construção a cargo do incorporador).",
+      "Código Civil, art. 490 (despesas de escritura e registro, salvo cláusula em contrário).",
+      "Código de Defesa do Consumidor, art. 51, IV, e art. 42, parágrafo único."
+    ],
+    "decisao": [
+      "De acordo com o artigo, a ementa do STJ afirma que “o custo de criação da matrícula é ônus inafastável do empreendedor”. A individualização das unidades seria etapa necessária para regularizar o empreendimento e integra o custo e o preço global do imóvel.",
+      "O STJ distinguiu esse custo das despesas de **transmissão** (escritura e registro do título), que podem ser combinadas entre as partes com base no art. 490 do Código Civil. Para a Turma, como a individualização **cria** a unidade, e não apenas a transfere, a cláusula que repassa a taxa ao consumidor seria **abusiva**, pelo art. 51, IV, do CDC.",
+      "O texto aponta consequências discutidas na jurisprudência paulista, como a ilicitude de condicionar a entrega das chaves ao pagamento da taxa e a possibilidade de responsabilizar a incorporadora controladora de uma SPE. Também registra que continuam em aberto o regime da devolução (simples ou em dobro) e o prazo para pedir a restituição. Esses pontos são análise do autor, não conclusões do STJ."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: quem cria a unidade paga por ela, e quem a recebe paga pela transferência",
+    "entrelinhas": [
+      "**O que está por trás.** O conflito é sobre onde termina a produção do imóvel e onde começa a sua transferência. Se abrir a matrícula faz parte de entregar um bem que juridicamente existe, o custo já estaria no preço; se fosse mera despesa de registro, poderia ser dividido por contrato.",
+      "**Quem decide.** O julgado vem de uma turma do STJ e orienta, mas não obriga os demais juízes. Cada caso é analisado pelo tribunal estadual competente à luz do contrato, e o próprio artigo mostra que as câmaras paulistas não pensam todas igual.",
+      "**Efeito prático.** A decisão reforça um argumento para quem discute a cobrança, sem garantir resultado. Valores de eventual restituição e prazo para pedir ainda dependem de definições que, segundo o texto, estão em aberto.",
+      "**Limites.** Esta notícia se baseia em artigo de opinião que descreve o acórdão, e não na íntegra do julgado. Leis e datas foram conferidas apenas no artigo. Não é orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **segundo artigo no ConJur, o STJ entendeu que a taxa de individualização da matrícula é custo do incorporador, e a cláusula que a transfere ao comprador é abusiva, mas a tese não é vinculante.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Terceira Turma"
+      ],
+      [
+        "Processo",
+        "REsp 2.046.977/SP"
+      ],
+      [
+        "Relator",
+        "Ministro Humberto Martins"
+      ],
+      [
+        "Julgamento",
+        "11 de maio de 2026, por unanimidade (DJEN 15/5/2026)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "20 de outubro de 2026 (artigo no ConJur; reproduzido pelo IRIB em 27/10)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "ConJur · artigo de opinião ↗",
+        "url": "https://conjur.com.br/2026-out-20/stj-fixa-que-taxa-de-individualizacao-de-matricula-e-onus-do-incorporador/"
+      },
+      {
+        "rotulo": "IRIB ↗",
+        "url": "https://www.irib.org.br/stj-fixa-que-taxa-de-individualizacao-de-matricula-e-onus-do-incorporador/"
+      }
+    ]
+  },
+  {
+    "slug": "stj-primeira-secao-tema-1432-desapropriacao-momento-avaliacao-indenizacao",
+    "titulo": "STJ fixa tese repetitiva (Tema 1432): em desapropriação, a avaliação do imóvel tem prazo-limite e a valorização da obra pública é descontada.",
+    "subtitulo": "A Primeira Seção definiu o ‘momento básico’ do preço: até 1 ano da ação em desapropriações comuns, 90 dias na reforma agrária e a data da posse na indireta.",
+    "descricao": "Em recurso repetitivo, o STJ uniformizou como atualizar o valor da indenização quando a perícia demora e determinou o desconto da valorização causada pela própria obra estatal.",
+    "orgao": "STJ",
+    "area": "Desapropriação",
+    "data_publicacao": "2026-10-20",
+    "data_julgamento": "2026-10-14",
+    "imagem": "ilustracao-desapropriacao.svg",
+    "imagem_alt": "Ilustração de um terreno com planta e marcação de desapropriação",
+    "resumo": [
+      "A ==Primeira Seção do STJ== fixou, por unanimidade, as teses do ==Tema 1432== sobre a contemporaneidade da avaliação em desapropriações.",
+      "Em regra, o preço é o de mercado na data da perícia, mas o ==‘momento básico’== não pode passar de ==1 ano== (utilidade pública ou interesse social) ou ==90 dias== (reforma agrária) da propositura da ação.",
+      "Na ==desapropriação indireta==, vale o preço de mercado na ==data do apossamento administrativo==.",
+      "A ==valorização decorrente da própria obra== pública deve ser apurada à parte e ==descontada== da indenização.",
+      "As teses valem para casos em que ==peritos forem nomeados após a publicação do acórdão==."
+    ],
+    "aconteceu": [
+      "Quando o poder público desapropria um imóvel, a indenização deve refletir o **preço de mercado**. O problema é que os processos podem durar anos, e a perícia que define o valor às vezes é feita muito tempo depois do início da ação. O STJ precisou definir, em **recurso repetitivo**, qual é a data de referência do preço, ou seja, o conceito de **contemporaneidade da avaliação**.",
+      "A questão afetada foi: definir o teor do conceito de contemporaneidade da avaliação para identificar o preço atual de mercado em ação expropriatória, direta ou indireta, para fixar o momento a ser considerado no cálculo da indenização. O julgamento reuniu quatro recursos especiais, originários de Sergipe, Ceará e Pernambuco.",
+      "A divulgação foi feita no **Informativo de Jurisprudência n. 906**, de 20 de outubro de 2026."
+    ],
+    "lei": [
+      "Código de Processo Civil, art. 480, § 1º (nova perícia deve tratar dos mesmos fatos da primeira).",
+      "Lei Complementar 76/1993 (desapropriação para reforma agrária), art. 6º, caput, e art. 9º, caput, § 1º, III, e § 2º.",
+      "Decreto-Lei 3.365/1941, art. 26, § 2º (prazo de um ano para a avaliação)."
+    ],
+    "decisao": [
+      "O relator, ministro **Afrânio Vilela**, destacou que o preço não deve ser atualizado por nova perícia anos depois, e sim pela **correção monetária** e pelos juros previstos em lei. O que se define é o **momento básico** de aferição técnica do preço, comparável, segundo o acórdão, à assinatura do contrato num negócio de compra e venda.",
+      "As teses fixadas são: (A) em regra, o momento básico corresponde ao preço de mercado quando da perícia judicial; (B) nas desapropriações por utilidade pública ou interesse social, não pode ser superior a **1 ano** da propositura da ação; (C) na reforma agrária, não pode exceder **90 dias**; (D1) na desapropriação indireta, é a **data do apossamento administrativo**; (D2) se o poder público der causa à demora da primeira perícia, o limite é ampliado só pelo atraso a ele atribuível; (E) perícias feitas depois devem se reportar ao preço do momento básico limite.",
+      "Pela tese (F), em qualquer caso, as **variações de preço decorrentes da própria ação estatal** devem ser identificadas em separado pelo perito e **descontadas** da indenização. A tese (G) estabelece que o entendimento vale para casos com perícias determinadas a partir da publicação do acórdão, isto é, com peritos nomeados a partir de então."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: o relógio da avaliação passa a ter prazo",
+    "entrelinhas": [
+      "**O que está por trás.** O conflito é entre dois riscos: o proprietário perder com a demora do processo e o Estado pagar mais do que o bem valia por causa do tempo ou da valorização gerada pela obra que ele mesmo fez. A solução do STJ foi fixar um marco temporal para o preço e deixar a inflação posterior para a correção monetária e os juros.",
+      "**Quem decide.** A tese é obrigatória para juízes e tribunais em casos semelhantes, mas aplica-se, pelo próprio acórdão, às perícias determinadas após a sua publicação. A definição do valor em cada processo continua dependendo da perícia e do juiz.",
+      "**Efeito prático.** Em ações novas, haverá limite temporal mais claro para a data de referência do preço, e peritos terão de separar a valorização causada pela obra pública. Na desapropriação indireta, o referencial passa a ser a data da ocupação pelo poder público.",
+      "**Limites.** A informação vem do Informativo do STJ, sem a íntegra dos acórdãos. A notícia não informa valores de indenização dos casos concretos, e a decisão não diz o resultado de nenhum processo individual."
+    ],
+    "sintese": "Em uma frase: **no Tema 1432, o STJ fixou que o preço da desapropriação é o de mercado no momento básico da avaliação, limitado a 1 ano (ou 90 dias na reforma agrária) da ação, e que a valorização gerada pela própria obra estatal é descontada.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Primeira Seção"
+      ],
+      [
+        "Processo",
+        "REsp 2.004.109-SE, REsp 1.809.093-CE, REsp 1.814.350-SE e REsp 1.950.981-PE (Tema 1432)"
+      ],
+      [
+        "Relator",
+        "Ministro Afrânio Vilela"
+      ],
+      [
+        "Julgamento",
+        "14 de outubro de 2026, por unanimidade"
+      ],
+      [
+        "Divulgação pela fonte",
+        "20 de outubro de 2026 (Informativo de Jurisprudência n. 906)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "STJ · Informativo de Jurisprudência n. 906 ↗",
+        "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022681"
+      }
+    ]
+  },
+  {
+    "slug": "stj-quarta-turma-doacao-inoficiosa-prescricao-registro-testamento",
+    "titulo": "STJ: prazo para anular doação inoficiosa conta do registro do imóvel, e o do testamento só vale depois da morte.",
+    "subtitulo": "A Quarta Turma afastou a data da escritura como marco inicial e disse que, em vida do testador, não há lesão à legítima.",
+    "descricao": "O STJ definiu que a prescrição da ação contra doação que excede a parte disponível começa no registro do ato, e que a redução de testamento não pode ser contada da sua lavratura.",
+    "orgao": "STJ",
+    "area": "Inventário e herança",
+    "data_publicacao": "2026-09-22",
+    "data_julgamento": "2026-08-31",
+    "imagem": "ilustracao-heranca.svg",
+    "imagem_alt": "Ilustração de herança com imóvel, escritura e documentos de partilha",
+    "resumo": [
+      "A ==Quarta Turma do STJ== decidiu, por unanimidade, que a prescrição da ação contra ==doação inoficiosa== conta do ==registro do ato== no cartório de imóveis.",
+      "A doação é inoficiosa quando ==excede a parte que o doador poderia dispor== e fere a legítima dos herdeiros necessários.",
+      "O tribunal de origem havia usado a ==data da escritura==; o STJ considerou isso divergente da sua jurisprudência.",
+      "Para a redução de ==disposições testamentárias==, a data da lavratura do testamento ==não pode ser o termo inicial==.",
+      "Relator: ministro ==João Otávio de Noronha==; julgamento em 31/8/2026."
+    ],
+    "aconteceu": [
+      "A disputa envolveu **doações de imóveis** e **disposições de testamento** que, segundo quem recorreu, ultrapassavam a parte que o autor da herança podia dispor. A **doação inoficiosa** é a que excede a **parte disponível** e atinge a **legítima**, a parte do patrimônio reservada aos herdeiros necessários.",
+      "O problema era de **prescrição**: de quando começa a contar o prazo para pedir a invalidação ou a redução. O tribunal de origem havia adotado a **data de lavratura das escrituras** de doação e, para o testamento, a **data em que foi lavrado**. Segundo o STJ, as escrituras de doação não estavam registradas nas matrículas dos imóveis."
+    ],
+    "lei": [
+      "Código Civil, art. 189 (pretensão nasce com a violação do direito), art. 1.227 e art. 1.245 (aquisição da propriedade imóvel pelo registro), citados pelo STJ."
+    ],
+    "decisao": [
+      "A Quarta Turma, relatada pelo ministro **João Otávio de Noronha**, aplicou o entendimento do STJ de que o prazo prescricional da pretensão de invalidar ou reduzir doação inoficiosa começa na **data do registro** do ato no **cartório de registro de imóveis**, e não na da escritura. O Tribunal citou precedente da Terceira Turma que fala em publicidade registral como marco objetivo.",
+      "Quanto ao **testamento**, o STJ lembrou que ele só produz efeitos após a morte e pode ser **livremente revogado** pelo testador. Por isso, antes do óbito **não existe lesão atual à legítima**, e a data da lavratura é um termo inicial inadequado para pedir a redução de suas disposições.",
+      "O acórdão de origem foi considerado divergente da jurisprudência do STJ nesses dois pontos. O Informativo não detalha o que ocorrerá no processo depois dessa fixação."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: o relógio da prescrição só começa quando o direito pode ser violado e conhecido",
+    "entrelinhas": [
+      "**O que está por trás.** Doar em vida e deixar testamento são formas de organizar o patrimônio, mas a lei protege a legítima dos herdeiros necessários. A discussão aqui é quando os herdeiros passam a ter de agir: o STJ ligou o prazo ao registro, que torna o ato público, e à morte, que torna o testamento eficaz.",
+      "**Quem decide.** O prazo e a análise do excesso da doação são examinados pelo juiz do caso. O STJ definiu apenas os critérios sobre o início da contagem, no recurso específico em julgamento.",
+      "**Efeito prático.** Para a lógica da decisão, escritura sem registro não inicia o prazo, e testamento ainda em vida do testador não pode ser atacado como lesão à legítima. A notícia não informa quanto é o prazo prescricional aplicado nem a data dos atos do caso.",
+      "**Limites.** O texto vem do Informativo de Jurisprudência, sem a íntegra do acórdão, e não diz se o direito foi, ao final, reconhecido ou prescrito. Não substitui a análise de cada situação concreta."
+    ],
+    "sintese": "Em uma frase: **para o STJ, o prazo para questionar doação inoficiosa de imóvel conta do registro do ato, e o da redução de disposições testamentárias não pode contar da data do testamento.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Superior Tribunal de Justiça · Quarta Turma"
+      ],
+      [
+        "Processo",
+        "REsp 2.012.027-SP"
+      ],
+      [
+        "Relator",
+        "Ministro João Otávio de Noronha"
+      ],
+      [
+        "Julgamento",
+        "31 de agosto de 2026, por unanimidade (DJEN 3/9/2026)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "22 de setembro de 2026 (Informativo de Jurisprudência n. 902)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "STJ · Informativo de Jurisprudência n. 902 ↗",
+        "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022635"
+      }
+    ]
   }
 ]

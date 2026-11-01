@@ -1,25 +1,25 @@
-# Última rotina — 2026-10-31 10:08 UTC
+# Última rotina — 2026-11-01 10:10 UTC
 
 ## Publicado (4)
-- **STJ: banco credor fiduciário da obra não responde, por si só, pelo atraso na entrega** — `stj-segunda-secao-banco-credor-fiduciario-obra-atraso-legitimidade` — STJ, Informativo 907 (EAREsp 2.422.743-BA) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022709
-- **STJ: imóvel passado a netos por compra e venda sem prova de pagamento deve ser colacionado** — `stj-quarta-turma-colacao-imovel-vendido-netos-doacao-indireta` — STJ, Informativo 907 (REsp 2.199.958-MG) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022711
-- **TJMG: aluguel de área comum deve ser repartido entre condôminos** — `tjmg-aluguel-area-comum-condominio-repartido-condominos` — Conjur (14/10) — https://conjur.com.br/2026-out-14/aluguel-recebido-por-area-comum-deve-ser-repartido-entre-condominos/
-- **TJMG (liminar): rejeição de manutenção de posse não gera ordem automática de desocupação** — `tjmg-liminar-suspende-reintegracao-posse-cumprimento-sentenca-sem-titulo` — Conjur (12/10) — https://conjur.com.br/2026-out-12/embargada-rejeicao-de-posse-nao-gera-ordem-automatica-de-desocupacao-do-imovel/
+- **TJRS: penhora de imóvel com alienação fiduciária recai sobre os direitos do devedor** — `tjrs-penhora-imovel-alienacao-fiduciaria-direitos-aquisitivos-fiador` — IRIB (21/10), AI 5291608-92.2026.8.21.7000 — https://www.irib.org.br/penhora-imovel-gravado-com-alienacao-fiduciaria-devedor-fiduciante-direitos-aquisitivos-constricao-publicidade-registral/
+- **STJ: taxa de individualização da matrícula é custo do incorporador** — `stj-terceira-turma-taxa-individualizacao-matricula-onus-incorporador` — ConJur, artigo de opinião (20/10) + IRIB — https://conjur.com.br/2026-out-20/stj-fixa-que-taxa-de-individualizacao-de-matricula-e-onus-do-incorporador/
+- **STJ Tema 1432: momento da avaliação na desapropriação** — `stj-primeira-secao-tema-1432-desapropriacao-momento-avaliacao-indenizacao` — STJ, Informativo 906 (REsps do Tema 1432) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022681
+- **STJ: prazo da doação inoficiosa conta do registro** — `stj-quarta-turma-doacao-inoficiosa-prescricao-registro-testamento` — STJ, Informativo 902 (REsp 2.012.027-SP) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022635
 
 ## Descartados
-- TJSP 15ª Câmara, imunidade de ITBI para imobiliária (Conjur 30/10): mesma tese do Tema 1.348 já publicado em duas notícias.
-- Repetitivos de retenção no distrato (STJ 08/10): já publicado.
-- Provimento CNJ 228/2026 (extratos eletrônicos): norma de junho, fora da janela.
-- Julgados do IBDFAM de 28–30/10 (doação inoficiosa, posse exclusiva em divórcio): só apareceram como títulos; sem texto lido.
-- Conjur sobre furto em condomínio e vaga de garagem: sem conteúdo lido ou fora da janela.
+- TJGO impenhorabilidade de 120 ha (IRIB 28/10): já publicado (mesmo processo 5591507-29).
+- TRF4 penhora de direitos do fiduciante em execução fiscal (IRIB 27/10): mesma tese do item do TJRS.
+- CNJ inventário sem ITCMD prévio (IBDFAM): notícia de agosto, fora da janela.
+- STF/TJSP ITBI (Tema 1.348): já publicado.
+- Informativo 902 despejo por nu-proprietário e usufruto: já há notícia.
+- Artigo Conjur sobre Súmula 308 e IBDFAM (títulos de jurisprudência 28–30/10): opinião/sem texto lido.
 
 ## Fontes consultadas
-STJ (Informativos 906 e 907, texto bruto), Conjur, Migalhas (busca), IRIB/ANOREG (busca), IBDFAM (busca e lista de jurisprudência), CNJ (busca).
+IRIB, ANOREG, IBDFAM, Migalhas, ConJur (listagens e busca), STJ Informativos 902–907 (texto bruto), CNJ (busca).
 
 ## Atenção do dono
-- Meta de 5 não atingida (4): poucos itens novos e lidos por completo.
-- Os dois itens do STJ vêm do Informativo (resumo do tribunal); não li os acórdãos. A data de publicação (27/10) é a do Informativo.
-- Item do TJMG sobre posse é liminar de desembargador, ainda sem julgamento do colegiado; deixei isso explícito no título.
-- Conjur é a única fonte dos dois itens do TJMG; não li os acórdãos.
-- Em "Nas entrelinhas" há interpretações (efeito prático e limites) que merecem sua leitura.
-- O JSON foi gravado com indent=2 (o arquivo original usa 2, não 1 como no prompt), para não reformatar as notícias existentes.
+- Meta de 5 não atingida (4): poucos itens novos com texto lido por completo.
+- Item da taxa de matrícula baseia-se em ARTIGO DE OPINIÃO do ConJur (não li o acórdão); está dito no texto.
+- Item da doação inoficiosa é do Informativo de 22/09 (acima de 30 dias), incluído por relevância; ainda não publicado.
+- Informativos do STJ: resumo do tribunal, sem íntegra dos acórdãos. Item TJRS: apenas a ementa do IRIB.
+- Revisar "Nas entrelinhas" de cada item. O JSON segue indent=2 (formato atual do arquivo).
