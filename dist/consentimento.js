@@ -22,6 +22,35 @@
   // permissão antiga não citava o Google.
   var VERSION = hasGA4 ? 2 : 1;
 
+  // Only coarse funnel events from the professor app. No form values or result data.
+  var professorRoot = document.getElementById('faro-progressao-mobile');
+  var professorPending = [], professorSeen = Object.create(null);
+  var professorEvents = {
+    page_view: ['ProfessorPageView', 'professor_page_view'],
+    form_start: ['ProfessorFormStart', 'professor_form_start'],
+    result_view: ['ProfessorResultView', 'professor_result_view'],
+    lead_saved: ['Lead', 'generate_lead']
+  };
+  function flushProfessorEvents(choice) {
+    if (!professorRoot || !choice) return;
+    var pending = professorPending.splice(0);
+    var source = String(origem()).toLowerCase();
+    if (['whatsapp', 'instagram', 'facebook', 'meta', 'google', 'direto'].indexOf(source) === -1) source = 'outro';
+    pending.forEach(function (name) {
+      var names = professorEvents[name];
+      var params = { form_name: 'progressao_professor', content_name: 'progressao_professor', origem: source };
+      try { if (choice.anuncios && window.fbq) window.fbq(name === 'lead_saved' ? 'track' : 'trackCustom', names[0], params); } catch (e) {}
+      try { if (choice.medicao && window.gtag) window.gtag('event', names[1], params); } catch (e) {}
+      try { if (choice.medicao && window.clarity) window.clarity('event', name === 'lead_saved' ? 'professor_lead_saved' : names[1]); } catch (e) {}
+    });
+  }
+  if (professorRoot) professorRoot.faroMeasure = function (name) {
+    if (!Object.prototype.hasOwnProperty.call(professorEvents, name) || professorSeen[name]) return;
+    professorSeen[name] = true;
+    professorPending.push(name);
+    flushProfessorEvents(readChoice());
+  };
+
   function readChoice() {
     try {
       var saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
@@ -87,6 +116,7 @@
     if (choice.anuncios) startPixel();
     if (choice.medicao) startClarity();
     if (choice.medicao) startGA4(choice);
+    flushProfessorEvents(choice);
   }
 
   // De onde veio a visita: utm_source, se houver; senão, marcação automática
@@ -183,6 +213,7 @@
 
     var choice = readChoice();
     if (choice) apply(choice); else showBanner();
+    if (professorRoot) professorRoot.faroMeasure('page_view');
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init); else init();
