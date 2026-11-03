@@ -4854,5 +4854,130 @@
         "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022635"
       }
     ]
+  },
+  {
+    "slug": "tjgo-usucapiao-compromisso-compra-venda-nao-quitado-interversao-posse",
+    "titulo": "TJGO reconhece usucapião de imóvel que nunca foi quitado, por família que construiu a casa e pagou o IPTU.",
+    "subtitulo": "A 7ª Câmara Cível entendeu que a posse nascida de um compromisso de compra e venda pode mudar de natureza com o tempo.",
+    "descricao": "Por unanimidade, o TJGO reformou sentença e reconheceu a usucapião de imóvel em Goiânia cujo compromisso de compra e venda não foi integralmente pago.",
+    "orgao": "TJGO",
+    "area": "Usucapião e posse",
+    "data_publicacao": "2026-10-28",
+    "imagem": "ilustracao-usucapiao.svg",
+    "imagem_alt": "Ilustração de uma ampulheta ao lado de uma casa, símbolo do tempo de posse necessário para a usucapião",
+    "resumo": [
+      "A ==7ª Câmara Cível do TJGO== reconheceu, por unanimidade, a ==usucapião== de um imóvel em Goiânia, mesmo sem o pagamento integral do preço do compromisso de compra e venda.",
+      "A sentença de 1º grau havia negado a usucapião, rescindido o contrato, ordenado a reintegração de posse e fixado ==taxa de fruição== de 0,5% ao mês.",
+      "Para o relator, a posse que nasceu de um contrato pode se transformar em ==posse com intenção de dono== (interversão da posse).",
+      "Pesaram a construção da casa pela família e o pagamento do IPTU durante todo o período de ocupação.",
+      "A empresa vendedora só notificou os ocupantes de forma extrajudicial, em 2006, sem ajuizar medida concreta a tempo."
+    ],
+    "aconteceu": [
+      "Em fins de **1998**, uma família assinou um **compromisso de compra e venda** de um imóvel em Goiânia. Cinco anos depois, a última parcela venceu sem que o contrato tivesse sido integralmente pago. A família continuou morando no local, construiu uma casa e arcou com o **IPTU** durante todo o tempo de ocupação.",
+      "Na primeira instância, o juízo negou o pedido de usucapião, por entender que a intenção de dono não estava demonstrada. Em seguida, declarou rescindido o compromisso, determinou a **reintegração de posse** e condenou os ocupantes a pagar **taxa de fruição** de 0,5% do valor atualizado do contrato, desde a mora até a desocupação. A família recorreu ao TJGO."
+    ],
+    "decisao": [
+      "O relator, desembargador **Sebastião Luiz Fleury**, observou que o Código de Processo Civil presume que a posse mantém o caráter com que foi adquirida, mas que essa presunção pode ser afastada quando as circunstâncias mudam. No caso, a empresa vendedora apenas notificou os ocupantes extrajudicialmente em **2006**, sem medida judicial concreta, e a família seguiu no imóvel praticando atos próprios de proprietária.",
+      "Com isso, o tribunal reconheceu a chamada ==interversão da posse==: a posse, que começou ligada a um contrato, passou a ser exercida com intenção de dono (**animus domini**). A decisão contou o prazo a partir de **2003** e concluiu que os dez anos previstos se completaram em **2013**, mesmo ano em que, segundo a notícia, se consumou a prescrição para cobrar judicialmente o saldo devedor ou pedir a resolução do contrato.",
+      "A decisão da 7ª Câmara Cível foi unânime, segundo a fonte, e reformou a sentença, inclusive no ponto da taxa de fruição. A notícia não informa o número do processo nem a data do julgamento."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: quando o contrato fica para trás e a posse passa a valer por si",
+    "entrelinhas": [
+      "**O conflito de fundo.** De um lado, um contrato de compra e venda que nunca foi quitado e que, em tese, permitiria ao vendedor retomar o bem. De outro, uma família que ocupou o imóvel por décadas, construiu a casa e pagou os tributos. A decisão dá peso à ==posse exercida como dona==, quando o vendedor permanece inerte por muito tempo.",
+      "**O papel do tempo e da inércia.** Segundo a notícia, a empresa não ajuizou medida concreta depois da notificação de 2006. Esse silêncio foi decisivo para o tribunal admitir que a posse mudou de natureza e que o prazo seguiu correndo.",
+      "**Efeito prático possível.** O caso mostra que a origem contratual da ocupação, por si só, não impede a usucapião, mas o resultado depende das provas: construção, pagamento de tributos, ausência de oposição judicial e o momento em que a posse deixou de ser mera consequência do contrato.",
+      "**Limites.** É uma decisão de um caso concreto, noticiada sem o acórdão e sem número de processo; outros tribunais podem avaliar o mesmo tema de forma diferente. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **o TJGO admitiu a usucapião de imóvel não quitado porque a posse, nascida de um contrato, passou a ser exercida como de dono e o vendedor não agiu a tempo.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Tribunal de Justiça de Goiás · 7ª Câmara Cível"
+      ],
+      [
+        "Relator",
+        "Desembargador Sebastião Luiz Fleury"
+      ],
+      [
+        "Processo",
+        "não informado pela fonte"
+      ],
+      [
+        "Julgamento",
+        "data não informada pela fonte (decisão unânime)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "28 de outubro de 2026 (Registro de Imóveis do Brasil, com informações do Rota Jurídica)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Registro de Imóveis do Brasil ↗",
+        "url": "https://www.registrodeimoveis.org.br/familia-conquista-usucapiao-apos-ter-se-tornado-inadimplente"
+      }
+    ]
+  },
+  {
+    "slug": "tjsp-itbi-integralizacao-capital-imobiliaria-imunidade-15-camara-direito-publico",
+    "titulo": "TJSP aplica Tema 1.348 do STF e afasta ITBI cobrado pela capital sobre imóvel usado no capital de imobiliária.",
+    "subtitulo": "A 15ª Câmara de Direito Público decidiu, por unanimidade, que a imunidade na integralização de capital não depende da atividade da empresa.",
+    "descricao": "O TJSP reconheceu a imunidade de ITBI na transferência de imóvel para formar o capital de uma empresa do setor imobiliário, aplicando tese do STF.",
+    "orgao": "TJSP",
+    "area": "Tributação imobiliária",
+    "data_publicacao": "2026-10-29",
+    "imagem": "ilustracao-tributo.svg",
+    "imagem_alt": "Ilustração de uma casa ao lado de um selo com símbolo de porcentagem, representando o imposto sobre imóveis",
+    "resumo": [
+      "A ==15ª Câmara de Direito Público do TJSP== afastou, por unanimidade, o ITBI cobrado pelo ==Município de São Paulo== sobre imóvel transferido para integralizar o capital de empresa do setor imobiliário.",
+      "O colegiado aplicou o ==Tema 1.348 do STF==: na integralização de capital, a imunidade não depende da atividade preponderante da empresa.",
+      "A restrição ligada à atividade imobiliária vale só para fusão, incorporação, cisão ou extinção de pessoas jurídicas.",
+      "A proteção fica limitada ao valor destinado ao capital social (==Tema 796==), e o fisco pode provar simulação ou fraude."
+    ],
+    "aconteceu": [
+      "O **Município de São Paulo** cobrou **ITBI** sobre a transferência de um imóvel a uma empresa do setor imobiliário, feita para compor o capital social, e lavrou auto de infração para constituir o crédito tributário. A empresa impetrou **mandado de segurança**, sustentando que a Constituição impede a cobrança nesse tipo de operação, mesmo quando a adquirente atua predominantemente no ramo imobiliário.",
+      "Em primeira instância, a segurança foi negada, o que restabeleceu a exigibilidade do crédito. A empresa recorreu ao TJSP, reiterando a tese da imunidade e questionando também a base de cálculo usada pelo município e a falta de notificação no procedimento administrativo."
+    ],
+    "decisao": [
+      "O relator, desembargador **Marcos Soares Machado**, destacou que a Constituição prevê duas hipóteses distintas de imunidade: a transferência de bens para realização de capital e as transmissões decorrentes de fusão, incorporação, cisão ou extinção de pessoas jurídicas. Para ele, a ressalva sobre a atividade preponderante de compra e venda, locação ou arrendamento de imóveis aplica-se apenas ao segundo grupo.",
+      "Com base no **Tema 1.348 do STF**, o relator considerou descabida a exigência municipal de aferir as receitas da empresa adquirente. Afirmou que a imunidade para bens incorporados ao patrimônio da pessoa jurídica em realização de capital é ==incondicionada==. A proteção, porém, fica limitada ao valor destinado ao capital social, sem alcançar eventual parcela excedente (**Tema 796** do STF), e continua possível a fiscalização para demonstrar simulação ou fraude.",
+      "Acompanhando o relator, o colegiado concedeu a segurança para reconhecer a imunidade do ITBI na operação. A notícia não informa a data do julgamento."
+    ],
+    "entrelinhas_titulo": "Nas entrelinhas: a tese do STF chegando à cobrança do dia a dia",
+    "entrelinhas": [
+      "**O conflito de fundo.** Municípios veem no ITBI uma fonte importante de receita sobre transações imobiliárias; empresas, por sua vez, usam a integralização de capital como forma de organizar patrimônio. A discussão era se atuar no ramo imobiliário bastaria para afastar a imunidade.",
+      "**Quem decide e como.** Uma vez fixada a tese pelo STF, tribunais estaduais passam a aplicá-la nos casos concretos. Esta decisão do TJSP mostra esse movimento: a tese serviu de fundamento direto para anular uma cobrança já constituída por auto de infração.",
+      "**Efeito prático possível.** A imunidade não é ilimitada: segundo a notícia, ela fica restrita ao valor efetivamente integralizado e não impede o município de apontar simulação ou fraude. Cada caso depende do que ficou provado.",
+      "**Limites.** Trata-se de uma decisão de câmara do TJSP em um caso concreto, divulgada pela imprensa jurídica; ainda cabe recurso, conforme as regras processuais. Esta é uma informação geral, não uma orientação para caso concreto."
+    ],
+    "sintese": "Em uma frase: **o TJSP aplicou a tese do STF e entendeu que a atividade imobiliária da empresa não impede a imunidade de ITBI quando o imóvel é transferido para formar seu capital.**",
+    "dados": [
+      [
+        "Tribunal",
+        "Tribunal de Justiça de São Paulo · 15ª Câmara de Direito Público"
+      ],
+      [
+        "Relator",
+        "Desembargador Marcos Soares Machado"
+      ],
+      [
+        "Processo",
+        "1034185-77.2026.8.26.0053"
+      ],
+      [
+        "Julgamento",
+        "data não informada pela fonte (decisão unânime)"
+      ],
+      [
+        "Divulgação pela fonte",
+        "29 de outubro de 2026 (Migalhas)"
+      ]
+    ],
+    "fontes": [
+      {
+        "rotulo": "Migalhas ↗",
+        "url": "https://www.migalhas.com.br/quentes/467511/tj-sp-afasta-itbi-na-integralizacao-de-capital-de-imobiliaria"
+      }
+    ]
   }
 ]
