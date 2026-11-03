@@ -138,7 +138,7 @@ else if(horizontalKnown&&v.anchorDate)note='Cenário desde o ato informado de '+
 else if(horizontalKnown&&r.route==='pccr'&&!v.anchorDate)note='Cenário desde '+v.entry+'. Confirme o exercício efetivo e eventuais atos de progressão.';
 else if(!horizontalKnown)note=!v.continuous?'As condições de tempo do PCCR não foram confirmadas.':'Falta definir o marco de progressão no histórico funcional.';
 renderGain(r,v,{supported,benefit,legacy,currentClass,currentLevel,horizontalKnown,horizontalAlternatives,verticalKnown,verticalConditional,positionAhead});
-$('fa-result-note').textContent=note;lastResult={values:{...v},sample:false};$('fa-contact-next').textContent=supported?'Quero entender os possíveis valores →':'Conversar sobre meu caso →';
+$('fa-result-note').textContent=note;lastResult={values:{...v},sample:false,state:{},receipt:null};$('fa-send-consent').checked=false;$('fa-send-authorization').hidden=false;$('fa-contact-next').textContent='Enviar meus dados e continuar →';
 }
 // Art. 25: horizontais aditivas sobre A da classe; bases entre classes sucessivas.
 // Esta é a relação normativa das posições, sem usar grades ou presumir pagamento.
@@ -187,6 +187,8 @@ $('fa-new-percent').textContent=t.newCounts.length?t.newCounts.map(n=>pct(n*0.5)
 }
 function openContact(){
 if(!lastResult||lastResult.sample){syncFields();show(0);return;}
+if(!lastResult.receipt)return;
+$('fa-send-confirmation').textContent='Seus dados foram recebidos pelo escritório. Protocolo: '+lastResult.receipt.id.slice(0,8)+'.';
 const v=lastResult.values,name=v.name.split(/\s+/)[0].slice(0,25);
 const message=['Olá, Dr. Liandro. Gostaria de conversar sobre minha progressão e uma possível estimativa de diferenças mensais.','',
 'Nome: '+v.name,'Telefone: '+v.phone,'E-mail: '+v.email,
@@ -205,16 +207,30 @@ $('fa-whatsapp').setAttribute('href','https://wa.me/5591984529721?text='+encodeU
 $('fa-contact-intro').textContent=['temporary','other'].includes(v.status)?'Seu vínculo precisa de uma análise individual. Vamos conferir seus documentos?':'Quer saber o que essa projeção pode representar por mês?';
 $('fa-contact-heading').textContent=name+', vamos conversar?';show(7);
 }
+ async function sendResult(){
+  if(!lastResult||lastResult.sample){syncFields();show(0);return;}
+  if(lastResult.receipt){openContact();return;}
+  if(lastResult.sending)return;
+  if(!$('fa-send-consent').checked){fail('fa-send-consent','Autorize o envio dos dados para continuar.');return;}
+  const state=lastResult,button=$('fa-contact-next');state.sending=true;button.disabled=true;button.setAttribute('aria-busy','true');button.textContent='Enviando seus dados…';clearError();
+  const summary={currentLevel:$('fa-horizontal-current').textContent,currentClass:$('fa-vertical-current').textContent,projectedLevel:$('fa-pccr-result').hidden?'':$('fa-horizontal').textContent,projectedClass:$('fa-pccr-result').hidden?'':$('fa-vertical').textContent,horizontalNote:$('fa-horizontal-percent').textContent,verticalNote:$('fa-vertical-percent').textContent,gain:$('fa-gain-numbers').hidden?'':$('fa-gain-value').textContent,gainNote:$('fa-gain-note').textContent,oldCurrent:$('fa-legacy-result').hidden?'':$('fa-old-current').textContent,oldTarget:$('fa-legacy-result').hidden?'':$('fa-old-target').textContent,oldPercent:$('fa-legacy-result').hidden?'':$('fa-old-target-percent').textContent,oldNote:$('fa-legacy-result').hidden?'':$('fa-old-note').textContent,newAdvances:$('fa-new-phase-result').hidden?'':$('fa-new-count').textContent,newPercent:$('fa-new-phase-result').hidden?'':$('fa-new-percent').textContent,note:$('fa-result-note').textContent};
+  const {base,monthlyHours,hours,...input}=state.values;
+  try{
+   state.receipt=await root.faroLeadClient.submit({input,summary,consent:true,consentVersion:'2026-11-03',website:$('fa-send-website').value},state.state);
+   if(lastResult===state){button.textContent='Dados enviados. Continuar →';openContact();}
+  }catch(error){if(lastResult===state)fail(null,error.message||'O envio não foi confirmado. Tente novamente.');}
+  finally{state.sending=false;if(lastResult===state){button.disabled=false;button.removeAttribute('aria-busy');if(!state.receipt)button.textContent='Tentar enviar novamente →';}}
+ }
 function calculate(){try{for(const n of path().filter(n=>n!==6)){if(!validate(n))return;}const v=values(),r=E.analyze(v);if(r.error){const id=/marco horizontal/.test(r.error)?'fa-anchor-date':/conclusão/.test(r.error)?'fa-title-year':/ingresso|exercício/.test(r.error)?'fa-entry':isBenefit(v.status)?(v.status==='pensioner'&&v.origin==='active'?'fa-death':'fa-career-end'):'fa-month';fail(id,r.error);return;}render(r,v);show(6);}catch(_){fail(null,'Não foi possível concluir. Seus dados continuam nos campos; tente novamente.');}}
 function advance(){if(!validate(step))return;const route=path(),next=route[route.indexOf(step)+1];if(next===6){const v=values();render(E.analyze(v),v);show(6);return;}show(next);}
-function example(old=false){const v={name:'Professora — exemplo',phone:'',status:'effective',period:old?'legacy':'pccr',entry:old?'29/03/1994':'01/01/2014',paidClass:'1',ref:'A',title:'specialist',titleYear:'2018',titleValid:'yes',base:'',monthlyHours:'',hours:'',month:'2026-10',continuous:true,oldContinuous:true,oldPaidRef:'',anchorDate:'',anchorLevel:'',historicalDate:'',historicalRef:''};render(E.analyze(v),v);$('fa-example-note').hidden=false;lastResult.sample=true;$('fa-contact-next').textContent='Conferir meu próprio caso →';$('fa-review').textContent='Preencher meus dados';show(6);}
+function example(old=false){const v={name:'Professora — exemplo',phone:'',status:'effective',period:old?'legacy':'pccr',entry:old?'29/03/1994':'01/01/2014',paidClass:'1',ref:'A',title:'specialist',titleYear:'2018',titleValid:'yes',base:'',monthlyHours:'',hours:'',month:'2026-10',continuous:true,oldContinuous:true,oldPaidRef:'',anchorDate:'',anchorLevel:'',historicalDate:'',historicalRef:''};render(E.analyze(v),v);$('fa-example-note').hidden=false;lastResult.sample=true;$('fa-send-authorization').hidden=true;$('fa-contact-next').textContent='Conferir meu próprio caso →';$('fa-review').textContent='Preencher meus dados';show(6);}
 root.querySelectorAll('[data-fa-next]').forEach(b=>b.addEventListener('click',advance));root.querySelectorAll('[data-fa-back]').forEach(b=>b.addEventListener('click',()=>{const route=path();show(route[route.indexOf(step)-1]);}));
 ['fa-title','fa-status','fa-origin','fa-class','fa-ref'].forEach(id=>$(id).addEventListener('change',()=>{clearError();syncFields();}));
 dateFields.forEach(id=>{$(id).addEventListener('input',event=>{if(!event.isComposing)formatDateTyping($(id));});$(id).addEventListener('blur',()=>{$(id).value=dateInput($(id).value);syncHistory();});});
 $('fa-entry-precision').addEventListener('change',()=>{clearError();syncDatePrecision(true);syncHistory();});
 ['fa-entry','fa-anchor-date'].forEach(id=>$(id).addEventListener('change',()=>{clearError();syncHistory();}));
 ['fa-period-old','fa-period-new'].forEach(id=>$(id).addEventListener('change',()=>{if($(id).checked)$(id==='fa-period-old'?'fa-period-new':'fa-period-old').checked=false;clearError();syncHistory();}));
-$('fa-contact-next').addEventListener('click',openContact);$('fa-contact-back').addEventListener('click',()=>show(6));$('fa-name').addEventListener('input',syncFields);
+$('fa-contact-next').addEventListener('click',sendResult);$('fa-contact-back').addEventListener('click',()=>show(6));$('fa-name').addEventListener('input',syncFields);
 $('fa-analyze').addEventListener('click',calculate);$('fa-form').addEventListener('submit',event=>{event.preventDefault();if(step<0)show(0);else if(step===5)calculate();else if(step<6)advance();});
 $('fa-example').addEventListener('click',()=>example(false));$('fa-example-old').addEventListener('click',()=>example(true));$('fa-review').addEventListener('click',()=>{syncFields();show(0);});$('fa-start').addEventListener('click',()=>show(0));$('fa-back-cover').addEventListener('click',()=>showCover());
 $('fa-month').value='2026-10';syncDatePrecision();syncFields();showCover(false);

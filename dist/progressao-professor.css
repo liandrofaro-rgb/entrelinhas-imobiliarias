@@ -104,3 +104,5 @@
 #faro-progressao-mobile .fa-cover .fa-cover-audience,#faro-progressao-mobile .fa-cover .fa-cover-disclaimer{font-size:12px;line-height:1.5}
 @media(max-width:350px){#faro-progressao-mobile .fa-two{grid-template-columns:1fr}#faro-progressao-mobile .fa-cover h1{font-size:27px}#faro-progressao-mobile .fa-body{padding:19px 16px}}
 @media(max-width:380px){#faro-progressao-mobile{padding:12px 8px 28px}#faro-progressao-mobile .fa-body{padding:20px 18px}#faro-progressao-mobile .fa-topic{font-size:9px;letter-spacing:1px}}
+
+.pp-privacy{background:var(--paper,#F5F2EB);color:#07172F}.pp-privacy main{max-width:760px;padding:40px 22px;margin:auto}.pp-privacy h1{font-size:30px;line-height:1.25;margin-bottom:24px}.pp-privacy p{line-height:1.65;margin:18px 0}.pp-privacy a{color:inherit;text-decoration:underline}

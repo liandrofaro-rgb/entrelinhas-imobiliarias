@@ -24,7 +24,7 @@
 </header>
 
 <main id="conteudo" tabindex="-1" class="pp-stage">
-<div id="faro-progressao-mobile">
+<div id="faro-progressao-mobile" data-sensivel data-clarity-mask="true">
 <div class="fa-shell">
 <div class="fa-topic">PROGRESSÃO DO PROFESSOR ESTADUAL · PARÁ</div>
 <form id="fa-form" class="fa-body" novalidate>
@@ -43,7 +43,7 @@
 <section data-fa-step="0" aria-label="Identificação" hidden>
 <div class="fa-overline">VAMOS COMEÇAR · 1 DE 4</div>
 <h2>Como podemos<br>chamar você?</h2>
-<p id="fa-privacy-help" class="fa-help">Seus dados ficam nesta página. No final, você escolhe se quer enviá-los ao escritório pelo WhatsApp.</p>
+<p id="fa-privacy-help" class="fa-help">Você verá a projeção antes de enviar. Seus dados só serão gravados pelo escritório quando você autorizar o envio no final.</p>
 <label for="fa-name">Seu nome</label><input id="fa-name" name="name" placeholder="Digite seu nome" autocomplete="name" maxlength="120" aria-required="true" aria-describedby="fa-privacy-help">
 <label for="fa-phone">Seu telefone com DDD</label><input id="fa-phone" name="phone" type="tel" inputmode="tel" placeholder="Ex.: (91) 99999-9999" autocomplete="tel" maxlength="22" aria-required="true" aria-describedby="fa-privacy-help">
 <label for="fa-email">Seu e-mail</label><input id="fa-email" name="email" type="email" inputmode="email" placeholder="Ex.: nome@email.com" autocomplete="email" autocapitalize="none" spellcheck="false" maxlength="254" aria-required="true" aria-describedby="fa-privacy-help">
@@ -139,16 +139,17 @@
 <p class="fa-help" id="fa-two-regime-note" hidden>Etapas separadas: não some esses percentuais à grade atual do PCCR. A implantação depende do histórico e do enquadramento.</p>
 <details id="fa-application-box"><summary>Como os percentuais são aplicados</summary><div class="fa-application"><p id="fa-application"></p></div></details>
 <p class="fa-help" id="fa-result-note"></p>
-<div class="fa-actions fa-actions-stack"><button type="button" class="fa-main" id="fa-contact-next">Quero entender os possíveis valores <span aria-hidden="true">→</span></button><button type="button" id="fa-review">Revisar meus dados</button></div>
+   <div id="fa-send-authorization"><label class="fa-check"><input id="fa-send-consent" type="checkbox" aria-describedby="fa-send-help"><span>Autorizo a FARO Advocacia a guardar meus contatos e respostas para analisar meu caso e entrar em contato comigo.</span></label><p class="fa-help" id="fa-send-help">Ao enviar, seus dados ficam disponíveis ao escritório, mesmo que você não abra o WhatsApp. <a href="/progressao-professor-privacidade.html" target="_blank" rel="noopener">Como tratamos seus dados</a>.</p><div class="fa-sr-only" aria-hidden="true"><label for="fa-send-website">Deixe este campo vazio</label><input id="fa-send-website" tabindex="-1" autocomplete="off"></div></div>
+<div class="fa-actions fa-actions-stack"><button type="button" class="fa-main" id="fa-contact-next">Enviar meus dados e continuar <span aria-hidden="true">→</span></button><button type="button" id="fa-review">Revisar meus dados</button></div>
 </section>
 <section data-fa-step="7" aria-label="Conversa com o advogado" hidden>
-<div class="fa-overline">PRÓXIMO PASSO</div>
-<h2 id="fa-contact-heading">Vamos conversar?</h2>
+<div class="fa-overline">DADOS ENVIADOS</div>
+<h2 id="fa-contact-heading">Vamos conversar?</h2><p class="fa-help" id="fa-send-confirmation" role="status"></p>
 <p id="fa-contact-intro">Quer saber o que essa projeção pode representar por mês?</p>
 <p>Podemos analisar seus documentos e estimar <span class="fa-highlight">possíveis diferenças</span>. Será um prazer atender você.</p>
 <p class="fa-contact-cost"><span class="fa-highlight">Análise inicial sem custo.</span></p>
 <div class="fa-actions fa-actions-stack"><a class="fa-main" id="fa-whatsapp" data-wa="progressao-resultado" href="https://wa.me/5591984529721" target="_blank" rel="noopener noreferrer" aria-describedby="fa-whatsapp-help">Falar com Liandro no WhatsApp</a></div>
-<p class="fa-help" id="fa-whatsapp-help">O botão abre uma mensagem no WhatsApp com seus contatos e resumo. Revise antes de enviar. A conversa é opcional.</p>
+<p class="fa-help" id="fa-whatsapp-help">Se quiser, abra o WhatsApp com seus contatos e resumo. Revise a mensagem antes de enviar. A conversa é opcional.</p>
 <p class="fa-contact-person"><strong>Liandro Faro</strong>Advogado · OAB/PA 14.611-A<br><span class="fa-help">WhatsApp: (91) 98452-9721</span></p>
 <div class="fa-actions"><button type="button" id="fa-contact-back">Voltar ao meu resultado</button></div>
 </section>
@@ -200,6 +201,7 @@
 
 <script src="progressao-professor-motor.js"></script>
 <script src="progressao-professor-regimes.js"></script>
+<script src="progressao-professor-envio.js"></script>
 <script src="progressao-professor-ui.js"></script>
 <script src="consentimento.js"></script>
 </body>

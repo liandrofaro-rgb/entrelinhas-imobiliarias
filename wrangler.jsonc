@@ -7,6 +7,11 @@
   "assets": {
     "directory": "./dist",
     "html_handling": "none",
-    "not_found_handling": "404-page"
-  }
+    "not_found_handling": "404-page",
+    "binding": "ASSETS",
+    "run_worker_first": [
+      "/progressao-professor/api/*"
+    ]
+  },
+  "main": "worker/progressao-professor.mjs"
 }

@@ -10,4 +10,5 @@
 /newsletter /newsletter.html 301
 /referencias /referencias.html 301
 /privacidade /privacidade.html 301
-/progressao-professor /progressao-professor.html 301
+/progressao-professor /progressao-professor.html 200
+/progressao-professor/ /progressao-professor 301
