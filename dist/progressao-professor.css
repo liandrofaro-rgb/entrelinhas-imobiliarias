@@ -106,3 +106,20 @@
 @media(max-width:380px){#faro-progressao-mobile{padding:12px 8px 28px}#faro-progressao-mobile .fa-body{padding:20px 18px}#faro-progressao-mobile .fa-topic{font-size:9px;letter-spacing:1px}}
 
 .pp-privacy{background:var(--paper,#F5F2EB);color:#07172F}.pp-privacy main{max-width:760px;padding:40px 22px;margin:auto}.pp-privacy h1{font-size:30px;line-height:1.25;margin-bottom:24px}.pp-privacy p{line-height:1.65;margin:18px 0}.pp-privacy a{color:inherit;text-decoration:underline}
+
+/* Resultado: conclusão, comparação, efeito e próxima conferência. */
+#faro-progressao-mobile #fa-result-heading{font-size:24px;line-height:1.25;letter-spacing:-.5px}
+#faro-progressao-mobile .fa-qualifier{font-size:14px;margin-bottom:18px}
+#faro-progressao-mobile .fa-axis-name{font-size:11px;font-weight:400;color:var(--fa-soft)}
+#faro-progressao-mobile .fa-period-summary{padding:12px 14px;background:var(--fa-page);border-left:3px solid var(--fa-accent);border-radius:6px;margin:12px 0}
+#faro-progressao-mobile .fa-period-summary strong{font-size:16px}
+#faro-progressao-mobile .fa-period-summary p{font-size:12px;margin:5px 0}
+#faro-progressao-mobile .fa-period-summary small{font-size:12px;color:var(--fa-soft)}
+#faro-progressao-mobile .fa-next-check{border-left:3px solid var(--fa-accent);padding:0 0 0 12px;margin:20px 0 8px}
+#faro-progressao-mobile .fa-next-check h3{font-size:14px;line-height:1.4;margin:0;color:var(--fa-ink);font-weight:650}
+#faro-progressao-mobile .fa-next-check #fa-result-note{font-size:13px;margin:6px 0 0}
+#faro-progressao-mobile .fa-application .fa-gain-compare dt{color:var(--fa-soft)}
+#faro-progressao-mobile .fa-application .fa-gain-compare dd{color:var(--fa-ink);font-size:16px}
+#faro-progressao-mobile .fa-application .fa-gain-compare{border-color:var(--fa-line)}
+#faro-progressao-mobile .fa-application .fa-help{font-size:12px}
+#faro-progressao-mobile #fa-horizontal-current-percent:empty,#faro-progressao-mobile #fa-vertical-current-percent:empty{display:none}

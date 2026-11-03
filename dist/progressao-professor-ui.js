@@ -95,11 +95,11 @@ function classLabel(c){return c===0?'Classe Especial':'Classe '+['','I','II','II
 function horizontalPercent(n){return (n*0.5).toLocaleString('pt-BR',{maximumFractionDigits:1})+'% sobre o nível A';}
 function verticalPercent(c){return c===1?'Base inicial da carreira':c>=2&&c<=4?'+1,5% sobre a base da '+classLabel(c-1):'';}
 function render(r,v){
-const trajectory=G.analyze(v,r);renderHistory(trajectory,v);$('fa-application-box').hidden=trajectory.applies;
+const trajectory=G.analyze(v,r);renderHistory(trajectory,v);$('fa-application-box').hidden=false;
 const inactiveMissing=isBenefit(v.status)&&!r.route,priorOnly=trajectory.applies&&r.route&&r.asOf<Date.UTC(2010,6,2);
 $('fa-pccr-result').hidden=priorOnly||inactiveMissing;$('fa-no-pccr-note').hidden=!priorOnly&&!inactiveMissing;$('fa-no-pccr-note').textContent=priorOnly?'A atividade terminou antes do PCCR. Não foram criados novos interstícios após esse encerramento.':'Informe o encerramento da atividade para separar os períodos da carreira.';
 if(priorOnly||inactiveMissing)$('fa-two-regime-note').hidden=true;
-$('fa-current-regime-title').textContent=trajectory.applies?'2. Regime do PCCR':'Regime do PCCR';
+$('fa-current-regime-title').textContent=trajectory.applies?'2. A partir de 02/07/2010':'Sua posição na carreira';
 const benefit=isBenefit(v.status),supported=v.status==='effective'||benefit,legacy=r.route==='legacy',ambiguous=r.route==='ambiguous';
 const currentLevel=E.level(v.ref),currentClass=v.paidClass===''?null:Number(v.paidClass);
 const horizontalKnown=!v.positionOther&&supported&&r.route&&!ambiguous&&(!legacy||v.anchorDate)&&v.continuous&&!r.horizontalPending&&!r.levelConflict&&r.levels.length===1&&!(currentLevel!==null&&r.levels[0]<currentLevel);
@@ -110,7 +110,7 @@ const verticalKnown=!v.positionOther&&supported&&r.route&&!ambiguous&&r.classes.
 $('fa-example-note').hidden=true;$('fa-review').textContent='Revisar meus dados';$('fa-result-name').textContent=v.name.split(/\s+/)[0].slice(0,25)+',';$('fa-result-heading').textContent='veja sua comparação.';
 $('fa-horizontal-current').textContent=currentLevel===null?(v.positionOther?'Outro código':'Não informado'):'Nível '+E.LEVELS[currentLevel];
 $('fa-vertical-current').textContent=currentClass===null?(v.positionOther?'Outro código':'Não informada'):classLabel(currentClass);
-$('fa-horizontal-current-percent').textContent=!v.positionOther&&supported&&r.route&&!ambiguous&&!legacy&&currentLevel!==null?horizontalPercent(currentLevel):'';
+$('fa-horizontal-current-percent').textContent=!v.positionOther&&supported&&r.route&&!ambiguous&&!legacy&&currentLevel!==null?(currentLevel===0?'Nível inicial da classe':horizontalPercent(currentLevel)):'';
 $('fa-vertical-current-percent').textContent=!v.positionOther&&supported&&r.route&&!ambiguous&&!legacy&&currentClass!==null?verticalPercent(currentClass):'';
 $('fa-horizontal').textContent=!supported?'Análise do vínculo':horizontalKnown?'Nível '+E.LEVELS[r.levels[0]]:horizontalAlternatives?'Nível '+r.levels.map(n=>E.LEVELS[n]).join(' ou '):v.positionOther?'Análise do documento':ambiguous?'Complete o ingresso':legacy&&!v.anchorDate?'Nível a confirmar':r.levelConflict||positionAhead?'Confira o marco':'A conferir';
 $('fa-horizontal-percent').textContent=horizontalKnown?horizontalPercent(r.levels[0]):horizontalAlternatives?r.levels.map(n=>(n*0.5).toLocaleString('pt-BR',{maximumFractionDigits:1})+'%').join(' ou ')+' sobre o nível A':positionAhead?'O nível informado supera o cenário calculado.':legacy&&!v.anchorDate?'Falta o ato de enquadramento no PCCR.':!v.continuous&&supported?'Condições de tempo não confirmadas.':'';
@@ -137,8 +137,10 @@ else if(positionAhead)note='O nível informado supera o cenário pelo tempo. Con
 else if(horizontalKnown&&v.anchorDate)note='Cenário desde o ato informado de '+v.anchorDate+', nível '+v.anchorLevel+'.';
 else if(horizontalKnown&&r.route==='pccr'&&!v.anchorDate)note='Cenário desde '+v.entry+'. Confirme o exercício efetivo e eventuais atos de progressão.';
 else if(!horizontalKnown)note=!v.continuous?'As condições de tempo do PCCR não foram confirmadas.':'Falta definir o marco de progressão no histórico funcional.';
-renderGain(r,v,{supported,benefit,legacy,currentClass,currentLevel,horizontalKnown,horizontalAlternatives,verticalKnown,verticalConditional,positionAhead});
-$('fa-result-note').textContent=note;lastResult={values:{...v},sample:false,state:{},receipt:null};$('fa-send-consent').checked=false;$('fa-send-authorization').hidden=false;$('fa-contact-next').textContent='Enviar meus dados e continuar →';
+const context={supported,benefit,legacy,currentClass,currentLevel,horizontalKnown,horizontalAlternatives,verticalKnown,verticalConditional,positionAhead};
+renderGain(r,v,context);
+note=renderConclusion(r,v,context,trajectory,note);
+$('fa-result-note').textContent=note;lastResult={values:{...v},sample:false,state:{},receipt:null};$('fa-send-consent').checked=false;$('fa-send-authorization').hidden=false;$('fa-contact-next').textContent='Enviar para análise do meu caso →';
 }
 // Art. 25: horizontais aditivas sobre A da classe; bases entre classes sucessivas.
 // Esta é a relação normativa das posições, sem usar grades ou presumir pagamento.
@@ -146,13 +148,14 @@ function positionFactor(c,n){return Math.pow(1.015,c-1)*(1+n*0.005);}
 function precisePercent(n){return (Math.abs(n)<1e-9?0:n).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})+'%';}
 function percentRange(a){const low=Math.min(...a),high=Math.max(...a);return precisePercent(low)+(Math.abs(high-low)>1e-9?' a '+precisePercent(high):'');}
 function renderGain(r,v,k){
-$('fa-gain').hidden=!k.supported;$('fa-retro').hidden=!k.supported;
+$('fa-gain').hidden=!k.supported;$('fa-retro').hidden=!k.supported;$('fa-gain-breakdown').hidden=true;
 $('fa-gain-numbers').hidden=true;$('fa-gain-pending').hidden=false;
 ['fa-gain-value','fa-gain-current','fa-gain-target','fa-gain-description'].forEach(id=>$(id).textContent='');
-$('fa-gain-title').textContent='Diferença estimada no vencimento-base';
+$('fa-gain-title').textContent='O que isso pode representar';
 if(!k.supported){$('fa-gain-pending').textContent='';$('fa-gain-note').textContent='';return;}
 const comparable=!k.benefit&&!v.positionOther&&k.currentClass>=1&&k.currentClass<=4&&k.currentLevel!==null&&(k.horizontalKnown||k.horizontalAlternatives)&&(k.verticalKnown||k.verticalConditional)&&!k.positionAhead&&r.classes.every(c=>c>=k.currentClass&&c<=4);
 if(!comparable){
+$('fa-gain').hidden=true;
 $('fa-gain-pending').textContent=k.benefit?'O efeito no benefício precisa ser analisado.':k.legacy&&!v.anchorDate?'Falta conferir o enquadramento no PCCR.':'Faltam dados para calcular a diferença.';
 $('fa-gain-note').textContent=k.benefit?'Classe e nível da carreira não determinam, sozinhos, o reajuste da aposentadoria ou pensão.':k.positionAhead?'A posição informada supera um cenário projetado. Nenhuma redução foi presumida.':'Confira as pendências da tabela. Um percentual desconhecido não é tratado como zero.';
 return;
@@ -160,13 +163,72 @@ return;
 const current=positionFactor(k.currentClass,k.currentLevel),targets=[];
 for(const c of r.classes)for(const n of r.levels)targets.push(positionFactor(c,n));
 const differences=targets.map(x=>(x/current-1)*100),positive=Math.max(...differences)>1e-9;
-$('fa-gain-numbers').hidden=false;$('fa-gain-pending').hidden=true;
+$('fa-gain-numbers').hidden=false;$('fa-gain-pending').hidden=true;$('fa-gain-breakdown').hidden=false;
 $('fa-gain-current').textContent=precisePercent((current-1)*100);
 $('fa-gain-target').textContent=percentRange(targets.map(x=>(x-1)*100));
 $('fa-gain-value').textContent=percentRange(differences);
-$('fa-gain-description').textContent=positive?'a mais sobre a base da posição informada':'de diferença entre as posições neste cenário';
+$('fa-gain-description').textContent=positive?'a mais no vencimento-base, neste cenário':'de diferença entre as posições neste cenário';
+if(!positive){$('fa-gain').hidden=true;if(!k.legacy)$('fa-retro').hidden=true;}
 const conditional=k.verticalConditional||k.horizontalAlternatives;
-$('fa-gain-note').textContent=(conditional?'Cenários condicionais: confirme as pendências da tabela. ':'')+'Comparação de classe e nível; o pagamento efetivo exige conferência da folha.'+(k.legacy?' Somente PCCR; percentuais antigos não foram somados.':'');
+$('fa-gain-note').textContent=(conditional?'Cenários condicionais: confirme as pendências da tabela. ':'')+'Sobre o salário-base, não sobre o total do contracheque. Confira a implantação na folha.'+(k.legacy?' Somente PCCR; percentuais antigos não foram somados.':'');
+}
+function renderConclusion(r,v,k,t,note){
+let heading='Há pontos da sua progressão para conferir.',intro='Compare a posição que você informou com o cenário indicado abaixo.',nextTitle='O que falta conferir';
+const hHigher=k.horizontalKnown&&k.currentLevel!==null&&r.levels[0]>k.currentLevel;
+const vHigher=k.verticalKnown&&r.classes[0]>k.currentClass;
+const same=k.horizontalKnown&&k.verticalKnown&&r.levels[0]===k.currentLevel&&r.classes[0]===k.currentClass;
+$('fa-pccr-result').hidden=$('fa-pccr-result').hidden||!k.supported;
+if(!k.supported){
+ heading='Vamos conferir seu vínculo.';
+ intro=v.status==='temporary'?'O contrato temporário precisa de análise própria. As progressões do cargo efetivo não se aplicam automaticamente.':'Precisamos identificar seu vínculo antes de analisar a progressão.';
+ note='Envie o caso para conferir o contrato ou ato de vínculo com a rede estadual.';
+}else if(k.benefit){
+ heading=r.route?'Veja a projeção da carreira.':'Precisamos do histórico da carreira.';
+ intro=r.route?'A contagem considera o período de atividade. O efeito na aposentadoria ou pensão precisa de análise própria.':'Ainda não foi possível definir até quando contar o tempo de atividade.';
+ note=!r.route?'Precisamos da data de aposentadoria. Na pensão, informe também se o professor faleceu em atividade ou já aposentado.':'Precisamos do ato de aposentadoria ou pensão para conferir a regra do benefício. A projeção da carreira não confirma, sozinha, um reajuste.';
+}else if(v.positionOther){
+ heading='Precisamos identificar sua posição.';
+ intro='O código do documento não permitiu identificar a classe e o nível para a comparação.';
+ note='Precisamos conferir o campo “Cargo” e a “Referência” no contracheque ou na ficha funcional.';
+}else if(r.route==='ambiguous'){
+ heading='Complete sua data de ingresso.';
+ intro='O dia e o mês definem se a análise começa no regime anterior ou no PCCR de 2010.';
+}else if(t.applies&&!v.anchorDate){
+ heading=t.oldCounts.some(n=>n>0)||t.newCounts.some(n=>n>0)?'Encontramos avanços para conferir.':'Seu caso tem dois períodos de análise.';
+ intro='Veja primeiro o período até 2010 e depois os avanços no novo plano.';
+ note='Para concluir o nível atual, precisamos do ato de enquadramento no PCCR, disponível na ficha funcional.'+(t.oldPaid===null?' As folhas da época também ajudam a conferir se os avanços antigos já foram pagos.':'');
+}else if(hHigher||vHigher){
+ heading='Há possíveis progressões a revisar.';
+ intro=hHigher&&vHigher?'A projeção indica avanço por tempo de serviço e pela formação.':hHigher?'A projeção indica avanço por tempo de serviço.':'A projeção indica avanço pela formação.';
+ if(!k.horizontalKnown||!k.verticalKnown)intro+=' Há outra parte da análise que ainda depende de confirmação.';
+ nextTitle='Para confirmar a projeção';
+ if(k.horizontalKnown&&k.verticalKnown)note='Precisamos conferir a ficha funcional, os atos de progressão e o contracheque.';
+}else if(same&&t.applies){
+ heading='No PCCR, as posições coincidem.';
+ intro='A posição atual coincide com a projeção do novo plano. O período anterior a 2010 continua sendo analisado separadamente.';
+ nextTitle='Conferir o período antigo';
+ note='Precisamos das folhas e dos atos do período anterior a 2010 para conferir se os avanços antigos já foram implantados.';
+}else if(same){
+ heading='Não identificamos diferença neste cenário.';
+ intro='A classe e o nível informados coincidem com a projeção. Isso não confirma os valores efetivamente pagos.';
+ nextTitle='Conferência da folha';
+ note='A análise documental pode conferir se a posição informada foi corretamente aplicada no contracheque.';
+}else if(k.horizontalAlternatives||k.verticalConditional){
+ heading='Sua projeção depende de uma confirmação.';
+ intro='Veja o que já conseguimos identificar. As possibilidades indicadas dependem dos dados abaixo.';
+}
+if(k.supported&&!k.benefit&&!v.positionOther&&r.route!=='ambiguous'&&!(t.applies&&!v.anchorDate)&&!same){
+ const missing=[];
+ if(!v.continuous)missing.push('Confirme o estágio probatório, as avaliações e eventuais interrupções na ficha funcional.');
+ if(v.title==='unknown')missing.push('Precisamos identificar sua maior formação concluída.');
+ if(k.verticalConditional&&v.titleValid!=='yes')missing.push('Confira a licenciatura, a área do título e, na especialização, as 360 horas.');
+ if(k.verticalConditional&&v.titleValid==='yes'&&v.continuous)missing.push('Precisamos da data completa de conclusão do título e dos seus efeitos.');
+ if(k.positionAhead)missing.push('A posição informada supera um cenário pelo tempo. Confira o ato de progressão; não projetamos redução.');
+ if(missing.length)note=missing.join(' ')+(k.horizontalAlternatives?' '+note:'');
+}
+if(k.supported&&!k.benefit&&k.horizontalKnown&&(v.anchorDate||v.entry))note+=v.anchorDate?' Contagem desde o ato de '+v.anchorDate+', nível '+v.anchorLevel+'.':' Contagem desde '+v.entry+'.';
+$('fa-result-heading').textContent=heading;$('fa-qualifier').textContent=intro;$('fa-next-title').textContent=nextTitle;
+return note;
 }
 function pct(value){return value.toLocaleString('pt-BR',{maximumFractionDigits:1})+'%';}
 function fmtDate(value){return new Date(value).toLocaleDateString('pt-BR',{timeZone:'UTC'});}
@@ -175,13 +237,14 @@ $('fa-legacy-result').hidden=!t.applies;$('fa-two-regime-note').hidden=!t.applie
 if(!t.applies)return;
 $('fa-old-period').textContent=t.oldEnd!==undefined?'Período: '+(E.parseDate(v.entry).precision==='day'?fmtDate(t.oldStart):v.entry)+' até '+fmtDate(t.oldEnd):'Período de atividade anterior à mudança de 2010.';
 $('fa-old-current').textContent=t.oldPaid===null?'Não informado':'Referência '+G.ROMAN[t.oldPaid];
-$('fa-old-current-percent').textContent=t.oldPaid===null?'Implantação não comprovada.':pct(t.oldPaid*3.5)+' · conforme referência declarada';
+$('fa-old-current-percent').textContent=t.oldPaid===null?'Precisamos da folha da época.':pct(t.oldPaid*3.5)+' · conforme referência declarada';
 $('fa-old-target').textContent=t.oldCounts.length?'Referência '+t.oldCounts.map(n=>G.ROMAN[n]).join(' ou '):'Histórico a conferir';
 $('fa-old-target-percent').textContent=t.oldCounts.length?t.oldCounts.map(n=>pct(n*3.5)).join(' a ')+' sobre a base inicial antiga':'';
-$('fa-old-summary').textContent=t.oldCounts.length?t.oldCounts.join(' ou ')+' avanço'+(t.oldCounts.length===1&&t.oldCounts[0]===1?'':'s')+' no primeiro regime · 3,5% por avanço.':t.oldReason;
+$('fa-old-summary').textContent=t.oldCounts.length?t.oldCounts.join(' ou ')+' avanço'+(t.oldCounts.length===1&&t.oldCounts[0]===1?'':'s')+' estimado'+(t.oldCounts.length===1&&t.oldCounts[0]===1?'':'s')+' até a mudança de 2010. Confira se já foram implantados.':t.oldReason;
 $('fa-old-note').textContent=t.oldApproximate?'A data incompleta pode alterar os marcos. Cenário sujeito à conferência do histórico.':v.historicalDate?'Ato informado: '+v.historicalDate+' · referência '+v.historicalRef+'. Conferir sua implantação e efeitos.':'';
 if(t.oldPaid!==null&&t.oldCounts.length&&t.oldPaid>Math.max(...t.oldCounts))$('fa-old-note').textContent='A referência informada supera a estimativa. Confira o ato e o histórico; nenhuma redução foi projetada.';
 $('fa-old-note').hidden=!$('fa-old-note').textContent;
+$('fa-new-context').textContent=t.newScope==='anchor'?'Contados desde o ato informado. Confira a implantação no contracheque.':'Estimativa de avanços neste período. Não confirma o nível atual nem a implantação.';
 $('fa-new-count').textContent=t.newCounts.length?t.newCounts.join(' ou ')+' avanço'+(t.newCounts.length===1&&t.newCounts[0]===1?'':'s'):'Marco a conferir';
 $('fa-new-percent').textContent=t.newCounts.length?t.newCounts.map(n=>pct(n*0.5)).join(' a ')+' · somente esta etapa'+(t.newScope==='anchor'?' desde o ato declarado':'; cenário temporal'):t.newReason||'A primeira etapa precisa ser definida.';
 }

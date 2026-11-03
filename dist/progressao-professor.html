@@ -120,44 +120,45 @@
 <div class="fa-example-badge" id="fa-example-note" hidden>EXEMPLO FICTÍCIO</div>
 <div class="fa-overline" id="fa-result-name"></div><h2 id="fa-result-heading"></h2>
 <div class="fa-qualifier" id="fa-qualifier">Diagnóstico preliminar, sujeito à confirmação.</div>
-<section class="fa-gain" id="fa-gain" aria-labelledby="fa-gain-title" hidden>
-<h3 id="fa-gain-title">Diferença estimada no vencimento-base</h3>
-<div id="fa-gain-numbers" hidden><strong class="fa-gain-value" id="fa-gain-value"></strong><p id="fa-gain-description"></p>
-<dl class="fa-gain-compare"><div><dt>Pela posição informada</dt><dd id="fa-gain-current"></dd></div><div><dt>Na projeção</dt><dd id="fa-gain-target"></dd></div></dl>
-<p class="fa-help" id="fa-gain-basis">Percentuais acima da base inicial do PCCR (Classe I/A).</p>
-</div>
-<div class="fa-gain-pending" id="fa-gain-pending"></div>
-<p class="fa-help" id="fa-gain-note"></p>
-</section>
-<aside class="fa-retro" id="fa-retro" aria-label="Possíveis retroativos" hidden><strong>Sem contar eventuais retroativos dos<br><span class="fa-retro-circle">últimos 5 anos</span></strong><p class="fa-help">O período depende de quando o direito surgiu e da prescrição. Retroativos não calculados aqui.</p></aside>
 <div id="fa-legacy-result" hidden>
-<h3 class="fa-result-regime">1. Regime anterior</h3><div class="fa-law">Lei nº 5.351/1986</div>
+<h3 class="fa-result-regime">1. Até a mudança de 2010</h3>
 <p class="fa-help" id="fa-old-period"></p>
-<table class="fa-result-table"><caption class="fa-sr-only">Progressão no primeiro regime</caption><thead><tr><th scope="col">Situação<br>informada</th><th scope="col">Projeção<br>do período</th></tr></thead><tbody><tr><td><strong id="fa-old-current"></strong><small id="fa-old-current-percent"></small></td><td><strong id="fa-old-target"></strong><small id="fa-old-target-percent"></small></td></tr></tbody></table>
+<table class="fa-result-table"><caption class="fa-sr-only">Progressão no primeiro regime</caption><thead><tr><th scope="col">No documento<br>da época</th><th scope="col">Projeção até 2010</th></tr></thead><tbody><tr><td><strong id="fa-old-current"></strong><small id="fa-old-current-percent"></small></td><td><strong id="fa-old-target"></strong><small id="fa-old-target-percent"></small></td></tr></tbody></table>
 <p class="fa-help" id="fa-old-summary"></p><p class="fa-help" id="fa-old-note"></p>
 </div>
 <div id="fa-pccr-result">
-<h3 class="fa-result-regime" id="fa-current-regime-title">Regime do PCCR</h3><div class="fa-law">Lei nº 7.442/2010</div>
+<h3 class="fa-result-regime" id="fa-current-regime-title">Sua posição na carreira</h3>
+<div id="fa-new-phase-result" class="fa-period-summary" hidden><strong id="fa-new-count"></strong><p id="fa-new-context">Estimativa de avanços neste período. Não confirma o nível atual nem a implantação.</p><small id="fa-new-percent"></small></div>
 <table class="fa-result-table">
 <caption class="fa-sr-only">Comparação da posição informada com a projeção preliminar</caption>
-<thead><tr><th scope="col">Situação<br>informada</th><th scope="col">Projeção<br>preliminar</th></tr></thead>
+<thead><tr><th scope="col">No contracheque<br>informado</th><th scope="col">Na projeção</th></tr></thead>
 <tbody>
-<tr><th class="fa-table-section" colspan="2" scope="rowgroup">Horizontal · tempo de serviço</th></tr>
+<tr><th class="fa-table-section" colspan="2" scope="rowgroup">Por tempo de serviço <span class="fa-axis-name">· horizontal</span></th></tr>
 <tr><td><strong id="fa-horizontal-current"></strong><small id="fa-horizontal-current-percent"></small></td><td><strong id="fa-horizontal"></strong><small id="fa-horizontal-percent"></small></td></tr>
 </tbody>
-<tbody id="fa-new-phase-result" hidden><tr><th class="fa-table-section" colspan="2" scope="rowgroup">Novos avanços após a mudança de 2010</th></tr><tr><td><strong>Após a mudança</strong><small>Implantação não comprovada pelo nível atual.</small></td><td><strong id="fa-new-count"></strong><small id="fa-new-percent"></small></td></tr></tbody>
+
 <tbody>
-<tr><th class="fa-table-section" colspan="2" scope="rowgroup">Vertical · formação</th></tr>
+<tr><th class="fa-table-section" colspan="2" scope="rowgroup">Pela formação <span class="fa-axis-name">· vertical</span></th></tr>
 <tr><td><strong id="fa-vertical-current"></strong><small id="fa-vertical-current-percent"></small></td><td><strong id="fa-vertical"></strong><small id="fa-vertical-percent"></small></td></tr>
 </tbody>
 </table>
 </div>
 <p class="fa-help" id="fa-no-pccr-note" hidden></p>
 <p class="fa-help" id="fa-two-regime-note" hidden>Etapas separadas: não some esses percentuais à grade atual do PCCR. A implantação depende do histórico e do enquadramento.</p>
-<details id="fa-application-box"><summary>Como os percentuais são aplicados</summary><div class="fa-application"><p id="fa-application"></p></div></details>
-<p class="fa-help" id="fa-result-note"></p>
+<section class="fa-gain" id="fa-gain" aria-labelledby="fa-gain-title" hidden>
+<h3 id="fa-gain-title">Diferença estimada no vencimento-base</h3>
+<div id="fa-gain-numbers" hidden><strong class="fa-gain-value" id="fa-gain-value"></strong><p id="fa-gain-description"></p>
+</div>
+<div class="fa-gain-pending" id="fa-gain-pending"></div>
+<p class="fa-help" id="fa-gain-note"></p>
+</section>
+<aside class="fa-retro" id="fa-retro" aria-label="Possíveis retroativos" hidden><strong>Sem contar eventuais retroativos dos<br><span class="fa-retro-circle">últimos 5 anos</span></strong><p class="fa-help">O período depende de quando o direito surgiu e da prescrição. Retroativos não calculados aqui.</p></aside>
+<details id="fa-application-box"><summary>Como os percentuais são aplicados</summary><div class="fa-application"><p id="fa-application"></p><div id="fa-gain-breakdown" hidden><dl class="fa-gain-compare"><div><dt>Posição informada</dt><dd id="fa-gain-current"></dd></div><div><dt>Posição projetada</dt><dd id="fa-gain-target"></dd></div></dl>
+<p class="fa-help" id="fa-gain-basis">Percentuais acima da base inicial do PCCR (Classe I/A).</p>
+</div></div></details>
+<aside class="fa-next-check"><h3 id="fa-next-title">O que falta conferir</h3><p class="fa-help" id="fa-result-note"></p></aside>
    <div id="fa-send-authorization"><label class="fa-check"><input id="fa-send-consent" type="checkbox" aria-describedby="fa-send-help"><span>Autorizo a FARO Advocacia a guardar meus contatos e respostas para analisar meu caso e entrar em contato comigo.</span></label><p class="fa-help" id="fa-send-help">Ao enviar, seus dados ficam disponíveis ao escritório, mesmo que você não abra o WhatsApp. <a href="/progressao-professor-privacidade.html" target="_blank" rel="noopener">Como tratamos seus dados</a>.</p><div class="fa-sr-only" aria-hidden="true"><label for="fa-send-website">Deixe este campo vazio</label><input id="fa-send-website" tabindex="-1" autocomplete="off"></div></div>
-<div class="fa-actions fa-actions-stack"><button type="button" class="fa-main" id="fa-contact-next">Enviar meus dados e continuar <span aria-hidden="true">→</span></button><button type="button" id="fa-review">Revisar meus dados</button></div>
+<div class="fa-actions fa-actions-stack"><button type="button" class="fa-main" id="fa-contact-next">Enviar para análise do meu caso <span aria-hidden="true">→</span></button><button type="button" id="fa-review">Revisar meus dados</button></div>
 </section>
 <section data-fa-step="7" aria-label="Conversa com o advogado" hidden>
 <div class="fa-overline">DADOS ENVIADOS</div>
