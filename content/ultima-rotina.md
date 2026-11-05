@@ -1,23 +1,25 @@
-# Última rotina — 2026-11-03 10:10 UTC
+# Última rotina — 2026-11-05 10:10 UTC
 
-## Publicado (2)
-- **TJGO reconhece usucapião de imóvel que nunca foi quitado** — `tjgo-usucapiao-compromisso-compra-venda-nao-quitado-interversao-posse` — Registro de Imóveis do Brasil (28/10, com informações do Rota Jurídica) — https://www.registrodeimoveis.org.br/familia-conquista-usucapiao-apos-ter-se-tornado-inadimplente
-- **TJSP afasta ITBI na integralização de capital de imobiliária (Tema 1.348)** — `tjsp-itbi-integralizacao-capital-imobiliaria-imunidade-15-camara-direito-publico` — Migalhas (29/10), proc. 1034185-77.2026.8.26.0053 — https://www.migalhas.com.br/quentes/467511/tj-sp-afasta-itbi-na-integralizacao-de-capital-de-imobiliaria
+## Publicado (5)
+- **STJ: condomínio não pode cobrar "taxa geral de lazer" só de quem ocupa a unidade sem ser dono** — `stj-quarta-turma-taxa-geral-lazer-possuidor-nao-proprietario-isonomia` — STJ, Informativo 908 (REsp 1.890.939-MG) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022699
+- **STJ: proprietário que transferiu a posse por contrato particular ainda pode ser cobrado pelo IPTU** — `stj-segunda-turma-iptu-proprietario-registral-posse-transferida-instrumento-particular` — STJ, Informativo 908 (REsp 2.294.977-SC) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022708
+- **STJ: ação de sonegados antes de encerrar o inventário se herdeiros resistem à colação** — `stj-terceira-turma-acao-sonegados-antes-encerramento-inventario-resistencia-colacao` — STJ, Informativo 908 (REsp 2.296.199-SC) — https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022736
+- **TJPR: imóveis do casal no capital de empresa exigem escritura pública quando só um cônjuge é sócio** — `tjpr-integralizacao-capital-imoveis-casal-comunhao-universal-conjuge-nao-socio-escritura-publica` — IRIB (04/11), Apelação 0002864-64.2025.8.16.0179 — https://www.irib.org.br/integralizacao-de-capital-social-bens-imoveis-comuns-do-casal-regime-de-comunhao-universal-de-bens-conjuge-nao-socio-contrato-social-anuencia-escritura-publica-necessidade/
+- **Justiça de Londrina limita a 10% do valor pago a retenção em desistência de compra de terreno** — `londrina-rescisao-compra-terreno-retencao-10-por-cento-valor-pago-sumula-543` — Registro de Imóveis do Brasil (04/11, com informações do Conjur) — https://www.registrodeimoveis.org.br/justica-limita-multa-por-rescisao-de-contrato-imobiliario
 
 ## Descartados
-- IRIB: impenhorabilidade de imóvel rural até 4 módulos (TJGO, AI 5591507-29): já publicado.
-- Registro de Imóveis do Brasil / IBDFAM: reintegração de posse a vítima de violência (Cidade Ocidental/DF): já publicado.
-- Migalhas: penhora de imóvel de pessoa pública por IPTU (30/10): envolve nome de pessoa física.
-- ANOREG: herança digital (30/03), guarda de pets (02/04), CNJ Oriximiná (09/09): fora da janela de 30 dias.
-- CNJ Res. 695/2026 (ITCMD no inventário extrajudicial, 28/08): fora da janela.
-- ConJur: usucapião tabular, condomínio/sossego (artigos de opinião); demais itens sem relação com as áreas.
-- Informativos STJ 908/909: páginas indisponíveis/vazias; 904–907 já aproveitados em rodadas anteriores.
+- STJ Informativo 908, Palmas/TO sobreposição de matrículas (REsp): já publicado.
+- STJ Informativo 908, produção antecipada de provas (zona de autossalvamento): pouca relação com as áreas.
+- Diário do Pará, TJPA/CATA usucapião na orla de Belém: matéria de abril/2025, fora da janela.
+- IRIB Responde (retificação de área seccionada por estrada): conteúdo restrito a associados.
+- IRIB, usucapião extraordinária por herdeiro: mesma tese já publicada (STJ, 30/09).
+- CNJ: nenhum provimento novo de novembro localizado; ITBI Tema 1.348 e Airbnb: já publicados.
 
 ## Fontes consultadas
-IRIB, ANOREG, Registro de Imóveis do Brasil, Migalhas, ConJur, IBDFAM (listagens e busca), STJ Informativos (texto bruto), CNJ (busca).
+STJ Informativos (texto bruto, edição 908), IRIB, Registro de Imóveis do Brasil, ANOREG, IBDFAM, Migalhas, ConJur, STF (buscas), Diário do Pará.
 
 ## Atenção do dono
-- Meta de 5 não atingida (2): a busca retornou poucos itens novos, dentro da janela, com texto lido por completo.
-- TJGO usucapião: baseada em notícia do RIB/Rota Jurídica; sem número de processo nem data do julgamento (dito no texto). Revisar a explicação da interversão da posse e do prazo (2003→2013), conforme a fonte.
-- TJSP ITBI: é aplicação do Tema 1.348 em caso concreto; há notícias anteriores sobre o tema (STF e liminar em Goiânia). Data do julgamento não informada.
-- Revisar "Nas entrelinhas" de cada item.
+- Os 3 itens do STJ foram escritos a partir do Informativo 908 (sem a íntegra dos acórdãos); revisar "Nas entrelinhas".
+- IPTU: o Informativo não diz expressamente o dispositivo (provimento do recurso); o texto descreve só a tese.
+- Londrina: sentença de 1º grau sem número de processo e sem data; fonte é o RIB (com informações do Conjur); íntegra não lida. O campo "orgao" ficou como "6ª Vara Cível de Londrina (PR)".
+- TJPR: ementa publicada pelo IRIB; data de divulgação 04/11, julgamento 26/10.
