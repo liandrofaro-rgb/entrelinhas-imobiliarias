@@ -5293,5 +5293,336 @@
     "url": "https://www.registrodeimoveis.org.br/justica-limita-multa-por-rescisao-de-contrato-imobiliario"
    }
   ]
+ },
+ {
+  "slug": "stj-terceira-turma-ex-conjuge-filhos-imovel-incomunicavel-sem-aluguel",
+  "titulo": "STJ: ex-cônjuge que mora com os filhos em imóvel só do outro não precisa pagar aluguel.",
+  "subtitulo": "A Terceira Turma entendeu que a moradia dos filhos comuns afasta o uso exclusivo e o enriquecimento sem causa, mesmo quando o imóvel é incomunicável.",
+  "descricao": "O STJ afastou a cobrança de aluguel de ex-mulher que vive com os filhos na casa comprada pelo ex-marido antes do casamento.",
+  "orgao": "STJ",
+  "area": "Família e sucessões",
+  "data_publicacao": "2026-11-04",
+  "imagem": "ilustracao-familia.svg",
+  "imagem_alt": "Ilustração de uma casa com três pessoas em seu interior, representando a moradia da família",
+  "resumo": [
+   "A ==Terceira Turma do STJ== afastou a cobrança de ==aluguel== de ex-cônjuge que mora com os ==filhos comuns== em imóvel do outro.",
+   "O imóvel foi comprado **antes do casamento** em comunhão parcial e, por isso, ==não entrou na partilha== (bem incomunicável).",
+   "Para a relatora, a moradia dos filhos atende ao ==dever de sustento== de ambos os pais; não há uso exclusivo nem enriquecimento sem causa.",
+   "A ministra ressalvou que a situação pode ser tratada como parte dos ==alimentos== em ação própria.",
+   "O processo corre em **segredo de justiça** e seu número não é divulgado."
+  ],
+  "aconteceu": [
+   "Em uma **ação de divórcio litigioso**, a primeira instância fixou guarda compartilhada e pensão alimentícia e excluiu da partilha um imóvel que o ex-marido comprou **pouco antes do casamento**. Mesmo depois da separação, a casa continuou sendo a moradia da ex-mulher e dos filhos do casal.",
+   "A sentença condenou a mulher a pagar **aluguel** ao ex-marido desde a data em que ele, por notificação extrajudicial, manifestou discordância do uso do imóvel. O tribunal de origem manteve a cobrança, sob o argumento de que ela não era coproprietária, apenas copossuidora durante a união. O caso chegou ao STJ."
+  ],
+  "decisao": [
+   "A Terceira Turma, sob relatoria da ministra **Nancy Andrighi**, **afastou** a cobrança. A relatora lembrou que a jurisprudência admite indenização equivalente a um aluguel presumido quando **apenas um** dos ex-cônjuges usa o imóvel comum com exclusividade, impedindo o outro de aproveitá-lo; nesses casos não se aplica a Lei do Inquilinato, e a indenização evita enriquecimento sem causa.",
+   "Segundo ela, esse raciocínio não vale quando o ex-cônjuge ocupa o imóvel **com os filhos de ambos**, porque não há posse exclusiva. A utilização do bem pelos filhos beneficia os dois genitores, que respondem pelas necessidades dos dependentes, inclusive a moradia. Em suas palavras, não se justifica o arbitramento de aluguéis porque o uso do imóvel \"atende ao dever de sustento que incumbe a ambos os genitores\".",
+   "A relatora acrescentou que, ao analisar pedidos de aluguel, é preciso considerar a vulnerabilidade de quem mora com os filhos e arca com a maior parte das despesas. Também afirmou que o fato de o imóvel servir de moradia aos filhos pode permitir converter a indenização em parcela **in natura** de alimentos, o que poderá ser apurado em ação própria. A data do julgamento não foi informada."
+  ],
+  "decisao_titulo": "O que o STJ decidiu",
+  "destaque": "O imóvel era **incomunicável** (não entrou na partilha), mas isso ==não bastou== para justificar aluguel quando os filhos moram nele.",
+  "entrelinhas_titulo": "Nas entrelinhas: o dono do imóvel também sustenta os filhos, e a moradia faz parte disso",
+  "entrelinhas": [
+   "**O conflito de fundo.** De um lado, o direito de quem é dono exclusivo do imóvel de não ver o bem usado de graça por outra pessoa. De outro, o dever dos dois pais de garantir moradia digna aos filhos. A decisão mostra como o STJ equilibrou os dois pontos nesse caso.",
+   "**Quem decide.** A Terceira Turma interpretou a jurisprudência sobre uso exclusivo de imóvel após o divórcio e concluiu que a presença dos filhos muda a análise: o uso deixa de ser exclusivo do ex-cônjuge e passa a beneficiar ambos os genitores.",
+   "**Efeito prático.** O julgado indica que, nesse tipo de situação, a discussão tende a se deslocar para os **alimentos**: a notícia diz que a moradia dos filhos pode ser considerada como parte da prestação, a apurar em ação própria. O STJ não definiu valores nem forma de compensação.",
+   "**Limites.** É uma decisão de turma, em processo sob segredo de justiça, com número e data de julgamento não divulgados. Cada caso depende das suas circunstâncias, como a guarda, a idade dos filhos e a situação econômica dos pais."
+  ],
+  "sintese": "Em uma frase: **para o STJ, quem mora com os filhos comuns no imóvel que é só do ex-cônjuge não deve aluguel, porque a moradia dos filhos atende ao dever de sustento de ambos os pais.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Terceira Turma"
+   ],
+   [
+    "Processo",
+    "Segredo de justiça (número não divulgado)"
+   ],
+   [
+    "Relatora",
+    "Ministra Nancy Andrighi"
+   ],
+   [
+    "Julgamento",
+    "Data não informada pela fonte"
+   ],
+   [
+    "Divulgação pelo tribunal",
+    "4 de novembro de 2026"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "STJ · notícia oficial ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/paginas/comunicacao/noticias/2026/04112026-ex-conjuge-que-mora-com-os-filhos-no-imovel-do-outro-nao-precisa-pagar-aluguel.aspx"
+   }
+  ]
+ },
+ {
+  "slug": "stj-segunda-secao-taxa-fruicao-lote-nao-edificado-vista-gallotti",
+  "titulo": "STJ: Segunda Seção começa a julgar taxa de fruição em desistência de lote sem construção; julgamento suspenso por vista.",
+  "subtitulo": "Relator e outro ministro votaram contra conhecer dos embargos da construtora; a ministra Isabel Gallotti pediu vista e o julgamento será retomado em data indefinida.",
+  "descricao": "Em julgamento ainda não concluído, a Segunda Seção do STJ analisa se cabe cobrar taxa de fruição após a rescisão de compra de lote não edificado.",
+  "orgao": "STJ",
+  "area": "Compra e venda de imóvel",
+  "data_publicacao": "2026-11-05",
+  "imagem": "ilustracao-terra.svg",
+  "imagem_alt": "Ilustração de um terreno dividido em lotes com um marcador de localização",
+  "resumo": [
+   "A ==Segunda Seção do STJ== começou a julgar a ==taxa de fruição== após a rescisão de compra de **lote não edificado**.",
+   "==Julgamento suspenso== por pedido de vista da ministra Isabel Gallotti; nova data não definida.",
+   "O relator votou por **não conhecer** dos embargos de divergência da construtora, por falta de similitude entre os casos.",
+   "O ministro Humberto Martins antecipou voto no mesmo sentido.",
+   "Na 3ª Turma, a taxa já havia sido afastada e a retenção fixada em **25%** dos valores pagos."
+  ],
+  "aconteceu": [
+   "O comprador de um lote pediu a **rescisão do contrato** e a devolução do que pagou. A sentença mandou restituir as parcelas, com retenção de **10%**. O tribunal estadual afastou a cobrança da **taxa de fruição** (valor pelo uso do imóvel) e ajustou outros encargos.",
+   "No STJ, a **Terceira Turma** deu parcial provimento ao recurso especial para afastar uma multa do CPC e fixar a retenção em **25%**, mantendo o entendimento de que não cabe taxa de fruição em compra de lote não edificado. A construtora recorreu com **embargos de divergência**, sustentando que a taxa seria devida desde a entrega da posse, mesmo sem construção, e citou como paradigma precedente sobre imóvel efetivamente ocupado."
+  ],
+  "lei": [
+   "**Lei 13.786/2018** (Lei do Distrato): a fonte menciona o parâmetro de retenção de 25% aplicado a contratos anteriores à lei."
+  ],
+  "decisao_titulo": "O que ocorreu na sessão (julgamento em andamento)",
+  "decisao": [
+   "O relator, desembargador convocado **Gamboji**, votou por **não conhecer** dos embargos. Para ele, embargos de divergência exigem semelhança fática e jurídica entre o acórdão contestado e o paradigma, demonstrada por cotejo analítico; como o precedente citado trata de imóvel ocupado e o caso envolve lote não edificado, não haveria divergência.",
+   "Ele destacou ainda que a jurisprudência do STJ considera indevida a taxa de fruição na rescisão de compra de lote não edificado, inclusive quando há construção posterior, por não se presumir enriquecimento sem causa. O ministro **Humberto Martins** antecipou voto no mesmo sentido.",
+   "O julgamento foi **suspenso** por pedido de vista da ministra **Isabel Gallotti**. Será retomado em data a definir, e o resultado final ainda não existe."
+  ],
+  "destaque": "Julgamento ==em andamento==: não há decisão final da Segunda Seção.",
+  "entrelinhas_titulo": "Nas entrelinhas: antes do mérito, a discussão é se os casos são mesmo comparáveis",
+  "entrelinhas": [
+   "**O conflito de fundo.** Quando a compra de um lote é desfeita, vendedor e comprador discutem quanto cada um perde. A construtora quer cobrar pelo uso do terreno; o comprador, receber de volta o máximo possível. A taxa de fruição é um dos pontos dessa disputa.",
+   "**Quem decide.** A Segunda Seção, que uniformiza a jurisprudência das turmas de direito privado. Nesta etapa, os votos tratam de uma questão processual: se há divergência real entre o acórdão e o precedente citado.",
+   "**Efeito prático.** Por enquanto, nenhum. Se a maioria seguir o relator, os embargos não serão analisados no mérito e permanece a decisão da Terceira Turma. A vista de Gallotti pode alterar o rumo, e o placar final não é conhecido.",
+   "**Limites.** A fonte é uma matéria de imprensa jurídica sobre a sessão, e não informa a data do julgamento nem trata de contratos posteriores à Lei do Distrato. Convém acompanhar a retomada."
+  ],
+  "sintese": "Em uma frase: **a Segunda Seção do STJ começou a julgar se cabe taxa de fruição na desistência de lote sem construção, mas o julgamento foi suspenso por pedido de vista.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Segunda Seção"
+   ],
+   [
+    "Processo",
+    "EREsp 2.194.934"
+   ],
+   [
+    "Relator",
+    "Desembargador convocado Gamboji (grafia da fonte)"
+   ],
+   [
+    "Situação",
+    "Suspenso por pedido de vista da ministra Isabel Gallotti"
+   ],
+   [
+    "Divulgação pela fonte",
+    "5 de novembro de 2026 (Migalhas)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "Migalhas ↗",
+    "url": "https://www.migalhas.com.br/quentes/467971/stj-analisa-cobranca-de-taxa-de-fruicao-por-lote-nao-edificado"
+   }
+  ]
+ },
+ {
+  "slug": "stj-primeira-secao-parque-marumbi-indenizacao-comprador-apos-restricao-ambiental",
+  "titulo": "STJ: quem compra imóvel depois de restrição ambiental presume-se ter pago preço reduzido e não tem direito a indenização.",
+  "subtitulo": "A Primeira Seção rejeitou embargos de madeireira que buscava manter indenização por limitações do Parque do Marumbi (PR), aplicando o Tema 1.004.",
+  "descricao": "O STJ manteve a rescisão de decisão que concedera indenização a madeireira que adquiriu terras já afetadas pela criação de parque estadual.",
+  "orgao": "STJ",
+  "area": "Desapropriação e moradia",
+  "data_publicacao": "2026-11-05",
+  "data_julgamento": "2026-11-05",
+  "imagem": "ilustracao-floresta.svg",
+  "imagem_alt": "Ilustração de duas árvores com um selo de verificação, representando área de proteção ambiental",
+  "resumo": [
+   "A ==Primeira Seção do STJ== rejeitou embargos infringentes de uma madeireira no caso do ==Parque do Marumbi== (PR).",
+   "A empresa comprou o imóvel ==depois== das restrições administrativas decorrentes da criação do parque.",
+   "Vale o ==Tema 1.004==: presume-se que a restrição foi considerada no ==preço de compra==, o que afasta a indenização.",
+   "A tese ressalva casos de boa-fé objetiva do sucessor, como aquisição gratuita ou vulnerabilidade econômica.",
+   "O acordo firmado com o Estado foi considerado de objeto juridicamente impossível, pois não havia direito à indenização."
+  ],
+  "aconteceu": [
+   "Uma madeireira havia obtido o reconhecimento de indenização por **desapropriação indireta** de imóvel rural afetado pelo **Parque do Marumbi**, no Paraná. Na fase de cumprimento de sentença, o Estado propôs um acordo, aceito pela empresa com redução dos valores, e o acordo trazia ressalva expressa sobre a possibilidade de **ação rescisória**.",
+   "Com os valores inscritos em precatório, o Estado ajuizou a rescisória. A maioria acolheu o pedido e desconstituiu a decisão favorável à indenização. A empresa interpôs **embargos infringentes** para fazer prevalecer os votos vencidos, alegando comportamento contraditório do Estado e ofensa à coisa julgada."
+  ],
+  "decisao": [
+   "A Primeira Seção acompanhou o relator, ministro **Teodoro Silva Santos**, e **rejeitou** os embargos. Ele destacou que, segundo as instâncias ordinárias, a madeireira comprou o imóvel **depois** da criação do parque; portanto, as limitações já incidiam sobre a propriedade. Aplicou o **Tema 1.004** do STJ, pelo qual, se a compra ocorre após a restrição, presume-se que o ônus foi considerado no preço, e não há indenização por apossamento anterior.",
+   "O relator lembrou que a orientação ressalva situações de **boa-fé objetiva** do sucessor, como a aquisição gratuita ou a vulnerabilidade econômica do adquirente, e concluiu que os votos vencidos contrariavam a jurisprudência predominante do tribunal.",
+   "Sobre o alegado comportamento contraditório do Estado, afirmou que o ponto não fora discutido na rescisória e configurava inovação recursal; além disso, o acordo previa a possibilidade da rescisória. Por fim, entendeu que, sem direito à indenização, o acordo tinha objeto juridicamente impossível e era inválido. A fonte não informa se a votação foi unânime."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: quem compra com a restrição já existente leva o ônus junto",
+  "entrelinhas": [
+   "**O conflito de fundo.** Quando o poder público cria uma área protegida, o proprietário pode ter direito a indenização pelas limitações de uso. A pergunta é quem pode cobrá-la: quem era dono na época ou também quem comprou depois, já com a restrição em vigor.",
+   "**Quem decide.** A Primeira Seção do STJ, que reúne as turmas de direito público, aplicou tese já firmada em recurso repetitivo (Tema 1.004) a um caso concreto, em ação rescisória.",
+   "**Efeito prático.** Para o adquirente posterior, a regra geral é que o valor pago já refletia a restrição, e por isso não há indenização, salvo as ressalvas de boa-fé objetiva que a própria tese prevê. Quem compra imóvel em área sujeita a restrição ambiental precisa considerar isso.",
+   "**Limites.** O caso tem particularidades processuais (rescisória, acordo, precatório), e a fonte é uma matéria jornalística sobre a sessão, sem a íntegra do acórdão. Não indica valores envolvidos."
+  ],
+  "sintese": "Em uma frase: **o STJ aplicou o Tema 1.004 para negar indenização à madeireira que comprou o imóvel depois das restrições do Parque do Marumbi, presumindo que elas já estavam no preço.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Primeira Seção"
+   ],
+   [
+    "Processo",
+    "EAR 2.075 (embargos infringentes em ação rescisória)"
+   ],
+   [
+    "Relator",
+    "Ministro Teodoro Silva Santos"
+   ],
+   [
+    "Julgamento",
+    "5 de novembro de 2026 (sessão citada pela fonte como \"quinta-feira, 5\")"
+   ],
+   [
+    "Divulgação pela fonte",
+    "5 de novembro de 2026 (Migalhas)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "Migalhas ↗",
+    "url": "https://www.migalhas.com.br/quentes/467985/stj-mantem-negativa-de-indenizacao-por-imovel-comprado-apos-restricao-ambiental"
+   }
+  ]
+ },
+ {
+  "slug": "tjrj-reversao-doacao-clausula-resolutiva-morte-donatario-sem-novo-itcmd",
+  "titulo": "TJRJ: reversão de doação de imóvel por morte do donatário não exige novo pagamento de ITCMD para averbar.",
+  "subtitulo": "O Conselho da Magistratura entendeu que o cumprimento de cláusula resolutiva já prevista não é nova transmissão e, por isso, não gera novo fato gerador do imposto.",
+  "descricao": "Em dúvida registral, o TJRJ afastou a exigência de comprovante de ITCMD para averbar a volta do imóvel ao doador após a morte do donatário.",
+  "orgao": "TJRJ",
+  "area": "Tributação e registro de imóveis",
+  "data_publicacao": "2026-11-06",
+  "data_julgamento": "2026-10-19",
+  "imagem": "ilustracao-tributo.svg",
+  "imagem_alt": "Ilustração de uma casa ao lado de uma moeda com símbolo de porcentagem, representando o imposto sobre o imóvel",
+  "resumo": [
+   "O ==Conselho da Magistratura do TJRJ== julgou improcedente dúvida registral sobre a ==reversão de doação== de imóvel.",
+   "A doação tinha ==cláusula resolutiva==: com a morte do donatário, o bem volta ao doador.",
+   "O cartório exigia comprovante de pagamento do ==ITCMD==; o Tribunal entendeu que a exigência é ==indevida==.",
+   "Para o colegiado, a reversão ==não é nova transmissão==, mas cumprimento de condição já pactuada.",
+   "Julgamento em 19/10/2026, publicado em 23/10/2026; relator: desembargador Marcos Alcino de Azevedo Torres."
+  ],
+  "aconteceu": [
+   "Um imóvel havia sido **doado com cláusula resolutiva**, isto é, uma condição prevendo que, em caso de falecimento do donatário, a doação seria desfeita e o bem voltaria ao doador. Com a morte do donatário, foi pedida a **averbação da reversão** na matrícula.",
+   "O **Cartório de Registro de Imóveis** exigiu comprovante de pagamento do **ITCMD** (imposto sobre transmissão causa mortis e doação) ou certificado de não incidência e suscitou dúvida. A sentença julgou a dúvida improcedente, reconhecendo a desnecessidade de novo recolhimento, e o caso subiu ao Conselho da Magistratura por remessa necessária."
+  ],
+  "lei": [
+   "A fonte não indica artigos de lei; a ementa trata de doação com cláusula resolutiva e do ITCMD (ITD)."
+  ],
+  "decisao": [
+   "O Conselho da Magistratura do TJRJ **manteve a sentença**. Segundo a ementa, a reversão de doação com cláusula resolutiva em razão da morte do donatário **não configura nova transmissão de bens**: é apenas o cumprimento de condição previamente pactuada.",
+   "Por isso, de acordo com o colegiado, **não há fato gerador** para nova incidência do imposto, já que a obrigação tributária foi satisfeita no momento da doação. A exigência de comprovante de pagamento ou de certificado de não incidência para averbar a reversão foi considerada **indevida**, e a averbação deve ser feita sem novo recolhimento.",
+   "A fonte publica apenas a ementa; o inteiro teor não foi lido."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: voltar ao doador não é transmitir de novo",
+  "entrelinhas": [
+   "**O conflito de fundo.** O cartório, que fiscaliza o recolhimento de tributos antes de registrar atos de transmissão, entendeu que a volta do imóvel ao doador poderia gerar novo imposto. O doador entendia que se tratava apenas do efeito da condição que ele mesmo havia previsto.",
+   "**Quem decide.** Na dúvida registral, o Judiciário revê a exigência do registrador. Aqui, o Conselho da Magistratura concluiu que o ITCMD já havia sido tratado na doação e não renasce com a reversão.",
+   "**Efeito prático.** A decisão indica que, nesse tipo de cláusula, a averbação da reversão não depende de nova guia do imposto. A ementa não informa valores, a data da doação nem a legislação estadual aplicada.",
+   "**Limites.** É decisão de um tribunal estadual em caso concreto, divulgada pelo IRIB apenas pela ementa. Outros estados e outras situações, como doações sem cláusula resolutiva, podem ter tratamento diferente."
+  ],
+  "sintese": "Em uma frase: **para o TJRJ, a reversão da doação por morte do donatário, prevista em cláusula resolutiva, não é nova transmissão e dispensa novo ITCMD para ser averbada.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça do Rio de Janeiro · Conselho da Magistratura"
+   ],
+   [
+    "Processo",
+    "Apelação n. 0851414-93.2023.8.19.0001 (Comarca da Capital)"
+   ],
+   [
+    "Relator",
+    "Desembargador Marcos Alcino de Azevedo Torres"
+   ],
+   [
+    "Julgamento",
+    "19 de outubro de 2026 (publicada em 23 de outubro de 2026)"
+   ],
+   [
+    "Divulgação pela fonte",
+    "6 de novembro de 2026 (IRIB)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IRIB ↗",
+    "url": "https://www.irib.org.br/doacao-clausula-resolutiva-reversao-donatario-falecimento-itcmd-fato-gerador-ausencia/"
+   }
+  ]
+ },
+ {
+  "slug": "tjsp-csm-consorcio-alienacao-fiduciaria-prova-constituicao-grupo-registro",
+  "titulo": "TJSP: registro de imóvel comprado por consórcio com alienação fiduciária exige prova de que o grupo foi regularmente constituído.",
+  "subtitulo": "O Conselho Superior da Magistratura manteve a exigência do registrador, por causa do patrimônio de afetação do grupo de consórcio.",
+  "descricao": "Em dúvida inversa, o CSM/TJSP entendeu que a primeira assembleia comprova a constituição do grupo e é necessária para registrar a garantia fiduciária.",
+  "orgao": "TJSP",
+  "area": "Registro de imóveis",
+  "data_publicacao": "2026-11-05",
+  "data_julgamento": "2026-10-21",
+  "imagem": "ilustracao-fiduciaria.svg",
+  "imagem_alt": "Ilustração de uma casa com um cadeado, representando a garantia da alienação fiduciária",
+  "resumo": [
+   "O ==CSM do TJSP== manteve exigência registral em compra de imóvel por ==consórcio==, com ==alienação fiduciária== em garantia.",
+   "É preciso comprovar a ==regular constituição do grupo==, que ocorre com a ==primeira assembleia== (Lei 11.795/2008, art. 16).",
+   "O grupo não tem personalidade jurídica, mas tem ==patrimônio de afetação==, separado do da administradora.",
+   "A propriedade fiduciária e o crédito da garantia ficam afetados ao patrimônio do grupo, daí a exigência.",
+   "Apelação julgada em 21/10/2026, publicada em 26/10/2026; relatora: desembargadora Silvia Rocha."
+  ],
+  "aconteceu": [
+   "Em uma **dúvida inversa** (aquela levada ao Judiciário pelo interessado), discutiu-se o registro de um imóvel adquirido por **consórcio**, com **alienação fiduciária em garantia**. O Registro de Imóveis exigiu a comprovação da **regular constituição do grupo de consórcio** e o recurso foi à apelação, na Comarca de Andradina (SP).",
+   "A ementa publicada não detalha as partes, o imóvel nem o valor envolvido."
+  ],
+  "lei": [
+   "**Lei 11.795/2008**, art. 16 (constituição do grupo de consórcio), art. 3º, § 3º, e art. 5º, §§ 5º e 7º (patrimônio do grupo)."
+  ],
+  "decisao": [
+   "O Conselho Superior da Magistratura **negou provimento** ao recurso e manteve o óbice. De acordo com a ementa, o grupo de consórcio considera-se constituído com a **realização da primeira assembleia** (art. 16 da Lei 11.795/2008).",
+   "Embora sem personalidade jurídica, o grupo tem **patrimônio de afetação**, autônomo em relação ao da administradora. Como a propriedade fiduciária e o crédito decorrente da garantia ficarão afetados a esse patrimônio, é indispensável demonstrar que o grupo foi regularmente constituído, o que a ementa trata como pressuposto de existência e validade do negócio.",
+   "A fonte publica a ementa e remete à íntegra em outro portal; o inteiro teor não foi lido."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: o registrador confere se quem recebe a garantia existe de verdade",
+  "entrelinhas": [
+   "**O conflito de fundo.** O consórcio é usado para comprar imóveis, e a garantia costuma ser a alienação fiduciária. Como o grupo não é uma pessoa jurídica, o registro precisa de alguma prova de que ele existe e pode ser titular daquela garantia.",
+   "**Quem decide.** O registrador qualifica o título conforme a legalidade estrita, e o Judiciário revê a exigência quando provocado. Aqui, o CSM confirmou que a prova da primeira assembleia é um requisito legítimo.",
+   "**Efeito prático.** A decisão sugere que a documentação do grupo, em especial a ata da primeira assembleia, deve acompanhar o título levado a registro. A ementa não lista quais documentos bastam.",
+   "**Limites.** É decisão do Conselho Superior da Magistratura de São Paulo, vinculada a um caso concreto e conhecida pela ementa. Não resolve outras exigências que cartórios de outros estados possam fazer."
+  ],
+  "sintese": "Em uma frase: **para o CSM/TJSP, o registro de imóvel adquirido por consórcio com alienação fiduciária depende de prova de que o grupo foi regularmente constituído, o que se dá com a primeira assembleia.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça de São Paulo · Conselho Superior da Magistratura"
+   ],
+   [
+    "Processo",
+    "Apelação Cível n. 1005620-30.2025.8.26.0024 (Comarca de Andradina)"
+   ],
+   [
+    "Relatora",
+    "Desembargadora Silvia Rocha"
+   ],
+   [
+    "Julgamento",
+    "21 de outubro de 2026 (publicada em 26 de outubro de 2026)"
+   ],
+   [
+    "Divulgação pela fonte",
+    "5 de novembro de 2026 (IRIB)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IRIB ↗",
+    "url": "https://www.irib.org.br/alienacao-fiduciaria-consorcio-constituicao-ente-despersonalizado-patrimonio-de-afetacao-prova-da-constituicao-negocio-juridico-existencia-e-validade-qualificacao-re/"
+   }
+  ]
  }
 ]
