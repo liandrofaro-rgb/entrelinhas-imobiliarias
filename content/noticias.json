@@ -5907,5 +5907,261 @@
     "url": "https://ibdfam.org.br/noticias/homem-que-escondeu-existencia-de-filha-para-agilizar-divorcio-e-condenado"
    }
   ]
+ },
+ {
+  "slug": "tjmg-carta-arrematacao-conjuge-nao-executado-preferencia-registro-gravames-outros-juizos",
+  "titulo": "TJMG: cônjuge não executado que arremata imóvel comum tem título sujeito a registro, mas a dúvida registral não cancela penhoras de outros juízos.",
+  "subtitulo": "A 2ª Câmara Cível entendeu que a arrematação pelo cônjuge, no exercício da preferência, não é remição e que gravames de outros processos exigem pedido próprio.",
+  "descricao": "Em dúvida registral inversa, o TJMG decidiu que a carta de arrematação de bem comum adquirido pelo cônjuge não executado deve ser registrada, sem cancelar gravames determinados por outros juízos.",
+  "orgao": "TJMG",
+  "area": "Registro de imóveis",
+  "data_publicacao": "2026-11-09",
+  "data_julgamento": "2026-11-03",
+  "imagem": "ilustracao-balanca.svg",
+  "imagem_alt": "Ilustração de uma balança da justiça em equilíbrio, representando a decisão sobre o registro da arrematação",
+  "resumo": [
+   "O ==TJMG== julgou uma ==dúvida registral inversa== sobre carta de arrematação de imóveis comuns.",
+   "O cônjuge ==não executado== arrematou os bens em hasta pública, usando o ==direito de preferência==.",
+   "Para a câmara, isso ==não é remição== e a carta é ==título sujeito a registro==.",
+   "A dúvida registral ==não serve para cancelar== penhoras, indisponibilidades e hipotecas de outros juízos.",
+   "Julgamento da 2ª Câmara Cível em ==03/11/2026==; relatora: desembargadora Maria Cristina Cunha Carvalhais."
+  ],
+  "aconteceu": [
+   "Um cartório recusou o registro de uma **carta de arrematação** de imóveis que pertenciam em comum a um casal. Os bens foram arrematados em **hasta pública** pelo **cônjuge que não era o executado**. A sentença de primeiro grau julgou improcedente a **dúvida registral inversa** e manteve a recusa.",
+   "No recurso, o Tribunal precisou responder a duas perguntas: se a arrematação feita pelo cônjuge, no exercício da **preferência** prevista no CPC, configura **remição** ou um título sujeito a registro; e se a dúvida registral permite **cancelar gravames** determinados por outros juízos."
+  ],
+  "lei": [
+   "Código de Processo Civil, art. 843, § 1º.",
+   "Lei 6.015/1973 (Lei de Registros Públicos), art. 167, inciso I, item 26."
+  ],
+  "decisao": [
+   "A 2ª Câmara Cível **deu provimento parcial** à apelação. Segundo a ementa, a arrematação pelo cônjuge não executado, quando exerce a preferência do art. 843, § 1º, do CPC, **não se confunde com a remição**: há expropriação da fração do executado e aquisição mediante o pagamento do lance.",
+   "Por isso, a carta de arrematação é **título sujeito a registro imobiliário**, nos termos do art. 167, I, 26, da Lei 6.015/1973.",
+   "Na outra questão, a câmara afirmou que o procedimento de dúvida registral **não autoriza o cancelamento** de penhoras, indisponibilidades e hipotecas decorrentes de outros juízos ou relações jurídicas. Esses pedidos devem ser feitos perante as autoridades competentes."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: registrar o título é uma coisa, limpar a matrícula é outra",
+  "entrelinhas": [
+   "**O conflito de fundo.** O cartório via dificuldades para registrar a arrematação de um bem comum feita pelo cônjuge, e o interessado buscava, pela mesma via, também retirar outras restrições da matrícula. A decisão separa os dois pedidos.",
+   "**Quem decide.** Na dúvida registral, o Judiciário examina se a exigência ou a recusa do cartório procede. Aqui, o TJMG reconheceu que a carta de arrematação deve ser levada a registro, mas não ampliou o procedimento para decidir sobre processos de outros juízos.",
+   "**Efeito prático.** Segundo a tese, quem arremata como cônjuge não executado não é tratado como quem faz remição, e os gravames de outros processos continuam dependendo de providência própria. A fonte não informa o valor dos imóveis nem as partes.",
+   "**Limites.** É decisão de uma câmara estadual em caso concreto, divulgada pelo IRIB com a ementa; o texto integral do acórdão não foi lido para esta matéria e a decisão não vincula outros tribunais."
+  ],
+  "sintese": "Em uma frase: **para o TJMG, a arrematação de bem comum pelo cônjuge não executado gera título sujeito a registro, mas a dúvida registral não é o caminho para cancelar gravames de outros juízos.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça de Minas Gerais · 2ª Câmara Cível"
+   ],
+   [
+    "Processo",
+    "Apelação n. 1.0000.26.168733-9/001 (Comarca de Santa Vitória)"
+   ],
+   [
+    "Relatora",
+    "Desembargadora Maria Cristina Cunha Carvalhais"
+   ],
+   [
+    "Julgamento",
+    "3 de novembro de 2026 (publicada em 6 de novembro de 2026, segundo a ementa)"
+   ],
+   [
+    "Divulgação pela fonte",
+    "9 de novembro de 2026 (IRIB)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IRIB ↗",
+    "url": "https://www.irib.org.br/carta-de-arrematacao-bem-imovel-comum-conjuge-nao-executado-direito-de-preferencia-remicao-registro-obrigatorio-gravames-outros-juizos-cancelamento-inviabilidade/"
+   }
+  ]
+ },
+ {
+  "slug": "tjrs-usucapiao-imovel-autarquia-municipal-demhab-bem-publico-detencao-precaria",
+  "titulo": "TJRS: imóvel registrado em nome de autarquia municipal não pode ser usucapido, mesmo com ocupação prolongada.",
+  "subtitulo": "A 19ª Câmara Cível aplicou a vedação constitucional à usucapião de bens públicos e afastou a tese de função social da propriedade e moradia.",
+  "descricao": "O TJRS manteve a improcedência de usucapião extraordinária sobre imóvel de autarquia municipal de habitação, por considerar a ocupação mera detenção precária.",
+  "orgao": "TJRS",
+  "area": "Usucapião",
+  "data_publicacao": "2026-11-10",
+  "data_julgamento": "2026-10-29",
+  "imagem": "ilustracao-usucapiao.svg",
+  "imagem_alt": "Ilustração de uma ampulheta ao lado de uma casa, representando o tempo de posse exigido na usucapião",
+  "resumo": [
+   "O ==TJRS== manteve a ==improcedência== de uma ação de ==usucapião extraordinária==.",
+   "O imóvel urbano estava registrado em nome do ==Departamento Municipal de Habitação (DEMHAB)==, autarquia municipal.",
+   "Para a câmara, a ==vedação à usucapião de bens públicos== alcança também os bens de autarquias.",
+   "A ocupação, ainda que prolongada, é ==mera detenção precária==, e não posse apta à usucapião.",
+   "O recurso foi provido apenas em parte, para ==reduzir os honorários== sucumbenciais a 10%."
+  ],
+  "aconteceu": [
+   "A autora pediu a **usucapião extraordinária** de um imóvel urbano em Porto Alegre registrado em nome do **Departamento Municipal de Habitação (DEMHAB)**, autarquia municipal. O juízo de primeiro grau julgou o pedido improcedente, entendendo que o bem não pode ser adquirido por usucapião e que a ocupação era mera detenção.",
+   "Na apelação, a autora alegou nulidade da sentença por falta de fundamentação, defendeu a distinção entre titularidade formal e natureza pública do bem, pediu a complementação da prova e a redução dos honorários. Ela também apontava averbações de usucapião anteriores, feitas na matrícula-mãe a favor de terceiros, sobre outras frações."
+  ],
+  "lei": [
+   "Constituição Federal, arts. 183, § 3º, e 191, parágrafo único.",
+   "Código Civil, art. 102.",
+   "Súmula 340 do STF e Súmula 619 do STJ."
+  ],
+  "decisao": [
+   "A 19ª Câmara Cível **rejeitou a preliminar de nulidade**: a sentença fundamentou a improcedência na titularidade autárquica do imóvel e na consequente impossibilidade de usucapião. Segundo a ementa, a Constituição veda a aquisição de **imóveis públicos por usucapião**, regra repetida no Código Civil e nas Súmulas 340 do STF e 619 do STJ, e os bens de autarquias seguem o mesmo regime protetivo.",
+   "A câmara afirmou que a ocupação de bem público por particular, ainda que **prolongada e pacífica**, é **mera detenção precária**, sem gerar posse para usucapião. Os princípios da função social da propriedade e do direito à moradia, segundo o acórdão, não afastam a vedação constitucional expressa.",
+   "As averbações anteriores de usucapião na matrícula-mãe, relativas a outras frações e a terceiros, não alteram o regime da parte restante nem geram efeitos automáticos a favor da autora, porque não há prova de alienação ou concessão que tenha tirado o bem do patrimônio da autarquia. O pedido de nova instrução foi negado. O recurso foi **provido em parte** apenas para reduzir os honorários a 10% do valor atualizado da causa, com a exigibilidade suspensa pela gratuidade da justiça."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: quem é o dono registral pesa mais do que o tempo de moradia",
+  "entrelinhas": [
+   "**O conflito de fundo.** De um lado, a situação de quem mora por muitos anos num imóvel e busca regularizá-lo; de outro, a regra constitucional que protege o patrimônio público contra a aquisição pela posse. O TJRS deu prioridade à regra constitucional.",
+   "**Quem decide.** A 19ª Câmara Cível examinou o recurso e manteve a sentença. A ementa tratou a titularidade da autarquia, e não a existência de afetação específica, como o ponto central.",
+   "**Efeito prático.** Pela tese, a vedação alcança bens de autarquias independentemente de afetação específica e de averbações de usucapião sobre outras frações da mesma matrícula. A fonte não informa a data de início da ocupação nem o tempo de moradia da autora.",
+   "**Limites.** É decisão de uma câmara estadual em caso concreto, divulgada pelo IRIB com a ementa; o texto integral do acórdão não foi lido para esta matéria e a decisão não vincula outros tribunais."
+  ],
+  "sintese": "Em uma frase: **para o TJRS, imóvel registrado em nome de autarquia municipal é bem público e não pode ser usucapido, e a ocupação prolongada, ali, é apenas detenção precária.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça do Rio Grande do Sul · 19ª Câmara Cível"
+   ],
+   [
+    "Processo",
+    "Apelação n. 5213503-83.2025.8.21.0001 (Comarca de Porto Alegre)"
+   ],
+   [
+    "Relator",
+    "Desembargador Alexandre Fernandes Gastal"
+   ],
+   [
+    "Julgamento",
+    "29 de outubro de 2026 (publicada em 30 de outubro de 2026, segundo a ementa)"
+   ],
+   [
+    "Divulgação pela fonte",
+    "10 de novembro de 2026 (IRIB)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IRIB ↗",
+    "url": "https://www.irib.org.br/usucapiao-extraordinaria-bem-publico-autarquia-municipal-imprescritibilidade-impossibilidade/"
+   }
+  ]
+ },
+ {
+  "slug": "tjsp-csm-carta-adjudicacao-compulsoria-titulos-sucessorios-estado-civil-continuidade-araras",
+  "titulo": "TJSP: carta de adjudicação compulsória está sujeita à qualificação registral e exige registro prévio de títulos sucessórios.",
+  "subtitulo": "O Conselho Superior da Magistratura manteve a recusa de registro e citou os princípios da continuidade e da especialidade subjetiva.",
+  "descricao": "Em dúvida registral de Araras, o CSM/SP negou provimento ao recurso e manteve a exigência de registro prévio dos títulos sucessórios e de averbação do estado civil dos proprietários.",
+  "orgao": "TJSP",
+  "area": "Registro de imóveis",
+  "data_publicacao": "2026-11-11",
+  "data_julgamento": "2026-10-21",
+  "imagem": "ilustracao-cartorio.svg",
+  "imagem_alt": "Ilustração de um documento com selo de autenticidade, representando o registro no cartório",
+  "resumo": [
+   "O ==Conselho Superior da Magistratura (CSM/SP)== manteve a ==recusa de registro== de uma carta de adjudicação.",
+   "O registro exigia ==registro prévio dos títulos sucessórios== e ==averbação do estado civil== dos proprietários.",
+   "A adjudicação compulsória é ==modo derivado de aquisição==, e o título judicial se sujeita à ==qualificação registral==.",
+   "Valem os princípios da ==continuidade== e da ==especialidade subjetiva==.",
+   "Julgamento em ==21/10/2026==; relatora: desembargadora Silvia Rocha."
+  ],
+  "aconteceu": [
+   "Um cartório de registro de imóveis de **Araras (SP)** recusou o registro de uma **carta de adjudicação**. A nota de recusa apontava a necessidade de **registro prévio dos títulos sucessórios** e de **averbação do estado civil** dos proprietários. A questão chegou ao **Conselho Superior da Magistratura** em dúvida registral.",
+   "O ponto central era saber se um título vindo do Judiciário, como a carta de adjudicação, pode ser registrado sem que a cadeia de titularidade e a qualificação das pessoas estejam regularizadas na matrícula."
+  ],
+  "decisao": [
+   "O CSM/SP **negou provimento** à apelação e manteve a recusa. Segundo a ementa, a **adjudicação compulsória** é um **modo derivado de aquisição** da propriedade, e por isso o título judicial **se sujeita à qualificação registral**.",
+   "O colegiado apontou que, nesse caso, é preciso observar os princípios da **continuidade** e da **especialidade subjetiva**, o que justifica exigir o prévio registro dos títulos sucessórios e a averbação do estado civil dos proprietários.",
+   "A fonte divulgou apenas a ementa, sem o inteiro teor; detalhes do caso, como as partes e a descrição do imóvel, não foram informados."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: ordem judicial não dispensa a fila da matrícula",
+  "entrelinhas": [
+   "**O conflito de fundo.** Quem obtém uma carta de adjudicação costuma esperar que o registro seja automático. O registrador, porém, confere se o título se encaixa na história do imóvel na matrícula, e o CSM/SP confirmou esse papel.",
+   "**Quem decide.** Na dúvida registral, o oficial aponta as exigências e o Judiciário, pelo Conselho Superior da Magistratura em São Paulo, decide se elas procedem. Neste caso, procederam.",
+   "**Efeito prático.** A decisão indica que o registro de títulos anteriores e a identificação correta do estado civil podem ser etapas necessárias antes do registro da adjudicação. O texto divulgado não detalha quais títulos faltavam.",
+   "**Limites.** É decisão do CSM/SP em um caso concreto, divulgada pelo IRIB apenas com a ementa; o inteiro teor não foi lido para esta matéria e a solução pode variar conforme os fatos de cada matrícula."
+  ],
+  "sintese": "Em uma frase: **para o CSM/SP, a carta de adjudicação compulsória passa pela qualificação registral e pode exigir o registro prévio de títulos sucessórios e a averbação do estado civil dos proprietários.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça de São Paulo · Conselho Superior da Magistratura"
+   ],
+   [
+    "Processo",
+    "Apelação Cível n. 1000075-97.2026.8.26.0038 (Comarca de Araras)"
+   ],
+   [
+    "Relatora",
+    "Desembargadora Silvia Rocha"
+   ],
+   [
+    "Julgamento",
+    "21 de outubro de 2026 (publicada em 26 de outubro de 2026, segundo a ementa)"
+   ],
+   [
+    "Divulgação pela fonte",
+    "11 de novembro de 2026 (IRIB)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IRIB ↗",
+    "url": "https://www.irib.org.br/carta-de-adjudicacao-compulsoria-modo-derivado-de-aquisicao-titulo-anterior-estado-civil-continuidade-especialidade/"
+   }
+  ]
+ },
+ {
+  "slug": "tjsc-penha-inventariante-removida-descumprimento-ordens-judiciais-imovel-abandonado",
+  "titulo": "Justiça de SC remove inventariante por descumprir ordens judiciais e por má administração de bens do espólio.",
+  "subtitulo": "A 1ª Vara de Penha nomeou uma das filhas do falecido como nova inventariante e deu cinco dias para a entrega de bens, documentos e chaves.",
+  "descricao": "O TJSC removeu a inventariante de um espólio por falta de avaliação dos bens, débito tributário sem comprovação de regularização e imóvel sem conservação.",
+  "orgao": "TJSC",
+  "area": "Inventário e herança",
+  "data_publicacao": "2026-11-10",
+  "imagem": "ilustracao-heranca.svg",
+  "imagem_alt": "Ilustração de uma árvore com uma casa na copa, representando a herança e o patrimônio da família",
+  "resumo": [
+   "A ==1ª Vara de Penha (TJSC)== ==removeu a inventariante== de um espólio a pedido de três herdeiras.",
+   "Pesaram a falta de ==avaliação dos bens==, o ==débito de Imposto de Renda== sem prova de regularização e um ==imóvel sem conservação==.",
+   "Para a juíza, ==desavenças familiares não justificam== descumprir ordens judiciais.",
+   "Uma das filhas foi nomeada ==nova inventariante== e tem cinco dias para assumir o compromisso.",
+   "O pedido de ==litigância de má-fé== contra as herdeiras foi ==rejeitado==."
+  ],
+  "aconteceu": [
+   "Três herdeiras pediram na **1ª Vara da comarca de Penha (SC)** a **remoção da inventariante** do espólio. Segundo elas, a inventariante não apresentou as primeiras declarações no prazo legal, não regularizou um **débito de Imposto de Renda** do falecido, não providenciou a **avaliação dos bens** nem retificou as declarações patrimoniais. Também relataram que um **imóvel** estava abandonado e tomado pela vegetação e que não havia notícia de pagamento de **aluguéis pelo uso exclusivo** do bem, apesar de decisão judicial anterior.",
+   "A inventariante atribuiu a demora aos **conflitos entre os herdeiros** e à complexidade do patrimônio, negou dolo ou ocultação de bens e disse haver controvérsia sobre a titularidade de direitos relativos a outro imóvel. Pediu ainda a condenação das herdeiras por litigância de má-fé."
+  ],
+  "decisao": [
+   "A juíza lembrou que cabe ao inventariante **administrar os bens com diligência** e garantir o andamento regular do inventário, e entendeu que **desavenças familiares não justificam** descumprir ordens judiciais. Segundo a notícia, não houve prova de pagamento ou parcelamento da dívida tributária, nem de apresentação da avaliação dos bens, nem justificativa para o descumprimento de determinações que já previam a possibilidade de remoção.",
+   "Também pesaram a falta de conservação do imóvel e a ausência de informações sobre os aluguéis. A magistrada concluiu que a inventariante não tinha condições de permanecer no cargo. A remoção **não se baseou em reconhecimento de ocultação ou sonegação de bens**, e a controvérsia sobre o outro imóvel será decidida no inventário ou por outras vias adequadas.",
+   "Uma das filhas foi nomeada **nova inventariante**, com cinco dias para prestar compromisso. A antiga inventariante tem cinco dias para entregar à substituta os bens, documentos e chaves do espólio, e o pedido de litigância de má-fé contra as herdeiras foi rejeitado."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: inventariante administra patrimônio alheio e responde por isso",
+  "entrelinhas": [
+   "**O conflito de fundo.** Em inventários com muitos herdeiros e imóveis, o inventariante concentra a administração dos bens. Quando ele não cumpre prazos e determinações, o andamento do processo e a conservação do patrimônio ficam comprometidos.",
+   "**Quem decide.** A remoção é decidida pelo juiz do inventário, que avalia se o inventariante cumpre seus deveres. Nesse caso, a magistrada considerou os descumprimentos mais relevantes do que a explicação de conflito familiar.",
+   "**Efeito prático.** A troca do inventariante traz prazos curtos para a transferência de bens, documentos e chaves. A fonte não divulgou o valor do espólio nem as partes, e não houve reconhecimento de sonegação.",
+   "**Limites.** É decisão de primeiro grau, divulgada pelo IBDFAM com informações do TJSC, e pode ser contestada por recurso. A notícia não mencionou dispositivos de lei."
+  ],
+  "sintese": "Em uma frase: **a Justiça de SC removeu a inventariante de um espólio por descumprimento de ordens e má administração de bens, sem reconhecer sonegação, e nomeou uma das filhas do falecido no lugar.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça de Santa Catarina · 1ª Vara da comarca de Penha"
+   ],
+   [
+    "Processo",
+    "5001312-96.2026.8.24.0089"
+   ],
+   [
+    "Divulgação pela fonte",
+    "10 de novembro de 2026 (IBDFAM, com informações do TJSC)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IBDFAM ↗",
+    "url": "https://ibdfam.org.br/noticias/justica-remove-inventariante-por-descumprimento-de-ordens-judiciais-e-ma-administracao-de-bens"
+   }
+  ]
  }
 ]
