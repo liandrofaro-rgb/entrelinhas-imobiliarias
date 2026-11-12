@@ -33,7 +33,17 @@ def plain(t):
     return re.sub(r'\*\*|\*|==', '', re.sub(r'\[([^\]]+)\]\(https://[^)\s]+\)', r'\1', t))
 
 
+def tabela(p):
+    # tabela comparativa: "|| Critério | Coluna A | Coluna B" + uma linha por critério (células separadas por " | ")
+    linhas = [l.split(' | ') for l in p[3:].split('\n')]
+    cab, corpo = linhas[0], linhas[1:]
+    th = ''.join(f'<th scope="col">{inline(c)}</th>' for c in cab)
+    tr = ''.join('<tr>' + f'<th scope="row">{inline(l[0])}</th>' + ''.join(f'<td data-label="{html.escape(plain(cab[i + 1]), quote=True)}">{inline(c)}</td>' for i, c in enumerate(l[1:])) + '</tr>\n' for l in corpo)
+    return f'<div class="art-table-wrap"><table class="art-table"><thead><tr>{th}</tr></thead>\n<tbody>\n{tr}</tbody></table></div>\n'
+
+
 def para(p):
+    if p.startswith('|| '): return tabela(p)
     # citação literal em destaque: "> “texto” | Min. Fulano, relator (REsp 0)"
     if p.startswith('> '):
         texto, _, autor = p[2:].partition(' | ')
@@ -167,7 +177,44 @@ def cena_terreno_marinha():
             + '<text x="804" y="328" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="20" fill="#07172f" stroke="none">1831</text>')
 
 
-CENAS = {'terreno-de-marinha-belem-regua-1831': cena_terreno_marinha, 'cartorio-violencia-patrimonial-mulher-provimento-222': cena_violencia_patrimonial, 'inventario-cartorio-itcmd-imposto-nao-sumiu': cena_inventario_itcmd, 'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
+
+def cena_herdeiro():
+    # a casa da família (azul) com uma chave dourada: a posse exclusiva
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(880, 400, 110, 140, *BLUE) + janelas('e', 880, 400, 110, 140, 3, 3, '#bcd3e6') + janelas('d', 880, 400, 110, 140, 3, 3, '#5f8fb8')
+            + '<circle cx="990" cy="210" r="40" fill="none" stroke="#c8a154" stroke-width="16"/>'
+            + '<rect x="1020" y="203" width="120" height="14" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<rect x="1100" y="217" width="14" height="36" fill="#c8a154" stroke="#07172f" stroke-width="3"/><rect x="1074" y="217" width="14" height="26" fill="#c8a154" stroke="#07172f" stroke-width="3"/>')
+
+
+def cena_cartorio_justica():
+    # dois blocos lado a lado (cartório e fórum) ligados por uma ponte dourada: dois caminhos, um registro
+    return (f'<polygon points="640,570 900,440 1160,570 900,700" fill="#12375b" fill-opacity=".55"/>'
+            + cube(790, 420, 90, 130, *BLUE) + janelas('e', 790, 420, 90, 130, 2, 3, '#bcd3e6') + janelas('d', 790, 420, 90, 130, 2, 3, '#5f8fb8')
+            + cube(1010, 420, 90, 190, *PALE) + janelas('e', 1010, 420, 90, 190, 2, 4, '#5f8fb8') + janelas('d', 1010, 420, 90, 190, 2, 4, '#bcd3e6')
+            + cube(900, 360, 40, 18, *GOLD))
+
+
+def cena_gaveta():
+    # gaveta (azul) entreaberta com um papel dourado: o contrato guardado, sem registro
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(860, 430, 120, 120, *BLUE)
+            + f'<polygon points="{face("e", 860, 430, 120, 120, [(0.18, 0.2), (0.82, 0.2), (0.82, 0.6), (0.18, 0.6)])}" fill="#1e5e91" stroke="#bcd3e6" stroke-width="4"/>'
+            + f'<polygon points="{face("e", 860, 430, 120, 120, [(0.42, 0.34), (0.58, 0.34), (0.58, 0.4), (0.42, 0.4)])}" fill="#c8a154"/>'
+            + '<polygon points="960,250 1060,222 1100,300 1000,330" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<path d="M1005 282 l62 -17 M1012 303 l62 -17" stroke="#07172f" stroke-width="5" stroke-linecap="round"/>')
+
+
+def cena_itbi_belem():
+    # prédio (azul) e moeda dourada com "ITBI": o imposto sobre a transmissão
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(840, 400, 110, 150, *BLUE) + janelas('e', 840, 400, 110, 150, 3, 3, '#bcd3e6') + janelas('d', 840, 400, 110, 150, 3, 3, '#5f8fb8')
+            + cube(1010, 340, 70, 80, *PALE)
+            + '<circle cx="1010" cy="200" r="52" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<text x="1010" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="34" fill="#07172f" stroke="none">ITBI</text>')
+
+
+CENAS = {'herdeiro-usucapiao-imovel-da-familia-posse-exclusiva': cena_herdeiro, 'usucapiao-cartorio-ou-justica-quem-pode-discordar': cena_cartorio_justica, 'contrato-de-gaveta-vale-mas-nao-faz-dono': cena_gaveta, 'itbi-belem-base-de-calculo-e-capital-da-empresa': cena_itbi_belem, 'terreno-de-marinha-belem-regua-1831': cena_terreno_marinha, 'cartorio-violencia-patrimonial-mulher-provimento-222': cena_violencia_patrimonial, 'inventario-cartorio-itcmd-imposto-nao-sumiu': cena_inventario_itcmd, 'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
 
 def quebra(titulo, limite=17):
     linhas, atual = [], ''
@@ -206,7 +253,7 @@ def capa(a, hero=False):
 # ---------- validação e páginas ----------
 def palavras(a):
     blocos_ = list(a['abertura'])
-    for sec in a['secoes']: blocos_ += [x[2:] if x.startswith('> ') else x for x in sec['paragrafos']]
+    for sec in a['secoes']: blocos_ += [x[2:] if x.startswith('> ') else x[3:].replace('|', ' ') if x.startswith('|| ') else x for x in sec['paragrafos']]
     blocos_ += [a.get('destaque', '')]
     return len(re.sub(r'\s+', ' ', plain(' '.join(blocos_))).split())
 
@@ -224,7 +271,7 @@ def validar(items, noticias):
         if a.get('formato') not in FORMATOS: erros.append(f'{s}: formato inválido')
         if faltou: continue
         if not 3 <= len(a['secoes']) <= 5: erros.append(f'{s}: precisa de 3 a 5 seções')
-        if any(sum(1 for x in sec['paragrafos'] if not x.startswith('> ')) < 2 for sec in a['secoes']): erros.append(f'{s}: cada seção precisa de ao menos 2 parágrafos (texto corrido)')
+        if any(sum(1 for x in sec['paragrafos'] if not x.startswith(('> ', '|| '))) < 2 for sec in a['secoes']): erros.append(f'{s}: cada seção precisa de ao menos 2 parágrafos (texto corrido)')
         n = palavras(a)
         if not 700 <= n <= 1300: erros.append(f'{s}: {n} palavras (esperado 700 a 1300)')
         if not all(f['url'].startswith('https://') for f in a['fontes']): erros.append(f'{s}: fontes precisam de https')

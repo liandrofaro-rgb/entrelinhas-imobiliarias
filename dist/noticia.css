@@ -62,3 +62,18 @@ mark.kw { padding: .05em .25em; color: inherit; background: linear-gradient(tran
 .art-quote p { margin: 0 0 .7em; color: #07172f; font: italic 500 20px/1.55 Georgia, "Times New Roman", serif; }
 .art-quote cite { display: block; color: #5d6c7a; font: 700 12px/1.5 "DM Sans", Arial, sans-serif; font-style: normal; letter-spacing: .06em; text-transform: uppercase; }
 .article-aside a { display: flex; }
+
+/* tabela comparativa dos artigos */
+.art-table-wrap { margin: 2em 0; overflow-x: auto; }
+.art-table { width: 100%; border-collapse: collapse; font: 500 15px/1.5 "DM Sans", Arial, sans-serif; color: #07172f; }
+.art-table th, .art-table td { padding: 12px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid #d6e0e8; }
+.art-table thead th { background: #07172f; color: #fff; font-weight: 700; font-size: 13px; letter-spacing: .04em; }
+.art-table tbody th { width: 18%; background: #f3f7fa; font-weight: 700; }
+.art-table tbody tr:nth-child(even) td { background: #fafcfd; }
+@media (max-width: 640px) {
+  .art-table thead { display: none; }
+  .art-table, .art-table tbody, .art-table tr, .art-table th, .art-table td { display: block; width: 100%; }
+  .art-table tr { margin-bottom: 14px; border: 1px solid #d6e0e8; border-radius: 6px; overflow: hidden; }
+  .art-table tbody th { width: 100%; background: #07172f; color: #fff; }
+  .art-table td::before { content: attr(data-label); display: block; margin-bottom: 2px; color: #1e5e91; font: 700 11px/1.4 "DM Sans", Arial, sans-serif; letter-spacing: .06em; text-transform: uppercase; }
+}
