@@ -1,0 +1,23 @@
+{
+  // Worker separado do site. O deploy automático do Cloudflare usa o
+  // wrangler.jsonc da raiz do repositório, então nada aqui vai ao ar sozinho:
+  // a publicação é manual (npm run deploy), só depois de configurar a Meta.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "whatsapp-atendimento",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-14",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "kv_namespaces": [
+    // Criar com: npx wrangler kv namespace create CONVERSAS
+    { "binding": "CONVERSAS", "id": "COLOCAR_O_ID_DO_KV_AQUI" }
+  ],
+  "vars": {
+    "CLAUDE_MODEL": "claude-opus-5-5",
+    "GRAPH_VERSION": "v23.0",
+    "LINK_PRIVACIDADE": "https://liandrofaro.adv.br/privacidade.html"
+  }
+  // Segredos (nunca no código; cadastrar com `npx wrangler secret put NOME`):
+  //   ANTHROPIC_API_KEY, WHATSAPP_TOKEN, WHATSAPP_PHONE_NUMBER_ID,
+  //   WHATSAPP_VERIFY_TOKEN, WHATSAPP_APP_SECRET
+}
