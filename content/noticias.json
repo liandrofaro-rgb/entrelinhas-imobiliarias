@@ -6163,5 +6163,344 @@
     "url": "https://ibdfam.org.br/noticias/justica-remove-inventariante-por-descumprimento-de-ordens-judiciais-e-ma-administracao-de-bens"
    }
   ]
+ },
+ {
+  "slug": "stj-segunda-secao-notificacao-eletronica-mora-devedor-fiduciante-relevancia",
+  "titulo": "STJ: notificação por meio eletrônico basta para provar a mora do devedor em alienação fiduciária, sem prova de leitura.",
+  "subtitulo": "A Segunda Seção reafirmou jurisprudência, em regime de relevância, e fixou três teses sobre o envio de e-mail e outros meios digitais ao devedor fiduciante.",
+  "descricao": "O STJ decidiu que a notificação extrajudicial eletrônica comprova a mora do devedor fiduciante se o envio ao endereço indicado por ele for demonstrado.",
+  "orgao": "STJ",
+  "area": "Direito imobiliário",
+  "data_publicacao": "2026-11-11",
+  "data_julgamento": "2026-11-11",
+  "imagem": "ilustracao-fiduciaria.svg",
+  "imagem_alt": "Ilustração de um imóvel com um selo de garantia, representando o contrato com alienação fiduciária",
+  "resumo": [
+   "A ==Segunda Seção do STJ== decidiu que a ==notificação extrajudicial por meio eletrônico== pode comprovar a mora do devedor fiduciante.",
+   "É preciso demonstrar o **envio efetivo** ao endereço eletrônico indicado pelo próprio devedor no contrato ou em atualização cadastral.",
+   "==Não se exige prova de leitura== nem de ciência pessoal; cair na caixa de spam não afasta a mora, salvo falha atribuível ao credor.",
+   "O julgamento seguiu o regime da **relevância** e a tese vale também para processos em andamento, segundo a Migalhas.",
+   "A decisão foi unânime e tomou por base os REsps 2.185.076, 2.162.311 e 2.190.406 (referências citadas pela Conjur)."
+  ],
+  "aconteceu": [
+   "Nos contratos com **alienação fiduciária**, a propriedade do bem fica com a instituição que financiou a compra, e o devedor mantém a posse até quitar a dívida. Para o credor pedir a busca e apreensão, precisa comprovar a **mora** (o atraso), nos termos do Decreto-Lei 911/1969.",
+   "Em 2023, no Tema 1.132 dos repetitivos, o STJ já havia admitido que basta enviar notificação extrajudicial ao endereço indicado pelo devedor. A dúvida que restava era se o mesmo valia para notificações digitais, prática comum no mercado.",
+   "No caso que serviu de base, segundo a Migalhas, uma instituição financeira ajuizou busca e apreensão e juntou notificação enviada por e-mail com registro técnico de transmissão. A primeira instância mandou complementar a documentação e, sem manifestação, indeferiu a petição inicial; o TJ de Alagoas manteve a sentença por exigir confirmação de recebimento."
+  ],
+  "lei": [
+   "A mora do devedor fiduciante é tratada no **art. 2º, § 2º, do Decreto-Lei 911/1969**; a busca e apreensão consta do art. 3º. A distribuição do ônus da prova foi discutida à luz do **art. 373 do Código de Processo Civil**."
+  ],
+  "decisao": [
+   "A Segunda Seção seguiu por unanimidade o voto do relator, ministro **João Otávio de Noronha**, e reafirmou a jurisprudência. Para ele, o meio eletrônico tem **equivalência funcional** com a carta registrada e se submete aos mesmos requisitos. O envio, porém, não se prova por afirmação unilateral: é preciso registro técnico verificável de que a mensagem foi aceita pelo sistema de destino.",
+   "Aceita a mensagem, a falta de leitura, a classificação como spam ou a ausência de acesso pelo titular não afastam a mora, porque o devedor tem o dever de manter ativo o canal que indicou. A conclusão muda se o problema for atribuível ao credor ou a quem envia em seu nome, como erro de digitação do endereço. Cabe ao devedor alegar e demonstrar vício concreto no envio, ressalvada a possibilidade de o juiz distribuir o ônus da prova de modo diferente.",
+   "No caso concreto, o recurso foi provido para afastar o indeferimento da petição inicial, e o processo volta à primeira instância para seguir com a busca e apreensão e a análise do pedido liminar, preservada a defesa do devedor."
+  ],
+  "destaque": "A tese não dispensa prova do envio: ==sem registro técnico de que o sistema de destino aceitou a mensagem, a notificação não é considerada efetiva==.",
+  "entrelinhas_titulo": "Nas entrelinhas: o endereço eletrônico informado no contrato passou a pesar mais",
+  "entrelinhas": [
+   "**O conflito de fundo.** De um lado, a segurança do credor, que precisa provar o atraso para recuperar o bem dado em garantia. De outro, o direito do devedor de ter ciência real da cobrança antes de perder a posse. O STJ resolveu a tensão atribuindo ao devedor o dever de manter ativo o canal que ele próprio indicou.",
+   "**Quem decide.** A decisão é da Segunda Seção, órgão que reúne as turmas de direito privado, em regime de relevância, no qual a tese reafirmada passa a orientar os demais tribunais. Segundo a Migalhas, não houve modulação, e o entendimento se aplica a processos em andamento.",
+   "**Efeito prático.** A notícia indica que a discussão tende a migrar para a **qualidade da prova do envio**: endereço contratual ou atualização cadastral feita pelo próprio devedor e registro técnico da aceitação da mensagem. Uma tentativa de envio sem confirmação do sistema de destino não satisfaz o requisito.",
+   "**Limites.** A tese trata da prova da mora na busca e apreensão em contratos com alienação fiduciária, nos termos do Decreto-Lei 911/1969. Cada processo depende dos documentos juntados, e o devedor pode demonstrar defeito concreto no envio. O texto não cobre outras discussões do contrato."
+  ],
+  "sintese": "Em uma frase: **para o STJ, o e-mail ou outro meio eletrônico indicado pelo devedor serve para provar a mora na alienação fiduciária, desde que o envio efetivo seja demonstrado, sem necessidade de prova de leitura.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Segunda Seção"
+   ],
+   [
+    "Julgamento",
+    "11 de novembro de 2026 (regime da relevância, reafirmação de jurisprudência)"
+   ],
+   [
+    "Relator",
+    "Ministro João Otávio de Noronha"
+   ],
+   [
+    "Processos",
+    "REsp 2.185.076, REsp 2.162.311 e REsp 2.190.406 (segundo a Conjur)"
+   ],
+   [
+    "Divulgação",
+    "11 de novembro de 2026"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "Conjur ↗",
+    "url": "https://conjur.com.br/2026-nov-11/notificacao-por-meio-eletronico-comprova-a-mora-do-devedor-fiduciante/"
+   },
+   {
+    "rotulo": "Migalhas ↗",
+    "url": "https://www.migalhas.com.br/quentes/468467/stj-notificacao-eletronica-comprova-mora-sem-exigir-prova-de-leitura"
+   }
+  ]
+ },
+ {
+  "slug": "stj-terceira-turma-usucapiao-area-submersa-reservatorio-lajeado-bem-publico",
+  "titulo": "STJ: terreno submerso por reservatório de hidrelétrica, desapropriado e público, não pode ser usucapido.",
+  "subtitulo": "A Terceira Turma negou, por unanimidade, o recurso de concessionária que alegava mais de 20 anos de posse da área inundada pela usina de Lajeado, em Palmas/TO.",
+  "descricao": "A Terceira Turma do STJ manteve a impossibilidade de usucapião de área inundada pelo reservatório da UHE Lajeado, por ser bem público.",
+  "orgao": "STJ",
+  "area": "Usucapião e posse",
+  "data_publicacao": "2026-11-10",
+  "data_julgamento": "2026-11-10",
+  "imagem": "ilustracao-usucapiao.svg",
+  "imagem_alt": "Ilustração de um terreno com uma casa e documentos, representando a discussão sobre usucapião",
+  "resumo": [
+   "A ==Terceira Turma do STJ== negou, por unanimidade, ==usucapião== de área permanentemente submersa pelo reservatório da **UHE Lajeado**, em Palmas/TO.",
+   "A concessionária dizia exercer posse havia **mais de 20 anos** e queria regularizar o registro do imóvel.",
+   "Para a relatora, o obstáculo não é a área estar submersa, mas a sua ==natureza pública==: houve desapropriação regular e incorporação ao patrimônio da União.",
+   "O TJ do Tocantins já havia rejeitado o pedido; o STJ manteve esse entendimento (REsp 2.230.789)."
+  ],
+  "aconteceu": [
+   "Uma concessionária ajuizou ação de usucapião sobre uma área que permanece submersa pelas águas do reservatório da Usina Hidrelétrica de Lajeado, em Palmas (TO), usado para geração de energia. Ela alegava posse por mais de 20 anos e buscava o reconhecimento da propriedade para regularizar a situação registral.",
+   "O TJ do Tocantins rejeitou o pedido: a área, por estar permanentemente inundada e afetada à geração de energia elétrica, passou a ter natureza de bem público, que não pode ser adquirido por usucapião. No recurso ao STJ, a concessionária sustentou que o reconhecimento seria possível apesar da inundação, já que o imóvel continuaria registrado em nome de particular."
+  ],
+  "decisao": [
+   "A Terceira Turma negou provimento ao recurso por unanimidade, no julgamento de 10 de novembro, acompanhando a relatora, ministra **Nancy Andrighi**. Ela apresentou a questão como inusitada: saber se é juridicamente possível usucapir um imóvel submerso.",
+   "Segundo a Migalhas, a ministra destacou que a impossibilidade não decorre simplesmente de o terreno estar debaixo d'água, e sim de sua natureza pública, já que a área foi regularmente desapropriada e incorporada ao patrimônio da União, o que a torna insuscetível de usucapião, independentemente do tempo de posse alegado.",
+   "A fonte não detalha os dispositivos legais aplicados nem a íntegra do voto."
+  ],
+  "decisao_titulo": "O que o STJ decidiu",
+  "destaque": "Para a relatora, o que impede a usucapião não é o fato de a área estar submersa: é ==ter sido desapropriada e passado ao patrimônio público==.",
+  "entrelinhas_titulo": "Nas entrelinhas: o que pesa é a natureza do bem, não o tempo de posse",
+  "entrelinhas": [
+   "**O conflito de fundo.** Quem ocupa um bem por muitos anos costuma invocar a usucapião para regularizar a propriedade. Aqui, porém, a área passou ao domínio público por desapropriação, e a posse prolongada, por maior que fosse, não muda essa natureza.",
+   "**Quem decide.** A Terceira Turma, ao negar o recurso, manteve a conclusão do tribunal estadual. Segundo a notícia, o julgamento foi unânime e a relatora enfatizou que o fator decisivo não era a submersão.",
+   "**Efeito prático.** A decisão reforça a leitura de que bens públicos, mesmo quando mantêm registro em nome antigo, não se prestam à aquisição por usucapião. A notícia não informa se outras questões, como a regularização do registro em nome do poder público, foram tratadas.",
+   "**Limites.** O relato da imprensa não traz o inteiro teor do acórdão, e cada caso depende de sua prova, em especial sobre a desapropriação e a titularidade da área. Não se trata de tese vinculante."
+  ],
+  "sintese": "Em uma frase: **para a Terceira Turma do STJ, área desapropriada e submersa pelo reservatório de uma usina hidrelétrica é bem público e não pode ser adquirida por usucapião, ainda que haja mais de 20 anos de posse alegada.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Terceira Turma"
+   ],
+   [
+    "Julgamento",
+    "10 de novembro de 2026"
+   ],
+   [
+    "Relatora",
+    "Ministra Nancy Andrighi"
+   ],
+   [
+    "Processo",
+    "REsp 2.230.789"
+   ],
+   [
+    "Divulgação",
+    "10 de novembro de 2026 (Migalhas)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "Migalhas ↗",
+    "url": "https://www.migalhas.com.br/quentes/468287/3-turma-do-stj-nega-usucapiao-de-terreno-submerso"
+   },
+   {
+    "rotulo": "Migalhas · julgamento ↗",
+    "url": "https://www.migalhas.com.br/quentes/468288/querer-construir-mansao-no-stj-nancy-ironiza-usucapiao-de-area-submersa"
+   }
+  ]
+ },
+ {
+  "slug": "tjdft-poder-familiar-nao-gera-responsabilidade-divida-condominial-imovel-menor-usufruto",
+  "titulo": "TJDFT: poder familiar, por si só, não torna a mãe responsável por dívida de condomínio de imóvel do filho menor.",
+  "subtitulo": "A 2ª Turma Cível manteve a exclusão da mãe da execução de taxas de imóvel doado a adolescente, com usufruto só em favor do pai.",
+  "descricao": "O TJDFT decidiu que administrar os bens do filho menor não responsabiliza automaticamente a mãe pelas despesas condominiais do imóvel dele.",
+  "orgao": "TJDFT",
+  "area": "Condomínio",
+  "data_publicacao": "2026-11-07",
+  "imagem": "ilustracao-predio.svg",
+  "imagem_alt": "Ilustração de um edifício residencial, representando um condomínio",
+  "resumo": [
+   "A ==2ª Turma Cível do TJDFT== decidiu, por unanimidade, que o ==poder familiar== não torna os pais automaticamente responsáveis por **dívidas condominiais** do imóvel do filho menor.",
+   "O imóvel foi doado a um adolescente de 12 anos, com ==usufruto== convencional só em favor do pai.",
+   "O Ministério Público pediu a inclusão da mãe na execução; o pedido foi negado.",
+   "Para o colegiado, a cobrança recai sobre quem tem **relação jurídica material** com o bem: proprietário, possuidor ou titular de direito real.",
+   "A mãe não era proprietária, donatária, usufrutuária, nem há prova de posse ou de benefício econômico do imóvel."
+  ],
+  "aconteceu": [
+   "Um adolescente de 12 anos recebeu um imóvel por doação. Sobre o bem foi instituído **usufruto** convencional exclusivamente em favor do pai, a quem cabia a utilização e os benefícios econômicos. Como as taxas condominiais deixaram de ser pagas, iniciou-se a execução.",
+   "O Ministério Público do Distrito Federal pediu a inclusão da mãe no polo passivo, argumentando que ela também exerce a administração dos bens do filho, prevista no Código Civil. A decisão de primeira instância negou a inclusão e a questão foi levada à 2ª Turma Cível."
+  ],
+  "decisao": [
+   "Por unanimidade, a Turma manteve a decisão. Os desembargadores explicaram que as despesas condominiais têm natureza ligada ao imóvel e devem ser cobradas de quem tem relação jurídica material com ele, como proprietário, possuidor ou titular de direito real. A condição de representante legal do menor, sozinha, não transfere automaticamente a responsabilidade.",
+   "O colegiado observou que a mãe não figurava como proprietária, coproprietária, donatária ou usufrutuária, e que não havia prova de que exercesse posse, recebesse aluguéis ou obtivesse benefício econômico do imóvel. Para a Turma, incluir alguém na execução exige fundamento jurídico específico que demonstre sua responsabilidade pela dívida.",
+   "A fonte não divulga o número do processo, o relator nem a data do julgamento."
+  ],
+  "destaque": "Administrar os bens do filho não equivale a ser dono, possuidor ou usufrutuário: ==é a relação com o imóvel que define quem responde pela taxa==.",
+  "entrelinhas_titulo": "Nas entrelinhas: quem responde pelo condomínio é quem tem vínculo com o bem",
+  "entrelinhas": [
+   "**O conflito de fundo.** O condomínio quer receber; o imóvel pertence a um menor e o usufruto, ao pai. A questão foi saber se o dever de administrar os bens do filho basta para colocar a mãe como devedora das taxas.",
+   "**Quem decide.** A 2ª Turma Cível do TJDFT concluiu que não. A decisão, segundo a notícia, foi unânime e apoiou-se na natureza das despesas condominiais, vinculadas ao imóvel.",
+   "**Efeito prático.** O caso mostra a importância de identificar corretamente, na execução, quem tem relação material com o bem. A notícia destaca que, no caso, o usufruto era do pai, a quem cabia a utilização e os benefícios.",
+   "**Limites.** É decisão de turma de tribunal estadual, baseada nas provas daquele processo, sem número divulgado. Outra conclusão pode ocorrer se houver prova de posse ou de benefício econômico por quem administra o bem."
+  ],
+  "sintese": "Em uma frase: **para o TJDFT, exercer o poder familiar e administrar os bens do filho menor não torna a mãe automaticamente responsável pelas dívidas condominiais do imóvel, que cabem a quem tem relação jurídica material com o bem.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça do Distrito Federal e dos Territórios · 2ª Turma Cível"
+   ],
+   [
+    "Julgamento",
+    "Data não informada pela fonte"
+   ],
+   [
+    "Relator",
+    "Não informado"
+   ],
+   [
+    "Processo",
+    "Número não informado"
+   ],
+   [
+    "Divulgação",
+    "7 de novembro de 2026 (Conjur, com informações da assessoria do TJDFT)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "Conjur ↗",
+    "url": "https://conjur.com.br/2026-nov-07/representacao-legal-de-menor-nao-gera-responsabilidade-por-divida-condominial/"
+   }
+  ]
+ },
+ {
+  "slug": "tjsp-mutuo-bancario-nao-altera-prazo-entrega-incorporadora-multa-danos-morais",
+  "titulo": "TJSP: contrato de financiamento com a Caixa não prorroga o prazo de entrega do imóvel; incorporadora é condenada por atraso.",
+  "subtitulo": "Sentença de primeira instância em São Paulo aplicou a multa de 1% ao mês prevista no contrato e fixou R$ 10 mil de danos morais para o casal comprador.",
+  "descricao": "Juiz paulista decidiu que o mútuo bancário é autônomo e não amplia o prazo fixado entre comprador e incorporadora.",
+  "orgao": "TJSP",
+  "area": "Direito imobiliário",
+  "data_publicacao": "2026-11-09",
+  "imagem": "ilustracao-chave.svg",
+  "imagem_alt": "Ilustração de uma chave e uma casa, representando a entrega do imóvel",
+  "resumo": [
+   "Sentença da ==1ª Vara Cível Regional II Santo Amaro (SP)== decidiu que o ==mútuo bancário== não altera o prazo de entrega fixado com a incorporadora.",
+   "O contrato de financiamento com a **Caixa** previa 36 meses de obra, mas o prazo da promessa de compra e venda é o que vale, segundo o juiz.",
+   "A incorporadora foi condenada à ==multa moratória de 1% ao mês== sobre o valor pago e a **R$ 10 mil** de danos morais.",
+   "Para o juiz, o **habite-se** é ato administrativo e não encerra a mora enquanto o imóvel não é entregue.",
+   "É decisão de primeira instância e cabe recurso."
+  ],
+  "aconteceu": [
+   "Um casal firmou promessa de compra e venda de apartamento por R$ 411,2 mil, com entrega prevista para 30 de novembro de 2025, prorrogável por 180 dias, até 29 de maio de 2026. Para financiar, assinou contrato de mútuo com alienação fiduciária com a Caixa Econômica Federal, que previa prazo de construção de 36 meses. Somada a tolerância de 180 dias e um prazo adicional de 60 dias, a incorporadora alegava que o limite iria até dezembro de 2026.",
+   "Em 30 de maio, o imóvel não estava concluído. Dois meses depois, as partes assinaram termo de acordo extrajudicial para reembolso da taxa de obra. O casal ajuizou ação pedindo a multa moratória do contrato e danos morais; a incorporadora sustentou que o prazo do financiamento afastava a mora e que o simples inadimplemento não geraria dano moral."
+  ],
+  "lei": [
+   "A decisão cita o **art. 43-A, § 2º, da Lei 4.591/1964** (multa por atraso), o **Tema 996 do STJ** (item 1.1, sobre prazo de tolerância previsto no contrato) e súmula do TJSP sobre habite-se."
+  ],
+  "decisao": [
+   "O juiz João Paulo Sbragia de Carvalho entendeu que o mútuo é instrumento **autônomo** do compromisso de compra e venda: a Caixa apenas viabiliza o crédito e não prorroga o prazo ajustado entre comprador e incorporadora. Lembrou que o Tema 996 do STJ admite só a tolerância prevista no contrato entre eles. Notou também que, ao assinar o termo de reembolso da taxa de obra, a empresa assumiu a mora.",
+   "Sobre a multa, considerou a cláusula de 1% ao mês, proporcional aos dias de atraso, compatível com a lei do setor. Rejeitou limitá-la até o habite-se, ato administrativo que não representa necessariamente o cumprimento do contrato, citando súmula do TJSP segundo a qual o habite-se, se não coincidir com a disponibilização do imóvel, não afasta a mora.",
+   "Reconheceu dano moral por se tratar de imóvel destinado à moradia, bem essencial ligado a projeto de vida, e arbitrou R$ 10 mil. A notícia não informa se houve recurso."
+  ],
+  "destaque": "Para o juiz, o financiamento ==é contrato entre comprador e banco== e não amplia o prazo assumido pela incorporadora.",
+  "entrelinhas_titulo": "Nas entrelinhas: dois contratos, dois prazos",
+  "entrelinhas": [
+   "**O conflito de fundo.** Na compra financiada convivem a promessa com a incorporadora e o mútuo com o banco, cada um com seu prazo. A incorporadora tentou usar o prazo mais longo do financiamento para afastar a mora.",
+   "**Quem decide.** Trata-se de sentença de um juiz de primeiro grau, sem força de precedente. Ele se apoiou em tese do STJ (Tema 996) e em súmula do TJSP.",
+   "**Efeito prático.** A decisão indica que o prazo relevante para medir o atraso é o da promessa de compra e venda, incluída a tolerância contratual, e que o habite-se, sozinho, não encerra a mora.",
+   "**Limites.** É decisão de primeira instância, sujeita a recurso, baseada no contrato e nas provas daquele casal. Outros contratos podem ter cláusulas diferentes, e os resultados variam caso a caso."
+  ],
+  "sintese": "Em uma frase: **para este juiz de São Paulo, o contrato de financiamento bancário não prorroga o prazo de entrega fixado entre comprador e incorporadora, que deve pagar a multa contratual e danos morais pelo atraso.**",
+  "dados": [
+   [
+    "Órgão",
+    "TJSP · 1ª Vara Cível Regional II Santo Amaro (primeira instância)"
+   ],
+   [
+    "Juiz",
+    "João Paulo Sbragia de Carvalho"
+   ],
+   [
+    "Processo",
+    "4062288-02.2026.8.26.0002"
+   ],
+   [
+    "Data da sentença",
+    "Não informada pela fonte"
+   ],
+   [
+    "Divulgação",
+    "9 de novembro de 2026 (Conjur)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "Conjur ↗",
+    "url": "https://conjur.com.br/2026-nov-09/mutuo-bancario-nao-estende-prazo-de-entrega-de-imovel-por-incorporadora/"
+   }
+  ]
+ },
+ {
+  "slug": "stj-corte-especial-tema-1039-prescricao-seguro-habitacional-sfh-mediacao-adiamento",
+  "titulo": "STJ: julgamento sobre prescrição do seguro habitacional do SFH é adiado de novo e pode ir à mediação.",
+  "subtitulo": "A Corte Especial discute o Tema 1.039 desde 2024; presidente sugeriu levar o tema ao Cejusc, e a próxima sessão está marcada para 18 de novembro.",
+  "descricao": "O STJ adiou a retomada do Tema 1.039 sobre prescrição da indenização do seguro habitacional do SFH e cogita mediação.",
+  "orgao": "STJ",
+  "area": "Moradia e financiamento",
+  "data_publicacao": "2026-11-07",
+  "data_julgamento": "2026-11-04",
+  "imagem": "ilustracao-bem-de-familia.svg",
+  "imagem_alt": "Ilustração de uma casa protegida, representando a moradia e o seguro habitacional",
+  "resumo": [
+   "==Julgamento em andamento==: a ==Corte Especial do STJ== adiou novamente o **Tema 1.039** (prescrição da indenização do seguro habitacional do SFH).",
+   "O presidente, ministro Luis Felipe Salomão, sugeriu em **4 de novembro** levar o tema ao ==Cejusc== (mediação).",
+   "Há **pedido de vista** do ministro Herman Benjamin desde agosto de 2024; a próxima sessão é em 18 de novembro.",
+   "A relatora, Isabel Gallotti, e Nancy Andrighi divergem sobre quando começa a prescrição.",
+   "Não há tese fixada."
+  ],
+  "aconteceu": [
+   "A Corte Especial do STJ examina, sob o rito dos recursos repetitivos, como funciona a prescrição para os mutuários do Sistema Financeiro de Habitação cobrarem a indenização do seguro habitacional obrigatório em casos de danos estruturais nos imóveis. A tese afetará as apólices públicas do Ramo 66, garantidas pelo FCVS, e as privadas do Ramo 68.",
+   "Na quarta-feira (4/11), diante de mais um adiamento, o presidente Salomão sugeriu a mediação judicial no Centro Judiciário de Solução de Conflitos do STJ. A relatora e o ministro Herman Benjamin, autor do pedido de vista, devem avaliar a possibilidade até a sessão de 18 de novembro."
+  ],
+  "decisao": [
+   "Ainda não há decisão de mérito. Duas posições já foram apresentadas. A relatora, ministra **Isabel Gallotti**, entende que a indenização só cabe se o vício estrutural surgiu durante a vigência do contrato e foi descoberto até um ano após sua liquidação; a prescrição, de um ano, começaria no dia seguinte ao fim do contrato.",
+   "A ministra **Nancy Andrighi** abriu divergência: para ela, a prescrição só começa após o fato gerador da indenização, quando a seguradora é informada do problema e se recusa a pagar.",
+   "Em paralelo, segundo a Conjur, a 1ª Seção julga no Tema 1.301 se as seguradoras devem cobrir vícios construtivos, também parado por pedido de vista do ministro Francisco Falcão."
+  ],
+  "decisao_titulo": "O julgamento até agora",
+  "destaque": "Não há tese fixada: ==o julgamento segue parado por pedido de vista e a mediação é apenas uma possibilidade levantada==.",
+  "entrelinhas_titulo": "Nas entrelinhas: milhares de processos aguardam a definição do prazo",
+  "entrelinhas": [
+   "**O conflito de fundo.** Está em jogo se mutuários que descobrem defeitos estruturais décadas depois da quitação do financiamento ainda podem cobrar o seguro. A posição de Gallotti restringe esse direito; a de Nancy Andrighi o amplia.",
+   "**Quem decide.** A Corte Especial, por meio de tese vinculante. A Conjur noticia que o tema está parado desde agosto de 2024 por pedido de vista, e que o presidente propôs a mediação.",
+   "**Efeito prático.** Segundo a notícia, a tese poderá afetar também o sistema de acordos e mutirões estimulado pelo próprio STJ, em especial no Ramo 66, que envolve casos como os dos chamados \"prédios-caixão\".",
+   "**Limites.** Nada foi decidido: a mediação é uma possibilidade, e as posições citadas podem mudar até o fim do julgamento. A matéria não permite prever o resultado."
+  ],
+  "sintese": "Em uma frase: **o STJ adiou de novo o julgamento do Tema 1.039 sobre a prescrição do seguro habitacional do SFH, e o presidente da Corte sugeriu tentar a mediação antes de fixar a tese.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Superior Tribunal de Justiça · Corte Especial"
+   ],
+   [
+    "Sessão",
+    "4 de novembro de 2026 (julgamento não concluído)"
+   ],
+   [
+    "Relatora",
+    "Ministra Isabel Gallotti"
+   ],
+   [
+    "Processos",
+    "REsp 1.799.288 e REsp 1.803.225 (Tema 1.039)"
+   ],
+   [
+    "Divulgação",
+    "7 de novembro de 2026 (Conjur)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "Conjur ↗",
+    "url": "https://conjur.com.br/2026-nov-07/stj-avalia-mediacao-para-resolver-tese-da-prescricao-do-seguro-habitacional/"
+   }
+  ]
  }
 ]
