@@ -6502,5 +6502,330 @@
     "url": "https://conjur.com.br/2026-nov-07/stj-avalia-mediacao-para-resolver-tese-da-prescricao-do-seguro-habitacional/"
    }
   ]
+ },
+ {
+  "slug": "trf1-coproprietario-preferencia-arrematacao-nao-autoriza-adjudicacao-antecipada-execucao-fiscal",
+  "titulo": "TRF-1: preferência do coproprietário só vale na arrematação, e não autoriza adjudicação antes do leilão.",
+  "subtitulo": "A 7ª Turma negou pedido de coproprietário para ficar com imóveis penhorados em execução fiscal sem passar pela hasta pública.",
+  "descricao": "O TRF-1 decidiu que o direito de preferência do coproprietário deve ser exercido na arrematação, em igualdade com os demais licitantes.",
+  "orgao": "TRF-1",
+  "area": "Condomínio e copropriedade",
+  "data_publicacao": "2026-11-13",
+  "imagem": "ilustracao-balanca.svg",
+  "imagem_alt": "Ilustração de uma balança, representando o julgamento de um recurso sobre bens penhorados",
+  "resumo": [
+   "A ==7ª Turma do TRF-1== manteve a recusa de **adjudicação antecipada** de imóveis penhorados em execução fiscal.",
+   "O autor do recurso, coproprietário, invocou o ==direito de preferência== do art. 843 do CPC e a economia processual.",
+   "Para a relatora convocada, a preferência deve ser exercida **no momento da arrematação**, em igualdade de condições com os demais licitantes.",
+   "Princípios como razoabilidade e proporcionalidade não autorizam afastar regras expressas do procedimento de expropriação."
+  ],
+  "aconteceu": [
+   "Em uma execução fiscal, imóveis foram penhorados e iriam a leilão judicial. Um coproprietário pediu à Justiça que lhe fosse adjudicado o bem (ou seja, que ficasse diretamente com ele, antes da hasta pública), pagando o valor que já havia depositado, que ele afirmou ser suficiente para a cota-parte penhorada.",
+   "Ele sustentou que, por ser **coproprietário** e por serem os imóveis indivisíveis, teria preferência, e que a adjudicação direta evitaria prejuízo à execução e pouparia trabalho processual. O pedido foi indeferido e ele recorreu; o recurso (agravo interno) foi levado à 7ª Turma do TRF-1."
+  ],
+  "lei": [
+   "O **art. 843 do Código de Processo Civil** trata da penhora de bem indivisível em copropriedade. Segundo a notícia, o seu **§ 1º** prevê que o coproprietário tem preferência na arrematação, em igualdade de condições com os demais interessados."
+  ],
+  "decisao": [
+   "A Turma negou provimento ao recurso. A relatora convocada, juíza federal Maria Cecília de Marco Rocha, destacou que o direito de preferência do coproprietário deve ser exercido ==no momento da arrematação judicial==, em igualdade de condições com os demais licitantes, e que não há previsão legal para a adjudicação antecipada nas circunstâncias do caso.",
+   "Ela acrescentou que invocar razoabilidade e proporcionalidade não autoriza flexibilizar as regras expressas sobre o procedimento de expropriação quando falta previsão legal para a medida pedida.",
+   "A matéria não informa a data do julgamento nem se a decisão foi unânime."
+  ],
+  "destaque": "A preferência do coproprietário existe, mas ==é exercida no leilão==, disputando em igualdade com os demais interessados.",
+  "entrelinhas_titulo": "Nas entrelinhas: ser coproprietário dá preferência, não um atalho",
+  "entrelinhas": [
+   "**O conflito de fundo.** Quando o imóvel pertence a mais de uma pessoa e só a parte de uma delas é penhorada, os demais donos têm interesse em evitar a entrada de um terceiro. O pedido buscava transformar essa preferência em direito de ficar com o bem antes do leilão.",
+   "**Quem decide.** A 7ª Turma do TRF-1, em recurso contra decisão que já havia negado o pedido. Pelo relato, o fundamento central foi o texto do art. 843, § 1º, do CPC: a preferência opera na arrematação.",
+   "**Efeito prático.** Segundo a notícia, o coproprietário que quiser manter o bem deve participar da hasta pública em igualdade de condições, e não pedir a adjudicação antes dela. A matéria não detalha como o leilão seguirá no caso.",
+   "**Limites.** É decisão de uma turma do TRF-1 em execução fiscal, baseada nas circunstâncias do processo. Não se trata de tese vinculante, e a notícia não informa se cabe novo recurso."
+  ],
+  "sintese": "Em uma frase: **para o TRF-1, o coproprietário de imóvel penhorado exerce sua preferência na arrematação, em igualdade com os demais licitantes, e não pode exigir adjudicação antecipada antes do leilão.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal Regional Federal da 1ª Região · 7ª Turma"
+   ],
+   [
+    "Julgamento",
+    "Data não informada pela fonte"
+   ],
+   [
+    "Relatora",
+    "Juíza federal convocada Maria Cecília de Marco Rocha"
+   ],
+   [
+    "Processo",
+    "1000593-36.2026.4.01.0000"
+   ],
+   [
+    "Divulgação",
+    "13 de novembro de 2026 (Conjur, com informações da assessoria do TRF-1)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "Conjur ↗",
+    "url": "https://conjur.com.br/2026-nov-13/coproprietario-de-imovel-deve-exercer-preferencia-na-arrematacao/"
+   }
+  ]
+ },
+ {
+  "slug": "tjgo-tabela-price-revisional-deposito-judicial-nao-substitui-parcelas-incorporadora",
+  "titulo": "TJGO: ação sobre Tabela Price não autoriza trocar o pagamento das parcelas por depósito judicial.",
+  "subtitulo": "Duas câmaras cíveis revogaram depósitos em ações de compradores contra incorporadoras em Aparecida de Goiânia; as decisões citam a Súmula 84 do tribunal.",
+  "descricao": "Desembargadores do TJGO entenderam que questionar a Tabela Price em juízo não substitui o pagamento direto das parcelas às incorporadoras.",
+  "orgao": "TJGO",
+  "area": "Compra e venda de imóveis",
+  "data_publicacao": "2026-11-13",
+  "imagem": "ilustracao-recibo.svg",
+  "imagem_alt": "Ilustração de um recibo, representando o pagamento de parcelas de contrato imobiliário",
+  "resumo": [
+   "Decisões da ==9ª e da 8ª Câmaras Cíveis do TJGO== revogaram a autorização de **depósitos judiciais** no lugar do pagamento das parcelas a incorporadoras.",
+   "Os compradores haviam ajuizado ações revisionais questionando a ==Tabela Price== e a correção pelo IPCA.",
+   "Os relatores entenderam que a ação revisional **não afasta os efeitos da mora** nem substitui o pagamento nas condições contratadas.",
+   "Segundo a Migalhas, a **Súmula 84** do TJGO, de julho de 2026, foi aplicada pelos dois relatores.",
+   "As decisões são de **recurso** e tratam dos depósitos; o mérito (se houve cobrança indevida) ainda será julgado, após a produção de provas."
+  ],
+  "aconteceu": [
+   "Dois compradores de imóveis em Aparecida de Goiânia (GO) ajuizaram ações revisionais contra as incorporadoras. No primeiro caso, alegaram capitalização mensal de juros pela Tabela Price e cobrança cumulativa de correção monetária pelo IPCA; pediram recálculo das parcelas, autorização para depositar em juízo e inversão do ônus da prova.",
+   "No segundo caso, o juízo de primeiro grau havia autorizado o depósito judicial do valor integral das parcelas vencidas e vincendas e determinado que, enquanto os depósitos fossem feitos em dia, as incorporadoras não negativassem o comprador nem praticassem atos expropriatórios sobre o imóvel. As incorporadoras recorreram nos dois processos."
+  ],
+  "decisao": [
+   "No primeiro processo, o desembargador Antônio Cézar Meneses (9ª Câmara Cível) revogou a autorização para os depósitos e determinou que as parcelas fossem pagas no tempo e modo contratados. Para ele, a lei processual exige a continuidade do pagamento da quantia incontroversa nas condições ajustadas. Ele também afastou a inversão do ônus da prova: o comprador tinha o contrato, a escritura, o demonstrativo de pagamentos e um parecer contábil, e a existência de relação de consumo, por si só, não basta.",
+   "No segundo, o desembargador José Ricardo Machado (8ª Câmara Cível) explicou que a consignação em pagamento pressupõe situações previstas em lei, como a recusa injustificada do credor em receber, e que a simples propositura de ação revisional não afasta os efeitos da mora. Ele considerou insuficiente o parecer particular, que comparava a Tabela Price a juros simples sem demonstrar concretamente a cobrança questionada.",
+   "Os dois relatores deixaram o exame de eventual cobrança indevida para o julgamento de mérito, após as provas."
+  ],
+  "destaque": "Discutir a Tabela Price na Justiça ==não autoriza, por si só, trocar o pagamento direto por depósito judicial==.",
+  "entrelinhas_titulo": "Nas entrelinhas: discutir o contrato não suspende a obrigação de pagá-lo",
+  "entrelinhas": [
+   "**O conflito de fundo.** Compradores questionam a forma de cálculo das parcelas; as incorporadoras querem receber conforme o contrato. A dúvida prática era se, enquanto o processo andava, o comprador podia depositar em juízo em vez de pagar direto.",
+   "**Quem decide.** Dois desembargadores de câmaras diferentes do TJGO, em decisões de recurso. Segundo a Migalhas, ambos aplicaram a Súmula 84 do tribunal, segundo a qual a Tabela Price, quando expressamente pactuada em contratos de empresas fora do SFN e do SFI, não é ilegal por si só.",
+   "**Efeito prático.** A discussão sobre juros pode seguir no processo, mas, conforme essas decisões, sem alterar a forma de pagamento nem os efeitos do atraso. A reportagem traz a avaliação de advogados que atuaram nos casos, o que merece leitura com esse contexto.",
+   "**Limites.** São decisões individuais em processos ainda sem sentença final, e a notícia não diz que valores ou práticas contratuais sejam válidos em todos os casos. Outros julgados, em outros contextos, podem concluir de forma diferente."
+  ],
+  "sintese": "Em uma frase: **em duas decisões, o TJGO entendeu que a ação revisional sobre a Tabela Price não permite substituir o pagamento das parcelas à incorporadora por depósito judicial, e que a análise de eventual abuso fica para o mérito.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça de Goiás · 9ª e 8ª Câmaras Cíveis"
+   ],
+   [
+    "Julgamento",
+    "Datas não informadas pela fonte"
+   ],
+   [
+    "Relatores",
+    "Desembargadores Antônio Cézar Meneses e José Ricardo Machado"
+   ],
+   [
+    "Processos",
+    "5827713-59.2026.8.09.0011 e 5882549-79.2026.8.09.0011"
+   ],
+   [
+    "Divulgação",
+    "13 de novembro de 2026 (Migalhas)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "Migalhas ↗",
+    "url": "https://www.migalhas.com.br/quentes/468599/tj-go-decisoes-mantem-pagamentos-de-contratos-imobiliarios-com-tabela-price"
+   }
+  ]
+ },
+ {
+  "slug": "tjsp-herdeiros-so-respondem-divida-tributaria-apos-partilha-espolio-execucao-fiscal-rio-claro",
+  "titulo": "TJSP: herdeiros só respondem por dívida tributária do falecido após a partilha, e até o limite da herança recebida.",
+  "subtitulo": "A 14ª Câmara de Direito Público excluiu herdeiros de execução fiscal de Rio Claro enquanto não houver partilha; quem responde é o espólio.",
+  "descricao": "O TJSP decidiu que, antes da partilha, a dívida tributária do falecido deve ser cobrada do espólio, e não diretamente dos herdeiros.",
+  "orgao": "TJSP",
+  "area": "Inventário e herança",
+  "data_publicacao": "2026-11-11",
+  "imagem": "ilustracao-heranca.svg",
+  "imagem_alt": "Ilustração de documentos de herança, representando o espólio e a partilha de bens",
+  "resumo": [
+   "A ==14ª Câmara de Direito Público do TJSP== excluiu herdeiros do polo passivo de uma execução fiscal do município de Rio Claro.",
+   "Pela decisão, a responsabilidade dos herdeiros começa ==só após a partilha== e fica limitada ao **patrimônio recebido**.",
+   "Antes disso, cabe ao **espólio** responder pelas dívidas tributárias, representado pelo administrador provisório.",
+   "O colegiado aplicou o **art. 131 do CTN** e o **art. 1.797 do Código Civil**."
+  ],
+  "aconteceu": [
+   "O município de Rio Claro (SP) moveu execução fiscal contra uma empresa de móveis e contra os espólios de dois sócios falecidos. Para um dos sócios não havia inventário aberto com partilha dos bens, e o juízo de primeira instância mandou a execução prosseguir diretamente contra os sucessores.",
+   "Um dos herdeiros recorreu, argumentando que a falta de inventário não autoriza responsabilizar os sucessores diretamente, pois a herança ainda não havia sido partilhada, e que a cobrança deveria permanecer contra o espólio, representado pelo administrador provisório."
+  ],
+  "lei": [
+   "O **art. 131 do Código Tributário Nacional**, segundo a notícia, prevê que o espólio responde pelas obrigações tributárias do falecido até a partilha dos bens.",
+   "O **art. 1.797 do Código Civil**, segundo a notícia, trata da representação do espólio pelo administrador provisório quando não há inventário em andamento; nesse caso, cabe citar o cônjuge e os herdeiros conhecidos para que indiquem quem exerce essa função."
+  ],
+  "decisao": [
+   "O colegiado deu razão ao herdeiro e determinou a exclusão dos sucessores da execução fiscal. Entendeu que a responsabilidade deles surge apenas depois da divisão definitiva do patrimônio e deve respeitar os limites do quinhão recebido; até lá, a responsabilidade tributária permanece com o espólio.",
+   "A notícia não informa a data do julgamento, o relator nem se a decisão foi unânime."
+  ],
+  "destaque": "Antes da partilha, ==quem responde pela dívida tributária do falecido é o espólio==; os herdeiros respondem depois, e só até o limite do que receberam.",
+  "entrelinhas_titulo": "Nas entrelinhas: a ordem importa: primeiro o espólio, depois os herdeiros",
+  "entrelinhas": [
+   "**O conflito de fundo.** O ente público quer cobrar o tributo e, sem inventário, buscou os sucessores diretamente. Os herdeiros defendem que, enquanto a herança não é dividida, não há como saber o que cada um recebeu.",
+   "**Quem decide.** A 14ª Câmara de Direito Público do TJSP, em agravo de instrumento, com base no art. 131 do CTN e no art. 1.797 do Código Civil, conforme a notícia do IBDFAM (com informações do ConJur).",
+   "**Efeito prático.** Segundo o relato, a execução deve seguir contra o espólio, por meio do administrador provisório, e só depois da partilha os herdeiros podem ser chamados, limitados ao quinhão recebido.",
+   "**Limites.** É decisão de uma câmara do TJSP em um caso concreto; a notícia não informa se houve recurso. Não se confunde com tese vinculante nem diz como ficam situações diferentes."
+  ],
+  "sintese": "Em uma frase: **para o TJSP, enquanto não há partilha, dívida tributária do falecido se cobra do espólio, e os herdeiros só respondem depois, até o limite da herança que receberam.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça de São Paulo · 14ª Câmara de Direito Público"
+   ],
+   [
+    "Julgamento",
+    "Data não informada pela fonte"
+   ],
+   [
+    "Relator",
+    "Não informado"
+   ],
+   [
+    "Processo",
+    "Agravo de Instrumento 2144042-06.2026.8.26.0000"
+   ],
+   [
+    "Divulgação",
+    "11 de novembro de 2026 (IBDFAM, com informações do ConJur)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IBDFAM ↗",
+    "url": "https://ibdfam.org.br/noticias/herdeiros-so-respondem-por-dividas-tributarias-apos-a-partilha-de-bens-decide-tjsp"
+   }
+  ]
+ },
+ {
+  "slug": "tjmt-peixoto-de-azevedo-divorcio-liminar-independe-partilha-previa-bens-ec-66",
+  "titulo": "Justiça de Mato Grosso decreta divórcio liminar a pedido de um dos cônjuges, sem esperar a partilha de bens.",
+  "subtitulo": "A 1ª Vara de Peixoto de Azevedo reconheceu o divórcio como direito potestativo; partilha, guarda e alimentos seguem seu curso.",
+  "descricao": "Decisão de 1º grau em Mato Grosso decretou divórcio liminarmente, sem concordância da outra parte nem definição prévia da partilha.",
+  "orgao": "TJMT",
+  "area": "Divórcio",
+  "data_publicacao": "2026-11-11",
+  "imagem": "ilustracao-divorcio.svg",
+  "imagem_alt": "Ilustração representando o divórcio e a separação de um casal",
+  "resumo": [
+   "A ==1ª Vara de Peixoto de Azevedo (MT)== decretou **liminarmente** o divórcio a pedido do marido, por tutela de evidência.",
+   "O juiz afirmou que o divórcio é ==direito potestativo==: a oposição da outra parte não impede a dissolução do casamento.",
+   "Não é preciso definir antes **partilha de bens, guarda ou alimentos**; na mesma decisão foram fixadas guarda compartilhada e convivência.",
+   "A decisão é de **primeiro grau**. Para o desembargador emérito Jones Figueirêdo Alves, ouvido pelo IBDFAM, a técnica mais adequada seria o julgamento antecipado parcial do mérito."
+  ],
+  "aconteceu": [
+   "Em ação proposta pelo marido, a 1ª Vara de Peixoto de Azevedo, em Mato Grosso, foi chamada a decretar o divórcio antes mesmo de a outra parte se manifestar. O autor sustentou que a dissolução do vínculo decorre da autonomia da vontade e não exige concordância nem instrução prévia. No mesmo processo, pediu a guarda compartilhada da filha do casal, de sete anos, e alimentos provisórios a serem pagos pela mãe.",
+   "O pedido foi examinado como tutela de evidência, medida que antecipa os efeitos da decisão quando o direito está suficientemente demonstrado, mesmo sem perigo de dano."
+  ],
+  "lei": [
+   "A **Emenda Constitucional 66/2010** eliminou exigências anteriores para o divórcio. Segundo o magistrado, ela consolidou o divórcio como direito potestativo.",
+   "O **art. 1.581 do Código Civil**, segundo o IBDFAM, prevê que o divórcio pode ser concedido antes da partilha de bens."
+  ],
+  "decisao": [
+   "O juiz reconheceu liminarmente a dissolução do casamento. Segundo ele, a falta de citação da outra parte não impede o acolhimento do pedido, porque nenhuma alegação dela poderia impedir, modificar ou extinguir o direito ao divórcio.",
+   "Na mesma decisão foi estabelecida a guarda compartilhada, com residência de referência no lar materno e convivência paterna em fins de semana alternados e datas festivas. Nenhum dos genitores poderá interromper ou alterar sozinho o período de convivência do outro, salvo urgência de saúde ou segurança da criança, ou acordo. O juiz advertiu que condutas para dificultar o vínculo com o outro genitor podem configurar alienação parental.",
+   "A notícia não informa o número do processo, a data da decisão nem o resultado do pedido de alimentos provisórios."
+  ],
+  "decisao_titulo": "O que a decisão estabeleceu",
+  "destaque": "O divórcio ==não depende de a partilha de bens estar definida==: as questões patrimoniais e dos filhos seguem em paralelo.",
+  "entrelinhas_titulo": "Nas entrelinhas: encerrar o casamento e dividir os bens são etapas separadas",
+  "entrelinhas": [
+   "**O conflito de fundo.** Em muitos divórcios, a discussão sobre bens atrasa o fim do vínculo conjugal. A decisão afirma que a oposição da outra parte pode ser relevante para definir o que entra na partilha, mas não para impedir o divórcio.",
+   "**Quem decide.** Um juízo de primeiro grau em Mato Grosso, com base na EC 66/2010. O diretor nacional do IBDFAM, entrevistado na matéria, considera acertado decretar o divórcio sem esperar a partilha, mas ressalva que o julgamento antecipado parcial do mérito, e não a tutela de evidência, seria a via mais adequada.",
+   "**Efeito prático.** Segundo o especialista, o tempo para apurar o patrimônio deixa de determinar por quanto tempo alguém permanece casado. Partilha, guarda e alimentos continuam com contraditório e instrução conforme cada pedido.",
+   "**Limites.** É decisão liminar de primeiro grau, em caso concreto, sujeita a recurso, e não informa o número do processo. Não vincula outros juízes."
+  ],
+  "sintese": "Em uma frase: **uma vara de Mato Grosso decretou liminarmente o divórcio a pedido de um só cônjuge, por entender que ele independe da concordância da outra parte e da partilha prévia dos bens.**",
+  "dados": [
+   [
+    "Órgão",
+    "1ª Vara de Peixoto de Azevedo (TJMT) · decisão de 1º grau"
+   ],
+   [
+    "Julgamento",
+    "Data não informada pela fonte"
+   ],
+   [
+    "Processo",
+    "Número não informado"
+   ],
+   [
+    "Divulgação",
+    "11 de novembro de 2026 (IBDFAM, com informações do ConJur)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IBDFAM ↗",
+    "url": "https://ibdfam.org.br/noticias/justica-decreta-divorcio-liminar-e-reafirma-que-medida-independe-de-partilha-previa-de-bens"
+   }
+  ]
+ },
+ {
+  "slug": "stf-adpf-1185-1241-escusas-absolutorias-art-181-codigo-penal-violencia-patrimonial-familiares-modulacao",
+  "titulo": "STF afasta imunidade penal em crimes patrimoniais entre familiares; modulação dos efeitos fica para 18 de novembro.",
+  "subtitulo": "Plenário considerou incompatíveis com a Constituição os arts. 181 e 182 do Código Penal; resultado ainda não foi proclamado.",
+  "descricao": "O STF decidiu por unanimidade afastar as escusas absolutórias para crimes patrimoniais entre familiares, mas a proclamação do resultado foi suspensa.",
+  "orgao": "STF",
+  "area": "Família e patrimônio",
+  "data_publicacao": "2026-11-13",
+  "data_julgamento": "2026-11-12",
+  "imagem": "ilustracao-familia.svg",
+  "imagem_alt": "Ilustração de uma família, representando as relações patrimoniais entre familiares",
+  "resumo": [
+   "==Julgamento em andamento==: o STF reconheceu, por unanimidade, que a **isenção de pena** (art. 181 do Código Penal) para crimes patrimoniais entre familiares não é compatível com a Constituição.",
+   "A discussão ocorreu nas ==ADPFs 1185 e 1241==; Alexandre de Moraes propôs invalidar também o art. 182, que exige representação da vítima.",
+   "O entendimento vale para a violência patrimonial ==independentemente do gênero da vítima==.",
+   "A **proclamação do resultado foi suspensa**: os efeitos (modulação) serão definidos na sessão de 18 de novembro."
+  ],
+  "aconteceu": [
+   "O Código Penal prevê, no art. 181, que não se pune certos crimes contra o patrimônio cometidos entre cônjuges, durante o casamento, ou entre ascendentes e descendentes. Duas ADPFs, apresentadas pela Conamp (associação de membros do Ministério Público) e pelo PV, questionam essas chamadas escusas absolutórias.",
+   "O relator, ministro Dias Toffoli, votou na quarta-feira (11) para afastá-las nos casos de violência patrimonial ligados à violência doméstica e familiar contra a mulher. Na quinta (12), o ministro Alexandre de Moraes propôs ampliar o alcance, invalidando integralmente o art. 181, independentemente do gênero da vítima, e também o art. 182."
+  ],
+  "decisao": [
+   "Segundo a notícia, Toffoli acolheu a proposta de Moraes e os demais ministros a acompanharam, de modo que o Plenário reconheceu por unanimidade a incompatibilidade dos dispositivos com a Constituição. Moraes argumentou que a proteção constitucional à família não pode servir para preservar estruturas patriarcais; a ministra Cármen Lúcia destacou a desigualdade econômica entre homens e mulheres nas relações familiares.",
+   "Houve divergência sobre a aplicação a fatos anteriores. O ministro Flávio Dino defendeu aplicar a nova interpretação só a fatos posteriores ao julgamento, em respeito à vedação de retroatividade penal prejudicial, preocupação também levantada por Cármen Lúcia, Cristiano Zanin e Gilmar Mendes. Moraes propôs preservar condenações definitivas e ações em andamento nas quais a isenção já tenha sido afastada, proposta acolhida pelo relator.",
+   "Diante disso, o presidente, ministro Edson Fachin, suspendeu a proclamação do resultado; o julgamento será retomado em 18 de novembro, quando Toffoli deve propor os efeitos da decisão."
+  ],
+  "decisao_titulo": "O julgamento até agora",
+  "destaque": "O resultado ==ainda não foi proclamado==: falta definir a partir de quando a decisão vale.",
+  "entrelinhas_titulo": "Nas entrelinhas: o laço familiar deixa de ser, por si só, um escudo penal",
+  "entrelinhas": [
+   "**O conflito de fundo.** A lei protege a unidade familiar ao dispensar pena em certos crimes patrimoniais entre parentes próximos. Os autores das ações e os ministros destacaram que essa regra pode acobertar a violência patrimonial, como o furto e o estelionato dentro da família.",
+   "**Quem decide.** O Plenário do STF, por unanimidade quanto à incompatibilidade dos arts. 181 e 182, segundo a notícia. Os votos dos ministros divergem apenas sobre a modulação dos efeitos.",
+   "**Efeito prático.** A notícia não detalha efeitos concretos sobre patrimônio, herança ou imóveis. O que se sabe é que, quando a decisão for proclamada, os fatos alcançados dependerão da modulação a ser fixada em 18 de novembro.",
+   "**Limites.** O julgamento não está encerrado: a proclamação foi suspensa e a proposta de modulação ainda será apresentada. Esta matéria não permite prever o resultado final nem orientar casos concretos."
+  ],
+  "sintese": "Em uma frase: **o STF reconheceu por unanimidade que a isenção de pena em crimes patrimoniais entre familiares é incompatível com a Constituição, mas só definirá em 18 de novembro a partir de quando isso vale.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Supremo Tribunal Federal · Plenário"
+   ],
+   [
+    "Sessão",
+    "12 de novembro de 2026 (julgamento não concluído)"
+   ],
+   [
+    "Relator",
+    "Ministro Dias Toffoli"
+   ],
+   [
+    "Processos",
+    "ADPF 1185 e ADPF 1241"
+   ],
+   [
+    "Divulgação",
+    "13 de novembro de 2026 (IBDFAM, com informações do STF)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IBDFAM ↗",
+    "url": "https://ibdfam.org.br/noticias/stf-afasta-imunidade-penal-para-crimes-de-violencia-patrimonial-entre-familiares"
+   }
+  ]
  }
 ]

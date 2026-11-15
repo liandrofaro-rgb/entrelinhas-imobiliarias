@@ -1,24 +1,24 @@
-# Última rotina — 2026-11-13 10:09 UTC
+# Última rotina — 2026-11-15 10:08 UTC
 
 ## Publicado (5)
-- **STJ: notificação eletrônica prova a mora na alienação fiduciária** — `stj-segunda-secao-notificacao-eletronica-mora-devedor-fiduciante-relevancia` — Conjur e Migalhas (11/11)
-- **STJ: usucapião de área submersa (UHE Lajeado) negada** — `stj-terceira-turma-usucapiao-area-submersa-reservatorio-lajeado-bem-publico` — Migalhas (10/11)
-- **TJDFT: poder familiar não gera responsabilidade por dívida condominial** — `tjdft-poder-familiar-nao-gera-responsabilidade-divida-condominial-imovel-menor-usufruto` — Conjur (07/11)
-- **TJSP: mútuo bancário não prorroga prazo de entrega** — `tjsp-mutuo-bancario-nao-altera-prazo-entrega-incorporadora-multa-danos-morais` — Conjur (09/11)
-- **STJ: Tema 1.039 (seguro habitacional SFH) adiado, possível mediação** — `stj-corte-especial-tema-1039-prescricao-seguro-habitacional-sfh-mediacao-adiamento` — Conjur (07/11)
+- **TRF-1: preferência do coproprietário só vale na arrematação** — `trf1-coproprietario-preferencia-arrematacao-nao-autoriza-adjudicacao-antecipada-execucao-fiscal` — Conjur (13/11) https://conjur.com.br/2026-nov-13/coproprietario-de-imovel-deve-exercer-preferencia-na-arrematacao/
+- **TJGO: ação sobre Tabela Price não autoriza depósito judicial no lugar das parcelas** — `tjgo-tabela-price-revisional-deposito-judicial-nao-substitui-parcelas-incorporadora` — Migalhas (13/11) https://www.migalhas.com.br/quentes/468599/tj-go-decisoes-mantem-pagamentos-de-contratos-imobiliarios-com-tabela-price
+- **TJSP: herdeiros só respondem por dívida tributária após a partilha** — `tjsp-herdeiros-so-respondem-divida-tributaria-apos-partilha-espolio-execucao-fiscal-rio-claro` — IBDFAM (11/11) https://ibdfam.org.br/noticias/herdeiros-so-respondem-por-dividas-tributarias-apos-a-partilha-de-bens-decide-tjsp
+- **Divórcio liminar sem partilha prévia (1ª Vara de Peixoto de Azevedo/MT)** — `tjmt-peixoto-de-azevedo-divorcio-liminar-independe-partilha-previa-bens-ec-66` — IBDFAM (11/11) https://ibdfam.org.br/noticias/justica-decreta-divorcio-liminar-e-reafirma-que-medida-independe-de-partilha-previa-de-bens
+- **STF: imunidade penal em crimes patrimoniais entre familiares (ADPFs 1185/1241), modulação em 18/11** — `stf-adpf-1185-1241-escusas-absolutorias-art-181-codigo-penal-violencia-patrimonial-familiares-modulacao` — IBDFAM (13/11) https://ibdfam.org.br/noticias/stf-afasta-imunidade-penal-para-crimes-de-violencia-patrimonial-entre-familiares
 
 ## Descartados
-- IBDFAM, STJ sobre legitimidade do espólio para cancelar hipoteca: só resumo público lido (ementa restrita a associados).
-- Resolução CNJ 695/2026 (ITCMD e escritura de inventário): só ANOREG em artigo de opinião/resumo, não lido integralmente; data incerta.
-- Conjur: artigos de opinião (aluguel com nota fiscal, ITBI e FII, IBS/CBS em leilões); triplex (fora do foco); taxa de lazer e banco/atraso de obra já publicados.
-- Provimento CNJ 259 (não imobiliário).
+- Informativo STJ 909 (10/11): nenhum item imobiliário/família/sucessões (penal, tributário ICMS, consumo, saúde).
+- Conjur: artigos de opinião (nota fiscal em aluguel, ITBI e FII, assento de óbito); triplex (fora do foco).
+- Conjur/IBDFAM 12-13/11 sobre violência doméstica, adoção, salário-maternidade: fora das áreas.
+- Já publicados: taxa de lazer, notificação eletrônica, furto na portaria etc.
 
 ## Fontes consultadas
-Conjur, Migalhas, IBDFAM, ANOREG, IRIB, STJ, STF, CNJ (buscas). TJPA: nada novo de novembro encontrado.
+Conjur, Migalhas, IBDFAM, IRIB, ANOREG, STJ (Informativo 909), STF, CNJ, TJPA (buscas; nada novo de novembro encontrado no TJPA).
 
 ## Atenção do dono
-- Todas as 5 baseiam-se em Conjur/Migalhas; não li o inteiro teor nem as páginas oficiais dos tribunais.
-- Lajeado: relato curto, sem dispositivos legais; fundamento (bem da União por desapropriação) vem da Migalhas.
-- TJSP mútuo: sentença de 1º grau, sujeita a recurso. Seguro habitacional: julgamento em andamento, sem tese.
-- Notificação eletrônica: números dos REsps vêm da Conjur; a Migalhas indica TJ de Alagoas no caso-base.
+- Todas se baseiam em notícias de Conjur/Migalhas/IBDFAM; não li acórdãos nem páginas oficiais dos tribunais.
+- STF: julgamento em andamento (resultado não proclamado; modulação em 18/11). Vale atualizar após essa sessão. Tema é penal/familiar, com relação indireta a patrimônio; avalie se mantém.
+- TJGO: matéria traz avaliação dos advogados das incorporadoras (fonte parcial) e cita a Súmula 84 do TJGO conforme a Migalhas.
+- Divórcio liminar: decisão de 1º grau; o parecer do desembargador emérito é do IBDFAM. TJSP herdeiros: ConJur é a fonte original, lida via IBDFAM.
 - Revisar "Nas entrelinhas" em todas.
