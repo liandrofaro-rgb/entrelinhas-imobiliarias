@@ -6827,5 +6827,344 @@
     "url": "https://ibdfam.org.br/noticias/stf-afasta-imunidade-penal-para-crimes-de-violencia-patrimonial-entre-familiares"
    }
   ]
+ },
+ {
+  "slug": "tjgo-placas-solares-condominio-beneficio-util-maioria-simples-segunda-convocacao",
+  "titulo": "TJGO: placas solares em condomínio são benfeitoria útil e podem ser aprovadas por maioria simples.",
+  "subtitulo": "A 5ª Câmara Cível validou a assembleia que aprovou o sistema fotovoltaico e os contratos decorrentes, afastando o quórum de dois terços.",
+  "descricao": "O TJGO considerou que painéis solares instalados sobre coberturas já existentes não exigem aprovação de dois terços dos condôminos.",
+  "orgao": "TJGO",
+  "area": "Condomínio",
+  "data_publicacao": "2026-11-12",
+  "imagem": "ilustracao-predio.svg",
+  "imagem_alt": "Ilustração de um edifício residencial em linhas azuis e marinho",
+  "resumo": [
+   "A 5ª Câmara Cível do TJGO ==validou a aprovação por maioria simples== da instalação de placas solares em condomínio de Goiânia.",
+   "Para a relatora, o sistema é **benfeitoria útil**: reduz gastos com energia sem ampliar a área construída.",
+   "A sentença havia invalidado a assembleia por entender que se exigia quórum de dois terços; o tribunal reformou esse ponto.",
+   "O colegiado também considerou a economia já obtida e a segurança de terceiros contratantes ao rejeitar o desfazimento dos contratos.",
+   "A votação foi unânime, segundo a Migalhas."
+  ],
+  "aconteceu": [
+   "Condôminos de um prédio em Goiânia (GO) ajuizaram ação contra o condomínio para questionar a aprovação, em assembleia, da instalação de um sistema de energia fotovoltaica. Sustentaram que a obra seria **voluptuária** e, por isso, dependeria do voto de dois terços dos proprietários, como exigem a lei e as regras do próprio condomínio.",
+   "O condomínio defendeu a regularidade da assembleia e afirmou que o sistema é **benfeitoria útil**, para a qual basta a maioria simples. Os autores também contestaram outras deliberações, sobre fechamento de varandas e fachadas, reforma da piscina e uso de área comum por um minimercado privado.",
+   "Na primeira instância, o juiz reconheceu a decadência do direito de anular deliberações de quatro assembleias e, na sentença, julgou o pedido parcialmente procedente: invalidou a aprovação do sistema fotovoltaico e os contratos dele decorrentes, rejeitando os demais pedidos. As duas partes recorreram."
+  ],
+  "lei": [
+   "O **art. 1.341, II, do Código Civil**, citado no voto conforme a Migalhas, trata das obras úteis no condomínio.",
+   "O **art. 1.353 do Código Civil**, também citado, trata do quórum de maioria dos presentes em segunda convocação."
+  ],
+  "decisao": [
+   "A relatora, juíza substituta em 2º grau **Stefane Fiúza Cançado Machado**, afastou o entendimento da sentença de que a instalação seria um acréscimo à edificação. Segundo o voto, os equipamentos ficaram sobre coberturas preexistentes, sem ampliar a área construída nem alterar a destinação dos espaços comuns. Por isso, o sistema foi classificado como ==benfeitoria útil==, destinada a reduzir os gastos de energia das áreas comuns, e bastava a maioria dos presentes em segunda convocação.",
+   "A assembleia de 20/12/2021 ocorreu em segunda convocação e teve aprovação da maioria dos votantes presentes, o que bastou para o colegiado considerá-la válida. A relatora destacou ainda que o sistema foi instalado integralmente em 2022 e já reduzia as despesas de energia das áreas comuns quando a ação foi proposta, em 2023.",
+   "Para o voto, desfazer o ato e os contratos violaria a função social do contrato, a boa-fé e a segurança jurídica de terceiros (a prestadora do serviço e o agente financeiro). Por unanimidade, a câmara deu parcial provimento à apelação do condomínio, validou a assembleia e os contratos e rejeitou os pedidos dos condôminos. Quanto às demais questões, considerou necessárias as obras da piscina, com base em laudo técnico não impugnado, e rejeitou as alegações sobre o minimercado por falta de prova de irregularidade ou prejuízo."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: o quórum depende de como a obra é classificada",
+  "entrelinhas": [
+   "**O conflito de fundo é a classificação da obra.** No condomínio, o quórum muda conforme a obra seja necessária, útil ou voluptuária (de mero deleite). Quem discute uma assembleia costuma discutir, na verdade, em qual dessas caixas a obra se encaixa.",
+   "**Quem decidiu foi o tribunal, com base nos fatos do caso.** O TJGO tratou painéis instalados sobre coberturas já existentes, sem aumento de área. A própria fundamentação dá peso a esses detalhes; outra configuração de obra pode levar a outra conclusão.",
+   "**O efeito prático vai além do quórum.** A câmara também considerou que o sistema já estava funcionando e gerando economia, e que desfazer os contratos afetaria terceiros. Isso mostra que o tempo e as consequências da anulação pesam no julgamento.",
+   "**Limites.** A notícia relata decisão de segunda instância, em processo específico, e não fixa regra para todos os condomínios. A convenção de cada prédio e os fatos de cada obra continuam sendo determinantes."
+  ],
+  "sintese": "Em uma frase: **para o TJGO, painel solar sobre cobertura existente é benfeitoria útil e pode ser aprovado por maioria simples em segunda convocação.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça de Goiás · 5ª Câmara Cível"
+   ],
+   [
+    "Julgamento",
+    "Data não informada pela fonte"
+   ],
+   [
+    "Relatora",
+    "Juíza substituta em 2º grau Stefane Fiúza Cançado Machado"
+   ],
+   [
+    "Processo",
+    "5489757-64.2023.8.09.0051"
+   ],
+   [
+    "Divulgação",
+    "12 de novembro de 2026 (Migalhas)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "Migalhas ↗",
+    "url": "https://www.migalhas.com.br/quentes/468258/tj-go-valida-instalacao-de-placas-solares-por-maioria-simples-em-condominio"
+   }
+  ]
+ },
+ {
+  "slug": "trf2-minha-casa-minha-vida-jacarepagua-invasoes-uniao-municipio-banco-do-brasil-moradia",
+  "titulo": "TRF-2 mantém ordem para União, Prefeitura do Rio e Banco do Brasil garantirem moradia no Minha Casa, Minha Vida.",
+  "subtitulo": "A 5ª Turma Especializada negou os recursos em ação do MPF sobre unidades ocupadas irregularmente em conjunto habitacional de Jacarepaguá.",
+  "descricao": "O TRF-2 manteve sentença que exige atuação conjunta de União, município e BB para famílias impedidas de ocupar unidades do programa.",
+  "orgao": "TRF-2",
+  "area": "Moradia e regularização",
+  "data_publicacao": "2026-11-15",
+  "imagem": "ilustracao-chave.svg",
+  "imagem_alt": "Ilustração de uma chave sobre um círculo, simbolizando a posse da moradia",
+  "resumo": [
+   "O TRF-2 ==negou, por unanimidade, os recursos== da União e do Banco do Brasil em ação civil pública do MPF.",
+   "Famílias selecionadas para o Minha Casa, Minha Vida não conseguem ocupar unidades em Jacarepaguá (RJ), invadidas desde 2018, segundo a fonte.",
+   "A sentença manda União, Prefeitura do Rio e Banco do Brasil agirem em conjunto, com prazo de seis meses.",
+   "O colegiado afirmou que a moradia é direito social (art. 6º da Constituição) e que a União coordena a política habitacional."
+  ],
+  "aconteceu": [
+   "A ação nasceu da denúncia de uma beneficiária do Minha Casa, Minha Vida que, mesmo selecionada, não conseguiu tomar posse do imóvel no Condomínio Vila Carioca, na Colônia Juliano Moreira, em Jacarepaguá (RJ). Investigações do **Ministério Público Federal** apontaram que várias famílias escolhidas para o empreendimento estavam impedidas de exercer a posse desde 2018 por ocupações irregulares.",
+   "O MPF ajuizou ação civil pública e apontou omissão administrativa de quem responde pelo programa no local: o Ministério das Cidades (gestor), o Banco do Brasil (agente financeiro e executor) e a Prefeitura do Rio (ente que aderiu ao programa).",
+   "Em setembro de 2025, a Justiça Federal acolheu os pedidos e determinou que os três atuassem em conjunto para assegurar a moradia das famílias, em prazo de seis meses. A União recorreu para limitar seu papel à coordenação e ao monitoramento, e o Banco do Brasil opôs embargos de declaração alegando que as portarias do programa não lhe atribuem todas as obrigações impostas e que dependeria de providências do município."
+  ],
+  "lei": [
+   "O **art. 6º da Constituição** prevê a moradia como direito social.",
+   "A **Lei 14.620/2023, art. 11, I, \"a\"**, segundo a ConJur, atribui ao Ministério das Cidades gerir e definir a forma de implementação do programa.",
+   "A **Portaria MCID 114/2018**, citada no acórdão, enumera atribuições do Banco do Brasil como agente financeiro."
+  ],
+  "decisao": [
+   "A **5ª Turma Especializada do TRF-2**, com relatoria do desembargador federal **André Fonte**, negou por unanimidade os recursos da União e do Banco do Brasil. O acórdão considerou que a ocupação irregular impede que parte dos destinatários tenha acesso efetivo à política pública e que sua execução exige a ==atuação conjunta de todos os responsáveis==.",
+   "Sobre a União, o relator a descreveu como \"avalista\" de que a política habitacional ocorra e concluiu que não há como afastar o papel de coordenação atribuído pela sentença ao ministério competente. Sobre o Banco do Brasil, reconheceu sua participação como legítima, por ser agente financeiro e executor do programa, com atribuições previstas na portaria do programa.",
+   "A fonte não detalha quais medidas concretas serão adotadas nem se ainda cabem recursos."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: quando o problema é a posse, a política pública vira dever de várias mãos",
+  "entrelinhas": [
+   "**O conflito de fundo.** Ter o direito de receber uma casa do programa não basta se terceiros ocupam a unidade. Cada ente envolvido tende a apontar que a providência cabe a outro, e a ação do MPF busca justamente superar essa divisão de responsabilidades.",
+   "**Quem decide e como.** O tribunal não escolheu um único responsável: manteve a atuação coordenada da União, do município e do banco, cada qual dentro do que a legislação e as portarias do programa preveem.",
+   "**Efeito prático.** A decisão reforça que a responsabilidade do poder público não termina com o sorteio ou a seleção das famílias; envolve também garantir que a posse seja possível.",
+   "**Limites.** É um julgamento de segunda instância em ação coletiva, relativo a um conjunto habitacional específico. Não significa solução automática para outros empreendimentos nem indica prazo para a ocupação efetiva das unidades."
+  ],
+  "sintese": "Em uma frase: **o TRF-2 manteve que União, município e Banco do Brasil devem agir juntos para garantir que famílias selecionadas consigam ocupar suas unidades do Minha Casa, Minha Vida.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal Regional Federal da 2ª Região · 5ª Turma Especializada"
+   ],
+   [
+    "Julgamento",
+    "Data não informada pela fonte"
+   ],
+   [
+    "Relator",
+    "Desembargador federal André Fonte"
+   ],
+   [
+    "Processo",
+    "Apelação Cível 5059186-54.2024.4.02.5101/RJ"
+   ],
+   [
+    "Divulgação",
+    "15 de novembro de 2026 (ConJur)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "ConJur ↗",
+    "url": "https://conjur.com.br/2026-nov-15/uniao-rio-e-bb-devem-garantir-moradia-apos-invasoes-no-minha-casa-minha-vida/"
+   }
+  ]
+ },
+ {
+  "slug": "trf4-alienacao-fiduciaria-sfh-purga-mora-apos-averbacao-consolidacao-preferencia-segundo-leilao",
+  "titulo": "TRF-4: depois da consolidação na matrícula, o devedor fiduciante não pode mais purgar a mora, só exercer a preferência.",
+  "subtitulo": "A 12ª Turma aplicou a Lei 13.465/2017 e o Tema 1.288 do STJ em financiamento do SFH e negou pedido de renegociação imposta ao banco.",
+  "descricao": "O TRF-4 decidiu que, averbada a consolidação da propriedade fiduciária, resta ao devedor a preferência até o segundo leilão.",
+  "orgao": "TRF-4",
+  "area": "Alienação fiduciária",
+  "data_publicacao": "2026-11-12",
+  "imagem": "ilustracao-fiduciaria.svg",
+  "imagem_alt": "Ilustração de uma casa com uma chave e um selo, simbolizando a propriedade fiduciária",
+  "resumo": [
+   "A 12ª Turma do TRF-4 decidiu que, ==após a averbação da consolidação==, não cabe purgar a mora para reativar o financiamento.",
+   "Ao devedor resta o **direito de preferência** na compra do imóvel, pelo valor total da dívida e encargos, até o segundo leilão.",
+   "A certidão do oficial de registro sobre a intimação do devedor tem presunção relativa de veracidade, e o devedor deve prová-la em contrário.",
+   "O Judiciário não pode obrigar o banco a apresentar proposta de renegociação.",
+   "O resumo se baseia na ementa publicada pelo IRIB."
+  ],
+  "aconteceu": [
+   "Um mutuário de financiamento do **Sistema Financeiro da Habitação (SFH)**, com alienação fiduciária, ajuizou ação pedindo a nulidade do procedimento de consolidação da propriedade em favor do credor e a possibilidade de purgar a mora mesmo depois da averbação da consolidação.",
+   "A sentença julgou os pedidos improcedentes, revogou a tutela de urgência concedida no início do processo e condenou o autor às verbas de sucumbência, sob assistência judiciária gratuita. O mutuário apelou ao TRF-4.",
+   "Em grau de recurso, ele passou a questionar também a regularidade do procedimento extrajudicial e pediu que a instituição financeira fosse compelida a apresentar proposta de renegociação da dívida. A ementa não informa o valor do financiamento nem a data da consolidação."
+  ],
+  "lei": [
+   "O **art. 26-A, § 2º, da Lei 9.514/1997**, citado na ementa, trata da impossibilidade de purgar a mora depois da consolidação.",
+   "O **art. 27, § 2º-B, da Lei 9.514/1997** e o **Tema Repetitivo 1.288/STJ** tratam do direito de preferência do devedor até o segundo leilão.",
+   "A **Lei 13.465/2017** foi o marco legal aplicado ao caso."
+  ],
+  "decisao": [
+   "A **12ª Turma do TRF-4** conheceu parcialmente da apelação e, na parte conhecida, a **negou**. Para o colegiado, como a consolidação foi averbada sob a vigência da Lei 13.465/2017, ==não existe mais a faculdade de purgar a mora== para restabelecer o contrato; o fiduciante tem apenas o direito de preferência para comprar o imóvel pelo valor total da dívida, mais despesas e encargos tributários, até o segundo leilão público, sem que isso reviva o contrato extinto.",
+   "Os questionamentos sobre a regularidade do procedimento extrajudicial foram tratados como **inovação recursal**, porque a petição inicial só pedia a purgação da mora. Sobre a prova, a ementa afirma que a certidão do oficial do registro de imóveis que atesta a notificação pessoal e o decurso do prazo sem pagamento tem presunção relativa de veracidade, e que a inversão do ônus da prova do CDC não é automática.",
+   "Por fim, o colegiado entendeu que não cabe ao Judiciário obrigar o credor a apresentar proposta de acordo ou manter a suspensão dos atos executivos. Os honorários foram majorados, nos termos do art. 85, § 11, do CPC."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: o momento da averbação muda o que o devedor ainda pode fazer",
+  "entrelinhas": [
+   "**O conflito de fundo.** Em financiamento com alienação fiduciária, o imóvel fica em nome do credor como garantia. Quando o pagamento atrasa e o devedor é intimado, o procedimento pode levar à consolidação da propriedade; a discussão é o que o devedor ainda pode fazer depois disso.",
+   "**Quem decide e como.** O TRF-4 seguiu o texto da lei e o tema repetitivo do STJ citado na ementa: depois da averbação, o caminho é a preferência na compra, e não a retomada do contrato pelo pagamento das parcelas atrasadas.",
+   "**Efeito prático.** A decisão destaca o peso do registro de imóveis: a certidão sobre a intimação vale como prova, e o devedor precisa trazer elementos para derrubá-la. Questionar o procedimento exige fazê-lo no momento processual adequado.",
+   "**Limites.** É decisão de uma turma de tribunal regional em caso concreto, relatada pela ementa. Não há informação sobre valores nem sobre o que ocorreu com o imóvel depois do julgamento."
+  ],
+  "sintese": "Em uma frase: **consolidada a propriedade na matrícula, o devedor do SFH perde a purga da mora e fica só com a preferência até o segundo leilão.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal Regional Federal da 4ª Região · 12ª Turma"
+   ],
+   [
+    "Julgamento",
+    "6 de novembro de 2026 (julgada e publicada, segundo o IRIB)"
+   ],
+   [
+    "Relator",
+    "Desembargador federal Luiz Antonio Bonat"
+   ],
+   [
+    "Processo",
+    "Apelação Cível 5014187-48.2025.4.04.7001/PR"
+   ],
+   [
+    "Divulgação",
+    "12 de novembro de 2026 (IRIB)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IRIB ↗",
+    "url": "https://www.irib.org.br/alienacao-fiduciaria-sfh-consolidacao-da-propriedade-purga-da-mora-apos-a-averbacao-descabimento-fe-publica-registral/"
+   }
+  ]
+ },
+ {
+  "slug": "tjdft-doacao-imovel-curatelado-alvara-judicial-vedacao-curador-intencao-anterior-interdicao",
+  "titulo": "TJDFT: curador não pode doar bem do curatelado nem com alvará, mesmo que a intenção seja anterior à interdição.",
+  "subtitulo": "A 7ª Turma Cível negou autorização para doar quota-parte de imóvel e afirmou que o rascunho de escritura não prova a vontade do curatelado.",
+  "descricao": "O TJDFT manteve a negativa de alvará para doação de bem do curatelado, por vedação legal e falta de vantagem concreta.",
+  "orgao": "TJDFT",
+  "area": "Planejamento patrimonial",
+  "data_publicacao": "2026-11-13",
+  "imagem": "ilustracao-cadeado.svg",
+  "imagem_alt": "Ilustração de um cadeado fechado, simbolizando a proteção do patrimônio",
+  "resumo": [
+   "A 7ª Turma Cível do TJDFT ==manteve a negativa de alvará== para doar a quota-parte de imóvel de pessoa curatelada.",
+   "As regras da tutela se aplicam à curatela: o curador não pode dispor gratuitamente dos bens do curatelado, **nem com autorização judicial**.",
+   "Um rascunho de escritura não assinado e o pagamento antecipado de emolumentos não provam que a doação foi concluída.",
+   "Antecipar a herança aos futuros herdeiros não foi considerado vantagem concreta e atual ao curatelado.",
+   "O resumo se baseia na ementa publicada pelo IRIB."
+  ],
+  "aconteceu": [
+   "O caso chegou ao TJDFT em um procedimento de **jurisdição voluntária**, no qual foi pedido um alvará judicial para doar a quota-parte de um imóvel que pertence a uma pessoa curatelada. O pedido se apoiava na alegação de que o curatelado já havia manifestado a intenção de doar antes de ser interditado.",
+   "A sentença julgou o pedido improcedente. Houve apelação ao tribunal. A ementa não informa quem eram os beneficiários da doação nem o valor do bem."
+  ],
+  "lei": [
+   "Os **arts. 1.749, II, 1.774 e 1.781 do Código Civil**, citados na ementa, tratam da vedação ao tutor de dispor gratuitamente dos bens do tutelado e da aplicação dessas regras à curatela.",
+   "O **art. 112 do Código Civil**, citado na ementa, trata da interpretação da declaração de vontade."
+  ],
+  "decisao": [
+   "A **7ª Turma Cível** conheceu da apelação e a **negou**. Segundo a ementa, as disposições sobre tutela aplicam-se à curatela, de modo que o curador ==não pode doar bens do curatelado, ainda que com autorização judicial==.",
+   "O colegiado entendeu que um rascunho de escritura pública sem assinatura e o pagamento antecipado dos emolumentos não comprovam a conclusão da doação nem uma manifestação de vontade livre, consciente e atual, sobretudo porque a própria petição inicial reconhecia que o curatelado já não conseguia exprimir plenamente a vontade.",
+   "Para o tribunal, o art. 112 do Código Civil não supre requisito de validade do negócio. Prevenir conflitos sucessórios e antecipar a transmissão aos futuros herdeiros não configuram vantagem atual e concreta ao curatelado, e a reserva de usufruto ou cláusulas restritivas não eliminam a natureza gratuita do ato nem o decréscimo patrimonial."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: a proteção do curatelado pesa mais que o planejamento sucessório da família",
+  "entrelinhas": [
+   "**O conflito de fundo.** De um lado, o desejo de organizar a sucessão e evitar disputas futuras; de outro, a regra que protege o patrimônio de quem não consegue administrá-lo. O tribunal deu prioridade à proteção.",
+   "**Quem decide e como.** O juiz não age apenas como validador da vontade da família: ao analisar o alvará, verifica se há vedação legal e se o ato traz vantagem concreta ao curatelado.",
+   "**Efeito prático.** Intenções anteriores à interdição precisam estar formalizadas e concluídas enquanto a pessoa podia manifestar sua vontade. Um documento não assinado, segundo a decisão, não cumpre esse papel.",
+   "**Limites.** A ementa trata de doação gratuita de bem de curatelado e não analisa outros tipos de negócio, como venda com autorização judicial."
+  ],
+  "sintese": "Em uma frase: **na curatela, doar bem do curatelado é vedado, mesmo com alvará, e a mera intenção anterior ou um rascunho de escritura não bastam.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça do Distrito Federal e dos Territórios · 7ª Turma Cível"
+   ],
+   [
+    "Julgamento",
+    "29 de outubro de 2026 (publicada no PJe em 3 de novembro de 2026)"
+   ],
+   [
+    "Relatora",
+    "Desembargadora Sandra Reves"
+   ],
+   [
+    "Processo",
+    "Apelação 0759596-43.2026.8.07.0016"
+   ],
+   [
+    "Divulgação",
+    "13 de novembro de 2026 (IRIB)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IRIB ↗",
+    "url": "https://www.irib.org.br/doacao-imovel-pertencente-a-curatelado-alvara-judicial-negocio-juridico-vedacao-legal/"
+   }
+  ]
+ },
+ {
+  "slug": "tjpr-duvida-registral-imovel-rural-aquisicao-estrangeira-sem-autorizacao-incra-venda-a-brasileiros",
+  "titulo": "TJPR: venda de imóvel rural a brasileiros pode ser registrada mesmo que a compra anterior por estrangeira não tivesse autorização do Incra.",
+  "subtitulo": "A 17ª Câmara Cível deu provimento à apelação em dúvida registral e afastou o óbice por quebra de continuidade.",
+  "descricao": "O TJPR entendeu que o registro anterior segue eficaz enquanto não cancelado e que a venda a brasileiros pode ser registrada.",
+  "orgao": "TJPR",
+  "area": "Registro de imóveis",
+  "data_publicacao": "2026-11-16",
+  "imagem": "ilustracao-terra.svg",
+  "imagem_alt": "Ilustração de um mapa de terreno com demarcação",
+  "resumo": [
+   "A 17ª Câmara Cível do TJPR ==afastou o óbice registral== à escritura de venda de imóveis rurais a brasileiros.",
+   "A aquisição anterior por estrangeira ocorrera sem autorização do Incra, segundo a ementa.",
+   "Para o tribunal, o registro anterior é eficaz **enquanto não for cancelado** (art. 252 da Lei 6.015/1973).",
+   "A transferência a brasileiros foi vista como hipótese de regularização, sem convalidar a aquisição anterior.",
+   "O resumo se baseia apenas na ementa, divulgada pelo IRIB."
+  ],
+  "aconteceu": [
+   "O caso é uma **dúvida registral**, procedimento de natureza administrativa em que o oficial de registro de imóveis questiona se o título pode ser registrado. Tratava-se de escritura de compra e venda de imóveis rurais na comarca de Tomazina (PR).",
+   "Segundo a ementa, os imóveis haviam sido adquiridos antes por uma estrangeira sem autorização do Incra, e depois vendidos a adquirentes brasileiros. A ementa não informa quem levantou o óbice nem o fundamento exato apresentado pelo registrador, nem valores ou área dos imóveis."
+  ],
+  "lei": [
+   "O **art. 252 da Lei 6.015/1973**, citado na ementa, trata da eficácia do registro enquanto não cancelado.",
+   "O **art. 28, II, da Instrução Normativa Incra 88/2017**, citado na ementa, trata da transferência do domínio a brasileiro como hipótese de regularização."
+  ],
+  "decisao": [
+   "A **17ª Câmara Cível do TJPR**, relatada pelo desembargador **Carlos Henrique Licheski Klein**, **conheceu e deu provimento** à apelação. Segundo a ementa, a dúvida registral tem natureza administrativa e limites de análise, e o registro anterior ==continua eficaz enquanto não for cancelado==, o que preserva a continuidade registral.",
+   "A ementa afirma também que a transferência do domínio a brasileiro é hipótese de regularização prevista na norma do Incra, sem que isso convalide a aquisição anterior feita pela estrangeira. Com isso, o óbice foi afastado.",
+   "O IRIB divulgou só a ementa; o inteiro teor, com os detalhes do caso, não foi lido para esta matéria."
+  ],
+  "entrelinhas_titulo": "Nas entrelinhas: o que o registro permite não valida o que veio antes",
+  "entrelinhas": [
+   "**O conflito de fundo.** A compra de imóvel rural por estrangeiros tem regras próprias. O registrador se preocupa com a regularidade da cadeia de titularidade; os compradores querem registrar o título que receberam.",
+   "**Quem decide e como.** Em dúvida registral, o juízo analisa se o título pode ser registrado, sem substituir um processo em que se discuta a validade da compra anterior. Foi esse o foco do TJPR.",
+   "**Efeito prático.** Segundo a ementa, o registro anterior vale até ser cancelado, e a venda a brasileiros foi tratada como forma de regularizar a situação. O registro do novo título, porém, não declara válida a aquisição passada.",
+   "**Limites.** A ementa não traz os fatos completos, e a matéria vale para o caso julgado na dúvida registral. Outros casos de imóvel rural e estrangeiros dependem das normas aplicáveis e das circunstâncias."
+  ],
+  "sintese": "Em uma frase: **para o TJPR, o registro anterior continua eficaz até ser cancelado, e vender o imóvel rural a brasileiros não esbarra em quebra de continuidade.**",
+  "dados": [
+   [
+    "Tribunal",
+    "Tribunal de Justiça do Paraná · 17ª Câmara Cível"
+   ],
+   [
+    "Julgamento",
+    "11 de novembro de 2026"
+   ],
+   [
+    "Relator",
+    "Desembargador Carlos Henrique Licheski Klein"
+   ],
+   [
+    "Processo",
+    "Apelação 0000657-53.2024.8.16.0171 (Comarca de Tomazina)"
+   ],
+   [
+    "Divulgação",
+    "16 de novembro de 2026 (IRIB; publicada em 12/11/2026 segundo a ementa)"
+   ]
+  ],
+  "fontes": [
+   {
+    "rotulo": "IRIB ↗",
+    "url": "https://www.irib.org.br/escritura-de-compra-e-venda-imovel-rural-aquisicao-anterior-por-estrangeira-sem-autorizacao-do-incra-alienacao-subsequente-a-adquirentes-brasileiros-registro-anterior-eficaz-enquanto-nao-cancelado/"
+   }
+  ]
  }
 ]

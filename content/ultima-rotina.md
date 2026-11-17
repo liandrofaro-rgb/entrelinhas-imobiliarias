@@ -1,24 +1,24 @@
-# Última rotina — 2026-11-15 10:08 UTC
+# Última rotina — 2026-11-17 (UTC)
 
 ## Publicado (5)
-- **TRF-1: preferência do coproprietário só vale na arrematação** — `trf1-coproprietario-preferencia-arrematacao-nao-autoriza-adjudicacao-antecipada-execucao-fiscal` — Conjur (13/11) https://conjur.com.br/2026-nov-13/coproprietario-de-imovel-deve-exercer-preferencia-na-arrematacao/
-- **TJGO: ação sobre Tabela Price não autoriza depósito judicial no lugar das parcelas** — `tjgo-tabela-price-revisional-deposito-judicial-nao-substitui-parcelas-incorporadora` — Migalhas (13/11) https://www.migalhas.com.br/quentes/468599/tj-go-decisoes-mantem-pagamentos-de-contratos-imobiliarios-com-tabela-price
-- **TJSP: herdeiros só respondem por dívida tributária após a partilha** — `tjsp-herdeiros-so-respondem-divida-tributaria-apos-partilha-espolio-execucao-fiscal-rio-claro` — IBDFAM (11/11) https://ibdfam.org.br/noticias/herdeiros-so-respondem-por-dividas-tributarias-apos-a-partilha-de-bens-decide-tjsp
-- **Divórcio liminar sem partilha prévia (1ª Vara de Peixoto de Azevedo/MT)** — `tjmt-peixoto-de-azevedo-divorcio-liminar-independe-partilha-previa-bens-ec-66` — IBDFAM (11/11) https://ibdfam.org.br/noticias/justica-decreta-divorcio-liminar-e-reafirma-que-medida-independe-de-partilha-previa-de-bens
-- **STF: imunidade penal em crimes patrimoniais entre familiares (ADPFs 1185/1241), modulação em 18/11** — `stf-adpf-1185-1241-escusas-absolutorias-art-181-codigo-penal-violencia-patrimonial-familiares-modulacao` — IBDFAM (13/11) https://ibdfam.org.br/noticias/stf-afasta-imunidade-penal-para-crimes-de-violencia-patrimonial-entre-familiares
+- **TJGO: placas solares em condomínio são benfeitoria útil, maioria simples** — `tjgo-placas-solares-condominio-beneficio-util-maioria-simples-segunda-convocacao` — Migalhas https://www.migalhas.com.br/quentes/468258/tj-go-valida-instalacao-de-placas-solares-por-maioria-simples-em-condominio
+- **TRF-2: União, Prefeitura do Rio e BB devem garantir moradia no MCMV (Jacarepaguá)** — `trf2-minha-casa-minha-vida-jacarepagua-invasoes-uniao-municipio-banco-do-brasil-moradia` — ConJur https://conjur.com.br/2026-nov-15/uniao-rio-e-bb-devem-garantir-moradia-apos-invasoes-no-minha-casa-minha-vida/
+- **TRF-4: após consolidação na matrícula, sem purga da mora, só preferência** — `trf4-alienacao-fiduciaria-sfh-purga-mora-apos-averbacao-consolidacao-preferencia-segundo-leilao` — IRIB https://www.irib.org.br/alienacao-fiduciaria-sfh-consolidacao-da-propriedade-purga-da-mora-apos-a-averbacao-descabimento-fe-publica-registral/
+- **TJDFT: curador não pode doar bem do curatelado, nem com alvará** — `tjdft-doacao-imovel-curatelado-alvara-judicial-vedacao-curador-intencao-anterior-interdicao` — IRIB https://www.irib.org.br/doacao-imovel-pertencente-a-curatelado-alvara-judicial-negocio-juridico-vedacao-legal/
+- **TJPR: venda de imóvel rural a brasileiros, registro anterior sem autorização do Incra** — `tjpr-duvida-registral-imovel-rural-aquisicao-estrangeira-sem-autorizacao-incra-venda-a-brasileiros` — IRIB https://www.irib.org.br/escritura-de-compra-e-venda-imovel-rural-aquisicao-anterior-por-estrangeira-sem-autorizacao-do-incra-alienacao-subsequente-a-adquirentes-brasileiros-registro-anterior-eficaz-enquanto-nao-cancelado/
 
 ## Descartados
-- Informativo STJ 909 (10/11): nenhum item imobiliário/família/sucessões (penal, tributário ICMS, consumo, saúde).
-- Conjur: artigos de opinião (nota fiscal em aluguel, ITBI e FII, assento de óbito); triplex (fora do foco).
-- Conjur/IBDFAM 12-13/11 sobre violência doméstica, adoção, salário-maternidade: fora das áreas.
-- Já publicados: taxa de lazer, notificação eletrônica, furto na portaria etc.
+- ConJur 16/11 (guardas municipais e invasão de domicílio): penal, fora das áreas.
+- ConJur/Migalhas: artigos de opinião (nota fiscal em aluguel, IBS/CBS em leilões, Tema 1.254).
+- TJSP Ilhabela (APP): ambiental, tangencial.
+- IBDFAM 12–16/11: adoção, violência doméstica, alimentos, curatela por ludopatia: fora das áreas.
+- Já publicados: notificação eletrônica, taxa de lazer, coproprietário/arrematação etc.
 
 ## Fontes consultadas
-Conjur, Migalhas, IBDFAM, IRIB, ANOREG, STJ (Informativo 909), STF, CNJ, TJPA (buscas; nada novo de novembro encontrado no TJPA).
+IBDFAM, IRIB, ConJur, Migalhas, registrodeimoveis.org.br (listagens e páginas lidas); buscas no STJ/ANOREG sem item novo e inédito. Páginas de listagem do ConJur/Migalhas vieram sem links úteis.
 
 ## Atenção do dono
-- Todas se baseiam em notícias de Conjur/Migalhas/IBDFAM; não li acórdãos nem páginas oficiais dos tribunais.
-- STF: julgamento em andamento (resultado não proclamado; modulação em 18/11). Vale atualizar após essa sessão. Tema é penal/familiar, com relação indireta a patrimônio; avalie se mantém.
-- TJGO: matéria traz avaliação dos advogados das incorporadoras (fonte parcial) e cita a Súmula 84 do TJGO conforme a Migalhas.
-- Divórcio liminar: decisão de 1º grau; o parecer do desembargador emérito é do IBDFAM. TJSP herdeiros: ConJur é a fonte original, lida via IBDFAM.
+- IRIB (3 itens): baseados só na ementa; inteiro teor não lido. O item do TJPR (imóvel rural) é o mais fraco: ementa curta, fatos do caso não informados; considere despublicar se preferir.
+- Placas solares (Migalhas): data da página ambígua (publicada 15/11, atualizada 12/11); usei 12/11. Decisão de 2º grau por juíza substituta.
+- TRF-2: não há data de julgamento na fonte; "Nas entrelinhas" é interpretação minha.
 - Revisar "Nas entrelinhas" em todas.
