@@ -976,5 +976,179 @@
    "**Provimento CNJ 65/2017**, art. 24 (não exigência de ITBI no registro da usucapião)",
    "**Lei municipal de Belém 10.308/2026** (alíquota do ITBI, conforme noticiado; texto não lido)"
   ]
+ },
+ {
+  "slug": "condominio-furto-portaria-falha-de-quem-vigia",
+  "titulo": "Furto no apartamento: o condomínio não garante que nada aconteça, mas responde quando a portaria falha.",
+  "titulo_capa": "Furto no prédio: quando a portaria falha.",
+  "subtitulo": "O STJ manteve a condenação de um condomínio cujo porteiro liberou a entrada de criminosos sem falar com os moradores, e deixou claro onde está a linha entre azar e descuido.",
+  "descricao": "Análise da decisão do STJ que condenou condomínio por furto em apartamento após falha da portaria: quando o condomínio responde, quando não responde, o papel da convenção e o que pesa na prova.",
+  "area": "Condomínio",
+  "formato": "analise",
+  "data_publicacao": "2026-11-17",
+  "relacionadas": [
+   "stj-terceira-turma-condominio-responde-furto-porteiro-liberou-acesso",
+   "airbnb-aprovacao-condominio-dois-tercos",
+   "stj-quarta-turma-taxa-geral-lazer-possuidor-nao-proprietario-isonomia",
+   "tjmg-aluguel-area-comum-condominio-repartido-condominos"
+  ],
+  "abertura": [
+   "A família viaja, o apartamento fica fechado e, na volta, a porta está arrombada. A primeira pergunta é sobre a polícia. A segunda, quase sempre, é sobre o condomínio: se todos pagam por portaria e segurança, o prédio não deveria responder pelo prejuízo?",
+   "A tese deste texto é que ==o condomínio não é um segurador de tudo o que acontece dentro do prédio, mas responde quando quem deveria vigiar facilita o crime==. A decisão recente do STJ não muda a regra geral; ela mostra, com clareza, em que ponto o furto deixa de ser azar e passa a ser descuido de quem controla a entrada."
+  ],
+  "secoes": [
+   {
+    "titulo": "O caso e a decisão",
+    "paragrafos": [
+     "Em 06.11.26, o STJ divulgou a decisão unânime da Terceira Turma (REsp 2.264.505, rel. Min. Nancy Andrighi) que manteve a condenação de um condomínio do Rio de Janeiro por furto em apartamento. Os moradores estavam viajando, e o funcionário da portaria liberou a entrada dos criminosos sem autorização deles. As instâncias ordinárias fixaram R$ 24 mil de danos morais e R$ 12 mil de danos materiais, e o Tribunal de Justiça do Rio considerou que a convenção tratava a segurança como serviço interno essencial, custeado por todos.",
+     "No recurso, o condomínio sustentou que não havia responsabilidade objetiva e que a sua culpa não estava provada. A relatora partiu de uma premissa favorável ao prédio: em regra, o condomínio **não tem o dever de impedir furtos**, porque a segurança não é uma **obrigação de resultado**, aquela em que só o resultado prometido libera o devedor. Mas há o dever de empregar os melhores meios ao seu alcance para tentar evitá-los. Quando a conduta negligente ou imprudente do preposto da segurança, em vez de evitar o crime, contribui para ele, há ato ilícito, com base nos arts. 186, 927 e 932 do Código Civil."
+    ]
+   },
+   {
+    "titulo": "Por que o descuido do porteiro é do condomínio",
+    "paragrafos": [
+     "O ponto central está no art. 932, III, do Código Civil, que trata da responsabilidade por atos de outra pessoa. O porteiro, o vigia e a empresa terceirizada agem em nome do condomínio, e o que fazem no posto de trabalho é atribuído a ele.",
+     "> “o empregador ou comitente, por seus empregados, serviçais e prepostos, no exercício do trabalho que lhes competir, ou em razão dele” | Código Civil, art. 932, III",
+     "Isso explica a lógica da decisão. O morador não precisa provar que o síndico errou pessoalmente, e sim que a pessoa encarregada do controle de acesso falhou naquilo que era a sua tarefa: abrir o portão sem identificar o visitante, sem interfonar para a unidade ou contra uma orientação expressa. A **responsabilidade** nasce da falha concreta, e não do simples fato de o crime ter ocorrido dentro dos muros. O STJ citou, no mesmo sentido, precedente recente da própria Turma (REsp 2.652.855), que confirmou a responsabilidade do condomínio por crime dentro de unidade e afastou cláusula da convenção que excluía essa responsabilidade."
+    ]
+   },
+   {
+    "titulo": "Cada prédio tem a sua régua",
+    "paragrafos": [
+     "A decisão tem um limite importante, dito pela própria relatora. O que se espera da portaria depende do prédio. Um condomínio com centenas de unidades e grande circulação de pessoas, inclusive por locação de curta temporada, costuma contar com câmeras, portaria eletrônica e reconhecimento facial. Um prédio pequeno, com um porteiro por turno, tem outra estrutura e outro padrão de cuidado.",
+     "> “Todas essas nuances devem ser consideradas pelo Poder Judiciário na análise da conduta condominial” | Min. Nancy Andrighi, REsp 2.264.505",
+     "> “a negligência ou imprudência do preposto deve ser aferida diante dos elementos concretos” | Min. Nancy Andrighi, REsp 2.264.505",
+     "A rotatividade de pessoas pesa nesse exame. Em 07.05.26, a Segunda Seção do STJ, ao decidir que a oferta de unidades em plataformas como o Airbnb exige mudança de destinação aprovada por dois terços dos condôminos, mencionou justamente os reflexos dessa rotatividade na segurança e no sossego dos moradores. Quanto mais gente entra e sai, mais rigoroso tende a ser o controle esperado, e mais fácil fica apontar a falha quando ele não existe."
+    ]
+   },
+   {
+    "titulo": "O que a convenção e a prova decidem",
+    "paragrafos": [
+     "Na prática, dois elementos costumam definir o resultado. O primeiro é a **convenção do condomínio** e o regimento interno: o que preveem sobre portaria, identificação de visitantes, entrega de chaves e prestadores de serviço. No caso julgado, a convenção tratava a segurança como despesa essencial, o que reforçou a expectativa dos moradores. E o precedente citado pela Turma indica que uma cláusula que simplesmente exclui a responsabilidade não basta para afastar a falha do próprio funcionário.",
+     "O segundo elemento é a **prova do que aconteceu na portaria**: livro de visitantes, registros do sistema de acesso, imagens das câmeras, interfone, depoimentos. Esses registros costumam ser apagados em poucos dias, e por isso o pedido de preservação feito ao síndico logo após o fato pode valer mais do que qualquer argumento depois. Para o condomínio, a mesma lógica vale ao contrário: protocolos escritos, treinamento e registros organizados mostram que os meios disponíveis foram empregados."
+    ]
+   },
+   {
+    "titulo": "Nas entrelinhas: a taxa paga um serviço, não um seguro",
+    "paragrafos": [
+     "O melhor argumento dos moradores é simples: quem paga por segurança espera segurança, e o condomínio tem melhores condições de controlar quem entra do que cada família isoladamente. O melhor argumento do condomínio também é forte: transformá-lo em garantidor de todo furto encareceria a taxa para todos e puniria o conjunto dos condôminos pelo crime de terceiros. A decisão fica no meio, e acerta ao colocar o foco na conduta de quem vigia, e não no resultado.",
+     "A dúvida real que permanece é a do caso sem falha visível: o crime cometido por alguém que entrou de forma regular, ou por invasão que nenhum porteiro conseguiria impedir. Nessas situações, a tendência é não haver responsabilidade, salvo previsão expressa na convenção ou seguro contratado. ==A taxa condominial paga um serviço de vigilância, e não um seguro contra todo risco==. Os limites desta análise: a decisão foi lida pela notícia oficial do STJ, sem a íntegra do acórdão, e cada caso depende da estrutura do prédio e da prova. Este texto é análise geral, não orientação para caso concreto."
+    ]
+   }
+  ],
+  "destaque": "O condomínio não responde pelo azar. Responde pelo descuido de quem vigia.",
+  "destaque_apos_secao": 2,
+  "decisoes": [
+   "Condomínio responde por furto em apartamento após falha da portaria no controle de acesso: STJ, Terceira Turma, REsp 2.264.505, rel. Min. Nancy Andrighi, decisão unânime divulgada em 06.11.26.",
+   "Responsabilidade do condomínio por crime dentro de unidade e afastamento de cláusula excludente da convenção: STJ, Terceira Turma, REsp 2.652.855 (citado na decisão acima).",
+   "Oferta de unidades em plataformas como o Airbnb exige aprovação de dois terços dos condôminos: STJ, Segunda Seção, rel. Min. Nancy Andrighi, julgado em 07.05.26."
+  ],
+  "fontes": [
+   {
+    "rotulo": "STJ · notícia oficial (furto e falha da portaria) ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06112026-Condominio-deve-indenizar-moradores-por-furto-em-apartamento-apos-falha-da-portaria-no-controle-de-acesso.aspx"
+   },
+   {
+    "rotulo": "STJ · notícia oficial (Airbnb em condomínio) ↗",
+    "url": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/07052026-Oferta-de-imovel-em-plataformas-como-Airbnb-exige-aprovacao-do-condominio--define-Segunda-Secao.aspx"
+   }
+  ],
+  "base_legal": [
+   "**Código Civil**, arts. 186 e 927 (ato ilícito e dever de indenizar)",
+   "**Código Civil**, art. 932, III (responsabilidade por atos de empregados e prepostos)",
+   "**Código Civil**, arts. 1.333 e 1.334 (convenção do condomínio)"
+  ]
+ },
+ {
+  "slug": "imovel-vendido-aos-netos-sem-pagamento-volta-ao-inventario",
+  "titulo": "Imóvel “vendido” aos netos sem pagamento volta para o inventário: o nome da escritura não decide.",
+  "titulo_capa": "Venda sem pagamento volta ao inventário.",
+  "subtitulo": "O STJ tratou como doação a escritura de compra e venda sem prova do preço e mandou o bem para a conta da herança, para que nenhum ramo da família saia na frente.",
+  "descricao": "Análise da decisão do STJ sobre colação de imóvel transferido a neto por escritura de compra e venda sem prova de pagamento: doação indireta, herdeiros por representação, dispensa expressa e caminhos de prova.",
+  "area": "Inventário e herança",
+  "formato": "analise",
+  "data_publicacao": "2026-11-17",
+  "relacionadas": [
+   "stj-quarta-turma-colacao-imovel-vendido-netos-doacao-indireta",
+   "stj-terceira-turma-acao-sonegados-antes-encerramento-inventario-resistencia-colacao",
+   "stj-quarta-turma-doacao-inoficiosa-prescricao-registro-testamento",
+   "stj-doacao-simulada-compra-venda-terceiro-boa-fe"
+  ],
+  "abertura": [
+   "Na hora do inventário, é comum descobrir que um dos imóveis já não estava em nome do falecido. Anos antes, ele foi passado a um filho ou a um neto por escritura de compra e venda. Os demais herdeiros desconfiam: houve mesmo pagamento, ou foi um presente com roupa de venda?",
+   "A tese deste texto é que ==quando não há prova de que o preço foi pago, a escritura de compra e venda vale como doação e o imóvel volta para a conta da herança==. O STJ disse isso de forma direta em decisão recente, e a consequência prática é que a forma escolhida no cartório não protege quem recebeu o bem."
+  ],
+  "secoes": [
+   {
+    "titulo": "O que o STJ decidiu",
+    "paragrafos": [
+     "Em 31.08.26, a Quarta Turma do STJ julgou, por unanimidade, o REsp 2.199.958-MG (rel. Min. Maria Isabel Gallotti), divulgado no Informativo de Jurisprudência 907. Os netos da autora da herança herdavam por **representação**, isto é, no lugar da mãe deles, que já havia falecido. Um dos imóveis tinha sido transferido a um dos netos, que também era curador da filha interditada, por escritura pública de compra e venda. Não havia prova de que o preço tivesse sido pago.",
+     "O Tribunal decidiu duas coisas. A primeira: os netos que herdam por representação têm o mesmo dever de **colação** que teria a mãe, ou seja, devem informar no inventário os bens recebidos em vida. A segunda: sem a contraprestação, a escritura de compra e venda é, na substância, uma **doação indireta**.",
+     "> “configura doação indireta, sujeita à colação, sendo irrelevante a roupagem jurídica adotada” | STJ, Quarta Turma, REsp 2.199.958-MG"
+    ]
+   },
+   {
+    "titulo": "O que é colação e por que ela existe",
+    "paragrafos": [
+     "A lei reserva metade do patrimônio aos **herdeiros necessários** (descendentes, ascendentes e cônjuge): é a **legítima**. A outra metade é a **parte disponível**, da qual a pessoa pode dispor livremente. Pelo art. 544 do Código Civil, a doação de pais ou avós a descendentes é tratada como adiantamento do que caberia a eles na herança. A colação é o mecanismo que traz esse adiantamento de volta para a conta, para igualar os quinhões.",
+     "> “Os descendentes que concorrerem à sucessão do ascendente comum são obrigados, para igualar as legítimas, a conferir o valor das doações que dele em vida receberam, sob pena de sonegação.” | Código Civil, art. 2.002",
+     "Por isso o STJ olhou para o que de fato aconteceu. Se bastasse chamar a doação de venda para escapar da colação, a igualdade entre os herdeiros dependeria apenas da escolha de palavras na escritura. O Informativo resume a ideia em uma frase: ==“o princípio da igualdade sucessória prevalece sobre a forma do ato”==."
+    ]
+   },
+   {
+    "titulo": "Quando a venda é de verdade, e quando a doação é dispensada",
+    "paragrafos": [
+     "A decisão não diz que toda venda de avós para netos é doação. A objeção é previsível: e se o neto pagou? Nesse caso, o caminho é provar o pagamento, com transferências bancárias, recibos ou financiamento. A venda de ascendente a descendente também tem uma regra própria: pelo art. 496 do Código Civil, ela é anulável se os outros descendentes e o cônjuge do vendedor não consentirem expressamente. Uma venda real, com preço pago e consentimento dos demais, fica fora da colação.",
+     "Há ainda uma saída legítima para quem quer beneficiar um filho ou neto sem que o bem volte à conta: declarar, de forma expressa, que a doação sai da parte disponível. O STJ foi rigoroso quanto a isso, e o silêncio não basta.",
+     "> “exige-se manifestação expressa e inequívoca de que a liberalidade se realiza à custa da parte disponível” | STJ, Quarta Turma, REsp 2.199.958-MG",
+     "Essa declaração pode constar da própria escritura de doação ou do testamento. Mesmo com ela, a doação continua sujeita ao limite da parte disponível: o que passar desse limite é **doação inoficiosa** e pode ser reduzido."
+    ]
+   },
+   {
+    "titulo": "Como isso aparece no inventário",
+    "paragrafos": [
+     "O herdeiro que recebeu o bem deve trazê-lo à colação. Se não o faz, os outros podem reagir. Em 20.10.26, a Terceira Turma do STJ decidiu, por unanimidade (REsp 2.296.199-SC, rel. Min. Ricardo Villas Bôas Cueva, Informativo 908), que a **ação de sonegados** contra herdeiros pode ser proposta antes do fim do inventário quando já está clara a resistência deles em incluir os imóveis. A pena da sonegação é a perda do direito sobre o bem escondido.",
+     "Há também prazos. Em 31.08.26, a Quarta Turma (REsp 2.012.027-SP, rel. Min. João Otávio de Noronha, Informativo 902) reafirmou que o prazo para pedir a redução de doação inoficiosa conta da data do registro do imóvel, e não da escritura. E existe um limite para quem está fora da família: em decisão divulgada em 20.10.26, a Terceira Turma (REsp 2.206.795, rel. Min. Nancy Andrighi) afirmou que a nulidade de doação disfarçada de compra e venda não prejudica o **terceiro de boa-fé**. Se o neto já revendeu o imóvel a quem não sabia de nada, a discussão tende a se resolver em dinheiro entre os herdeiros."
+    ]
+   },
+   {
+    "titulo": "Nas entrelinhas: o cartório registra a forma, o inventário apura a substância",
+    "paragrafos": [
+     "O melhor argumento contra a decisão é a segurança dos atos: uma escritura pública tem fé pública, e tratar como doação o que as partes chamaram de venda abre espaço para discutir, anos depois, negócios que pareciam encerrados. O melhor argumento a favor é mais forte: a escritura prova o que foi declarado diante do tabelião, e não que o dinheiro mudou de mãos. Sem prova do preço, a igualdade entre os herdeiros, que é a razão de ser da colação, fala mais alto.",
+     "A dúvida real está no meio-termo: o preço pago abaixo do valor de mercado, ou pago em parte. A leitura mais coerente com a decisão é que a diferença entre o valor do imóvel e o que foi efetivamente pago pode ser tratada como liberalidade sujeita à colação. Para quem planeja, a lição é preferir a clareza: ==doar como doação, declarando se sai da parte disponível, custa menos do que litigar no inventário==. Os limites desta análise: a decisão foi lida pelo Informativo do STJ, sem a íntegra do acórdão, e cada caso depende dos documentos e dos pagamentos. Este texto é análise geral, não orientação para caso concreto."
+    ]
+   }
+  ],
+  "destaque": "Chamar a doação de venda não tira o imóvel da conta da herança.",
+  "destaque_apos_secao": 2,
+  "decisoes": [
+   "Colação por herdeiros por representação e escritura de compra e venda sem prova de pagamento como doação indireta: STJ, Quarta Turma, REsp 2.199.958-MG, rel. Min. Maria Isabel Gallotti, julgado em 31.08.26 (Informativo 907).",
+   "Ação de sonegados antes do encerramento do inventário quando herdeiros resistem à colação: STJ, Terceira Turma, REsp 2.296.199-SC, rel. Min. Ricardo Villas Bôas Cueva, julgado em 20.10.26 (Informativo 908).",
+   "Prazo para reduzir doação inoficiosa conta do registro do imóvel: STJ, Quarta Turma, REsp 2.012.027-SP, rel. Min. João Otávio de Noronha, julgado em 31.08.26 (Informativo 902).",
+   "Nulidade de doação simulada não atinge terceiro de boa-fé: STJ, Terceira Turma, REsp 2.206.795, rel. Min. Nancy Andrighi, divulgada em 20.10.26."
+  ],
+  "fontes": [
+   {
+    "rotulo": "STJ · Informativo de Jurisprudência n. 907 (colação) ↗",
+    "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022711"
+   },
+   {
+    "rotulo": "STJ · Informativo de Jurisprudência n. 908 (sonegados) ↗",
+    "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022736"
+   },
+   {
+    "rotulo": "STJ · Informativo de Jurisprudência n. 902 (doação inoficiosa) ↗",
+    "url": "https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022635"
+   },
+   {
+    "rotulo": "Migalhas · doação simulada e terceiro de boa-fé ↗",
+    "url": "https://www.migalhas.com.br/quentes/466897/stj-nulidade-de-doacao-simulada-nao-atinge-terceiro-de-boa-fe"
+   }
+  ],
+  "base_legal": [
+   "**Código Civil**, art. 496 (venda de ascendente a descendente)",
+   "**Código Civil**, arts. 544 e 549 (doação a descendente como adiantamento da herança; doação inoficiosa)",
+   "**Código Civil**, arts. 1.846, 1.992 e 2.002 a 2.006 (legítima, sonegados e colação)"
+  ]
  }
 ]
