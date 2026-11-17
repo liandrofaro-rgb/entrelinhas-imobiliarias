@@ -214,7 +214,28 @@ def cena_itbi_belem():
             + '<text x="1010" y="214" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="34" fill="#07172f" stroke="none">ITBI</text>')
 
 
-CENAS = {'herdeiro-usucapiao-imovel-da-familia-posse-exclusiva': cena_herdeiro, 'usucapiao-cartorio-ou-justica-quem-pode-discordar': cena_cartorio_justica, 'contrato-de-gaveta-vale-mas-nao-faz-dono': cena_gaveta, 'itbi-belem-base-de-calculo-e-capital-da-empresa': cena_itbi_belem, 'terreno-de-marinha-belem-regua-1831': cena_terreno_marinha, 'cartorio-violencia-patrimonial-mulher-provimento-222': cena_violencia_patrimonial, 'inventario-cartorio-itcmd-imposto-nao-sumiu': cena_inventario_itcmd, 'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
+def cena_furto_portaria():
+    # prédio (azul) com a portaria em destaque e um cadeado dourado aberto: o controle de acesso que falhou
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(860, 330, 110, 220, *BLUE) + janelas('e', 860, 330, 110, 220, 3, 5, '#bcd3e6') + janelas('d', 860, 330, 110, 220, 3, 5, '#5f8fb8')
+            + f'<polygon points="{face("e", 860, 330, 110, 220, [(0.38, 0.8), (0.62, 0.8), (0.62, 1.0), (0.38, 1.0)])}" fill="#c8a154"/>'
+            + '<rect x="990" y="250" width="100" height="80" rx="10" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<path d="M1010 250 v-38 a30 30 0 0 1 60 0 v-6" fill="none" stroke="#c8a154" stroke-width="14" stroke-linecap="round"/>'
+            + '<circle cx="1040" cy="282" r="10" fill="#07172f"/><rect x="1035" y="285" width="10" height="24" fill="#07172f"/>')
+
+
+def cena_colacao():
+    # casa da família (azul) e balança dourada: o bem recebido em vida volta para a conta da herança
+    return (f'<polygon points="660,560 900,440 1140,560 900,680" fill="#12375b" fill-opacity=".55"/>'
+            + cube(820, 420, 100, 130, *BLUE) + janelas('e', 820, 420, 100, 130, 3, 3, '#bcd3e6') + janelas('d', 820, 420, 100, 130, 3, 3, '#5f8fb8')
+            + '<rect x="1033" y="200" width="14" height="230" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<rect x="990" y="430" width="100" height="16" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<rect x="960" y="210" width="160" height="12" fill="#c8a154" stroke="#07172f" stroke-width="3"/>'
+            + '<path d="M970 222 l-22 60 h44 z M1110 222 l-22 60 h44 z" fill="none" stroke="#c8a154" stroke-width="5"/>'
+            + '<path d="M944 282 a26 14 0 0 0 52 0 z M1084 282 a26 14 0 0 0 52 0 z" fill="#c8a154" stroke="#07172f" stroke-width="3"/>')
+
+
+CENAS = {'condominio-furto-portaria-falha-de-quem-vigia': cena_furto_portaria, 'imovel-vendido-aos-netos-sem-pagamento-volta-ao-inventario': cena_colacao, 'herdeiro-usucapiao-imovel-da-familia-posse-exclusiva': cena_herdeiro, 'usucapiao-cartorio-ou-justica-quem-pode-discordar': cena_cartorio_justica, 'contrato-de-gaveta-vale-mas-nao-faz-dono': cena_gaveta, 'itbi-belem-base-de-calculo-e-capital-da-empresa': cena_itbi_belem, 'terreno-de-marinha-belem-regua-1831': cena_terreno_marinha, 'cartorio-violencia-patrimonial-mulher-provimento-222': cena_violencia_patrimonial, 'inventario-cartorio-itcmd-imposto-nao-sumiu': cena_inventario_itcmd, 'caso-heranca-quem-cuidou-da-casa': cena_caso_heranca, 'distrato-regime-define-retencao': cena_distrato, 'airbnb-condominio-destinacao-nao-plataforma': cena_airbnb, 'usucapiao-tempo-nao-faz-dono': cena_usucapiao}
 
 def quebra(titulo, limite=17):
     linhas, atual = [], ''
