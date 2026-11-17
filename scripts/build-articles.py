@@ -354,9 +354,11 @@ def main():
     # mais recentes primeiro; na mesma data, o último incluído na lista vem antes
     items = [a for _, a in sorted(enumerate(items), key=lambda x: (x[1]['data_publicacao'], x[0]), reverse=True)]
     modelo = (ROOT / 'content' / 'artigo-template.html').read_text(encoding='utf-8')
-    # Páginas feitas à mão (não vêm de artigos.json): mantidas no topo das listas e fora da limpeza.
+    # Páginas feitas à mão (não vêm de artigos.json): ficam fora da limpeza e entram nas listas pela data,
+    # junto com os demais. Não há destaque fixo: o artigo mais novo aparece primeiro.
     FIXOS = [dict(arq='artigo-usucapiao-quando-cabe.html', capa='capa-usucapiao-quando-cabe-hero.svg', cat='usucapião',
-                  meta='USUCAPIÃO · GUIA PRÁTICO', titulo='Usucapião: quando cabe, quando não cabe e como pedir.')]
+                  meta='USUCAPIÃO · GUIA PRÁTICO', titulo='Usucapião: quando cabe, quando não cabe e como pedir.',
+                  data='2026-10-17')]
     gerados = set(x['arq'] for x in FIXOS)
     for a in items:
         arq = f'artigo-{a["slug"]}.html'
@@ -378,8 +380,14 @@ def main():
                 f'<figure><img class="art-thumb" src="{x["capa"]}" alt="" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
                 f'<div>\n<span class="publication-meta">{x["meta"].replace(" · ", " <i aria-hidden=\"true\">·</i> ")}</span>\n'
                 f'<{h}>{html.escape(x["titulo"])}</{h}>\n</div>\n<span class="pub-row-arrow" aria-hidden="true">→</span>\n</a>\n')
-    linhas = ''.join(fixo(x, 'h2', ' lst-row') for x in FIXOS)
-    for a in items:
+    # ordem única por data (mais novo primeiro); na mesma data, o artigo da lista vem antes do fixo
+    todos = sorted([(f['data'], 0, i, f) for i, f in enumerate(FIXOS)] + [(a['data_publicacao'], 1, -i, a) for i, a in enumerate(items)],
+                   key=lambda t: t[:3], reverse=True)
+    todos = [(t[1] == 0, t[3]) for t in todos]
+    linhas = ''
+    for e_fixo, a in todos:
+        if e_fixo:
+            linhas += fixo(a, 'h2', ' lst-row'); continue
         cat = a['area'].lower()
         linhas += (f'<a class="pub-row lst-row" href="artigo-{a["slug"]}.html" data-category="{html.escape(cat)}">\n'
                    f'<figure><img class="art-thumb" src="capa-{a["slug"]}-hero.svg" alt="" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
@@ -393,8 +401,10 @@ def main():
     u = items[0]
 
     def lane(n_itens):
-        h = '<div class="pub-rows" tabindex="0" role="region" aria-label="Lista rolável">\n' + ''.join(fixo(f, 'h4') for f in FIXOS)
-        for x in items[:n_itens]:
+        h = '<div class="pub-rows" tabindex="0" role="region" aria-label="Lista rolável">\n'
+        for e_fixo, x in todos[:n_itens + len(FIXOS)]:
+            if e_fixo:
+                h += fixo(x, 'h4'); continue
             h += (f'<a class="pub-row" href="artigo-{x["slug"]}.html">\n'
                   f'<figure><img class="art-thumb" src="capa-{x["slug"]}-hero.svg" alt="" width="1200" height="630" loading="lazy" decoding="async"></figure>\n'
                   f'<div>\n<span class="publication-meta">{html.escape(FORMATOS[x["formato"]])} <i aria-hidden="true">·</i> {html.escape(x["area"].upper())}</span>\n'
