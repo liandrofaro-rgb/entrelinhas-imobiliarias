@@ -1,24 +1,25 @@
-# Última rotina — 2026-11-17 (UTC)
+# Última rotina — 2026-11-19 (UTC)
 
 ## Publicado (5)
-- **TJGO: placas solares em condomínio são benfeitoria útil, maioria simples** — `tjgo-placas-solares-condominio-beneficio-util-maioria-simples-segunda-convocacao` — Migalhas https://www.migalhas.com.br/quentes/468258/tj-go-valida-instalacao-de-placas-solares-por-maioria-simples-em-condominio
-- **TRF-2: União, Prefeitura do Rio e BB devem garantir moradia no MCMV (Jacarepaguá)** — `trf2-minha-casa-minha-vida-jacarepagua-invasoes-uniao-municipio-banco-do-brasil-moradia` — ConJur https://conjur.com.br/2026-nov-15/uniao-rio-e-bb-devem-garantir-moradia-apos-invasoes-no-minha-casa-minha-vida/
-- **TRF-4: após consolidação na matrícula, sem purga da mora, só preferência** — `trf4-alienacao-fiduciaria-sfh-purga-mora-apos-averbacao-consolidacao-preferencia-segundo-leilao` — IRIB https://www.irib.org.br/alienacao-fiduciaria-sfh-consolidacao-da-propriedade-purga-da-mora-apos-a-averbacao-descabimento-fe-publica-registral/
-- **TJDFT: curador não pode doar bem do curatelado, nem com alvará** — `tjdft-doacao-imovel-curatelado-alvara-judicial-vedacao-curador-intencao-anterior-interdicao` — IRIB https://www.irib.org.br/doacao-imovel-pertencente-a-curatelado-alvara-judicial-negocio-juridico-vedacao-legal/
-- **TJPR: venda de imóvel rural a brasileiros, registro anterior sem autorização do Incra** — `tjpr-duvida-registral-imovel-rural-aquisicao-estrangeira-sem-autorizacao-incra-venda-a-brasileiros` — IRIB https://www.irib.org.br/escritura-de-compra-e-venda-imovel-rural-aquisicao-anterior-por-estrangeira-sem-autorizacao-do-incra-alienacao-subsequente-a-adquirentes-brasileiros-registro-anterior-eficaz-enquanto-nao-cancelado/
+- **Testamento mantido em Porto União (SC), excesso sobre a legítima será apurado no inventário** — `tjsc-porto-uniao-testamento-valido-excesso-legitima-apurado-no-inventario` — IBDFAM https://ibdfam.org.br/noticias/justica-de-santa-catarina-mantem-validade-de-testamento-mas-determina-apuracao-de-eventual-excesso-no-inventario
+- **STJ mantém reintegração de posse de ex-convivente impedido de voltar à fazenda (REsp 2.231.245)** — `stj-terceira-turma-reintegracao-posse-fazenda-ex-companheiro-esbulho-resp-2231245` — IBDFAM https://ibdfam.org.br/noticias/stj-mantem-reintegracao-de-posse-de-homem-impedido-por-ex-companheira-de-voltar-a-fazenda
+- **TJSP (Itaquera): vícios ocultos rescindem locação por culpa do locador** — `tjsp-itaquera-vicio-estrutural-infiltracoes-rescisao-locacao-culpa-locador-despejo-negado` — ConJur https://conjur.com.br/2026-nov-17/vicio-estrutural-em-imovel-rescinde-contrato-por-culpa-do-locador/
+- **STJ Corte Especial: VGBL não é herança (REsp 1.676.801-MG)** — `stj-corte-especial-vgbl-nao-e-heranca-fora-do-inventario-colacao-resp-1676801` — Informativo STJ 910 https://scon.stj.jus.br/jurisprudencia/externo/informativo/?livre=%40CNOT%3D022792
+- **Mutirão em Assunção (PB) aplica o Programa Terras do Brasil** — `irib-mutirao-paraiba-assuncao-programa-terras-do-brasil-regularizacao-fundiaria` — IRIB https://www.irib.org.br/mutirao-na-paraiba-e-o-primeiro-a-colocar-em-pratica-o-programa-terras-do-brasil/
 
 ## Descartados
-- ConJur 16/11 (guardas municipais e invasão de domicílio): penal, fora das áreas.
-- ConJur/Migalhas: artigos de opinião (nota fiscal em aluguel, IBS/CBS em leilões, Tema 1.254).
-- TJSP Ilhabela (APP): ambiental, tangencial.
-- IBDFAM 12–16/11: adoção, violência doméstica, alimentos, curatela por ludopatia: fora das áreas.
-- Já publicados: notificação eletrônica, taxa de lazer, coproprietário/arrematação etc.
+- STJ pensão por morte a ex-esposa (IBDFAM 18/11): previdenciário, fora das áreas.
+- Usucapião de área submersa (Informativo 910), taxa de lazer, IPTU/posse, ex-cônjuge sem aluguel, usucapião de herdeiro: já publicados.
+- Artigos de opinião (Migalhas/ConJur: ITBI Tema 1.348, nota fiscal em aluguel, renúncia ao uso de áreas comuns).
+- IBDFAM 18/11 (indenização por mensagens ofensivas) e demais itens de família/violência: fora das áreas.
+- TJPR Tema 1.200 (petição de herança): só achei a página-índice de jurisprudência, não li o texto completo.
 
 ## Fontes consultadas
-IBDFAM, IRIB, ConJur, Migalhas, registrodeimoveis.org.br (listagens e páginas lidas); buscas no STJ/ANOREG sem item novo e inédito. Páginas de listagem do ConJur/Migalhas vieram sem links úteis.
+IBDFAM, IRIB, ConJur, Migalhas (listagens e buscas), STJ (Informativo 910 lido via curl), registrodeimoveis.org.br. Listagens do ConJur/Migalhas vieram com poucos links; buscas por STF/CNJ/TJPA não trouxeram item novo verificável.
 
 ## Atenção do dono
-- IRIB (3 itens): baseados só na ementa; inteiro teor não lido. O item do TJPR (imóvel rural) é o mais fraco: ementa curta, fatos do caso não informados; considere despublicar se preferir.
-- Placas solares (Migalhas): data da página ambígua (publicada 15/11, atualizada 12/11); usei 12/11. Decisão de 2º grau por juíza substituta.
-- TRF-2: não há data de julgamento na fonte; "Nas entrelinhas" é interpretação minha.
+- Notícia do IBDFAM sobre o STJ (posse) vem de nota do Migalhas; data do julgamento não informada. Páginas do IBDFAM marcadas "exclusivo para associados", mas o texto estava visível.
+- VGBL: placar e ministros vencidos não informados; "Nas entrelinhas" menciona fraude/regime de bens apenas como limites genéricos (interpretação minha).
+- TJSP Itaquera: sentença de 1º grau, fonte é ConJur (não li a sentença).
+- Terras do Brasil: nota institucional (IRIB com informações do MDA), a mais fraca em conteúdo jurídico; considere despublicar se preferir.
 - Revisar "Nas entrelinhas" em todas.
